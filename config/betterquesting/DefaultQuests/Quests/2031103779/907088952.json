@@ -1,0 +1,24 @@
+{
+  "preRequisites:11": [
+    514601571
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "欢迎来到产能升级的阶段，几乎所有大型机器现已解锁。\n\n§3这些大型机器中的一部分需要你制作合金冶炼炉或大型搅拌机来获取那些复杂的合金材料，这两者是可选的，但仍旧推荐你全部制作。",
+      "frame:8": "DIAMOND_ON_CROSS",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 990,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§1§l强导压的大型机器"
+    }
+  },
+  "questID:3": 907088952,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

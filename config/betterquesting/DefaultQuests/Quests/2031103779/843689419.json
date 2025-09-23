@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    1767963330
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "gtlitecore:metal_casing_03"
+      },
+      "name:8": "§5§l3阶PCB工厂"
+    }
+  },
+  "questID:3": 843689419,
+  "tasks:9": {}
+}

@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    1004585364
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "你暂时只能以§7蒸汽时代§r的科技水平来制作一个§9电动马达§r...\n\n这意味着你需要用红石来激发铁的磁性，然后在制作好的§e磁化铁杆§r上缠上一些铜导线，这看起来很粗糙，但对于目前的使用是足够的。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 127,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§7§l电动马达"
+    }
+  },
+  "questID:3": 1530441338,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 395,
+          "id:8": "gregtech:meta_stick"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 127,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

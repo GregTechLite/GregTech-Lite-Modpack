@@ -1,0 +1,13 @@
+name = "Bubbles"
+filename = "Bubbles-2.4.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fc146ba779598154219c383a71cb5302e4e5c449"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6807550
+project-id = 995393

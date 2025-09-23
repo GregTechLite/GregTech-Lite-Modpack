@@ -1,0 +1,27 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    0,
+    2
+  ],
+  "preRequisites:11": [
+    713533116,
+    1621376472,
+    1987065571
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "STAR4_ON_CROSS",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 629,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§e集成处理器集群",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 1702022545,
+  "tasks:9": {}
+}

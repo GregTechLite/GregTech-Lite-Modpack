@@ -1,0 +1,53 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    627573784
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "用于各类切割工作，比如将宝石块切成板。\n\n§3有切割机之后可以制作钻石板了，一系列钻石制品也随之解锁，除了格雷科技的钻石工具与板条箱之外还有更多熔炉的钻石熔炉，精妙背包的钻石背包。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 245,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§d切割机"
+    }
+  },
+  "questID:3": 1597156033,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 78,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "lubricant"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 245,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

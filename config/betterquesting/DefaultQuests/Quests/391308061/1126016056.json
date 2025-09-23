@@ -1,0 +1,94 @@
+{
+  "preRequisites:11": [
+    1319595390,
+    659315322,
+    1554764409
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description\n\n§3在HV阶段获取蒸馏塔后，你可以处理碳5馏分来获得异戊二烯相关的化合物，此时可以使用聚异戊二烯来替代胶乳作为生产橡胶的高级配方。",
+      "frame:8": "GEAR",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1068,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "§8橡胶"
+    }
+  },
+  "questID:3": 1126016056,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 0,
+            "TrophyColorRed:3": 0,
+            "TrophyEarnedAt:4": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 1068,
+              "id:8": "gregtech:meta_plate"
+            },
+            "TrophyName:8": "从胶乳到橡胶",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 1068,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 1068,
+          "id:8": "gregtech:meta_plate"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "Damage:2": 1068,
+          "id:8": "gregtech:meta_ring"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1068,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1068,
+          "id:8": "gregtech:meta_plate"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1068,
+          "id:8": "gregtech:meta_ring"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "preRequisites:11": [
+    1652908572
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "§6拓展器§r与§6桥接器§r均可以将一个面的输入委托到另一个面，不同类型的拓展器与桥接器支持不同类型的输入，包括§3物品§r，§3流体§r，§3二合一§r与§5万用§r。作为输入来源的委托方可以是§b机器§r，§b管道§r或是任何可以发送对应类型的输入的容器，而拓展器和桥接器将会把这些输入委托给对应面。\n\n§6拓展器§r可以把委托方的一个面拓展为更多的可交互面，例如对于多方块结构中的§e输入/输出仓室§r，紧贴其面放置的拓展器可以将其实际上的可交互面变为拓展器剩余的面；所有在拓展器的剩余面上的§d输入/输出行为均会被委托给紧贴其面的容器§r；紧贴容器的面的行为也会被委托给剩余面，这种情况一般见于和输出总线交互时。\n\n§6桥接器§r允许你把不同方向的管道或线缆§a交叉在一个方块内§r而不需要拐弯，例如当你从顶面传递流体时，这个流体§2仅会被委托到底面§r进行输出，如果你同时还从北面传递了流体，那北面的流体会被委托到南面进行输出而不是底面，§a两者是互不干涉的§r。\n\n§3在当前阶段你可以制作的只有最基础的几种拓展器与桥接器。",
+      "frame:8": "PRICKLE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2055,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§6拓展器与桥接器"
+    }
+  },
+  "questID:3": 783320237,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2055,
+          "id:8": "gtlitecore:mte"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2056,
+          "id:8": "gtlitecore:mte"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2057,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2051,
+          "id:8": "gtlitecore:mte"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2052,
+          "id:8": "gtlitecore:mte"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2053,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

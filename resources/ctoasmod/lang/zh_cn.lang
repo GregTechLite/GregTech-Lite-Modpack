@@ -1,0 +1,6 @@
+# Items
+item.ctoasmod.crafting_table_on_a_stick.name=手持工作台
+
+# Keybinds
+key.categories.ctoas=手持工作台
+key.ctoas.use=使用手持工作台

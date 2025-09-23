@@ -1,0 +1,38 @@
+{
+  "name": "gtlitecore.veins.ore.firestone",
+  "weight": 35,
+  "density": 0.25,
+  "min_height": 40,
+  "max_height": 160,
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "fluorite"
+  },
+  "dimension_filter": [
+    "is_nether"
+  ],
+  "generator": {
+    "type": "layered",
+    "radius": [
+      17,
+      24
+    ]
+  },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:firestone"
+      },
+      {
+        "secondary": "ore:quartzite"
+      },
+      {
+        "between": "ore:firestone"
+      },
+      {
+        "sporadic": "ore:pyrite"
+      }
+    ]
+  }
+}

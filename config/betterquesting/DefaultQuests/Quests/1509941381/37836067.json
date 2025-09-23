@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    1773698161
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 337,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§2硅岩的力量"
+    }
+  },
+  "questID:3": 37836067,
+  "tasks:9": {}
+}

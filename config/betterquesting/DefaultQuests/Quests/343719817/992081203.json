@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    1508538392,
+    2045820057
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "SKULL",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:end_portal_frame"
+      },
+      "name:8": "§d§l末地"
+    }
+  },
+  "questID:3": 992081203,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 12,
+          "id:8": "minecraft:end_portal_frame"
+        },
+        "1:10": {
+          "Count:3": 12,
+          "id:8": "minecraft:ender_eye"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "dimension:3": 1,
+      "index:3": 1,
+      "name:8": "The End",
+      "taskID:8": "bq_standard:location"
+    }
+  }
+}

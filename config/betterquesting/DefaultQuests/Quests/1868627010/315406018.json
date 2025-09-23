@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    844939902
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND_ON_CIRCLE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 633,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§e高精度纳米电路"
+    }
+  },
+  "questID:3": 315406018,
+  "tasks:9": {}
+}

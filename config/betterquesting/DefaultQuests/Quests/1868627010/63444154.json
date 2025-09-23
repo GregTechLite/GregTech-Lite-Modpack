@@ -1,0 +1,24 @@
+{
+  "preRequisiteTypes:7": [
+    2,
+    2
+  ],
+  "preRequisites:11": [
+    1851298800,
+    1658935733
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "STAR4",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4020,
+        "id:8": "gtlitecore:meta_ingot"
+      },
+      "name:8": "§8碳化钽"
+    }
+  },
+  "questID:3": 63444154,
+  "tasks:9": {}
+}

@@ -1,0 +1,24 @@
+{
+  "preRequisiteTypes:7": [
+    2,
+    2
+  ],
+  "preRequisites:11": [
+    1851298800,
+    63444154
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "EMPTY",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10007,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§b水力压裂机"
+    }
+  },
+  "questID:3": 2121406110,
+  "tasks:9": {}
+}

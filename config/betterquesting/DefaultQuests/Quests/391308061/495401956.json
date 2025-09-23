@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    857979572
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "储存量更大的多方块储罐。如果你不喜欢§9储液抽屉§r或者§2金属桶§r的话可以考虑这个大家伙，它真的很大，也很耗费钢。\n\n§3储液抽屉也兼容储物抽屉的相关升级，试试打上升级来获得更大的容量吧。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10044,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§7更好的多方块储罐"
+    }
+  },
+  "questID:3": 495401956,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 5,
+          "Damage:2": 4,
+          "id:8": "storagedrawers:upgrade_storage"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 23,
+          "Damage:2": 4,
+          "id:8": "gregtech:metal_casing"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 11524,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10044,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

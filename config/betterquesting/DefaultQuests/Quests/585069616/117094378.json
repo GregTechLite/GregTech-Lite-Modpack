@@ -1,0 +1,110 @@
+{
+  "preRequisites:11": [
+    96558345
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "你是否觉得原版的熔炉烧制物品的速度太慢了？来试试这些金属材料制成的熔炉吧！作为任务要求，你需要制作两个§7铁熔炉§r，而作为报酬，你将会获得§2目前阶段无法获得§r的§b钻石熔炉§r或§8黑曜石熔炉§r。\n\n以下是这些熔炉的数据（原版熔炉单次工作需要§l200§r刻，一栏输入位置）：\n\n铁熔炉：§a150刻§r，两栏输入位置；铜熔炉：§a100刻§r，两栏输入位置；\n银熔炉：§a60刻§r，四栏输入位置；金熔炉：§a40刻§r，四栏输入位置；\n钻石熔炉：§a25刻§r，七栏输入位置；黑曜石熔炉：§a25刻§r，同时进行两次烧制，每个均有两栏输入位置；\n\n§3对于钻石熔炉与黑曜石熔炉的选择只需要按你的习惯，两者具有相同的烧制速率，钻石熔炉有更多的输入位置缓存，而黑曜石熔炉则拥有两个线程，允许同时进行两种烧制工作。",
+      "frame:8": "CIRCLE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "morefurnaces:furnaceblock"
+      },
+      "name:8": "§4更好的熔炉"
+    }
+  },
+  "questID:3": 117094378,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 4,
+          "id:8": "morefurnaces:upgrade"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 3,
+          "id:8": "morefurnaces:upgrade"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 51,
+          "id:8": "gregtech:meta_plate"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 51,
+          "id:8": "gregtech:meta_stick"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 51,
+          "id:8": "gregtech:meta_plate_double"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 51,
+          "id:8": "gregtech:meta_screw"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "morefurnaces:furnaceblock"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "morefurnaces:furnaceblock"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "morefurnaces:furnaceblock"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "morefurnaces:furnaceblock"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "morefurnaces:furnaceblock"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "morefurnaces:furnaceblock"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

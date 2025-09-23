@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1423152064
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "格雷科技大幅度修改了原版的§2矿石生成机制§r，以名为§e矿脉§r的生成模式取代了原本的生成。在该模式下，§a区块§r确定了矿脉生成的基本位置。\n\n\n\n§3来试试末影设备的便携包吧，它可以平滑地扩大你的背包栏位，这个背包完全有能力承担暂时存储数以百计的矿石的职责。便携包可能会不支持一些界面操作，例如任务书按键与区块声明等，关闭其特殊界面模式即可。",
+      "frame:8": "EMPTY",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:iron_ore"
+      },
+      "name:8": "§4格雷科技的矿脉生成"
+    }
+  },
+  "questID:3": 106026029,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "enderutilities:handybag"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 54,
+          "id:8": "enderutilities:enderpart"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

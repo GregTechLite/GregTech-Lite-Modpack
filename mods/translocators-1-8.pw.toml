@@ -1,0 +1,13 @@
+name = "Translocators 1.8.+"
+filename = "Translocators-1.12.2-2.5.2.81-universal.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b008cc099c15e0cb121c43c889504fc367b3dedd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2755795
+project-id = 247695

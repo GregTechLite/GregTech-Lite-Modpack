@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    1919423198
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "暂时而言，它对你还很复杂。总之，至少我们可以使用§6合金炉§r来制作小型钢齿轮了，这比手动合成还是省力一些的。",
+      "frame:8": "SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 172,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§7§l电力活塞"
+    }
+  },
+  "questID:3": 1579334975,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 127,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 172,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    2111386174
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 742,
+        "id:8": "gregtech:meta_item_1",
+        "tag:10": {
+          "Charge:4": 25000000
+        }
+      },
+      "name:8": "§9兰波顿"
+    }
+  },
+  "questID:3": 1556705800,
+  "tasks:9": {}
+}

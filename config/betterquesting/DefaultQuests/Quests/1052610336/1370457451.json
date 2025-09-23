@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    58271814,
+    369071060
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND_ON_CROSS",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 622,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§b优质电子电路"
+    }
+  },
+  "questID:3": 1370457451,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 77,
+            "TrophyColorGreen:3": 142,
+            "TrophyColorRed:3": 11,
+            "TrophyEarnedAt:4": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 622,
+              "id:8": "gregtech:meta_item_1"
+            },
+            "TrophyName:8": "更好的电子电路",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {}
+}

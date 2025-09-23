@@ -1,0 +1,35 @@
+{
+  "name": "gtlitecore.veins.ore.olivine_2",
+  "weight": 20,
+  "density": 0.25,
+  "max_height": 60,
+  "min_height": 20,
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "forsterite"
+  },
+  "generator": {
+    "type": "layered",
+    "radius": [
+      14,
+      16
+    ]
+  },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:forsterite"
+      },
+      {
+        "secondary": "ore:olivine"
+      },
+      {
+        "between": "ore:magnesite"
+      },
+      {
+        "sporadic": "ore:clinochlore"
+      }
+    ]
+  }
+}

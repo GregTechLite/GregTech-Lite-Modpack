@@ -1,0 +1,35 @@
+{
+  "name": "gtlitecore.veins.ore.baddeleyite",
+  "weight": 20,
+  "density": 0.25,
+  "max_height": 60,
+  "min_height": 5,
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "baddeleyite"
+  },
+  "generator": {
+    "type": "layered",
+    "radius": [
+      14,
+      16
+    ]
+  },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:baddeleyite"
+      },
+      {
+        "secondary": "ore:nephelite"
+      },
+      {
+        "between": "ore:aegirine"
+      },
+      {
+        "sporadic": "ore:ferrosilite"
+      }
+    ]
+  }
+}

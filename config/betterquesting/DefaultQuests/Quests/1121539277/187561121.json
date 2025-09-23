@@ -1,0 +1,53 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    1917552849
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "EMPTY",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "gregtech:gt_armor",
+        "tag:10": {
+          "Charge:4": 1000000
+        }
+      },
+      "name:8": "§b喷气背包"
+    }
+  },
+  "questID:3": 187561121,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gregtech:gt_armor",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 0,
+              "FluidName:8": "diesel"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 16000,
+          "FluidName:8": "diesel"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    1579334975
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "现在你不需要以3:2为比例生产板材了，§6卷板机§r将会满足你需要的任何板材加工的需求。无论是板，多重板，箔，还是弹簧，你都可以通过配置§3编程电路§r的方式调整这些产出形式，除此以外，模板与单元也可以制作。\n\n§3使用卷板机可以压制出流体单元，在进行多种原材料的化学合成时，这些单元会变得有用。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 140,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§a卷板机"
+    }
+  },
+  "questID:3": 1847604030,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:hammer",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "RelocateMinedBlocks:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 96.0,
+              "AttackSpeed:5": -2.6,
+              "Durability:3": 0,
+              "HarvestLevel:3": 7,
+              "Material:8": "gtlitecore:metastable_oganesson",
+              "MaxDurability:3": 110591,
+              "ToolSpeed:5": 59.0
+            },
+            "HideFlags:3": 2,
+            "ench:9": {
+              "0:10": {
+                "id:2": 70,
+                "lvl:2": 3
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 140,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

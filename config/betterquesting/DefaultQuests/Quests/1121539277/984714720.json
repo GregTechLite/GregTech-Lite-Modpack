@@ -1,0 +1,20 @@
+{
+  "preRequisites:11": [
+    436003492,
+    923318677
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "STAR4_ON_CROSS",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 623,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§e集成逻辑电路"
+    }
+  },
+  "questID:3": 984714720,
+  "tasks:9": {}
+}

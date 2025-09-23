@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    1360261223
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "最基础的存储容器。\n\n§3现在箱子可以像1.13以上版本的Minecraft一样相邻放置了，对陷阱箱与其他类似的箱子也有作用，但大概率对一些带有特殊功能的箱子不起效果。",
+      "frame:8": "CIRCLE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:chest"
+      },
+      "name:8": "§2基本的存储设备"
+    }
+  },
+  "questID:3": 278719765,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:chest"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "OreDict:8": "plankWood",
+          "id:8": "minecraft:planks"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "minecraft:chest"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

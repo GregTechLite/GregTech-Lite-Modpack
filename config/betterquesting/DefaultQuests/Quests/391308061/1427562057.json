@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1337503977
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 167,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§c最好也别拿它烤肉"
+    }
+  },
+  "questID:3": 1427562057,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 167,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

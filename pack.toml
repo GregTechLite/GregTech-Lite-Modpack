@@ -1,0 +1,13 @@
+name = "GregTech Lite"
+author = "Magic_Sweepy"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "77d2a906cb34b2a5e0422dadbf0a7a649c94d44c58b661721ea61ecfad02c7ba"
+
+[versions]
+forge = "14.23.5.2860"
+minecraft = "1.12.2"

@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    960756305
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "用高压电弧来熔炼合金，也可以用来回收你在低压与中压时期使用的机器！",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10113,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§c大型电弧炉"
+    }
+  },
+  "questID:3": 1568383685,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10113,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "OreDict:8": "casingWireCoil",
+          "id:8": "gregtech:wire_coil"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "OreDict:8": "casingPump",
+          "id:8": "gtlitecore:pump_casing"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

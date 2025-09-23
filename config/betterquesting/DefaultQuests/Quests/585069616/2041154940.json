@@ -1,0 +1,64 @@
+{
+  "preRequisites:11": [
+    1389636216
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "前期用来提供无限水的多方块结构，它会根据所在区块的§a生物群系系数§r与§b输出仓系数§r确定输出量，详情可见§2JEI§r中的相关描述。\n\n在此阶段你可以使用这台机器§6为你的锅炉提供水源§r，虽然相对其他无限水来说原始水泵确实有点复杂，但是制作一台也不是坏事，毕竟它没包含什么昂贵造价的方块。\n\n§3在此一并说明你能在接下来遇到的一些无限水的来源和其最低获取阶段：排水口，作为覆盖板需要在其前方一格存在水或流动水方块，需要钢；蓄水库，来自末影接口，需要LV电动泵；无限水覆盖板，需要HV电路与电动泵。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10045,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§b原始水泵"
+    }
+  },
+  "questID:3": 2041154940,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "naturescompass:naturescompass",
+          "tag:10": {}
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 10,
+          "Damage:2": 4,
+          "id:8": "gregtech:steam_casing"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "id:8": "gregtech:meta_block_frame_103"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 11506,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10045,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

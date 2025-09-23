@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    1100801994,
+    574025173
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "如你所见，在正常的§2格雷科技§r流程中，粘土粉的电解配方是§bMV§r级的。鉴于其的分解产物（钠、硅、铝、锂）都还算有用，所以你可以在§7LV§r阶段设计一条无限产生粘土的产线以提取其中的产物。\n\n你需要一台§8碎岩机§r提供圆石的来源，还需要三台§6锻造锤§r把圆石锤炼成§3尘土块§r（圆石-\u003e沙砾-\u003e沙子-\u003e尘土），最后，你需要一台§9化学浸洗机§r用水浸洗尘土块，以此得到粘土。把粘土块研磨即可得到粘土粉（LV级研磨机，或者蒸汽阶段的任意研磨机，都是可以考虑的），然后电解粘土粉即可。\n\n§3试试用4×4抽屉收纳这四种粉吧，如果你纠结于无限水，去看看旁边的任务。\n\n§d也去试试Nomifactory-CEu！这是一个基于GTCEu的优秀的格雷科技整合包。降压电解粘土的简化流程最早是由Nomi-CEu实现的。",
+      "frame:8": "DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2063,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "§e电解粘土"
+    }
+  },
+  "questID:3": 1937623655,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 310,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gtlitecore:dust_block"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

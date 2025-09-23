@@ -1,0 +1,29 @@
+{
+  "preRequisites:11": [
+    1805214138
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description\n\n在本整合包中，我们引入了§a玻璃等级§r这一系统，也就是说，你可以使用§b同等级的任意玻璃§r来作为机器中的合成材料。除此以外，一些特殊的玻璃也允许§2作为比其自身等级更高等级§r的玻璃参与合成。",
+      "frame:8": "CIRCLE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:transparent_casing"
+      },
+      "name:8": "§5更硬的玻璃"
+    }
+  },
+  "questID:3": 541382766,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:transparent_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

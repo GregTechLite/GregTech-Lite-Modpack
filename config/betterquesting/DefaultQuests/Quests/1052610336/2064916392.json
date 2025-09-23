@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    1919423198
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "如你所见，§2格雷科技有太多种类的材料部件§r！为了避免这些材料部件生成的相关加工配方把机器的配方池搞得一团糟，§a编程电路§r来解决问题了，它们不会在合成中被消耗，仅作为区分配方的指示符。\n\n在仓室与机器中，你还可以设置§b虚拟电路§r来避免为每个机器都制作一个编程电路，使用鼠标按键或滚轮来调整编程电路的配置值（一部分仓室的虚拟电路槽支持潜行右击打开配置屏幕）。\n\n§3这个任务会赠送一个编程电路，用它来调试机器吧，设置好电路配置值后潜行右击机器以设置其内部的虚拟电路的配置值。",
+      "frame:8": "DIAGONAL_CROSS_ON_DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 461,
+        "id:8": "gregtech:meta_item_1",
+        "tag:10": {
+          "Configuration:3": 0
+        }
+      },
+      "name:8": "§9编程电路"
+    }
+  },
+  "questID:3": 2064916392,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 461,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Configuration:3": 0
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

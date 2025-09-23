@@ -1,0 +1,49 @@
+{
+  "preRequisiteTypes:7": [
+    2,
+    2,
+    0
+  ],
+  "preRequisites:11": [
+    8409593,
+    1118622834,
+    1146668253
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 401,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§6电路板"
+    }
+  },
+  "questID:3": 734496708,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 381,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 401,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    907088952
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\n\n§3这台机器的外壳材料赛龙-100需要大型搅拌机或合金冶炼炉来制作，因此在制作这台机器先你需要先制作二者其一。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10109,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§e大型激光蚀刻机"
+    }
+  },
+  "questID:3": 1406990536,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10109,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "OreDict:8": "casingEmitter",
+          "id:8": "gtlitecore:emitter_casing"
+        },
+        "1:10": {
+          "Count:3": 3,
+          "OreDict:8": "casingConveyor",
+          "id:8": "gtlitecore:conveyor_casing"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

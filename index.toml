@@ -1,0 +1,4434 @@
+hash-format = "sha256"
+
+[[files]]
+file = "LICENSE1"
+hash = "8ea9909911be952ad1fe9a81bc5938389176ac6d388e9cd005d2a520217fefd6"
+
+[[files]]
+file = "LICENSE2"
+hash = "432b872ed8f60dabf83d883b15e382e3dd80fa2a361f91e385c1637aeedd90db"
+
+[[files]]
+file = "PCL/Logo.png"
+hash = "ae8f9382249cbdd160bf757cf70348468072db76805963c8351c5c10606610ce"
+
+[[files]]
+file = "PCL/Setup.ini"
+hash = "5f685b137182459da324e8fc5db351053179a493639eac38453185501a26d22b"
+
+[[files]]
+file = "config/AE2Stuff/overrides/recipes.cfg"
+hash = "e0f13f2bdec13b9fd8dd1393a4ef3d58fbd26fb19243649a4a4e74257634f446"
+
+[[files]]
+file = "config/AE2Stuff/overrides/tuning.cfg"
+hash = "9a6bd2374e1d85d4cd74363ac18ec8372303d88538a186d77ee34c34cfdee238"
+
+[[files]]
+file = "config/AppliedEnergistics2/AppliedEnergistics2.cfg"
+hash = "18eafc946907f7e69551338052d5705fb66f9fbb3cb472af1a0979ba6fc8cdf1"
+
+[[files]]
+file = "config/AppliedEnergistics2/CustomRecipes.cfg"
+hash = "0d3d693515c9113c94f5741f7e8dad4f2f7d3ddd496647f8d4343b32ccb8f125"
+
+[[files]]
+file = "config/AppliedEnergistics2/Facades.cfg"
+hash = "661cd844fe44c188c95368174e115681b69d63f5b6f62a676bb9331860599ebb"
+
+[[files]]
+file = "config/AppliedEnergistics2/VersionChecker.cfg"
+hash = "db1a2d1685bef645d9a70659c0a07a20eb624b7f8e12b6edca76ba69189613d9"
+
+[[files]]
+file = "config/AppliedEnergistics2/items.csv"
+hash = "d25c39c08b3474fa3d671bcd548ba2681ff0970801748f83361eda99c657d302"
+
+[[files]]
+file = "config/Building Gadgets.cfg"
+hash = "e15ed6fd9ff4d5a8facc9f4a7fec3db1cb658af7387233d9ca0b3901120cd371"
+
+[[files]]
+file = "config/Gnetum.cfg"
+hash = "5073d6ae2b9ad5ece93e26e914cff886d963552ea55684892f1d748dbad8cf67"
+
+[[files]]
+file = "config/HadEnoughCharacters.cfg"
+hash = "4a8d6a3a0012959913c2288df340320e7e8aee245b81a90586cb001be701a4ff"
+
+[[files]]
+file = "config/JustEnoughCalculation/main.cfg"
+hash = "9fd71d935bce13fb80c078c18284fbcff08496cc42e4b6c1a1acf583fb742d49"
+
+[[files]]
+file = "config/JustEnoughCalculation/record.json"
+hash = "f40ea8135c7a0f598d9548eba85c517d05d3244a94b806261f0521dada8d4a15"
+
+[[files]]
+file = "config/JustEnoughCharacters.cfg"
+hash = "4c3c305ad807dad3e0eb530dbe4d5e6fb958895da67c1897ce94d967787ce405"
+
+[[files]]
+file = "config/MoreOverlays.cfg"
+hash = "081814e142c935f474b4cc84e33f8ddd090857843d5a7d0924dd09c17e866f3c"
+
+[[files]]
+file = "config/MrTJPCore.cfg"
+hash = "c6fb030033fc55c377d661a621d7b0d63816fe08afac5021891f7addc97cfef3"
+
+[[files]]
+file = "config/ProjectRed.cfg"
+hash = "e820b1564ef8515271b1b62fc72ff0b6a5ea61b7344060c76ac401a1de0aa41d"
+
+[[files]]
+file = "config/ScalingGUIs/ScalingGUIs.cfg"
+hash = "89f6e4acf75fa3ae814610bf34f268d990c6096a2dc49592a07fed861061f3c8"
+
+[[files]]
+file = "config/ScalingGUIs/ScalingGUIsCustomScales.json"
+hash = "30a5abe4a5b9c5fa16e5d0d01ba6b77747d1c310e2597f24cfa83f786f460ba0"
+
+[[files]]
+file = "config/Universal Tweaks - Bugfixes.cfg"
+hash = "fd8bf05127f16eca73ebfbf5a1a4942eb6062e44b27d3ca4ef1cf56446234163"
+
+[[files]]
+file = "config/Universal Tweaks - General.cfg"
+hash = "4a68b49bf108303bf17d8a0c225091bd999dcff9c3b493778cc694df9e2c2452"
+
+[[files]]
+file = "config/Universal Tweaks - Mod Integration.cfg"
+hash = "468033bcaf41507add1fce339ed3a4148dcbd2f028aff78dd625c96be80cdb1b"
+
+[[files]]
+file = "config/Universal Tweaks - Tweaks.cfg"
+hash = "9c3ce512d2fdad8d50b291f3b83ef2362df728491d43a3bb62db74bed1ab2337"
+
+[[files]]
+file = "config/baubles.cfg"
+hash = "ccd9ac409fd318ce8a97bf0a1711e1063c4551c40bd9cb70c57b207260515bfa"
+
+[[files]]
+file = "config/betterbuilderswands.cfg"
+hash = "e17d187e264559f465aa1b79850a95518858308fd310a74f9263c6a9eb24d312"
+
+[[files]]
+file = "config/betterchat.cfg"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/betterp2p.cfg"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/betterquesting.cfg"
+hash = "d864f39895305198e082f6578431e604dc6bab876125c03a2271ef1d177b7779"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/1052610336.json"
+hash = "522db687b5b9732245bafb2941ee4faf79e7836534ce65c1b37f93207340a597"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/1121539277.json"
+hash = "578e2b521b99aacf47860900b1e5356a98d843eb6d68917000ec6b54e4b6426d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/1349696291.json"
+hash = "ca2d8cefb1b0bda76341e1b8df44a0207656c3fe6ad95ab81754efe1b1a2a836"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/150697086.json"
+hash = "5bcdc80ea071cff50103e1a511fe3549b64b48564a657947aaf811e19260820d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/1509941381.json"
+hash = "62f4fd4e71300ce77548c58454fd926e1a035b70311bf1e19ab9a937d74775d4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/171786803.json"
+hash = "1c6f268c95bc5bb03230bd8614c7e50bd60b081fe176a493497813e8143efeac"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/1754878463.json"
+hash = "d142ceb28e68e391241b793dc0cf59df937c28fa998008a08955f8ee5f2b5eec"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/1844759518.json"
+hash = "19ef7e721269344aba0108aceb132aed8dfb3c2609d372127c92cdd58219bca4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/1851152505.json"
+hash = "277650dff69deb40519da5ccc0fe5f88ed9ac511c0b32227533afacbc4b066d1"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/1868627010.json"
+hash = "21f67445e397e6fe7667e5f80efa94ec77af0a0f368314463489cac32c7bf79e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/2031103779.json"
+hash = "88a0b540bdb1b11d2e9ceb57f119e2b4e0fbb611b808deef838368f000751020"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/31930597.json"
+hash = "cca5edb9547297e7940f6a549e3ac6f2d00e74e22847e07ae8c7b206a8a2bcec"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/343719817.json"
+hash = "43a4b7880702e1529c5f48c2bb6631d56a36d9e8ae708e9ca96475fb40184789"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/377583359.json"
+hash = "8f75f062b2c537ead742d1e1e6d18991cd315c9a8ad4c03d929562063222b62a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/391308061.json"
+hash = "baafabb6a3c2c16e8d66fdec7776c91a5e6d7c5775999a355fc40a9252bb9ef5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/501127678.json"
+hash = "b999ec24ac5ece75b3839141ab2657fc889005c3309f54febda095c2e6ebec89"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/506873830.json"
+hash = "e2e6e1b372f64b31813e58c8b283ea7e7eeaeac8d36ea7e06873c3eeef9d2a53"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/585069616.json"
+hash = "9a2ef8d498dcadac7931ff1234761affa9c474a36631448263ebbded20598a2c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/651733887.json"
+hash = "77b33eec0d6a8b08bdf38f01f79307a556795aac0520f8fc0254dc5bfc3a337f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/717308044.json"
+hash = "dcc4b5802835a239b6d0ece69e2b0b1959555096153aa25508e49e3e20adc3fd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestSettings.json"
+hash = "a54eb53c41f0675619a948b25975b427149d82cefd56e63aa40e2abaee653c06"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1100801994.json"
+hash = "bdb1ba2e48846bd6efafa38d33c6e43d4bdb05226a5ba582e57fcc1ff2503bff"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1141420396.json"
+hash = "1d6c628d72e64ab47ae374fa577a5808bd450b8f77977ec0dd0130c30e41be31"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1266383014.json"
+hash = "bc7f4803efc8744cd8445c4caaefe19fcb71de3e77eda800a19576d369bbb279"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1267779891.json"
+hash = "db91d814051f2c3d15119bd12c6ba0192d1fe764fb85f40fc22200ac0d7dd4a2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1282026756.json"
+hash = "3d9fbd2c6f169a425d8e772a09d846be797a75ddd2d5cc4e3b8aa22757b952e4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1291838572.json"
+hash = "b4cb3a202ad3af1d87f3e8947772707805fedc335588add8132ddae30c382889"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1295951929.json"
+hash = "5c33f7a94268de365ad144f1a5696d201e510678b4c618979e4e72dfedf7e193"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1338192913.json"
+hash = "d03e7a99930e23eb72edf9a79caaf19e2f6dc6b1c3c3a917741a9e8a08beef60"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1370457451.json"
+hash = "6078167d9af1ed949b821396ed96a287a8c2c0e6075b4b1a0b166a0ca414dd03"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1405942846.json"
+hash = "c5a3f6630fc9146c6573338da72f5a78d3108fe5b3f922e68170e3d9d3bfa179"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1408641165.json"
+hash = "c3256004f5485eaadc1eec9d404b4ad272f51c81b7d829bceb3ee056019f5816"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/141978247.json"
+hash = "451ede1d26e2e44f33c154257870b5ae43c7c8494e8fbbf4e4fd48d090b884a7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1435800964.json"
+hash = "a9f6c994a1326fc8be75c39bd2a4f60d39fe32def07d63897ad6d891c82903c2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1480697747.json"
+hash = "a885afc43d8d7c0d473fcf85b5668caa5cc84e8ebb00c0540bda10e90880c14a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1481366878.json"
+hash = "224884c05e0424f743d416ec3e90759ad1a607c1cde33713fb8422c2315559b4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1503624632.json"
+hash = "23b1ef83d7a59652f0214f6eb078b5b1734ae40d63e271bbe83939fe5aea99ef"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1579334975.json"
+hash = "fc7a45fd261eae3879c3d46b780aa122c5dd0c46b53efb762367a56acdaf927f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1591684656.json"
+hash = "b157beef98a46a0d2ba177174af2e7f57d9f876c30c3e8a9db5cd92a8944b93b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1597156033.json"
+hash = "4368ba7309138f29576c00d72768a79b954bf8f639c21baefe8fe3296a34e86b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1603368197.json"
+hash = "95fe0bc9ddc98cdac082cf0612a8b3b751d9fa3578cd7ff0d059a21ff8619eb8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1652908572.json"
+hash = "092ab3a762ddb7f4b3f73ea7e3c0c5f0c401ccb5e0f3243a06a40fb89f2b4bae"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1654248190.json"
+hash = "8e1143a096d1e2769542925a9cfc60608cc99188be7b02901bfceddd31216dd3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1660722430.json"
+hash = "dcae7a36d15eb3f390d4d218573e66cd811aeb7b6ed194e77117ac19116113e3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1663596177.json"
+hash = "cdc5d502fcfa7cc9c1e30c2c854136f93a5e83ef09b82f964c42b8d0834d7fa1"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/168999159.json"
+hash = "9083fd88b812ccdea8739bd90dbb6e1035e00293f096facec344fb87ab0e832b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1726518730.json"
+hash = "9c1fb8d9ef889d35dcbc2606b94fc07be0c214084178935bd946e72aea25cd01"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1760321674.json"
+hash = "84cb5e89c032ef5561bfea13ad6c19b57cdb8e0270e42da4f88c8f476d1170e2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1760559890.json"
+hash = "c0b23f7903ea4dccd6423945f4d1653dc3bba6e6c4ef26e32779d931985c3900"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1805214138.json"
+hash = "162208d3c1bb6567abe66bc459de46266c9d93675eea80783b2a3b460cf0942f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1847604030.json"
+hash = "0b5ee7ebf45c069f8254bd95775bc73035daa724cd7206c438934e2a3faabe6f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/185791899.json"
+hash = "39fd71c522ec0d076bf0a0905f50059cd5b602da8ccfc4755b4b94e5953dc493"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1863781240.json"
+hash = "64b9b284a232e1dc0f9294984a3fc3829baf0ab137351b71fb2126f77ebea67b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1903987527.json"
+hash = "ed7f8e342206929a9ffefd3d0b3491a23a68a61ca822b57f1a7a9548b8bf1292"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1905249503.json"
+hash = "a24078666e0024f9f1ccdee52d899f0e2b5ee6f7cb6c918f3ae599db68a49446"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1919423198.json"
+hash = "1324b4a21be37ad1e5c600ea61dd0edd5acdf18de504d38c70ae8a5df65a9ba0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1935140119.json"
+hash = "335fbfc94a33cc4cb8fc524a8ff57ae4baaab5e2c79233f4d79b48f31119549c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1937623655.json"
+hash = "97ac5c4f57486f46ba796b35bdd7868420783f2067e491a7038ad16f3af61185"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1940363270.json"
+hash = "2e995c701a6e0dea53bf833127bcc75705da9117e4250d43ec52f07719cf6440"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1958099300.json"
+hash = "ca33db100f215fc76ce860c6d3cf8196c10ca2338b2d687a3b6c2219b0709fc4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/1961400618.json"
+hash = "3ecec76b458c5aac0277c43f00e0d3a98e5a020909380179ef1a86a9fda5a5a8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/2038094250.json"
+hash = "b0053ad362c33d8b2f6cfee403f9f7de156d1c36cbfbf4a4146532cd23fdda9d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/2045910074.json"
+hash = "b684a39c6e0d2c632cecfaa7ba84626185d62ea476dfcd04aa25dab95f84a6d9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/2048785376.json"
+hash = "03aca26bdded61f95c58d50ce1d53a2deeb0d10959b6c4ecd194e3164bf63bd7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/2052530456.json"
+hash = "1d5470703a41cc3ea928e9817edde0cc131aef0237a6da177b2b6ce201954242"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/2064916392.json"
+hash = "8230a1594531c7e2cdf113f10fb41fd2448670171b4e5d91e49c9c58d76992fc"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/2145537710.json"
+hash = "1e128c16b28690c04fbee6b6f25ed4150c5e5840b33aead8026edc994c5e44f3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/224590458.json"
+hash = "85b260d619822bd401a4543bfdd5c4a43f66eda1351bc7c8295d41ae65f7e68d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/23921477.json"
+hash = "eafb6f76cb08ecc3d0a1b24ac8e1198288d5596934a5f74fd2667287fea09a93"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/264657195.json"
+hash = "1657ac5c70a09a2c54d1a3fba6c516d4af659b9e2c7c1c7087a8ed9b3ccc8e4f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/295559920.json"
+hash = "523265a4956dc138e82370d1f90a0433ab644937bc53222d47fd930dde2bd938"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/313715849.json"
+hash = "1de93c9d725de38f7ee82cc03ccffb41e359dc284afb73aceeb30bc800bf8615"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/33679465.json"
+hash = "bafb0b2e9e7cad98a332177f227ad4eb7a8ab1595dbb69ec013dd805a6d83b61"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/352386416.json"
+hash = "f19d268233f92e06e1d8f1ce612205706564e22f99be4f55039e30064847ec8f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/369071060.json"
+hash = "def1581bcbe20f6c4d83e4a2bc2f1b76d6d84dd0838fdd461f39d92d4ded9836"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/37465416.json"
+hash = "4f56ae1c6b1936fc9a44327aae8ea4e69400e729d00f61e88b1a44bd35fb0bfe"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/428819210.json"
+hash = "6e5489ebeffb9d77daeba74aa0568685986afca78f5182455d2c431313f3d92b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/436003492.json"
+hash = "6dbcc4ee60307430312883e3b5ef955808bb41cbfe5bf88576966bd321817f38"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/468179674.json"
+hash = "209af83dfdd23ec7f44cf26cf2baf5d12c01c9ad5d3d5e991eea1471897377ce"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/46953909.json"
+hash = "887a7e9c47d0e315cd7b6a7ce173b4e73f26ef1402c26c35139130b3443147b3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/499622618.json"
+hash = "d180e4c59d50231da4c435e9e1b81d9479482de67bb16225e462642e9168c698"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/516226803.json"
+hash = "f2168c9e31be4a4c507326818967c4f361c7b103cb64f2255a66f88949799026"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/534261927.json"
+hash = "931df88c06ab028a3590baae60512297db452c720f338a8535c94c46fd1e9b9f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/538676299.json"
+hash = "d6d22284f3df7e10720e4d4230d9cff566e8dfc56eacefdf8393ac329eeb0ff5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/541382766.json"
+hash = "e3c4eb889c94bd219e7cf40bb5a2796f5ffbb68196bb091527601616096e04d8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/552625525.json"
+hash = "e1ceecfc756f6ef907aaeae5c5230591f6918f1f746bb8201efd2225d054454a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/565745207.json"
+hash = "97e9cc640030ba9d98c9b54fc8c4675d8b834e43291c201fffba34c8d6e55b4b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/566748230.json"
+hash = "ea1d33f90fd1ce46ed2ddb4fc6210aabbe046f2b71981f81eea579b7fd08e583"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/572375757.json"
+hash = "3e627dcf92251d79cd710a08e5f503338089e13bf0a4e887a05aeef2ed1f587f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/574025173.json"
+hash = "99047f789f9fbd52bba0387068c1385d765ea8eab28cd3df0155391fd58f0181"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/58271814.json"
+hash = "9b66c6a2252bc0a7e9a82575238e7768010126ae26684867e9c338dd7c58d432"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/589853967.json"
+hash = "0b1ca3386db88b85385f9a9f26ecf02d30416c4aab6e809cb1aa743e30cc4ef4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/627573784.json"
+hash = "398b5d172b20b97361b5f5c47963fb031f305838b61009bffb1ca048011f7a56"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/62846306.json"
+hash = "e1dff10362a047a9fe6563f3f8dc3407ce4f0f46d356e4fb3bac076d924146e9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/641879794.json"
+hash = "65dbcd84dab8cfed42a1b4e279c179bc45acde4dd72c5dfe27a5914f38a56333"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/661128699.json"
+hash = "b8ab28470e16c9f5f0b5993fe3792cc475520fe2412495f193b9bfc554cfc432"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/682581782.json"
+hash = "54edca9a176bf5433596b6839cdac6edc6c663920085cbc822e35165258508d5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/694524803.json"
+hash = "f952030183ccdee81d84b3758359cc5f26fb60d996fb1f76c7016fc55796e92b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/739841028.json"
+hash = "47219c4cb71671cd447f1ac8c699e34ed1784eda73c2b697eb5e5023f89a7a19"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/750225339.json"
+hash = "8dffd25032fdf4a62293768f2f8ba5efd83c55a5b5ada40495fd1668981ee03b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/783320237.json"
+hash = "158741170761d112ff3ab41392bf11d834a9515d8a3968ce5b6a2d10dcc3d4d5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/811483129.json"
+hash = "b57adf3daeeafffd08ce842ec97c426fa6662952a65d797e351a32fba0c86823"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/818039944.json"
+hash = "ac881b29cc430658f2942b7724cf77701f633f1c1d52773b4c87b79c0170677f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/873891571.json"
+hash = "04fe3c2710dbc075bac1379bd0a2825dddbdda9aed4893294661f730dda21ff3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/883624993.json"
+hash = "846cbdb50cb6c7a47c430f65600e4083f612eab420969ab696679bebb31a7c9b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/900889184.json"
+hash = "38914253aefdfb6fa4d69538e295a3de0e2a3fa4df758cc49545a06af343b734"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/918396299.json"
+hash = "a50c16ea423c89d93cb5f675f9e7a2cd0384448a47b625cd7c8fc079e50cbbcc"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/966160976.json"
+hash = "493c284f98e8ef7b10de99ccf10cbaab0bcd07c8622537e1ed8000fdda00aafc"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1052610336/984079896.json"
+hash = "8c78bbb8aa0fc50d7784c7c50bae25c1530280c9ca0365b79bfe6d1fc31532af"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1013977296.json"
+hash = "f5996eee5acb13dcd372cfd1dcc2f1e3bb9388d83a5ea8f65f076a084f9c06e5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1021467502.json"
+hash = "e8c9432ad38b2021561beff5589fa521771db7afe042da4e5226160b9963efbe"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/105665942.json"
+hash = "e0090526106bdccb352178c2a9da8584b63107ea7736edf750d3f4b0b54aac90"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1060124818.json"
+hash = "3067f97bc9e147145536bddb7542e383cff68243df9c645f2971359c6dc43680"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/106777031.json"
+hash = "4a2f7d40657d4dd0a134cae84ca73354b929a6afde13f0c8c1fff1b52514dc63"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1070102724.json"
+hash = "28435f9e844cd48902e5e2ba50f8b6c57a4143e573bd4b1eb427d7c44d0f37e7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1114136535.json"
+hash = "9999c825bead9df6eebbaa80d0eeb428964a2519b3f182d30ca4679f31084564"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/114279738.json"
+hash = "a2920ec16880dcc9ba0c4f000837140c3d55ce5c6e1a7de07fd2c692acc10f8b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1188383443.json"
+hash = "96718cc12c53b49f395925e6510dd0bf7e11428db0449c26884d54442d2d408e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1207006283.json"
+hash = "cecfccc4e667d5fdf54fb5518de95398b36eb85182756d5f741fce92073640d8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1220286723.json"
+hash = "96754adeb80cc826554615dc1879daf291d3159ffd71e7c1fd15e29a9693cd3a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1288498615.json"
+hash = "cd2873fe9347bca966d63a6d46220547cc838989709bb883430eab409a0cecb4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1368139219.json"
+hash = "9bbfae8d6567316a1cbe4cfe8b3cc99c24ae2217280d009836c21745367e5102"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1538617102.json"
+hash = "8ce5f323f5d46307072262a3ea9249e287dcb01cbfec9463992d68cb6025fd83"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1544202470.json"
+hash = "4698bf4dec21233cf12d60e1eb8af585313c9477c61d5736f24c6eeacea571c1"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1580032224.json"
+hash = "e7bfa898dcfab39bfadfc8ed3334359e8766633106b12a3e8f902543a8883e2c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/160768669.json"
+hash = "a7562f5fad743347508b2027e0bdba513ba4e1af30e7bd486793d25739febf63"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1639589591.json"
+hash = "59cf501bb607ecaef7671c098dfb77253d6c2e6f75bdc3a99b23daea93a09899"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/165361007.json"
+hash = "ed637b8b49da0c1d07e2a735a8be0b431c6e73215520aaaff4e09ec8df28dff7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/165460843.json"
+hash = "b8fa5a1dbd412ee263397a507f702c13d2f7674b4b83a5b9d5a85f048e49f387"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/165791622.json"
+hash = "f8ddc2c98461307d0f56d1e810ce385b3c59f5383ddd3a62bdd51c2f3bdb1a80"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1699594870.json"
+hash = "16b2d97714752c14d493b69a8e71408e1bcc4df7d51e71b251b39c9131e384f7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1709257046.json"
+hash = "a87d645de0e97fd7232e84872cd14dd77637ea224bc2c19533c7df4941961796"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1795666037.json"
+hash = "0ca58aba42ce9fcd52ca4d937483c904194db7e434c49936e0c09e2f1ffd8ff2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/187561121.json"
+hash = "080e8df63df1baf8a33a2a129a172692e9d857e0e0b1ce2c38302512908c5b0a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1881742610.json"
+hash = "f2bba2ad0c4ce2ddcb2c74c12796a75fef57e9d0d899994d87e4627eac0f4f8f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1917552849.json"
+hash = "05f820d758e9780a7d35266b50adf3595e246174d07a713afc8184c3850948fc"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1926964230.json"
+hash = "df1cc652999d21b0d93c1d73903cf7b271961d18a4330330a3bc7735e71d8267"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/1973704670.json"
+hash = "8339185cb563e007d66b3d02e8f6c348140f5f46a46ff2e1218ddd3018155db0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/2027403774.json"
+hash = "d30a0939c5f0730ce6e2c1a454192bf4a4c0048d2a5c840e3ed04d752f1998ac"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/2052161102.json"
+hash = "9b08083f853feac8f2cc9e27e7473e648189c9a1823fcc620b6532d6481a0872"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/2057720653.json"
+hash = "505e080e77caa49a5dffb30da27b8065edfd5e82f83112925e2815afdd64cc8e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/2088673486.json"
+hash = "beff6c0a3ec22fee3bdb6590bbbe70eb1cd7ed0af8eea6c767586a34b87872b4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/280732381.json"
+hash = "6c82b3a1dc1f68942ac3d679ef08da139bd6c869dcd4f3937a28bf4db5a533b3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/308877360.json"
+hash = "7c10dd034e8921b17fc7ebc66230e7d290ac1990744ddec59200efecb6044e3b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/309239236.json"
+hash = "a3b5ed8a1055f6ea1ee8e117a024c7f7ef998b28ba66f048c48eddd43d99259f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/326203230.json"
+hash = "a77703181285b90ba9ec62ab51ea142a687afe4382abd42a8462a416de2ad083"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/365284284.json"
+hash = "9fd8e1b5a14c1616b545ab66e9fe65d01efdfe38ef3c2eb6519070003b3e3e09"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/411587145.json"
+hash = "b5f3047e323a7e6782199722bd81e7ce30bc307e24d8bb92ac87af5620f48015"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/430260606.json"
+hash = "3e63d242455f08e1aa4292e513d2c725c87fbebdeba4a305ca42d52856a8e916"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/460052093.json"
+hash = "f5cef524d1c0972bfc24b2e34ec8734e1b9926cad9c030bbf8107031457ab31b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/466032222.json"
+hash = "6284555252dc948261c464536bc3a31158993b28d7748e97a9e8124dbff9bea0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/557288784.json"
+hash = "dcfc2ae9261a30dd569044e61c62d8ba71c7b1d255be610e94dd9ffe18ccd026"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/573978952.json"
+hash = "982f93955c9ebaeb3ded7c3315ca820743c6260488d397035581ce4011a2f3f2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/604368358.json"
+hash = "6736641796f7291437eee3183a2325f77575f733bfcb13e1c35ae1f281c12f40"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/62685679.json"
+hash = "16afe5a98d789b5339a5d92aa29e280249fdecc2ad459f62fcc74f5a4447f229"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/633314957.json"
+hash = "34a264045bf9cc9a662db8ae56b52c25ab329431517db72621e0d60405d810a2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/63436605.json"
+hash = "a6e17cc8e462c595d00d9fcac8305d7700c512247154cbd498cdee230a6b0d00"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/65704285.json"
+hash = "394b3d3ef16041c721d343fb736cf9f5ef5a4bf0ba9154e68ee08a7b001963a4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/693056682.json"
+hash = "7e7dac0081f2d408f2bf61b5ebecfb8eff63e3d99276e443070648ccfbe977f6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/750814474.json"
+hash = "27db36799268cb65609fa15e2bc5686e5ae4fa8c7a63de1d805509eb34f37fa8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/804665990.json"
+hash = "8252a33a3d786cbcd0d707c9491511649abb9e1817dac0aaa8c421693a627a4d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/835904145.json"
+hash = "c0fa08850026276a985b5bfd31c3cd7cf9cf66bb7f97b7074ef9e5553baefbd5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/892806362.json"
+hash = "dc7c113a3b2bcc0b8051064a148d66aaa3343cf1fb5cebeaf24859e4fdc9236d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/910916973.json"
+hash = "93476dcc425e9652f7dff88e9348c0c5385a7d680d1717f946d5aea3f5619f5e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/923318677.json"
+hash = "208051c6a59f1f98f124ba4666eb25cbc7b2dd3cdfaa47abbbec91d0ae5e056c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/946868211.json"
+hash = "8fbdfb7b034603714be1c4304580110ff2ed111eb806f3022b90ae332b240baf"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1121539277/984714720.json"
+hash = "d280c94326bc0d32bbdb15289b89f459ffa401e4f0626dc838297b5f3333a172"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/1023355080.json"
+hash = "4f7c78d8a09a057f4bec70b5e5e0497ba32f707261ef8df71437e859b87d87d7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/1176611413.json"
+hash = "a9a4aff61091ed851e5e7d2039a111c68c41e748df74a06fac3e673db8e116ab"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/1263098444.json"
+hash = "10782f2390d1590c2535e4ac2ee5fbdcdf3ff5d6b03d79ae2e0ad4768939dd2e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/1273790036.json"
+hash = "1ef5cb7cc75e0d41029c0730fdb99336be12a2d390b71787839937ef371642f8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/1398707307.json"
+hash = "e283a85ebe4b04d03bba8da9eccd0e3f3daa7b033e566f0c07dfa671c8b65190"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/1731131667.json"
+hash = "e0aeced7f157cc592385ed92c81b3a45a326cfdb02eb2eee0e40a8d62c1025e3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/1773356308.json"
+hash = "044cb334080d76b792db621ee7a962b48271d6444a348d77ae8d9aa82dde2885"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/1773698161.json"
+hash = "1a24162dbdd1567890f5650ba241e84b2650a85ebbf5df130f8206f74840bf24"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/179841533.json"
+hash = "a2e6b448f74b67e683620259b8b0198d8946497cdc582b50be2e93866e5d62f7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/1800020500.json"
+hash = "63c26d854896e68162a179778df8e6b68b2f63a4536663eefb5c1a28129c9a78"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/1800338614.json"
+hash = "f2ab35babf59581b8f2519d9b1a683291d77386fa59504bb8af5cfa456dcdae7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/1861594375.json"
+hash = "afc6083978614093130f0509897f59249e2e50b189d32ce1cae8249f1dedd1de"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/1928240003.json"
+hash = "c4b0d23809dbd3256791947a78e1d1cd1b3c17ecb4e63630db1587dafe89e65b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/2004440720.json"
+hash = "ef165e1094a3ef7d9319b1b72ff66891f2a1b93aff2fb6c8b2a9bfc6148b9991"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/2027717779.json"
+hash = "be8c3eda7b09f6ec3d1bcc6facdfba8ce98a60cc02777c2db941747ec792072d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/2062515176.json"
+hash = "b20ef987a3a5c6809d41e713fdeb59be87122e1cbd0533d2428eb349429255a9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/2074486534.json"
+hash = "a81df6f1995eb470c8e4739febd64485a7e1a33961da11838664cf92ceb749ca"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/220930250.json"
+hash = "06893b89888171ec4de35b1e2d4a6ba16ca073f84ab1d17af332ff7a9d975068"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/251087430.json"
+hash = "7662d453d294b9a6b5b90ea0cb74853f467e669c2ed619c6d6c54da2918f15cf"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/294225384.json"
+hash = "7f8e5e41c167a6fa03239df56dcc5307da28227d28f15da77bc999eb003434d8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/301351787.json"
+hash = "f1621dd37a85d9da2c271064cb21bc963221eed444adc948324f8990d8adfe1f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/310647870.json"
+hash = "1c501c9491b1315f804e5215d7feed79e38eb51261b6ab2fbd1884e12cf65ddd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/338385471.json"
+hash = "8fda38309a07438948bf6d11aec12508fbb37304c355c4ca5d7eaeb9e3f89b96"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/355107020.json"
+hash = "d1417dc9636bc33ad69657eff2c55798cc374515eaa0b5305fcad41fe30ea723"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/37836067.json"
+hash = "be7ef73cbff169b46df038b0628d13f3f724e0f3146b85830f433957163a5e1b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/494226247.json"
+hash = "7723b4d615a2bf01117699a0df9e265137b474234dc16e34ce88c3f6ee6d8e15"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/533505211.json"
+hash = "c6b734df1b5837cc49af1d8a023cdd4ea69095c88b57ba925d40113833ee98dc"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/670053525.json"
+hash = "8c40ba1228b745c59176e32379c5aaf54428ea9c5b17c5fbd3b7ce4feabf7691"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/74071904.json"
+hash = "552094d69d76ce0f2ac72df28b70b4a3a18027fdbc03ab858167f42ac540bae7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/782579220.json"
+hash = "a4d58ec93a28bec4ff8a5d6b5cdd44d66395ff7eebfcf5513ed112ccaa1bc186"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/910867444.json"
+hash = "5a902d235291ae9055bbec5ce151197530fe48c2dca40a8e508de8e6fdfbe527"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1509941381/953205596.json"
+hash = "194696fcdb74c30dad12497e651d3b9d00766e037cc82c2648946b1108c1c550"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/1119858915.json"
+hash = "c3e73c6035c8b292e433a2219114aa65517db44fe7b881f2658503b64b8bd531"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/1133139636.json"
+hash = "537ce741f70e40def53cca8d419b472892fa2ef4a0ef209e4e4544f3669c3f3d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/1262227851.json"
+hash = "972c0cc72938902d0844607d7a7823a5cae3031efbb909305a4983f8041a93a9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/1371896621.json"
+hash = "0185b2c890f68e95a898af5742b148c0d7d68ea4a79e2057f0807ecd82d2a11d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/1387463929.json"
+hash = "778e7eb58464d68d049237ab58bdb664a60171cbe03375b892233eca20ea16b0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/1464280039.json"
+hash = "51a84cdf493525e892510dc40f647aeda88063073be2fad275c8fd56530d49cf"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/1474142456.json"
+hash = "603032de08a7d037dfeb221d4343a2aa2d93012c5c25b055a21702fc70d9d634"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/1531987821.json"
+hash = "0ee677e696baf11a840f6bc9c1b660ee947e3a82d9d5e673df2d0b297f599a8a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/1578798472.json"
+hash = "8dace0fff4a5c3ee88bd7d1360d754fedf42889d1c13c228200abb72668d23ef"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/165241322.json"
+hash = "432631faddbc570642e78a5d0633e2d33f9a924ed4b0b405abdd7d27411752e8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/1665051102.json"
+hash = "f1cfd9b158f9ac32a46b3fabe24b83c7863f5df8eda9991a8ebbf318922dbb55"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/1720750929.json"
+hash = "23c10176b8fa1d7f1082aa8854205c235fd8bc497debd67430f661e72a6244bf"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/1749720537.json"
+hash = "009e860acc530d6eef27af39153ff6ea5ada9b963aaac2c9211c50fe3ae3ce89"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/1914145006.json"
+hash = "3189a56a966ce701db304781fbcbd7bb0832b718cfbca2d556ad804ce58a6560"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/22309963.json"
+hash = "0b7756580c156f1aca6f6de461de656f6a0407173e9d3100b4719526158b9ceb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/371633949.json"
+hash = "e419c06ed1668320fee5096832c5e18d84114bbcf1ed5a1117a7e59f618a5bf1"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/641044601.json"
+hash = "f731fb9b83854493ae0a221e2254ee33088c250d8de8904bfdc09b9c75b8ce83"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/684008546.json"
+hash = "2c716eb483c4e20ee9943c2e415ff045893f1e5da826b8bb72cd9ec47f2eb38e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1844759518/684336659.json"
+hash = "c37b6655ba81b62c978dc9e613cd3fe21c8c96668359b47e27daf0ae686d30a4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1037544950.json"
+hash = "1bd129b4fae4a34eacd74af671ab0b9df9d0985063677a9dda2bc5a1ead09571"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1044211285.json"
+hash = "097070a76548e27ad5aa750aef47bc01e32a4b69059d35fae0fab63b49eb1f70"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1060043275.json"
+hash = "f019c074b38a2d24d28d8fd8e8d81ff3645f18a8e24670966e5243c9db3fa625"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1173487752.json"
+hash = "5931c2106ceeb745db5218007733cd5f207c19342accef1d2b1275cf5089c2b6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1203902884.json"
+hash = "86954f84bc01a37ef44740868be0613e5fbe340045ae775805fc4a255ffd5e42"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1247776567.json"
+hash = "8e4f55486ec4f571e6ff087c4cd98704bdbe4cb4545864c2b27d3ad3907803d0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1277132626.json"
+hash = "f3e602bec0101a80389417221e906082b7a62d2f05e0f8eb5e648e03590fc282"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1364447561.json"
+hash = "2d183c2a78f1ae640ec5430b4e03721019161e27df79513e096591da301ca7ef"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1417240230.json"
+hash = "e1fccb06446e9fdc43f337301f6ef0499d8f7813379174759c5085938108f191"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1439863665.json"
+hash = "f25ace6bef38c6f56c8924631e79798740210e68a8280ff21ace48c220a41ae2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1441687062.json"
+hash = "ecdb1206bb210ff715de8ffa5e5ec433cf3441d40636705fcf6a07898b0883b6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1494545198.json"
+hash = "9fb471edeb349746c27ed6a7c44cb172a672c559d7ac448dc702ca47459f7591"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/153924098.json"
+hash = "6e9c8280ec5ea55a1d4e80889aad657c5c3319008d470b48b01d722107fecc70"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1556705800.json"
+hash = "2f17d993e580b1eb72a322408c7f1dfa604d5e596360f9535c7bf2be993e7afe"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1601597336.json"
+hash = "0d6be5b10f869e8c953e4062531f19c7e67eff1f5e4635294174319fe943b2dd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1621177673.json"
+hash = "a1b491e0d0fd893237c2a39e323c6deb7e5c017ba4218b5b691bc5af17ae1362"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1651676736.json"
+hash = "62aa9d92afac760d691559db08737d493deb70491e5875977740597be5d6be16"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1658935733.json"
+hash = "d6b762481eaf11edacc0737f68dc4ae92d433e76d57e7863b8aaaf1a4048fa59"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1730465746.json"
+hash = "19a80e0f7ace0e5de94d1a2032c5b258ca199865e8fec368272960b9cda9fd2f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1769267826.json"
+hash = "ac8c0a6a3cdfe8d7a6231f76bea17d2351d739b93c8d38562bc02f33bda371a9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1782299287.json"
+hash = "842e7d0a0da921049cad9458a5c18c7badfb6836f2b188401d5fab5719515670"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1851298800.json"
+hash = "0850b95fb1a687876993264877451dce9217a73a5225763476dbc3fca2064575"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1856935055.json"
+hash = "9597558140d7c3d1450e122be545eb3d8e038b7d8bce2aadc4164e417cbb7bcb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1870555758.json"
+hash = "38310130721038345a81fa68ff86ad612208844698b18990de924fbc4aed6047"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1889668847.json"
+hash = "1c2bb722bf9b5974cd93bb1ea388b06c56753409e77694f85732de01d15be1a2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1893628510.json"
+hash = "ffd6abfda3319abfbfa78f52f088671e3d339d01a39273dbb705b6e6244c7ce2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1909574803.json"
+hash = "cc2d3a8765b19a019367f446bd394e04e5633d5c6168b608bf9e86836b5d47d4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1934932928.json"
+hash = "4a53bd2e4ca336029b14d457048b1a93db2740b8a450e4789d1963b2d8bd006c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/194896510.json"
+hash = "77f58ddf1c7795fae000132b8a04e840286eee4894d46f5cb00c6f1f63392434"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1949954841.json"
+hash = "272d1d34905c40e403edb2cd9965c694df7c3dc3d6efcf3eb5766395c7d9c030"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/1953466077.json"
+hash = "cc33a2858b7144323eb714f1ca634af87b840f5707e2b00a0347354d9f30d539"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/2077646469.json"
+hash = "645df2c4e97a2eb8d515b5989be41d53f9425cec5cacbbdf2775ef3dba2f032a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/2080736484.json"
+hash = "12ddd2e63af4ae13fca299708221dc3cd5de438dc1b8ad1f38d2146da143f513"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/2111386174.json"
+hash = "3eba64eddef1cb0e2596484cad1485805b54e146e171d0ea26c7e44964944588"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/2121406110.json"
+hash = "52ddca19632cbbf5148dfe6e8a08c0a25e2dac559bc814a6f97ab39d41c23a44"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/216836520.json"
+hash = "b54a4bbb818deae2dea05b615287a20ebd08cfacb80059f30d0862ef37da5043"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/246680667.json"
+hash = "13ab03693f6d4e9713f87e39ed6547977a0edd4ff047e68341ca16712d832bf5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/284636368.json"
+hash = "5a55a714f9748e3e539b0bc28a5853e81154dc580f3ad488c06bf049472a3bbd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/315406018.json"
+hash = "2f09f13be9aa2b8f775c5a34f22ad8ef95a8887a02508c5289c32dd81d12fc66"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/344966365.json"
+hash = "68590aa1643fd66bca30498fc0a7af3535a74c2ae692200b3aaff9b9b2be6a30"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/370628568.json"
+hash = "4cf6569fd2a082ac2522a7aed549858c8c41d9d0fd13b3d5405e81a23e28fceb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/372410605.json"
+hash = "1831766fde387aba54b0ac993526222328803be15f7ccc3dbde0d66ee4546300"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/413207095.json"
+hash = "1e199e5c636787f1d36479e547f4b6f42b8510d54415d9924a4f3a9d16279eb4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/433414213.json"
+hash = "210a43a8fcae60a60add3f89cd4e6e4bd5dfecb94413dba1b16858bf5ca7b3ff"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/613890771.json"
+hash = "f0620ef1583a34ecd11e309dc119afc73fd2e69c4a016d3573cc4adbebfed77b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/624262503.json"
+hash = "9be8e5ce0b718ac773dcca179a05142a971d92fa725f26dd2d55e92e7ddde8c2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/63444154.json"
+hash = "f01eb6e7fc3555b7f6460ac7e8cc3206d9f3c20bccca5c3dc272d9dafd3f4295"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/69693529.json"
+hash = "b6237e1caf9f223da0a32cba6a95024298550e5809f80c6bf910bd281020fb61"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/703566290.json"
+hash = "002c0764407fd109764c272352f72b580c28bced9ea70d94bdb58a5981dfd692"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/721787158.json"
+hash = "3b02a0d16ff699279851ef98d36e5f6a3fe4617327fc20d07376daed0a54e402"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/729670294.json"
+hash = "4b95b99b49b44952c31662ef5adb7f0786f298eb9188e2c0c692ceb36d8a59df"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/740430162.json"
+hash = "d9601fdf5f37f7ad9d512f2df4fc55f60c0f13131d2c84b160c71231d6d0a068"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/756445674.json"
+hash = "e3c199faa6f540315dccc58938348633041b4380745a3512ae620a2c2e2434b2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/8079477.json"
+hash = "2340d0f2691c526a2bd48b892c5f0ccc834970f783d4250dba6d791dce92eb7a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1868627010/844939902.json"
+hash = "bebe285e7035d2aac4769cc1d94579c0aabe86db5753443b4e5394ec4e6f8d77"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1037440278.json"
+hash = "b713d421574098ce0573af8b9879bfefe614fdb3164d6c9f6ee7232a0fc9f95c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1043545431.json"
+hash = "e6ccab6cc6ff02bb6d4579df93ca453d38a873513ad17fafe847d1e538e81fa9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1046111727.json"
+hash = "8e033dfb334c88c544e08c731d46924d53989edf0c279544530665b3115d4903"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1209422763.json"
+hash = "12fecff34d7687072300f971698e35a45b9953fe2236f15d75c1a528beefadbf"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1319195327.json"
+hash = "e95eaae9e68715f27734003c565867744edaf19f28de13b9b305880e1580cdc2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1347375077.json"
+hash = "acfda1548e3a6d90b541f12368230488ce395575c3c53fc715d9d1753cfecee2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1406990536.json"
+hash = "48ebe8840ac655fde33b29fa7eff91abf01a77b3c90742511511da036ff23029"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1408791673.json"
+hash = "890a11404ec0c79f5fe0208aae82d511e932a869820f97654998bae629515ea9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1442493560.json"
+hash = "4c9af0cb9d8f4eff28d609cbda6918ea633a16dc791b28da6ff2d8d7c75f4ded"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1449605975.json"
+hash = "628b4cee91042a1bb527304ea29113726e168bb8afbbe8c3afdadfb2a54a3885"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1450777975.json"
+hash = "7fca5a93d1a668bd683c39f03237a4c6b137c2d4a3619ab1ff4f7dc251f4e53d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1454474719.json"
+hash = "acae75932de4dfefc690d41348cda938a9bc3dee0fffc1da0ea3332bc5c88517"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1476876086.json"
+hash = "c97e8a10c55f08961560ba00e0f662ebde822f05ef957adf5dfa1f1455ddcdda"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1491690999.json"
+hash = "8ee5ea88b84bb117b6baee547e2a986f7cd33a6b4675cdc19889b045ff7bcb29"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1530782806.json"
+hash = "60086bd71b7b8bce5820833647d74eef328dfe82e47afef4b9a4d9b6e82edad7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1546880750.json"
+hash = "23abb1de3c77026f0c6c769e14a2295ab504551a9bbf953e35d600062f424e7a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1550807941.json"
+hash = "a1d16b316834192f3ec664c85108fe825fb7e6a56c8a0ff5b0f40a203014ad22"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1568383685.json"
+hash = "390c7f5bf8d385b7650eb77a99e5fc84f6b1dc8d57dd4d43dea1b1b1ef9753e9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1651216880.json"
+hash = "353cb910f5c887d27cb087b96db7691cf5a30d4c302cf531eb011209407d7e57"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1723822567.json"
+hash = "48b26f18f85786dbc82cb8ba88183846439ef0c621c060048f45e3171adebe06"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1762937559.json"
+hash = "0262e75a5a9ff8b232c0770a87862a2ca3d88f83a6b47605ef356c2a913cb49d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1767963330.json"
+hash = "17342f80b9d2f927cdf97282fbf9131bb7f89f6d32415c039f4d240add2a4f34"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1780310890.json"
+hash = "3bc143d25e38235e11398c1345edf7720210041b2bb67f7a5c25025137883c59"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1786456694.json"
+hash = "70cc9f43126879b9a13b123fb9836c51aefb2042707da9bc77aeeacff4eec7c2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1807157763.json"
+hash = "5464e5a6049c5d0ec2955fd8554682233208ffb19df5e7ab79ed36c3c17f60fe"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1836033087.json"
+hash = "66d1704de91925f1b657ef44f54a19215b26a5c3f4d4d196d4a0d0f57cb83f4d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1905885833.json"
+hash = "c1140fb3435e09ffbd7fa77b62ed27f23e129ed81eb4c0996af647141ef1f19d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1923555583.json"
+hash = "e327aafd2c230a64502096afd569d5062f387e8d44ff43fd645846a718ab422b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/1928195702.json"
+hash = "32f2cd1228e5b344d4b5c873a92adfb1c626ad1d456d4cc80ce71edab47b6db9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/2004151966.json"
+hash = "0dbb7cfbe8f6e8a2c1534e99e726b86d2be91a726af28c5dc0cc83dd11ff0f40"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/2027694486.json"
+hash = "8116b5fdbdacead51a04db4d781c772593d1fd46802a3bfe0a4996136babbfb6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/2116930246.json"
+hash = "edaa3f0dbe4b785a31bac838245de36c3d5c7b7e78c11e880939e945ed6d5600"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/2118886718.json"
+hash = "069c7727924e7b2f5be3df8ef894566139401768842ea3e9e011a78615c96267"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/2130252233.json"
+hash = "cf18bab6500931b858ab78d8383deb109ce4fbd95c737449425393ce833253c3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/216785235.json"
+hash = "eda0112d5b6ff3d0c99e5f5116901561d59e25caeda66bf03c26101e518984f9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/282482452.json"
+hash = "62f4c4843d4e962a87b174609017bf15c84609638e32b50cfb02d9ea7b9c4463"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/407379208.json"
+hash = "3a54d54b9191c7a3f0bf31d8c00cb6304704f78b150a6e159c12b8d5e1f9436f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/412783035.json"
+hash = "56bd2a31cf2e9e0208f36dfe1bbca8940198cd7cad2296b96dff52bd5c8c5431"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/419793592.json"
+hash = "11368a9a323933d502168f51f945d257c6366d588d6376e90a26529a107d042f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/448720973.json"
+hash = "54ee3fe3a84ee26397ef80e28f6ad5042f6bf65707aa2bd0c70a945355854747"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/451958516.json"
+hash = "4520e54dfa21e92438b93aac366b686272074551de5ba41144fe5e3e72d9fbd0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/491700739.json"
+hash = "c8829bdac35f525689d04e2a5a195ecac7ad4d5d82dbd1cbe24c1f3164e9cf29"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/495102496.json"
+hash = "e372965c6f685a594b3c353203cda39c19d2b86df54925d47188005714746399"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/503306379.json"
+hash = "9ec5dc0c46b4c3253cf65a23f3f763739af21129e931358102c0b40cb7dbfad4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/514601571.json"
+hash = "3885b74c87af480685595e0fc4ed414bf36d25cafca168409c7e9d7022daa41e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/525316230.json"
+hash = "513835703dadafe90a424dc57f15d21b3f7d1082519e089cd98710cdc99e559f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/547089585.json"
+hash = "0124936b76c65e53be1dd42eaf9587f406c272b557bda3ab4d2069ca03fc1b1c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/553104161.json"
+hash = "44eee4dc1efd3280c233d9e29f18316b69a97679e23d60519e6c394a01f134f0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/605410953.json"
+hash = "9b7c2b421d356d5385027387904349985f539bb7916c6a181177001859256b05"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/661830037.json"
+hash = "a2b9c445ae05897a0c03428daa783435b516c8a22618ff1c95d64c290df7e2e4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/729402919.json"
+hash = "ac82f5be8e5ffbc3dd15a77d73dd91113c59173a808ed10d8d24b040cc646539"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/736694571.json"
+hash = "d14971fac289322dc5b462d670735b41ba1d4b9328621343dadb7fc416aaef04"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/736723837.json"
+hash = "fba34adc46a50f903db0c4cc18c216c01e19509686d0ccf68fff6e17695157df"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/768919097.json"
+hash = "75e2081550cb47abfb8eeba7fabf08f6453127d0e5643923725a1a4addc0c9d6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/802457973.json"
+hash = "d813f3668b8c61df2c1d150894e5088c822490f8cc45c09b076d017cc9126132"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/827358167.json"
+hash = "01b78ea9278905e5ff77848edffd2084d1063b64bf0a871f57a7f22a590691ca"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/843689419.json"
+hash = "f2d243cba49acf819c8ba206102c0c7d6cef2bec44f6beb5147acdf6b48748b6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/907088952.json"
+hash = "eb1679a87615f9abee6e21d9e0aa574afdd75ad25abde388e4604ad7f2a6c08d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/2031103779/960756305.json"
+hash = "8659aeff4de80fc04dc0ae073d351cb103acdf9c3952e91fe514290ce47dd2b4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1003509931.json"
+hash = "089f1a4a50fdfd2e0c8b6e9b4dc4c4762df3b73d9fb0e8f6ee42588022d0f328"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1009091570.json"
+hash = "309ea5fad442b2c9d715edbd3a39bbc9e5d69b1b01d6cec4bef5d705d05ef168"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1037761246.json"
+hash = "81efd09586d9b622de128d9c1a7a4c494bae9a58bfd8ead2782ece92bbc94e5f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1050849724.json"
+hash = "e22d9a1fe014efbbcf1843e7b21fe9cccf8997949d372c79928d02288a775f77"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/10628027.json"
+hash = "e6f712769453ebd8a79ea8724864b6d6538caea6e1dfebd5ad243d36aa452727"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1117957127.json"
+hash = "9c4c28b2785ec51b5e0d5c140437a1dff4f26c5712ece9551f4a211f77299c9b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1138376371.json"
+hash = "ff4218c3d922082ac958a948e60b536ddff686d651209f12f0b171ca14b118a5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1153240589.json"
+hash = "ce035c7b1c1ecdb42bf505bb2e114364837ae1da4d0038633ba199e6aaeca7fb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1176017256.json"
+hash = "dc5dca159b53a2c860ba2a5b6648b7e9820b08a3013688a9bfa06b5656a28cbe"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1276314167.json"
+hash = "49d7e1fc14847d4fbcb7d428578b5898886ba558d7806594898e8e9312f53a88"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1331637659.json"
+hash = "37c26fb81e7e77a2291bd658bfdfc7c3fbef897154567c90f1729716b527299e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1369640251.json"
+hash = "972fc4da871b48dfb1d827c9e287f81e15b37c8e1b6f272f46aca26f1c9a3f13"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1398228445.json"
+hash = "92375f1d143c38516dda36bc53e55adaad185b9cdf3220314f50988d996e2088"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1425164372.json"
+hash = "267caedd9f276aaaf1368b18303f04e82e6f98c9fec80877e74b76da8eec2a4e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1508538392.json"
+hash = "aa2bb3fc870b392c053d2de62e9eed2feb8aeaa5863296cb4155b047afe0fcec"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1528938427.json"
+hash = "3faedd04e7e6f64154b28684cb39e8a0452db1aad163f58a964e8e86dbff457e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1531300267.json"
+hash = "abb4701a1b8d714f9902a03818cb52b5401cd04c84db42d9ad7f8473ff2ac574"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1550798157.json"
+hash = "a222ce8f60fdedbc27346bc305d6793547597494c7a86512f69953fddac738ff"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1552045377.json"
+hash = "f38d883e70f4df42124cbd33f962a1c1c0c030a5a9aee86d12b18cc1e75dcc17"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1569594151.json"
+hash = "6a9a2435bbf1c41d85e2740090dd1d3dee88001f431daa5de2f235c300500e22"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1594349692.json"
+hash = "986b03df6176300d333763d469d1f3ac55d353e58a45bc8f4fe08c74867d376e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1621376472.json"
+hash = "defb4b446f3f45d71d279d384b0e965d617503292c2d567288eb9cea0b69bccb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1684901870.json"
+hash = "5f585d9526dc8ea27e3c30c93e1f0796356773c5722bafb30f6df8b4aeaf56cb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1701826571.json"
+hash = "25b360c0fc51f86ccb277fdcb1710aa2086ec2c449a948d2ca6586277bd77f77"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1702022545.json"
+hash = "ad5aa36ee81e931bb0758dfd6cc29e0f9895640664540a9e32c31028c222ebc0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1766271280.json"
+hash = "2117c063ae320f81f67c217f1e2817de33a66a27ea05d4406a3a6dad623c704b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1775700618.json"
+hash = "73023ab3ae1bd796349c50e283fef3a444692b014eb110d120687bda8a901d67"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1912315942.json"
+hash = "35828b93f9c2f016d829245d85ec4c549c865fc67c3a66ba6b9e65bb0d80640d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/191891218.json"
+hash = "37a3e78f615326f2ea8c27a89d1ef311ecba34cfab6b4f56231db5d9e3d12f95"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1945563942.json"
+hash = "bffb24e4b654afa0693132753c8dd3d5c7413b849439e98b9310d39aa6c4654d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/1987065571.json"
+hash = "76fd6de97b2173910470fa39ac8a978727cc5d46c73043ffe95987dbac205d11"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/2045820057.json"
+hash = "3cc5df4f3af4576f9e397f3b664f0324be63f87989fa88754df3e5d2b9448ea3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/205046414.json"
+hash = "6cbe858db040f5635bb5bbe85656e3c19638802b8cfcbc018e795650dbcfbede"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/2063961213.json"
+hash = "9f2625a35e6f506a8dc4d6a6a54a415d470f8300239f3ab1346df2717b930aea"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/2069789909.json"
+hash = "27af3e3967da09880657ff13f1c97bed6c21665e3dcb5ed47097c1b18dd527bb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/2122539944.json"
+hash = "adcb67ae7654c575607922739ced0ec37a9fbf08449c6f54e16016e9ebd3f0f4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/218775622.json"
+hash = "49058c27c9cf700117edf957f69f0480dd732920fd2bdfc273ec36d9030ef485"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/284263248.json"
+hash = "e003aa252f55d5806b429ccb5f4df89b47edd6feb00aacc9c58aa077928c2efb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/340391495.json"
+hash = "bae1b3a91bdbe981069e24edd688932b55b2977fd6227c88cb0e39242570411e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/355010707.json"
+hash = "fb57b00dca1f92a6f7e4c0dbded005f0c9fc6e53d293700509e1e950c83da2e7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/366064264.json"
+hash = "ba03e2614cc943e381c823bbb9364aca5e3b0aad8adfbf6024e572a4b6cdf1c0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/415631972.json"
+hash = "5420444bf6fc10bc8872c1ea032ad21374c4dfdb437cf193db1fcd9b412fa31a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/436838076.json"
+hash = "397c86772c21206a403b46d23a1c31903e5dacc82e454593f9311dbafbc84fba"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/549250048.json"
+hash = "7b1cf20dbc419d20b8136acbd3654485a4fb47fa85373dd2ebd096631977c174"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/564553776.json"
+hash = "360506ae320aca19442cd77aa4ff05737ce6f2beda90a06b93f32b21ee246bb3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/576167792.json"
+hash = "d896d1c7b4f2540e29f3d91a1e13747691dac9f10d1a0692057cb5d0dea823f8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/657719354.json"
+hash = "3c419ede1a3717d391648ef02d085535d155df270c9f0029a05f5dc1012783a5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/660488523.json"
+hash = "7dc81eeb5a97e6a2b2b46ae927b840351b34ed4cc21c9ba02a690b5d7a38d912"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/713533116.json"
+hash = "2980810012c650d8ef027dac85d3675ef0aef23cab29a8e1f4595d2d49173798"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/715387305.json"
+hash = "67f8f68363c000d3cfba7fa24aaef3295fee0fa60fa8ff9df03765f14d3d0d57"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/729461503.json"
+hash = "6320d2fa8be8497d06d17881258aa4096937d74d33b1e4eb8051c3f788f6ac4e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/745152636.json"
+hash = "c6bec127ea1e813bccc91b72cb8e815dab759166914864b8e938a1b1bb3cd738"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/745587605.json"
+hash = "95c3daf443829cf33524c4e692452dd37e329159764547abca08ca17ae8eda91"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/811189054.json"
+hash = "359f80d2d634f363aec900be2d0621e6160c723d5bd950f5bfa1f88c3fa678c7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/97663117.json"
+hash = "2eb5f047e15768ea5e1d92b7c7f6261a51ed489b738c3843d778f95249436c1a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/987450875.json"
+hash = "f4b9780e1e6ecbc9ee99eae2313753f9c2c6e05d83c302a460b4128b404e4cdd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/343719817/992081203.json"
+hash = "9baf026db397f69d92b4df9101557a4448692a6b59c5f9495424ea19febdb89b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1004585364.json"
+hash = "539a455cfec53f6b9cfbef181b6bc0ec3ad279d23b760b088f43abd7283282cf"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1058055261.json"
+hash = "fd16b8fe70ee9d291469f7a9d2fbea1732ae89e2931fd9ee03617564292fd918"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1060103109.json"
+hash = "77835e56c597e399e9e3aa88dc85d52dc126f7ee37380890003b630229d4f041"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1118622834.json"
+hash = "a884e384f9b83eaee36f9dfeda0e6950c65e6acb329d0b49596ec01bed3004e5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1126016056.json"
+hash = "ccbf470fc7086120bb33ff7596e559569b909658c51d89c25b7307d280365a85"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1146668253.json"
+hash = "0f449e568c807b2fb08c2e957f67ad4da52c246d296e85f8d13a9bd364d09552"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1184542432.json"
+hash = "dcff527e9cedaa8f131ef7dfbc03882d29f50c23aab66c3d46f59c035c0f287b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1260394805.json"
+hash = "2459c055eaa2d8da39df1dc1d97cbf4921523508c703b4a72e311ca468686179"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1277221377.json"
+hash = "caa98d7defce1f6f1090b89ba426305e25fc0e82b9fe9a2f3b5fc8158b9e4a63"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1284331992.json"
+hash = "f8e0bf61d4357b19deb7354b9218d72793e17c9ae5f1cca1e10fac57cd0179d0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1319595390.json"
+hash = "a9c5e3c9a9b4bde263746795ff563e51a7cb6441133e9c1e139b76af1c5ab1ae"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1337503977.json"
+hash = "58ab0cc6a9b751b422ebbd55d09eb94e9b8eb498fff0544452fed53adc17ef13"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1352424308.json"
+hash = "ee9e867a6453dfec81182a129ce3c25bbd7ec3cff1877ffcf7173d9a71611899"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1358522697.json"
+hash = "dbfc0a68ee2e88c831e923db8b9826a8b21ce0e51ac382cff6afe828561519f3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1377988171.json"
+hash = "8fb7e4a9cd211181ab075af14ceb2d43da6e98067a61a71b3509cc1dbef47f66"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1387512965.json"
+hash = "aef135b9aacebb4cb839b5b8ff9e5fbeb3b521ccd8a445426cf9a03e3796dbd3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/140669168.json"
+hash = "53be17f6505ac0a11492fbcd97bb3d47a3e8566eecf725b872c908133b504d21"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1427562057.json"
+hash = "74f411ab22a7cd8355b0d179f7a8e9a6b62e5c3b10fdbc75450b6ef5df10031d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1434706839.json"
+hash = "ac6bd9cb02a18c4e898b7be6905b44f8b18ade467eaf16024258885e3b28282c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1447173135.json"
+hash = "3af8f20f7f7f5c458d3554217eb12a16a05c4449035814acb3cf2e6c474d20a2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1466692388.json"
+hash = "299b25ceafee836580e563722b8ed943a1cf4f3cd450e81e318d6f68902c43bc"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/148390723.json"
+hash = "dbe054d1c595e03ec8aa3d909967065929fd817e56c3b502e23abaedfeac914c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1513456368.json"
+hash = "cfc136f42461dcffb31bb42a3797a9cfc51f99ef655ff955ac48be15f2fd87f8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1530441338.json"
+hash = "6720befc029be28459033ddd24e5b0da949b6413b2d1754969a36cb922739b32"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1554764409.json"
+hash = "9fd9c5fc6194c796b4379fb492772bfecaa8a0b9ea3c852f5b795957676e10ad"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1586143453.json"
+hash = "a7347caeb7bceb1cb60947f3be5b241084120e66a128153dae5658a9aee24b3f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1586601745.json"
+hash = "97b9fb04641351798b140574f058b24e1448983fa1d8d6a7355369c93f8ed023"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1598604950.json"
+hash = "fd656ec370cd2d6a6cd669201ca6a03e3259a79bd8f612e5723716ea9dc9bed5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1631763710.json"
+hash = "a19c4952a19ecdb38ee8a097afff348df38d527a57cb4b6e5c7f9a7d4686acca"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1633655750.json"
+hash = "040c9fd74cd5f4f7717e654f4ca52db62edc0470d1fd34912075d49dadc10635"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1738168220.json"
+hash = "95b2368f5ba0ff341034a7ad8b1889f2eedc87e7ae078f535f6fce43a0f3e788"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1838419930.json"
+hash = "b9be65f821cc7732af1f0e83f3d2d814e16bbdb2b23fad3a0bb59b48ec1af5e9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/1997033934.json"
+hash = "05715a9d384c555ca6ef562e090c39fa5a51fb144b2c8672f6ce59246f7a3070"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/2036422864.json"
+hash = "b095a4582a4ef613463d17a1128cff94f00608d7b1494cc7a80f4d6b3ffb4bea"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/2065521841.json"
+hash = "efa3ca651f7879080c0713435cb0a5b56529f2d7e0b686288f979798c9f291d1"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/208047722.json"
+hash = "369a797e9467dc0ed3d07edf9320711bcf981f2829f45a49d33ca6f25ff5feb9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/218125129.json"
+hash = "0002c215e6a7b8726df39492814708e58d761757dd572609ad4e47a32b49b6ab"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/25140166.json"
+hash = "abb59930473b2a39457cacf5abbb16923a30e8b0a8ca5a55e73a5a8d227ef34b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/303587179.json"
+hash = "445679aba83e485a39e82e708b6a44f0fd2b4e8cc53f988201a4cfcfe2ef2166"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/358574341.json"
+hash = "e7e577390ba00cb4fa3f5b6330b4bdc9ab72310c4840eb044a51e75b66c93e2d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/392393736.json"
+hash = "87f665e6bbfef13ef12d4c161662b00b652a0fded6386e084a90f6970c9281be"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/495401956.json"
+hash = "96f9bf83cc02c40befc6ca3ccdcdd9b19eefb9424af24d98f880fa391c6fa8ac"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/509107376.json"
+hash = "fbd9dd2b11b4835fe7add6459714e3ab5d700404fdc22237e78d6638945f38d6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/575121659.json"
+hash = "45682184fa248a2a63551edc2a1f2f08228a48ead586fb395a71c3f38cb92c35"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/593979768.json"
+hash = "43c5dc79b981e1985fd0c5eb24c51f896de525f12565479f1532690a480324f6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/633827744.json"
+hash = "47092234df41095668a55ccff06dcc91c20e72cf0934a88c20a29fa8c460c68e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/659315322.json"
+hash = "bfe22095a0ffeddda56723e358082f942cba8d72ad4cb8ee579257659fe358bb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/714028845.json"
+hash = "9f99143ed76a93a29aec8d950f05be5bbb157d2c6c94c2416706ef3060536524"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/734496708.json"
+hash = "5ea64bfac63e679ad67412822a240cdfc0c8fd9db18730431f0654d2183c61d5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/759469882.json"
+hash = "058a02971ae2d8b06037a52f5a4d9125e7c6cf00e684fa1d88ebd11fd5c30712"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/810274327.json"
+hash = "a14762a328f2b8cf6baa425569fc85fe6ad7f3ddda6f8aa08810c628af1147ba"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/8409593.json"
+hash = "927ce4f503e014acde49876b2317f97f4d851859b3679fa6913b6b9639ec6fdb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/857979572.json"
+hash = "32864139ead0992e862c8e428da86d07684fd3bb01e63f8100640f9af6bda403"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/898243996.json"
+hash = "7d1375891eaeb7794b84bb811930e5146b1b51ae1ef4968dd558bc0ad049a3dc"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/917725792.json"
+hash = "20ff3aecebb3bc111c183d9cca251c09d7e12f9b1d2fc0e4ded654522bc3436f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/93669221.json"
+hash = "1802c7d0e909475ccc0111407e4e678e41334ddb8823c66864a94ea877affdc1"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/391308061/987239996.json"
+hash = "a64cdbf140bf1a271ba8ed19ce41ff8c708e77fbd0996faa67140bfe1fbed110"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1027518245.json"
+hash = "6eb9af9417349e6eb2c7048e914d5d1883bf0f4bab09e3a166ae6f4baa653f9b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/106026029.json"
+hash = "2fcc4c55e27b19ad821914c976ba75c98299d68b999b431a11154c6f76b7ed93"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1109298358.json"
+hash = "628d626bbb4ed5e531ce4d99f1f3e1b6030df2d24726a5e3f7c91f64fb9420f9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1123757467.json"
+hash = "e3530b465690d42e882cc7e77ea009009bc9ff892d180125fd9c444832ee89fc"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1153994618.json"
+hash = "66865ac1ef273a71ca8c7a8ef135465f8b82e4457e11a2f6cbe11fe9b2571aea"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/117094378.json"
+hash = "7c2e7065a3217c819ccda933db00569a7ebbe6c1acc77659def36e80010a46d7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1219420238.json"
+hash = "24ddfd973c993a40aa0f80be1c8f18f0ef30d87f7411470871c0ed1a7ade2b98"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1252811592.json"
+hash = "09b06409a95ba5f47da64508d4f23cbc19eb1500be82583dd69b78cd2c3e8743"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1341780904.json"
+hash = "f1a371a0461c1caed8eee5d3a8b1063e5bcbfff9b92a9b6f01b4384d1a2dc0f5"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1360261223.json"
+hash = "2b6565695de61e39dab6560e7848b36284faeb16a20100c4d3703bf5603039e3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1389636216.json"
+hash = "8773ae430f359500165fa7064e65af80126497b0352a0108c189dba83ae17fbe"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1393600928.json"
+hash = "76554c7b2128d750582b27addb102b96f4d067314af02ef528e07a3d46778721"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1423152064.json"
+hash = "7c71f6936b83b12e4364deb91a2eebe3402bcff7786934e1384b4590063e8406"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1459921631.json"
+hash = "af766b4ab26024013ea9d9d06eb34980ab8ebe5ccc94998f3a4ffff9fccc21c6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1491751386.json"
+hash = "f2809a38094c692e740b7d16b68c4c1ec41d58ad57ab8d7a5408e03b8e87e32a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1603276916.json"
+hash = "c43fe8250f03e2def7da85194f527f4fcb608dc6a92bbb5d3abaca361fb64944"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1607420283.json"
+hash = "0e77a2237205ace9364437767a545318c1c4d84539ebc8a5169bfc9f9b5c5f68"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1630806427.json"
+hash = "91c5416e1717e230187f286f9289c5177b949b9bc99da4d67e097d8178aed44d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1640887446.json"
+hash = "bc0bff31caa2d09e7a6eb2a4f7834ace408219f3537fecd244e5719631d1bf8c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/165029070.json"
+hash = "acf92bb2e18d467e007fe0d4b8f8172a5ad9ee5a4dab2af777f9fcc0c4fc49f1"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1737984276.json"
+hash = "bbfd36b699ee0e8a78a287fe29ee7fe22dcffbea445e62c6a028c49c93caa1bf"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1793856059.json"
+hash = "89fbdd49e599a03dbb529096f67e13c849b0f9babfe70832ece3ce87b23dede2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1793993238.json"
+hash = "bbc144bb55a1d5c1019d5061be3218dfa9eff3eaf2a05bbbe1a788418cd0fe25"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1798458738.json"
+hash = "6b5f161050977390fed75290eec6b3ddb1344eb04ed409be20adfb964caa4500"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1817558900.json"
+hash = "a1e710e7c3da75d2dada36944ce3b9b446fb7518fbf7f72fd9aac787d2221d79"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1844736374.json"
+hash = "a0994ddc1169d51c2491a5336dd0f84314ac080a769116d1ffff5056c9a6fb19"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1871154635.json"
+hash = "35e0396bb7715f1e19f385385b10174baf01f9eec5675ff7c721281601dbca33"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1923623380.json"
+hash = "f620feb7141ea903796db7d31841d80acb3242250d50e7dee82cc4cf7d25fedb"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1924469732.json"
+hash = "87a994aebff3ae2831109cd2c5a90f47b829b1a9fe14e966e877025d39aec69b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1941164425.json"
+hash = "6fc8f7048ca9e847835c51c2a35a4e824c90de39c460b64e9522b390c28278fd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1973931676.json"
+hash = "ef7a06e2bdcaeaf4262a6984ffacdce045ab6c89d600bfaa90f714a98dd8f18a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1992848526.json"
+hash = "cb33a9d71ae519b2c2155841e21283b9022903f896f8bb6b0f74dce39e3159e2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/1996729176.json"
+hash = "60943055ad363612a521ef837e2d13ed0205550ecb13dd855448175eaa339cc8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/2041154940.json"
+hash = "43f610ac2394426447740866500694ca3975e0b21f98d9297fdf10db2c08c73f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/2051369165.json"
+hash = "30ed9bd9726bf1e7d81ffce62881b914a4a0913e5a8f056d20a363b6b95cfdb6"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/2129175123.json"
+hash = "9b6fc35a2bb2e028b726e6e773a2185e98c7f7cb5b54317ce87d9ce6a4772ff7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/228479367.json"
+hash = "d80fd7822987b814d80a3ab54d45af846412d12c4e81871eef9fec738e7c9a31"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/255525975.json"
+hash = "ca80e9b09b338750cb82c803d65dd297601b065b09176e30e09320104deabc68"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/278719765.json"
+hash = "dfbb37bb397241643b68443dc0c8c2c9bc19b50c0d4da415254259575830fa10"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/376456340.json"
+hash = "48d850e4d04fab8e29531793b1bd1ac02cdb177effc59f3f5e4858f7b58c8be9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/379067085.json"
+hash = "16e29ddaf8ba68e660775ad927394f6deb64e5d1aea97396b1848945aaa1a683"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/414711137.json"
+hash = "0bbbc9c841045824ab583942b355de5cecb7b40ee425064ff4c31e277cba96bf"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/420003901.json"
+hash = "7de545caff871261afdfe044922c88a76bebbd72d0e879c5db9f71963d033a1a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/505776444.json"
+hash = "3da4be96c2fe9b3441608de97a024c08bb6ccb624388e98194208adb00ab724f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/62009192.json"
+hash = "22711cd6d075f7a25ffa0308944673bfbf4c36e35978499955c5f7dec3a2cd4c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/677875894.json"
+hash = "b9421470c4435c2454e368d3e6c5c58180e49899b7a04a2730a38205bcb9c7b2"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/718682057.json"
+hash = "fb0abfc1d84c3a03e8d82c44e136cb9b73139f6979048d5805f6d77e975bf8ac"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/96558345.json"
+hash = "7adcaf90f16e57e1e1c760311c9daf89c073ab11d97beee2e8904aa754bd7d5f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/585069616/967188758.json"
+hash = "2195f706ef30d1e8f87e695cc3e8feb83342fc7c612c900db5fa9d8738b213cf"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/1120320531.json"
+hash = "d43f40f473c469ab097ebe2148411f0076e630e7bd712203f2da6e7788260ad4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/1193316526.json"
+hash = "9e538155733bf8341374768316d2d61de54982b2dc258b834016e9100ebe470f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/1213995634.json"
+hash = "cf4d2db493e0b023531a9292f8cb28ecca787679c6c2260e2bb23ed3778db234"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/1398529010.json"
+hash = "56b5f0e01c703430f8f171b75ab2b3cdb4356fcceb71f0c7e42a789757cc9fb4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/1511047056.json"
+hash = "ee111da945fe510572c1edb7db70ce4617c943089d3b3a7461a3f1e74df76ab7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/1513557014.json"
+hash = "524fb2c10889910aaae4c791a72283ea5de46edf3793bd014ff1ac84d8e7397c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/1775197747.json"
+hash = "2bfb8e58da4a812e4445c265f3c65c120d071316a9189c09e32b9a8b9d3b998a"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/1936066148.json"
+hash = "722d68fa9e8f45182273a48bf18e74e273f401f8e7a9780adaaa4beda4b4089d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/295458084.json"
+hash = "51d4baa93305267518c397e55522091cb51b849875e31bcede7120cb5bc2085e"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/557081992.json"
+hash = "700fd1582346225867ce3ab074b2d70f01c97da0fdd566221a6a7c6c88ab1d47"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/621014539.json"
+hash = "ee73a4c92921f56a2cb70c0d4546ae4c760bf3c7bfb0c5b5fb0c6c8ab60c61bd"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/691724733.json"
+hash = "cdc2828a9f2bd51ef8d83b13bae05c7ff580433738a29220abca12433bd0134b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/748439490.json"
+hash = "13807dc9a16fab63d573067f4d3a829c045996dada0ff40034c5bbf63eb9c33c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/951351428.json"
+hash = "2d03f58513bccab15ee8e9d7be4c4ad137418c2ee6a581dd0f0cd26d826d278d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/NoQuestLine/1880269973.json"
+hash = "60e5180974d72362146013640d6790b9fbbec06ce84973f9bf571ad2b6f5eb32"
+
+[[files]]
+file = "config/bettertabs.cfg"
+hash = "4506e88bf5739de7ef0001989b2ffb3ca8f0ed2e4495413c46d286dc9147d362"
+
+[[files]]
+file = "config/blur.cfg"
+hash = "d81d0b0d97f5555f295ae2aa0a8c437de035352f81c194937548bcdb3626813d"
+
+[[files]]
+file = "config/bogosorter/config.json"
+hash = "52a92d814458333d1248f59c88ab33a191f0be0b664afb2e44c6a2dd6a01af4c"
+
+[[files]]
+file = "config/bogosorter/orePrefix.json"
+hash = "bb49c7b079dfe5948ae022bddc60d7812ecbb88cc0b065c64e6a3ac921e7e86b"
+
+[[files]]
+file = "config/chisel.cfg"
+hash = "c2dc371659cb7beef9ad0e210100200058d85049630621d8af4b1d8044a2e0e6"
+
+[[files]]
+file = "config/codechickenlib.cfg"
+hash = "1aa05b9dac4c5718764e3e0a4e23addce945ca283dd21959088520160b34a66e"
+
+[[files]]
+file = "config/craftingstation.cfg"
+hash = "eb664b7c61d532596ae449a60b4085efcb26257eda20eea76d96e10b5663d3f7"
+
+[[files]]
+file = "config/ctm.cfg"
+hash = "7ddf0e7cd4bb1dc03e6201ab78a7f73f0e7ac2cbbdb615c44fa72df5db63ca89"
+
+[[files]]
+file = "config/ctoasmod.cfg"
+hash = "963b57cdebc03fb9d68d05a79287690a465825398e39d734b6643ff74a3b025e"
+
+[[files]]
+file = "config/customloadingscreen.cfg"
+hash = "77c01ddb20381f7380b64c10f9910baeee9bf502ea366c6cd1c134d108f230af"
+
+[[files]]
+file = "config/customloadingscreen/example.json"
+hash = "a347a1090de0ccc6373ba2e476938cabb0574edd70f585605da04c74fb74818e"
+
+[[files]]
+file = "config/customloadingscreen_timings.nbt"
+hash = "dc3fa07196ff6f0e1f180576ea8e1f655794476f260a0eae81ddffcc4477e98e"
+
+[[files]]
+file = "config/customloadingscreen_tips.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/duradisplay.cfg"
+hash = "7c2398b116b4d41ce013335605a33c6ab23ecb51634acf499c7cd82e05cc7e24"
+
+[[files]]
+file = "config/elevatorid.cfg"
+hash = "8e77335385f267aec64478f3b772a35e58e16f3f7c46af367ff22f08a99f949a"
+
+[[files]]
+file = "config/endercore/cropconfig.json"
+hash = "f7c71c3da20edeb996b16f4d72709b55ba3f650eb91b0793a4dcefe495c200f3"
+
+[[files]]
+file = "config/endercore/endercore.cfg"
+hash = "291c54abd790f314cfa3ff4088c7a395927764827746137254728bfcb5a7ef37"
+
+[[files]]
+file = "config/enderio/enderio.cfg"
+hash = "569b4a65449c2f3d364f06752ed3d1befac3d83cea385173eea06c521d49a0ed"
+
+[[files]]
+file = "config/enderio/enderioadditions.cfg"
+hash = "1e04cb3b7aef7fca8ec909a8ac036fc3d0fbc9447f6a2f9b2d649cfe44bb6794"
+
+[[files]]
+file = "config/enderio/enderioconduits.cfg"
+hash = "35a4e0457fb74f9e03ab14030b1c4dcdac3f79dc1d38140e78fb536cba346946"
+
+[[files]]
+file = "config/enderio/enderioendergy.cfg"
+hash = "6044c83a86d2e70e0fe77ab33be7e36b38d8c41b47c974a007fd53cdcc6f7b47"
+
+[[files]]
+file = "config/enderio/enderiointegrationforestry.cfg"
+hash = "b2b939bdf9e2e31dcb49b51fb43e22c61ecdf2b86beb8f42b17c53830a189672"
+
+[[files]]
+file = "config/enderio/enderioinvpanel.cfg"
+hash = "ed4d7af6b5daba92828cbd7e71ae71891fe0d590411fdbcb5eccb6620c5fb1eb"
+
+[[files]]
+file = "config/enderio/enderiomachines.cfg"
+hash = "86ee8432e8dbc13f1be7c377cbe03f107d8c312297e47c459eaa1246f4c28e2d"
+
+[[files]]
+file = "config/enderio/enderiopowertools.cfg"
+hash = "e9d80640582d81c907ee378a35c2ec25f5edba4b4dcc394dd3153b455bd53908"
+
+[[files]]
+file = "config/enderio/painter_paint_sources_core.xml"
+hash = "e25dbcf90745a8318f6a47af83ffed9b3669de71039885c43ac568f9bf1274c0"
+
+[[files]]
+file = "config/enderio/painter_paint_sources_user.xml"
+hash = "c80691313787a06617249cfa769d71ac660e663ed62ec305188905cd9a2f53a7"
+
+[[files]]
+file = "config/enderio/recipes/addition_items.pdf"
+hash = "1c956fe6c6a620fc88280f7713ec529fdba052f37d44a1b5442102f88de0d350"
+
+[[files]]
+file = "config/enderio/recipes/aliases.pdf"
+hash = "accfb76970d255599c46ec39f30322f4751de99d73a4a36516d5decff5fc4db2"
+
+[[files]]
+file = "config/enderio/recipes/alloying.pdf"
+hash = "77edf12a532cc7128a877e0253120f4b0b32ed2e08fe0941f60d9ecb0ec487c7"
+
+[[files]]
+file = "config/enderio/recipes/alloying_modded.pdf"
+hash = "8bcdb1b550c47e45ca24fb2d80d1791e629ed9c1831cf9d4226821b19c895d63"
+
+[[files]]
+file = "config/enderio/recipes/balls.pdf"
+hash = "a63c49a33f835f2f726a7ccd71c226ec41adea087cce3312f1ffd38805b481f2"
+
+[[files]]
+file = "config/enderio/recipes/base.pdf"
+hash = "37c90cbee4cdce240f0ae5dd13f4c00ddab00d5f231aa4f6b5c77344eb6edeb3"
+
+[[files]]
+file = "config/enderio/recipes/capacitor.pdf"
+hash = "1ff0b4f184090992e08c77eb6a49ae9d88b77fe5ece905641db98a8d76c48675"
+
+[[files]]
+file = "config/enderio/recipes/capacitor_invpanel.pdf"
+hash = "0628f3052b093423f39d9574e775bf0318c5969152d2536b909b591452d74be9"
+
+[[files]]
+file = "config/enderio/recipes/capacitor_machines.pdf"
+hash = "82db42fe58e15489bad584bcc8fe6a32c09e006d9e45ec5c69f72acaaa119f91"
+
+[[files]]
+file = "config/enderio/recipes/conduits-applied-energistics.pdf"
+hash = "d3eb136581669c5638e7c41305848a97f0530e3e4d62535e529f07218430a2fa"
+
+[[files]]
+file = "config/enderio/recipes/conduits.pdf"
+hash = "3da70f090e37bc72ffce9cc3d902c9932301e4db0e2d6f86ae7fc9e35fd8c1f4"
+
+[[files]]
+file = "config/enderio/recipes/darksteel_upgrades.pdf"
+hash = "5f36b0fcf6087bb68294e3904fa15c3ccd19d7fc5a03889174b050a4174ef773"
+
+[[files]]
+file = "config/enderio/recipes/darksteel_upgrades_machines.pdf"
+hash = "0cf49b0c821889e73c6923ae5202454ab26a286ed56db9c9410178596a37d91b"
+
+[[files]]
+file = "config/enderio/recipes/enchanter.pdf"
+hash = "0041284886339fb4e8c6b55d534559762c09cbfeb897590988b78bace91c5e50"
+
+[[files]]
+file = "config/enderio/recipes/endergy.pdf"
+hash = "11cc2b22d249613d6d96e858b88ab114282b1d7a648fad5ad726558f314f0907"
+
+[[files]]
+file = "config/enderio/recipes/endergy_balls.pdf"
+hash = "1aa9d58c4c312dc6afbef38080186d7d223ca5f1a13400a8f78276c8ef2be17b"
+
+[[files]]
+file = "config/enderio/recipes/examples/broken_spawner.xml"
+hash = "91721516b595eae23e06403a8946f50c4d8983799046e7ea17e3d1a44d98c13f"
+
+[[files]]
+file = "config/enderio/recipes/examples/cheap_machines.xml"
+hash = "e18c6fccf85e3dc52ea15e7bb676001c7de23652dcfcf5048c22ff7b42a01fb7"
+
+[[files]]
+file = "config/enderio/recipes/examples/cheap_materials.xml"
+hash = "5944e2c14c0366c8e9744e69ebadf6f963698f33ac5730b19cebcde7fdff4c4c"
+
+[[files]]
+file = "config/enderio/recipes/examples/cheaty_spawner.xml"
+hash = "6f72476c5d2c48fa43581d79b2e15719439d2db3cadb41228cf4eae273568abf"
+
+[[files]]
+file = "config/enderio/recipes/examples/conduits_easy_recipes.xml"
+hash = "44ce32e12306aa8c3862cb3e4d08118157e27a077effce68503cabe82587163f"
+
+[[files]]
+file = "config/enderio/recipes/examples/conduits_hard_recipes.xml"
+hash = "9ea221f48997eb46c92035d1e306fd4575a5eed6454d152036d01e1fffe1d4de"
+
+[[files]]
+file = "config/enderio/recipes/examples/easy_recipes.xml"
+hash = "150ce6b1f7736e96ca426740c40adaaca5fb79963bc03f5b9067d408d57dec5c"
+
+[[files]]
+file = "config/enderio/recipes/examples/hard_recipes.xml"
+hash = "44d2ea959cf0051249d93f2137b03f8bfc5a17b71096b7205fb9a2dce7cc66bd"
+
+[[files]]
+file = "config/enderio/recipes/examples/infinity.xml"
+hash = "ca99c19ec38649911cfd1cf870f0fb26c68392f868d0427552fb9a02d3502c6e"
+
+[[files]]
+file = "config/enderio/recipes/examples/legacy_recipes.xml"
+hash = "12cecc0a543bfdbf11fb221ec39a2ded114e938d6fb0a82ddc72b40b8c70ca4a"
+
+[[files]]
+file = "config/enderio/recipes/examples/machines_easy_recipes.xml"
+hash = "725f3ff9e25ca184765fba828d57f75c2e33bbb2858310b2ba95b0820a1c74b9"
+
+[[files]]
+file = "config/enderio/recipes/examples/optional_tweaks.xml"
+hash = "283c497f2573598b40b4053f4fc39892a35c6a5ee30bab692ca297259c106362"
+
+[[files]]
+file = "config/enderio/recipes/examples/peaceful.xml"
+hash = "cf086eb4766932d17a1f9c2ea43611ba5d9f2e8b82231838886c483f6d0b3eef"
+
+[[files]]
+file = "config/enderio/recipes/examples/powertools_easy_recipes.xml"
+hash = "8c57899ec32317d1b6865fb2a6d37ed372e37f3d85450b0aea3f4435528550dc"
+
+[[files]]
+file = "config/enderio/recipes/examples/recipes.xsd"
+hash = "dc1c19a29b13f87bbd8a101d5c3fa46cd16f7c75bd8f3aadae6371bd27b413a6"
+
+[[files]]
+file = "config/enderio/recipes/examples/sagmill_dupe_recipe_patches.xml"
+hash = "f7fcb88fe9e7095fe0717195041a94bc11420a7467959653104d7e28cd734531"
+
+[[files]]
+file = "config/enderio/recipes/examples/strict_iron.xml"
+hash = "fed20d7748b10d2cd4e3e6092f3161f86dbd544a3f4158b375df4f69d582f722"
+
+[[files]]
+file = "config/enderio/recipes/examples/unhide_base.xml"
+hash = "59c4bb08fd7252d66b71bed3505f2b14603b5da10d0f2560a192d1fbfcb46c4d"
+
+[[files]]
+file = "config/enderio/recipes/fuels.pdf"
+hash = "9f9bd7a8494c3ee07658012e1e6c836fad26b1c641c7bd4df6469a588caa1a49"
+
+[[files]]
+file = "config/enderio/recipes/generated.pdf"
+hash = "2ca1e85a74d800abf27b4dff5efd4999b0652a72d0e67d33b33f8f3fa0be2c70"
+
+[[files]]
+file = "config/enderio/recipes/glass.pdf"
+hash = "1137e8cfee8ba06ec9780d536d2ada509450e94adef0440865631e1344ac5a74"
+
+[[files]]
+file = "config/enderio/recipes/hiding_base.pdf"
+hash = "cc941e27e86d10f27194d9a0bc0443a8ccfa3fd18900d7a7471330e68b516656"
+
+[[files]]
+file = "config/enderio/recipes/hiding_conduits.pdf"
+hash = "f5bbb578fa018c9d5de328f684ae726e92e5d4e7493d5a141a829d0850ab394a"
+
+[[files]]
+file = "config/enderio/recipes/hiding_endergy.pdf"
+hash = "6f21fbca440b860e0020192b24d3594a7aa8c897263c99afe440f79ac4f7634c"
+
+[[files]]
+file = "config/enderio/recipes/hiding_invpanel.pdf"
+hash = "da1daa537dd8aa6b77e406e4ebaad11f46d3ac46384ea4b2ec311467b3348e80"
+
+[[files]]
+file = "config/enderio/recipes/hiding_machines.pdf"
+hash = "c87e53e9c0037da13b6ef23e8fa59a9176aa071892f6364d91ada271a0bb69df"
+
+[[files]]
+file = "config/enderio/recipes/integration_railcraft_recipes.pdf"
+hash = "e13abb7ba0328f1ab000c7192bfa4c98ea9e605b7783c84b499b30ebf335dcf2"
+
+[[files]]
+file = "config/enderio/recipes/invpanel.pdf"
+hash = "2d1e803817bbc9de79d4e82ddeda547ff42e6615327ca5afc1a9c132ffd4b848"
+
+[[files]]
+file = "config/enderio/recipes/items.pdf"
+hash = "8166836f52bce62a4ad0d1fe5f1fe8232a5f940c4a390f5a83fe314a31b4fec6"
+
+[[files]]
+file = "config/enderio/recipes/machines.pdf"
+hash = "f8b9752c38418494d9987f32a4605dfce0ee0fb33dc735c3455f26783b7ffcb4"
+
+[[files]]
+file = "config/enderio/recipes/materials.pdf"
+hash = "78e1be25c54e289e6229d4bcad23a94b1f523752b009565913be1bbbc984c29f"
+
+[[files]]
+file = "config/enderio/recipes/misc.pdf"
+hash = "8134b05286aa1b3136f10619dcf28f1e8e6170d63798e487f23953b5bd974376"
+
+[[files]]
+file = "config/enderio/recipes/powertools.pdf"
+hash = "edff29ab75d7137f0e0506a2e0062ecc0ddb3d13a7386bbb31071234084d7462"
+
+[[files]]
+file = "config/enderio/recipes/sagmill.pdf"
+hash = "8c270abbdca6f3b9832ac6b2d02671943f6f1b21cc6564ea578fed00c46c9882"
+
+[[files]]
+file = "config/enderio/recipes/sagmill_metals.pdf"
+hash = "2324a56dbbfdebaa148c4b865c06f891d7f1a30933270eb9128b4d28cd97bdeb"
+
+[[files]]
+file = "config/enderio/recipes/sagmill_modded.pdf"
+hash = "42b56b097f90249c7fc71f3d801a5846504d24fb5629b4f8167c9e6aabe89f9e"
+
+[[files]]
+file = "config/enderio/recipes/sagmill_ores.pdf"
+hash = "0d22d9d9ade2645e2996334d9174a0400f26a51bd90f9171205d2e0c25171509"
+
+[[files]]
+file = "config/enderio/recipes/sagmill_silentgems.pdf"
+hash = "43b36963b874e906d7902cffd08994864adf913e9e60aafc8598208c686a62f0"
+
+[[files]]
+file = "config/enderio/recipes/sagmill_vanilla.pdf"
+hash = "d62bf64db08ba684a974dd01d667f1e7263aafb61e173870a29df0d15cd24a67"
+
+[[files]]
+file = "config/enderio/recipes/sagmill_vanilla2modded.pdf"
+hash = "1b746aff310b0aa7f5b49fb49024e70b7f961d9a7c082266fc518298318e9128"
+
+[[files]]
+file = "config/enderio/recipes/soulbinder.pdf"
+hash = "05342fb67486b98489f5bfc818c4e74367e492aafd27d36f7c94545fc0af5709"
+
+[[files]]
+file = "config/enderio/recipes/spawner.pdf"
+hash = "c89341ee06c299a3f730fd58ac973aed5380fbecbd5ddb851f7fb108f3fcb52c"
+
+[[files]]
+file = "config/enderio/recipes/tank.pdf"
+hash = "4ba8b206c6903cdce9a14903478d319aec741ef361b5b5df8dd055531fbb44fb"
+
+[[files]]
+file = "config/enderio/recipes/user/recipes.xsd"
+hash = "dc1c19a29b13f87bbd8a101d5c3fa46cd16f7c75bd8f3aadae6371bd27b413a6"
+
+[[files]]
+file = "config/enderio/recipes/user/user_recipes.xml"
+hash = "5e8ca1c4fbda4fe8ade0c4f180fa2f98feeb45a09729f8ba43f15e62bd331a85"
+
+[[files]]
+file = "config/enderio/recipes/vat.pdf"
+hash = "723a349168c2529297133d4705db609f1008720f8f7e3996c2b79dfd5511eb8e"
+
+[[files]]
+file = "config/enderutilities.cfg"
+hash = "fcd2ab45299a7b4c233a89d112f438d23ba35d173469f310022b1621f4f46529"
+
+[[files]]
+file = "config/entangled-common.toml"
+hash = "419e187d83bb43ef3dc1b50824a2a4b560747d27ddd64297120b16f5b0ea1562"
+
+[[files]]
+file = "config/fluiddrawers.cfg"
+hash = "a9845be03a2b99a5fb389e01d60f71acec618451a73872dd0a6a107c594636d0"
+
+[[files]]
+file = "config/forge.cfg"
+hash = "c642d286a0379b2aafd2d282a79239e58d32ac15cc25dfd08bab5747a5d85662"
+
+[[files]]
+file = "config/forgeChunkLoading.cfg"
+hash = "564d473aa2fd110645997db36a2307ded2f922243dd8df7a18670ebbc9bcd897"
+
+[[files]]
+file = "config/ftbbackups.cfg"
+hash = "08f58653a25082e11d04f3830994d1ca9e2c366f48ffce9c21dbcc2fba646c3f"
+
+[[files]]
+file = "config/ftblib.cfg"
+hash = "0c2a28be1dcc0fd1823e88430b8038de265c153b3441d9f972860e1df5c9d025"
+
+[[files]]
+file = "config/ftbutilities.cfg"
+hash = "160802c827b9a0482f56665e95d03b1c2ee4eb81736b08a4fe746c4c7ca37440"
+
+[[files]]
+file = "config/gregtech/dimensions.json"
+hash = "24fb71fcf6fa9e538e62e951d3f9190ae788ed67607196bc69d633bc37779cf4"
+
+[[files]]
+file = "config/gregtech/forestry_integration.cfg"
+hash = "09891bc5a3c4a7469571fc12b54fe47b8d94dd096edc218a40144db1aa093966"
+
+[[files]]
+file = "config/gregtech/gregtech.cfg"
+hash = "ef95cf59a855e968b0743cd879e3c61a09c143b7dedf4573c2b413c89b75f684"
+
+[[files]]
+file = "config/gregtech/modules.cfg"
+hash = "1dafe9419a719e790c5066872506411ebd7d515a54c7bfb24a47d7e75d434312"
+
+[[files]]
+file = "config/gregtech/persistent_data.dat"
+hash = "04eef7adca0b0ae5f3044df3fe0bf90d39aa55e84ffde7139881b4874bb44626"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/nether/blaze_deposit.json"
+hash = "12cead808847d962bf1d6b042a22562c4f35913d040f09b155beaaa1b711595d"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/nether/lava_deposit.json"
+hash = "d307913c6ee099a19a91a79e295e774ebc272d80d984d72dd970e4bded0c5d83"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/nether/natural_gas_deposit.json"
+hash = "ce4614b65f3fa79218c5302067acbdaed863fa4227257260905cbc8680ba9aa1"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/overworld/heavy_oil_deposit.json"
+hash = "d001b65acf1a6e7619ab56fd83de9d7d228377649d578ec68e6907bdf63e4041"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/overworld/light_oil_deposit.json"
+hash = "0e6a97e8179f5cda74da3408100a8b54fa76e445726c32fd6a977f959b911f9c"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/overworld/natural_gas_deposit.json"
+hash = "a5fbc91670cfb82827c1e69eeabc67b05cb04e5c3fe434c6c73635edd05123ee"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/overworld/oil_deposit.json"
+hash = "715bd3e87a0f7e7e7f43e4552720a00a09d5cd2033a179c8cb4fd491bbaad523"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/overworld/raw_oil_deposit.json"
+hash = "26351ff871ee417f2b2e5aa85d10113c8bf8e99197824725968edbeee03dd0c5"
+
+[[files]]
+file = "config/gregtech/worldgen/fluid/overworld/salt_water_deposit.json"
+hash = "9fc9b4361077ebc60588008ba09958bbe92415f3de8c2c759285882f86fce005"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/end/bauxite_vein.json"
+hash = "f911f5b00e642b72bf067ee797d0611719da011662ebb418b99365f2edbc401b"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/end/magnetite_vein.json"
+hash = "8545cd67498baf84abeac791f13ca337e5071bc3ea597ad7bdeb7fb0b85c64d5"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/end/naquadah_vein.json"
+hash = "37a0919bb9df9f7702327f65f6bebff07f249593d5b6ad949f96fd2593fcc789"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/end/pitchblende_vein.json"
+hash = "28af2934f52e822cb2194c4b1b19bef1ca90c7118f424239e7516b94dd660eae"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/end/plutonium_vein.json"
+hash = "159f3b0f0fc910ab9f11802a30e6b2821b217bd239d72c3fa7e2f0a7adce76ba"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/end/scheelite_vein.json"
+hash = "564d48c196c307c511e6921e6517d98915cbc4b279ba3e953b9ce6c51c72d5af"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/end/sheldonite_vein.json"
+hash = "6041560fc0361e53ceb107c9efa8bbb13dd8bd78a4fae156d30d31c17b9d9db5"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/banded_iron_vein.json"
+hash = "1523904971b042a3ab198e5917ce8f8e807677c368b61343b641b8f4f7bdbe42"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/beryllium_vein.json"
+hash = "ef3c61ab9743f594bcd9b822fd78f5fba49157b0e87802bb8101d8df1bb9bfe5"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/certus_quartz_vein.json"
+hash = "fd6b81d14333be17b6eddd9cc9f9d4c30633b4c7ad89bca6558cd0b645f89b97"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/firestone_vein.json"
+hash = "d2cd65c53b2465710f98ffc36c5701589f29bb706a327df2adf545261ea1b17e"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/fluorite_vein.json"
+hash = "c0f4e505fda5311cdf1ed4b53b7858ffbb07a8e5737e979e736454261306bea4"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/manganese_vein.json"
+hash = "6c4108d4f423d28d94bf0df5a84e5a1e625d4d3e7647408eeac4f72209cd92fb"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/mica_group_vein.json"
+hash = "fe983f304564b10374ed1ac6722ccc27504b5cd5409a179a619f261197f47911"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/molybdenum_vein.json"
+hash = "038360edac20b01d4e480ad29fb95957e0eae21b95ea9754a0118e75f1416114"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/monazite_vein.json"
+hash = "42064e309059563a0ab8708b0b3deb833babe0e646bb2a779c39e201923f6e4b"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/nether_quartz_vein.json"
+hash = "b64dcf5fd34ffac901acc9ee9fe586b734465c71778f094c7e46118a4f529b79"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/prasiolite_vein.json"
+hash = "b5678525b7566c990b4f7fb843a637838f1b826c9fbf595b581dacbd8b88ba1a"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/realgar_vein.json"
+hash = "736d6520bd282ce891081e93891458c8f0093f601e52850a66451bbf95149990"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/redstone_vein.json"
+hash = "35c4c84f3bb5093786d87ccc4a2371159b03748f58e50433ffaa1146ca8ea030"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/saltpeter_vein.json"
+hash = "8b44c2e63714a74a24d5dffb4221e1da6d72bdbb483105e1239640ba0d673e2a"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/sulfur_vein.json"
+hash = "ace82b39caf92f17a04589d50f4f5550beb8bc0330a55c0ecb13bfbfa51f3cb3"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/tetrahedrite_vein.json"
+hash = "42a373a6ddbc29a0a2a5e5ca3407d1bcc888e3b34a82a18ee68ea1cee24dddf0"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/topaz_vein.json"
+hash = "27358f82f539909876eb912997850df92794de31a10444c94409a4a6de4666da"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/nether/uvarovite_vein.json"
+hash = "104c6ccb53c3787a074a901d92110cf6a3c45866fa6bbc291363c9b3b105935b"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/apatite_vein.json"
+hash = "bdea93a51961fc638c1dabb54ca9c9a88444b40e1be250736b7aa1afbfb7b92b"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/baddeleyite_vein.json"
+hash = "d6d9f8f9f73d7ec9b29d18a8d9d81a1fffd2a48bb95505dca58545496d49bd8c"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/basalt_sphere.json"
+hash = "d3d9da46bd40ddab02949f511175c76f299e3bd15a7cf7c4f4f463dc651f12eb"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/black_granite_sphere.json"
+hash = "6838a1bee8fbf5e4056d3a59f283a262598b2ebabc5bb62837c026e503c62c01"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/blue_schist_sphere.json"
+hash = "4a56c59f6a68a2d33df644192da3c3761e68498ede43ae608abc5a7682d0ccb8"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/cassiterite_vein.json"
+hash = "797d2941c5ca037737da265320c4804d3f792ad19617a63d6d69da8181ee6701"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/coal_vein.json"
+hash = "ebe7cb7f08f5a5b18b68b7994601a14b8e317c2619ffe347a324a5443ca1731e"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/copper_tin_vein.json"
+hash = "d4ba8c082ede5c15953f8ebf6f4feb64142170384cb88cdd064e479afbf43508"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/copper_vein.json"
+hash = "aa7ae4a6b90d6427b3ac28db09f4a42565d4615e5041b041838892cfe039251d"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/cryolite_vein.json"
+hash = "7fffdfbffec643f5a7c640886d03427d72fe5b20dea09fac7213e2a80553b08f"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/diamond_vein.json"
+hash = "2e082708860df0237ebee3aece8fcf01a309cbff00b3819b5e677dd2ce9e8d19"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/dolomite_vein.json"
+hash = "f09652d00bdc0be2de803c1d80b607ab05572d7e829477379984654d9d1e3302"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/feldspar_vein.json"
+hash = "326c7da6bfabf42a96c376e18495c80d1ac7ac87ce6e359c7c07f9bef87d0111"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/galena_vein.json"
+hash = "8007a65e990e78cd08acc511010633ff3502ee6dfcac3b2c93ea09022acea229"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/garnet_tin_vein.json"
+hash = "1db05a2b2f3589daa94ded637bdb9261c859024d75ca907e9d03940fbf473576"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/garnet_vein.json"
+hash = "93b457629bc881eafd0b5a806a2777234430deb844076534ca2fbbdbf8bf6cbd"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/green_schist_sphere.json"
+hash = "69ee45946e3f2baf8c38dd60892dad2f4996e4e5542455d5543d6b20e101bdb8"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/iron_vein.json"
+hash = "e2f243977a30b31e6608f836dac24370f9c3c04e2a709198b18baf528ac9684d"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/jade_vein.json"
+hash = "d7ed183f70394b963fdab46e7141690cc58960a64e51a56e404bbaee230671f8"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/kaolinite_vein.json"
+hash = "d0e467ba421eb48f637f7547aa554e331d69180b843dbf39872c9b1b2f9c33bb"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/kimberlite_sphere.json"
+hash = "9bce5155fb64dbb335cef890cbf54e3dc13e2dc0fd07ba4695a7dc5a74e8d1ae"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/komatiite_sphere.json"
+hash = "ec8eb10d48dc93d4683f2b8648c6205d30b62e1eeca0e56f95644f6637dc0d48"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/lapis_vein.json"
+hash = "1b1b328ed57ff73d5f9fa9893fc5dc646d125e9b3c796d5cdc038572bd2cd3e2"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/lignite_vein.json"
+hash = "0ad6d1d9b78b780cb800e5497fa2f7ad075ec4008d01a73c46d0d6fd86c2b2ab"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/limestone_sphere.json"
+hash = "8229f2b1c1bcfe72ce5d3f079a07e7e757de2108283f7bcfa6cabc30ddee3366"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/lubricant_vein.json"
+hash = "4e8cde20ed67aa8d7e6e8f2e5bc6e132c379eb0e34885bb01b35d7e08dc87930"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/magnetite_vein.json"
+hash = "e5f1a666b792e0cdf7d848c1cd2f6b5295a1a7b2bc885a4145a6fe66fe9ba232"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/manganese_vein.json"
+hash = "995f136e6000de2579cdc16262854968fc020a62d3511c2c3e0d949f2364dce8"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/marble_sphere.json"
+hash = "5d0bc683629746edcac721ef58bcc70fc303c7d8c9190c44dcfcb1cc0346382c"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/mica_vein.json"
+hash = "31e3de4509ca82e2b53c478e9230123b6b3a494b7af2a56be25e40d351c25407"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/mineral_sand_vein.json"
+hash = "9496e0f177dbde01a48a5c8f383c5782a4c6846a13a9d21b6d48450bd20ae2d0"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/nickel_vein.json"
+hash = "7c07921b63df52f7a001b20a6ae0d3615dbf90a3a1a047c95a65e5305fc1cb02"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/oilsands_vein.json"
+hash = "d5deaa5ec870d065b8267795b71e127feffcbb0fb8dc79f01316d1f31df51670"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/olivine_vein.json"
+hash = "07b8e8a35963f0beecfb6dfd5869e1d29cc0b35df69afb9ab2a9d49b51b288ec"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/olivine_vein_2.json"
+hash = "fe11ca4f9bd627de5862251b747cc79b36037783b15433b7a84e5ee8fe609a0f"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/quartzite_sphere.json"
+hash = "923b80327a72972dd8d8a4daa8fbf7df478971319c0cbdf2d49d2fce35eee7a3"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/raw_oil_sphere.json"
+hash = "1267e81e0cf33735275d634c551869e90da72481d03acb63aaa7f03d60650125"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/red_granite_sphere.json"
+hash = "c3be841d464fdcb810ed85d9420b43610d5e791084fcb117b120c65fa377fb4c"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/redstone_vein.json"
+hash = "8fff32674645d91bf9a29103911c9e2d6ad93302e00df2455afb1ab5670b0451"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/salts_vein.json"
+hash = "d0ae94a827738c7d0e0e4bfee9c41d1e58e3655d306e3c189c421df4d090ccb0"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/sapphire_vein.json"
+hash = "dde0a4a9c1dd7c5429d93381f835a0738763ca6dc687a17b6aa495b0d0f04b0f"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/shale_sphere.json"
+hash = "06f3f61571fe7f5d74aec22244a5f2f87b74bb489d2352b8c29a06ba13c34a37"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/slate_sphere.json"
+hash = "8a9f0cf87830d6b03c0bb3e45832f869c8b9dfef56a9a0392bb7261d099cb40d"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/strontium_vein.json"
+hash = "b0c05d08430f9b9e25125447a4893f145ddb2380a49882a478e897166a631059"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/tanzanite_vein.json"
+hash = "7963ee12b3beb8fa3630c403ab14148f916325147e184e6c0150a7a06288f968"
+
+[[files]]
+file = "config/gregtech/worldgen/vein/overworld/tenorite_vein.json"
+hash = "99fcf0755cf5341ba7d5e82c1b7c5b3bc707b3df508b8b4260eb91ff03879f85"
+
+[[files]]
+file = "config/gregtech/worldgen_extracted.json"
+hash = "c546ad832791db6889e41edc4d3dc0cf59dbeaf6f94d9d8dbd611748274368a6"
+
+[[files]]
+file = "config/groovyscript.cfg"
+hash = "c946c841746b46de99943a919d888c817152b3016ea07e811d242b0a54ced15c"
+
+[[files]]
+file = "config/gtlitecore/gtlitecore.cfg"
+hash = "b298c4b9da43679c7e271f411d1bf1dd7ffcb264eb9c90df6915f4bd502ba213"
+
+[[files]]
+file = "config/gtlitecore/modules.cfg"
+hash = "15c1ccf15731a889f665d5e7f57a824759c4aaaf2f4d3e85377f12bc70ef996b"
+
+[[files]]
+file = "config/itemborders.cfg"
+hash = "41b685937b631cc416bf530348524e5fa51c4c589e8d11a9790c9c5ff109b898"
+
+[[files]]
+file = "config/itemzoom.cfg"
+hash = "1339c7255daeb6ed145fd9c03a6fd83ab9159cdc8cc46364137a6c1f0bb139fe"
+
+[[files]]
+file = "config/jei/itemBlacklist.cfg"
+hash = "413f63e9bf3b76e4e9c742f98ec0c3b8a1469ac83a917f13d5a6c40badeb0e57"
+
+[[files]]
+file = "config/jei/jei.cfg"
+hash = "a7960085e61ddca0163d06acf0d00b2360a137ef9b16d8afdf6ffefe8cc9d5c5"
+
+[[files]]
+file = "config/jei/searchColors.cfg"
+hash = "37063325efc43a8396530587822ee5aa1a0f7cba31bbf77f66d6c7042e8cc8ea"
+
+[[files]]
+file = "config/jei/worldSettings.cfg"
+hash = "edf71ba0f7f0429c42d062798625a1734b161b9f3aab9256dbae7911dc8fb1c4"
+
+[[files]]
+file = "config/jeiutilities/jeiutilities.cfg"
+hash = "959effb2822ae84517aae1cd0befd929bf2d2bb8b98c79ef23dff52eb18e141d"
+
+[[files]]
+file = "config/journeymap_ModInfo.cfg"
+hash = "6aabe8f8225e54495b99d71ccb03ceabbf1c5f5ae25205f4011fdb04c3d91b35"
+
+[[files]]
+file = "config/journeymap_server.cfg"
+hash = "bfd7c39f740bf5008fb0dc55e1b140d7436f47c57775f5a0fee9721db56229bc"
+
+[[files]]
+file = "config/keywizard.cfg"
+hash = "f3912c3b2ef0b4d391912af93a082f3f309abd2d32cd996362126367cc540bba"
+
+[[files]]
+file = "config/kleeslabs.cfg"
+hash = "d682da56898b089947b56e5f4226f148c96ee1d2412b5778c1ce95f54998da8f"
+
+[[files]]
+file = "config/loliasm.cfg"
+hash = "b116b2ed6e6221c5381d56da74c52824e20cc58c44a11af02e44053ba9b999be"
+
+[[files]]
+file = "config/loliasm/methods-stable_39.csv"
+hash = "0a583eb8a8f4e8f797e965fdecb5d72ec4d33fc7e8d6002a82a4e62d35abe9c2"
+
+[[files]]
+file = "config/microblocks.cfg"
+hash = "c37d2987b0316ae1e4b0bff9af8bca096e1d67cc5032c1287154b83cee37928e"
+
+[[files]]
+file = "config/minieffects.cfg"
+hash = "b4d9558f9a70d1d417ee5196ac889b70fae560ac3fa77d5f694be19d29d5850e"
+
+[[files]]
+file = "config/modnametooltip.cfg"
+hash = "c3b897ecd08bf4cf0a29747d40f5a5326df8cff30e797c15e37a3161a0b8de68"
+
+[[files]]
+file = "config/modularui.cfg"
+hash = "f3e46e51086d61ec7e30f0b5f46a723bf9d7806f0a49b364121179ee3a26bd27"
+
+[[files]]
+file = "config/morefurnaces.cfg"
+hash = "5113d755fa5e92a2aff47489cce11f3b915d1019494b4c8c83badc73b85ef1ae"
+
+[[files]]
+file = "config/morfonica.cfg"
+hash = "820acaaf843b6720ded49a0da244f57bc4c68ee758a05fa521e7e940a3917160"
+
+[[files]]
+file = "config/mousetweaks.cfg"
+hash = "ddfdf0aaff4f90ed208e8f583b8e98f517aade4dbe97f1b504c9c917a7b0c69a"
+
+[[files]]
+file = "config/multipart.cfg"
+hash = "09e84839cd81ded44c4a89136ad4c53ad9b276a3e3540e1b4040539ec040e0d7"
+
+[[files]]
+file = "config/naturescompass.cfg"
+hash = "28e572c7e27e276012f39ed1ff90a4b90ab85dbc0760e550883a10facbf974ef"
+
+[[files]]
+file = "config/neonium-options.json"
+hash = "60b242fefd42e57111292054dc850b85a64bd7c4c92299db3ce18e22c0fc5e95"
+
+[[files]]
+file = "config/personalworlds.cfg"
+hash = "b3b732fc30eeb22b44de84c03a0dbbe8e5ebc9a6b53481b517edfce15632607f"
+
+[[files]]
+file = "config/pickupnotifier.cfg"
+hash = "513bda857945ca222782a6a76e1ceda47c7a45da49f4aaaaaffa7754617708e4"
+
+[[files]]
+file = "config/retro_sophisticated_backpacks_client.cfg"
+hash = "9564bacdffdf5a403b99329436216e11f25fd4a950022a5d93505ec9d5562d2c"
+
+[[files]]
+file = "config/retro_sophisticated_backpacks_general.cfg"
+hash = "045c92977d5109578773c9aa86fd73435527d18c864ada7e5817f977ffe43268"
+
+[[files]]
+file = "config/simple_trophies.cfg"
+hash = "ce056dee2429773d85e88a952d5da6e6e47d8ab391bbe5de91008a846e67333f"
+
+[[files]]
+file = "config/smoothfont/smoothfont.cfg"
+hash = "91eb6e81590afa89799ac1108a13a7aa360cb1d02ffc9b17811ce1380c881fa2"
+
+[[files]]
+file = "config/snad.cfg"
+hash = "e30f8f43574957910bb41e19569f652518545fa09dbe54568ca006fa75fa6b32"
+
+[[files]]
+file = "config/splash.properties"
+hash = "9e1310d5281a1e09b8dc2ea7dad3e510b6ed8acb4cece1a29fa11e646cf967cf"
+
+[[files]]
+file = "config/stellar_core.cfg"
+hash = "82a84d87fb1ace7812094177611692648b23fdbeeba8e3de6136477249ba062b"
+
+[[files]]
+file = "config/storagedrawers.cfg"
+hash = "03ef69e1c7510532653a463d0a8443cb5518df21bbf95f282b59a98fef085ad0"
+
+[[files]]
+file = "config/theoneprobe.cfg"
+hash = "da602adf3f7d121a62ed2be3b6690434316744cc4f9b8bd6d9d4f62bcb0366ad"
+
+[[files]]
+file = "config/topaddons.cfg"
+hash = "17c7ceb4ac7bc4c5c918fe6c4bb4686680fdafa6a7fdb5fee4651e05f069ea92"
+
+[[files]]
+file = "config/topaddons_client.cfg"
+hash = "c2027d998f8ee0556c643faf22bdc0aacda877d5dc43945546112f4b72bdea3a"
+
+[[files]]
+file = "config/translocators.cfg"
+hash = "7da7581e87df4f0f619d85bf78431aabe35b32d83fea33881556ab5f4083e708"
+
+[[files]]
+file = "config/worldgen/dimensions.json"
+hash = "24fb71fcf6fa9e538e62e951d3f9190ae788ed67607196bc69d633bc37779cf4"
+
+[[files]]
+file = "config/worldgen/fluid/nether/blaze_deposit.json"
+hash = "12cead808847d962bf1d6b042a22562c4f35913d040f09b155beaaa1b711595d"
+
+[[files]]
+file = "config/worldgen/fluid/nether/lava_deposit.json"
+hash = "d307913c6ee099a19a91a79e295e774ebc272d80d984d72dd970e4bded0c5d83"
+
+[[files]]
+file = "config/worldgen/fluid/nether/natural_gas_deposit.json"
+hash = "ce4614b65f3fa79218c5302067acbdaed863fa4227257260905cbc8680ba9aa1"
+
+[[files]]
+file = "config/worldgen/fluid/overworld/heavy_oil_deposit.json"
+hash = "d001b65acf1a6e7619ab56fd83de9d7d228377649d578ec68e6907bdf63e4041"
+
+[[files]]
+file = "config/worldgen/fluid/overworld/light_oil_deposit.json"
+hash = "0e6a97e8179f5cda74da3408100a8b54fa76e445726c32fd6a977f959b911f9c"
+
+[[files]]
+file = "config/worldgen/fluid/overworld/natural_gas_deposit.json"
+hash = "a5fbc91670cfb82827c1e69eeabc67b05cb04e5c3fe434c6c73635edd05123ee"
+
+[[files]]
+file = "config/worldgen/fluid/overworld/oil_deposit.json"
+hash = "715bd3e87a0f7e7e7f43e4552720a00a09d5cd2033a179c8cb4fd491bbaad523"
+
+[[files]]
+file = "config/worldgen/fluid/overworld/raw_oil_deposit.json"
+hash = "26351ff871ee417f2b2e5aa85d10113c8bf8e99197824725968edbeee03dd0c5"
+
+[[files]]
+file = "config/worldgen/fluid/overworld/salt_water_deposit.json"
+hash = "d35a298dd3eb8363c6cb9be63211127feae862d5b3044b655d29090dcb7c8ca7"
+
+[[files]]
+file = "config/worldgen/vein/end/bauxite_vein.json"
+hash = "f911f5b00e642b72bf067ee797d0611719da011662ebb418b99365f2edbc401b"
+
+[[files]]
+file = "config/worldgen/vein/end/magnetite_vein.json"
+hash = "8545cd67498baf84abeac791f13ca337e5071bc3ea597ad7bdeb7fb0b85c64d5"
+
+[[files]]
+file = "config/worldgen/vein/end/naquadah_vein.json"
+hash = "37a0919bb9df9f7702327f65f6bebff07f249593d5b6ad949f96fd2593fcc789"
+
+[[files]]
+file = "config/worldgen/vein/end/pitchblende_vein.json"
+hash = "28af2934f52e822cb2194c4b1b19bef1ca90c7118f424239e7516b94dd660eae"
+
+[[files]]
+file = "config/worldgen/vein/end/plutonium_vein.json"
+hash = "159f3b0f0fc910ab9f11802a30e6b2821b217bd239d72c3fa7e2f0a7adce76ba"
+
+[[files]]
+file = "config/worldgen/vein/end/scheelite_vein.json"
+hash = "564d48c196c307c511e6921e6517d98915cbc4b279ba3e953b9ce6c51c72d5af"
+
+[[files]]
+file = "config/worldgen/vein/end/sheldonite_vein.json"
+hash = "6041560fc0361e53ceb107c9efa8bbb13dd8bd78a4fae156d30d31c17b9d9db5"
+
+[[files]]
+file = "config/worldgen/vein/nether/banded_iron_vein.json"
+hash = "1523904971b042a3ab198e5917ce8f8e807677c368b61343b641b8f4f7bdbe42"
+
+[[files]]
+file = "config/worldgen/vein/nether/beryllium_vein.json"
+hash = "ef3c61ab9743f594bcd9b822fd78f5fba49157b0e87802bb8101d8df1bb9bfe5"
+
+[[files]]
+file = "config/worldgen/vein/nether/certus_quartz_vein.json"
+hash = "fd6b81d14333be17b6eddd9cc9f9d4c30633b4c7ad89bca6558cd0b645f89b97"
+
+[[files]]
+file = "config/worldgen/vein/nether/firestone_vein.json"
+hash = "d2cd65c53b2465710f98ffc36c5701589f29bb706a327df2adf545261ea1b17e"
+
+[[files]]
+file = "config/worldgen/vein/nether/fluorite_vein.json"
+hash = "c0f4e505fda5311cdf1ed4b53b7858ffbb07a8e5737e979e736454261306bea4"
+
+[[files]]
+file = "config/worldgen/vein/nether/manganese_vein.json"
+hash = "6c4108d4f423d28d94bf0df5a84e5a1e625d4d3e7647408eeac4f72209cd92fb"
+
+[[files]]
+file = "config/worldgen/vein/nether/mica_group_vein.json"
+hash = "fe983f304564b10374ed1ac6722ccc27504b5cd5409a179a619f261197f47911"
+
+[[files]]
+file = "config/worldgen/vein/nether/molybdenum_vein.json"
+hash = "038360edac20b01d4e480ad29fb95957e0eae21b95ea9754a0118e75f1416114"
+
+[[files]]
+file = "config/worldgen/vein/nether/monazite_vein.json"
+hash = "42064e309059563a0ab8708b0b3deb833babe0e646bb2a779c39e201923f6e4b"
+
+[[files]]
+file = "config/worldgen/vein/nether/nether_quartz_vein.json"
+hash = "b64dcf5fd34ffac901acc9ee9fe586b734465c71778f094c7e46118a4f529b79"
+
+[[files]]
+file = "config/worldgen/vein/nether/prasiolite_vein.json"
+hash = "b5678525b7566c990b4f7fb843a637838f1b826c9fbf595b581dacbd8b88ba1a"
+
+[[files]]
+file = "config/worldgen/vein/nether/realgar_vein.json"
+hash = "736d6520bd282ce891081e93891458c8f0093f601e52850a66451bbf95149990"
+
+[[files]]
+file = "config/worldgen/vein/nether/redstone_vein.json"
+hash = "35c4c84f3bb5093786d87ccc4a2371159b03748f58e50433ffaa1146ca8ea030"
+
+[[files]]
+file = "config/worldgen/vein/nether/saltpeter_vein.json"
+hash = "8b44c2e63714a74a24d5dffb4221e1da6d72bdbb483105e1239640ba0d673e2a"
+
+[[files]]
+file = "config/worldgen/vein/nether/sulfur_vein.json"
+hash = "ace82b39caf92f17a04589d50f4f5550beb8bc0330a55c0ecb13bfbfa51f3cb3"
+
+[[files]]
+file = "config/worldgen/vein/nether/tetrahedrite_vein.json"
+hash = "42a373a6ddbc29a0a2a5e5ca3407d1bcc888e3b34a82a18ee68ea1cee24dddf0"
+
+[[files]]
+file = "config/worldgen/vein/nether/topaz_vein.json"
+hash = "27358f82f539909876eb912997850df92794de31a10444c94409a4a6de4666da"
+
+[[files]]
+file = "config/worldgen/vein/nether/uvarovite_vein.json"
+hash = "104c6ccb53c3787a074a901d92110cf6a3c45866fa6bbc291363c9b3b105935b"
+
+[[files]]
+file = "config/worldgen/vein/overworld/apatite_vein.json"
+hash = "bdea93a51961fc638c1dabb54ca9c9a88444b40e1be250736b7aa1afbfb7b92b"
+
+[[files]]
+file = "config/worldgen/vein/overworld/baddeleyite_vein.json"
+hash = "d6d9f8f9f73d7ec9b29d18a8d9d81a1fffd2a48bb95505dca58545496d49bd8c"
+
+[[files]]
+file = "config/worldgen/vein/overworld/basalt_sphere.json"
+hash = "d3d9da46bd40ddab02949f511175c76f299e3bd15a7cf7c4f4f463dc651f12eb"
+
+[[files]]
+file = "config/worldgen/vein/overworld/black_granite_sphere.json"
+hash = "6838a1bee8fbf5e4056d3a59f283a262598b2ebabc5bb62837c026e503c62c01"
+
+[[files]]
+file = "config/worldgen/vein/overworld/blue_schist_sphere.json"
+hash = "4a56c59f6a68a2d33df644192da3c3761e68498ede43ae608abc5a7682d0ccb8"
+
+[[files]]
+file = "config/worldgen/vein/overworld/cassiterite_vein.json"
+hash = "797d2941c5ca037737da265320c4804d3f792ad19617a63d6d69da8181ee6701"
+
+[[files]]
+file = "config/worldgen/vein/overworld/coal_vein.json"
+hash = "ebe7cb7f08f5a5b18b68b7994601a14b8e317c2619ffe347a324a5443ca1731e"
+
+[[files]]
+file = "config/worldgen/vein/overworld/copper_tin_vein.json"
+hash = "d4ba8c082ede5c15953f8ebf6f4feb64142170384cb88cdd064e479afbf43508"
+
+[[files]]
+file = "config/worldgen/vein/overworld/copper_vein.json"
+hash = "aa7ae4a6b90d6427b3ac28db09f4a42565d4615e5041b041838892cfe039251d"
+
+[[files]]
+file = "config/worldgen/vein/overworld/cryolite_vein.json"
+hash = "7fffdfbffec643f5a7c640886d03427d72fe5b20dea09fac7213e2a80553b08f"
+
+[[files]]
+file = "config/worldgen/vein/overworld/diamond_vein.json"
+hash = "2e082708860df0237ebee3aece8fcf01a309cbff00b3819b5e677dd2ce9e8d19"
+
+[[files]]
+file = "config/worldgen/vein/overworld/dolomite_vein.json"
+hash = "f09652d00bdc0be2de803c1d80b607ab05572d7e829477379984654d9d1e3302"
+
+[[files]]
+file = "config/worldgen/vein/overworld/feldspar_vein.json"
+hash = "326c7da6bfabf42a96c376e18495c80d1ac7ac87ce6e359c7c07f9bef87d0111"
+
+[[files]]
+file = "config/worldgen/vein/overworld/galena_vein.json"
+hash = "8007a65e990e78cd08acc511010633ff3502ee6dfcac3b2c93ea09022acea229"
+
+[[files]]
+file = "config/worldgen/vein/overworld/garnet_tin_vein.json"
+hash = "1db05a2b2f3589daa94ded637bdb9261c859024d75ca907e9d03940fbf473576"
+
+[[files]]
+file = "config/worldgen/vein/overworld/garnet_vein.json"
+hash = "93b457629bc881eafd0b5a806a2777234430deb844076534ca2fbbdbf8bf6cbd"
+
+[[files]]
+file = "config/worldgen/vein/overworld/green_schist_sphere.json"
+hash = "69ee45946e3f2baf8c38dd60892dad2f4996e4e5542455d5543d6b20e101bdb8"
+
+[[files]]
+file = "config/worldgen/vein/overworld/iron_vein.json"
+hash = "e2f243977a30b31e6608f836dac24370f9c3c04e2a709198b18baf528ac9684d"
+
+[[files]]
+file = "config/worldgen/vein/overworld/jade_vein.json"
+hash = "d7ed183f70394b963fdab46e7141690cc58960a64e51a56e404bbaee230671f8"
+
+[[files]]
+file = "config/worldgen/vein/overworld/kaolinite_vein.json"
+hash = "d0e467ba421eb48f637f7547aa554e331d69180b843dbf39872c9b1b2f9c33bb"
+
+[[files]]
+file = "config/worldgen/vein/overworld/kimberlite_sphere.json"
+hash = "9bce5155fb64dbb335cef890cbf54e3dc13e2dc0fd07ba4695a7dc5a74e8d1ae"
+
+[[files]]
+file = "config/worldgen/vein/overworld/komatiite_sphere.json"
+hash = "ec8eb10d48dc93d4683f2b8648c6205d30b62e1eeca0e56f95644f6637dc0d48"
+
+[[files]]
+file = "config/worldgen/vein/overworld/lapis_vein.json"
+hash = "1b1b328ed57ff73d5f9fa9893fc5dc646d125e9b3c796d5cdc038572bd2cd3e2"
+
+[[files]]
+file = "config/worldgen/vein/overworld/lignite_vein.json"
+hash = "0ad6d1d9b78b780cb800e5497fa2f7ad075ec4008d01a73c46d0d6fd86c2b2ab"
+
+[[files]]
+file = "config/worldgen/vein/overworld/limestone_sphere.json"
+hash = "8229f2b1c1bcfe72ce5d3f079a07e7e757de2108283f7bcfa6cabc30ddee3366"
+
+[[files]]
+file = "config/worldgen/vein/overworld/lubricant_vein.json"
+hash = "4e8cde20ed67aa8d7e6e8f2e5bc6e132c379eb0e34885bb01b35d7e08dc87930"
+
+[[files]]
+file = "config/worldgen/vein/overworld/magnetite_vein.json"
+hash = "e5f1a666b792e0cdf7d848c1cd2f6b5295a1a7b2bc885a4145a6fe66fe9ba232"
+
+[[files]]
+file = "config/worldgen/vein/overworld/manganese_vein.json"
+hash = "995f136e6000de2579cdc16262854968fc020a62d3511c2c3e0d949f2364dce8"
+
+[[files]]
+file = "config/worldgen/vein/overworld/marble_sphere.json"
+hash = "5d0bc683629746edcac721ef58bcc70fc303c7d8c9190c44dcfcb1cc0346382c"
+
+[[files]]
+file = "config/worldgen/vein/overworld/mica_vein.json"
+hash = "31e3de4509ca82e2b53c478e9230123b6b3a494b7af2a56be25e40d351c25407"
+
+[[files]]
+file = "config/worldgen/vein/overworld/mineral_sand_vein.json"
+hash = "9496e0f177dbde01a48a5c8f383c5782a4c6846a13a9d21b6d48450bd20ae2d0"
+
+[[files]]
+file = "config/worldgen/vein/overworld/nickel_vein.json"
+hash = "7c07921b63df52f7a001b20a6ae0d3615dbf90a3a1a047c95a65e5305fc1cb02"
+
+[[files]]
+file = "config/worldgen/vein/overworld/oilsands_vein.json"
+hash = "d5deaa5ec870d065b8267795b71e127feffcbb0fb8dc79f01316d1f31df51670"
+
+[[files]]
+file = "config/worldgen/vein/overworld/olivine_vein.json"
+hash = "07b8e8a35963f0beecfb6dfd5869e1d29cc0b35df69afb9ab2a9d49b51b288ec"
+
+[[files]]
+file = "config/worldgen/vein/overworld/olivine_vein_2.json"
+hash = "fe11ca4f9bd627de5862251b747cc79b36037783b15433b7a84e5ee8fe609a0f"
+
+[[files]]
+file = "config/worldgen/vein/overworld/quartzite_sphere.json"
+hash = "923b80327a72972dd8d8a4daa8fbf7df478971319c0cbdf2d49d2fce35eee7a3"
+
+[[files]]
+file = "config/worldgen/vein/overworld/raw_oil_sphere.json"
+hash = "1267e81e0cf33735275d634c551869e90da72481d03acb63aaa7f03d60650125"
+
+[[files]]
+file = "config/worldgen/vein/overworld/red_granite_sphere.json"
+hash = "c3be841d464fdcb810ed85d9420b43610d5e791084fcb117b120c65fa377fb4c"
+
+[[files]]
+file = "config/worldgen/vein/overworld/redstone_vein.json"
+hash = "8fff32674645d91bf9a29103911c9e2d6ad93302e00df2455afb1ab5670b0451"
+
+[[files]]
+file = "config/worldgen/vein/overworld/salts_vein.json"
+hash = "d0ae94a827738c7d0e0e4bfee9c41d1e58e3655d306e3c189c421df4d090ccb0"
+
+[[files]]
+file = "config/worldgen/vein/overworld/sapphire_vein.json"
+hash = "dde0a4a9c1dd7c5429d93381f835a0738763ca6dc687a17b6aa495b0d0f04b0f"
+
+[[files]]
+file = "config/worldgen/vein/overworld/shale_sphere.json"
+hash = "06f3f61571fe7f5d74aec22244a5f2f87b74bb489d2352b8c29a06ba13c34a37"
+
+[[files]]
+file = "config/worldgen/vein/overworld/slate_sphere.json"
+hash = "8a9f0cf87830d6b03c0bb3e45832f869c8b9dfef56a9a0392bb7261d099cb40d"
+
+[[files]]
+file = "config/worldgen/vein/overworld/strontium_vein.json"
+hash = "b0c05d08430f9b9e25125447a4893f145ddb2380a49882a478e897166a631059"
+
+[[files]]
+file = "config/worldgen/vein/overworld/tanzanite_vein.json"
+hash = "7963ee12b3beb8fa3630c403ab14148f916325147e184e6c0150a7a06288f968"
+
+[[files]]
+file = "config/worldgen/vein/overworld/tenorite_vein.json"
+hash = "99fcf0755cf5341ba7d5e82c1b7c5b3bc707b3df508b8b4260eb91ff03879f85"
+
+[[files]]
+file = "config/worldgen/worldgen_extracted.json"
+hash = "c546ad832791db6889e41edc4d3dc0cf59dbeaf6f94d9d8dbd611748274368a6"
+
+[[files]]
+file = "fontfiles/Exo-Medium.otf"
+hash = "bd00b3dce2f70c2568a15f2a23de48f9c357c1b8bdf8b680c143ad52739e3c7d"
+
+[[files]]
+file = "fontfiles/Resource Han Rounded CN-Regular.ttf"
+hash = "1c5c623f008eabef10c45135a48b01b46311f9369c28857355872cfe05f48dc0"
+
+[[files]]
+file = "groovy/event/MaterialEventHandler.groovy"
+hash = "80476d3d3169ff17dc7f772e62cd9debfb6e2426558aabab7cf892c1d8e051ff"
+
+[[files]]
+file = "groovy/event/TooltipEventHandler.groovy"
+hash = "8678a30868111f99b766ee3a0b2cf3e6bf44ff0604a95941d277d4b1672f507c"
+
+[[files]]
+file = "groovy/loader/OreDictionaryLoader.groovy"
+hash = "fe8cfb55540f7c6ec322757afaaabe6742f223b0a2b1ef2b8b9536d0c125f877"
+
+[[files]]
+file = "groovy/loader/hooks/P2PConvertor.groovy"
+hash = "830bd25835d7de559257f7a312081fcfab880fdf0f3dffcc1d2b6b60feb5c725"
+
+[[files]]
+file = "groovy/loader/recipe/AppliedEnergistics2.groovy"
+hash = "dc297c234b98d070c997937e877863bb691f43b6a0b40f1b8f93586741a6556d"
+
+[[files]]
+file = "groovy/loader/recipe/BetterBuildersWands.groovy"
+hash = "e8d85f0a56bc9f5222ffb10068bbb9b2b590cc99b9898d16a8cf172ec4ea96d3"
+
+[[files]]
+file = "groovy/loader/recipe/BuildingGadgets.groovy"
+hash = "3634d1052d476d56f5948d61b1794db0dba092f7866378ef3e8cd3728f1eaa62"
+
+[[files]]
+file = "groovy/loader/recipe/Chisel.groovy"
+hash = "ade37f8532433693b2e42fca2f6d81d7a0e4671b9e81c612232308c0599e98e3"
+
+[[files]]
+file = "groovy/loader/recipe/EnderCore.groovy"
+hash = "e97b45c56d6a72bc36cd4a802d63eac1f7207f202e323a255e173bc252869d0a"
+
+[[files]]
+file = "groovy/loader/recipe/EnderIO.groovy"
+hash = "96caddca387cd5eebb8cf510c54de732365aa07687bcb3e43772d1ad110d6397"
+
+[[files]]
+file = "groovy/loader/recipe/EnderUtilities.groovy"
+hash = "4e62fd709bdf9c3042b164289acbadb40fe2fa6e1291c092536a8583c9ef9736"
+
+[[files]]
+file = "groovy/loader/recipe/Entangled.groovy"
+hash = "c533768f773b989013eed563e6d4e74009f61029ab796504dedfb6f6b07adadf"
+
+[[files]]
+file = "groovy/loader/recipe/FluidDrawers.groovy"
+hash = "aaf757179d00247a25894f968f298eefff64f0572efc7d16541f89fb9fb76f22"
+
+[[files]]
+file = "groovy/loader/recipe/GregTech.groovy"
+hash = "06c481d3c123a6a035354614d37054294744513ba19c4a7f6650c9ca4f337212"
+
+[[files]]
+file = "groovy/loader/recipe/GregTechLiteCore.groovy"
+hash = "26852b402516c15a35a1caadc11d6ae4989e837a68d42ad0da45450763258469"
+
+[[files]]
+file = "groovy/loader/recipe/JustEnoughItems.groovy"
+hash = "638ab5d8f957f344ec42d077648bf40a9296c7917914105ca7282c5c0b83ab37"
+
+[[files]]
+file = "groovy/loader/recipe/MoreFurnaces.groovy"
+hash = "1223ab68be3f7e9fb3e295e3bf9343a8d728a84b1e95578e8ec92f4de2baed79"
+
+[[files]]
+file = "groovy/loader/recipe/PersonalWorlds.groovy"
+hash = "0200e0e094ce9c6e952db5315a3e131444624484e5466cb879027d290a5df4c6"
+
+[[files]]
+file = "groovy/loader/recipe/ProjectRed.groovy"
+hash = "0b2b9ec7c316ee6183b09ad8a06f8e492974b6e7340231a2899540808e651cf3"
+
+[[files]]
+file = "groovy/loader/recipe/SophisticatedBackpacks.groovy"
+hash = "b3489f8794c4505aa4de35a8a27c2c52d7fb9e4af1904cc184480177795da753"
+
+[[files]]
+file = "groovy/loader/recipe/Translocators.groovy"
+hash = "597e589a8308da832ad739a21851efe305666cad8f0c3c1e628515dd99dd2aee"
+
+[[files]]
+file = "groovy/loader/recipe/TrashCans.groovy"
+hash = "d794de24be099f92102cbd4178fd183bec6e8ca82e007365157b5703c0b611d2"
+
+[[files]]
+file = "groovy/runConfig.json"
+hash = "89c67705b075fbe036904381194db7fb29509e04e0a515b568ef1412f035921e"
+
+[[files]]
+file = "groovy/util/GroovyUtil.groovy"
+hash = "b583e3ca86336603797c1267aa3afe1ad635166c2977e423a7df9dac9ba92094"
+
+[[files]]
+file = "icon.png"
+hash = "ae8f9382249cbdd160bf757cf70348468072db76805963c8351c5c10606610ce"
+
+[[files]]
+file = "journeymap/config/5.7/journeymap.core.config"
+hash = "ded218a69573a5ed4f08165de54de744d0076108922f63d59f7485a3d7037375"
+
+[[files]]
+file = "journeymap/config/5.7/journeymap.fullmap.config"
+hash = "0d34bb4a62862cfe2a1c928310222422edb8a371891f53475a72a42892181a6b"
+
+[[files]]
+file = "journeymap/config/5.7/journeymap.minimap.config"
+hash = "455128cd7c6ee01a5284fa4f1b1d1b06357a0e17bfdbbef96c5af5048c105ed9"
+
+[[files]]
+file = "journeymap/config/5.7/journeymap.minimap2.config"
+hash = "752cffce7794f4a16c29966aaa9ba177668f928c3f9d724bdf3c0a71580aae01"
+
+[[files]]
+file = "journeymap/config/5.7/journeymap.topo.config"
+hash = "3ca2e63e8a623fa9127e86dee069de04623d79defb69d4c6d1fc3332de2e06d2"
+
+[[files]]
+file = "journeymap/config/5.7/journeymap.waypoint.config"
+hash = "e479de804a9c65e4457227122a346c1f2469139fe050380ab3dace4675db5a97"
+
+[[files]]
+file = "journeymap/config/5.7/journeymap.webmap.config"
+hash = "39cb4b996a6d807388b83388b2a2b76f0750a374d096783e4bbb432cacebcd9e"
+
+[[files]]
+file = "journeymap/server/5.7/journeymap.server.default.config"
+hash = "dbcb60526331c65a496cd5d8d19a47862206b9ada85498c5278b97e64c24c222"
+
+[[files]]
+file = "journeymap/server/5.7/journeymap.server.dim-1.config"
+hash = "380f439f7a48211f54ec1cd9b4ea94c27b1c1502159822bc63b57b94c30908ff"
+
+[[files]]
+file = "journeymap/server/5.7/journeymap.server.dim0.config"
+hash = "4293ea54106ddc1c2b42f854344e4f7b81a370403ba52957cfae031c8407aacc"
+
+[[files]]
+file = "journeymap/server/5.7/journeymap.server.dim1.config"
+hash = "07fba1ccf9fa184b68f70629018fe5b3319b495e620f535e9ceb90108dc2c709"
+
+[[files]]
+file = "journeymap/server/5.7/journeymap.server.dim2.config"
+hash = "6395e26504c460385bd8d7a19d41356771abd9697ba1679b640b891f2a057705"
+
+[[files]]
+file = "journeymap/server/5.7/journeymap.server.global.config"
+hash = "791a1e4f9b78926b3f2c6af8e7c83a5f1b25623ced756ccc5de34e4a1b7fb146"
+
+[[files]]
+file = "local/client/ftblib.cfg"
+hash = "54f56c7239c748712baa64c1ea099af6588692c454e3cd5e01efede29836ea08"
+
+[[files]]
+file = "local/client/ftbutilities.cfg"
+hash = "a9a6f52877c572c0afed8a3712ec0ed451cd75f41f767f58da1f5cb7d704d664"
+
+[[files]]
+file = "local/client/sidebar_buttons.json"
+hash = "18bb9a018ab7dc4fac9f7c7b050861f02fef8a6654da8cfb690f7b32cc3aac46"
+
+[[files]]
+file = "mods/ae2-crafting-tree-legacy.pw.toml"
+hash = "64e7a392556a055d0e9566b47937a51febf61251694b8e72a145d5f7e55d6d7a"
+metafile = true
+
+[[files]]
+file = "mods/ae2-extended-life.pw.toml"
+hash = "21d6ef9d52551f2adb9aad7752b551312fe417a693a992aee1dd0fbd83cce3d0"
+metafile = true
+
+[[files]]
+file = "mods/ae2-fluid-crafting-rework.pw.toml"
+hash = "321b793ef48a9f6d54cb6ca6ecafda3c4616e76ea77901f52365c1c7bd8a1e84"
+metafile = true
+
+[[files]]
+file = "mods/ae2-stuff-unofficial.pw.toml"
+hash = "282063ed3b6db5edf06108c71d3e6151a00ff67d139db2a2eaeac9d21309c3bf"
+metafile = true
+
+[[files]]
+file = "mods/ae2uel-wireless-universal-terminal.pw.toml"
+hash = "c5b503b3e0c56151a12889cce7940080da762f4245ec2c58ce5628e959923444"
+metafile = true
+
+[[files]]
+file = "mods/bdlib.pw.toml"
+hash = "d89dd31193a74be6ea9fce495bb85ee31028ea299c1d2d0741607c0347ef2127"
+metafile = true
+
+[[files]]
+file = "mods/better-builders-wands.pw.toml"
+hash = "f7c821287bcb460b7cd51438d4f08c818beb1070d687a0460ce5c5279941bad2"
+metafile = true
+
+[[files]]
+file = "mods/better-chat.pw.toml"
+hash = "c2142332f5f82ffb342efa5bcc05a2fecc423283f088f73e8537ce5e413a9136"
+metafile = true
+
+[[files]]
+file = "mods/better-loading-screen.pw.toml"
+hash = "3abd6a8dfce1bc884331585d55c6e73c40d6a04d46ad0b8c54c44a099173c42a"
+metafile = true
+
+[[files]]
+file = "mods/better-questing-unofficial.pw.toml"
+hash = "f81e857cad7b79ea80f49dae7e15efd56bfab3f247441ac12ce349d167a344e0"
+metafile = true
+
+[[files]]
+file = "mods/betterbuilderswandsfix.pw.toml"
+hash = "c1e70fd6e7c76989373add47de1723eb7ead5aef4d151f64c054d21e09e765ac"
+metafile = true
+
+[[files]]
+file = "mods/betterer-p2p.pw.toml"
+hash = "f381d20ee1ee3a10274702a6fcdfc217db0c81b161d10381c728738c378e477c"
+metafile = true
+
+[[files]]
+file = "mods/bettertabs.pw.toml"
+hash = "a6bdab0d70a44e857ad74cb8b451cfe36666310b77cd84416b10aa6065a14dad"
+metafile = true
+
+[[files]]
+file = "mods/blur.pw.toml"
+hash = "b574d81bfb57d2d9013b7fc02cd0b5728a4cde7205430742003096ff261007cd"
+metafile = true
+
+[[files]]
+file = "mods/bubbles-a-baubles-fork.pw.toml"
+hash = "e62029cd0cf6882f63dc83a48807604ddab9bf3f54c332a2cb3e13982aa06871"
+metafile = true
+
+[[files]]
+file = "mods/building-gadgets.pw.toml"
+hash = "c8ee6b8c56dc5011af73660d1063d881376b6d66b7b3686c6ab73edb6f598c14"
+metafile = true
+
+[[files]]
+file = "mods/catalogue-1.0.0.jar"
+hash = "be18225e82a6dc26427770dbf9ded0f91e26f7ddba27dfd18135926eb0c4faf3"
+
+[[files]]
+file = "mods/cb-multipart.pw.toml"
+hash = "8543599cc981cc25fa739c9efad2ffd6ddcbcd10b681e47875bf5e7f87a9262f"
+metafile = true
+
+[[files]]
+file = "mods/chameleon.pw.toml"
+hash = "305815006195c0647af38ea5d8c03cd6c652c77bf975e3e967b754bc3b9ac569"
+metafile = true
+
+[[files]]
+file = "mods/chat-calculator.pw.toml"
+hash = "5a8ab47af3f0bfb08b5131e595d30e026eef10bca153476402643c37704365b6"
+metafile = true
+
+[[files]]
+file = "mods/chisel.pw.toml"
+hash = "5a5219bd45d091fa505a4c98e9282fa721f5228af3a91fe56939c6f347abc285"
+metafile = true
+
+[[files]]
+file = "mods/codechicken-lib-1-8.pw.toml"
+hash = "49d0ddb311fa9fe9b193996de176a92e0ab2b26b4030344ae80cff4584fdadc4"
+metafile = true
+
+[[files]]
+file = "mods/configanytime.pw.toml"
+hash = "defd8d7b171bb90e9ae3cc60f8c5e863346f74f7c43d90fd2a1519cc9b0e7f5f"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+hash = "ac423dbdf07ee4c91d05fdebfd3e0849ae9602925a39cac3dac0a35fd742c290"
+metafile = true
+
+[[files]]
+file = "mods/crafting-station.pw.toml"
+hash = "7829fba906fae35e750aa6f9da898e9d2e632b7fc8b4f38a187493ef96f18df7"
+metafile = true
+
+[[files]]
+file = "mods/crafting-table-on-a-stick.pw.toml"
+hash = "4ae7dfd7273c1ec0d60dd27b5e9e265ad0935901461d2e15a7ce5ca3724ad643"
+metafile = true
+
+[[files]]
+file = "mods/ctm.pw.toml"
+hash = "430820ab4fc97024a7c5c188555c57e6fa22f33fe3d5f98d2a75254a0bd07633"
+metafile = true
+
+[[files]]
+file = "mods/ender-utilities.pw.toml"
+hash = "a3ecad183e72502c28fbb52aa55c7edcade0ae686e7610e55c4922be149bf973"
+metafile = true
+
+[[files]]
+file = "mods/endercore.pw.toml"
+hash = "f41bf1c7154b656b303822ea5fe596d4afc97c5712facf03c244d08ae9c129d3"
+metafile = true
+
+[[files]]
+file = "mods/enderio-continuous.pw.toml"
+hash = "2156869ecf30f7f75072098857a42e8fb96bbf699b582e161fa8499f2b29a87a"
+metafile = true
+
+[[files]]
+file = "mods/entangled.pw.toml"
+hash = "6843e8fbb7c7872902ce42daccc1287428caca3b56742b9e6e33048c9a0653f1"
+metafile = true
+
+[[files]]
+file = "mods/fluid-drawers.pw.toml"
+hash = "6f59b412881512ae1339649a4c46cb8406a4ca3d6b7b24705819324b6fd039e4"
+metafile = true
+
+[[files]]
+file = "mods/forgelin-continuous.pw.toml"
+hash = "7f20adcb7c10f9966bea19a174df4196a9539155d764edb7e31edd8ed58e438e"
+metafile = true
+
+[[files]]
+file = "mods/friendly-chests-no-fluid.pw.toml"
+hash = "a9599f4182c396732c8cfdf628084efa42e217ffd657cf4c273c5a3158d82a95"
+metafile = true
+
+[[files]]
+file = "mods/ftb-backups-forge.pw.toml"
+hash = "6aab174b12e2335e589aae9136ef5aecdfd1805b5930830d9ce378ae41abd9e3"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-legacy-forge.pw.toml"
+hash = "1d53ed109e79b01c25b437db44da5976f22ca866e3d0dc286fadb96511e1a123"
+metafile = true
+
+[[files]]
+file = "mods/ftb-utilities-forge.pw.toml"
+hash = "b3bf53323fcae0f8647ce23c60fffc003abcd315ece3772822f3130d7d5cd52f"
+metafile = true
+
+[[files]]
+file = "mods/gnetum.pw.toml"
+hash = "8f137ee8120548601de516ef55eff0c4a499a924dd2cce53b3fb702634bb920c"
+metafile = true
+
+[[files]]
+file = "mods/gregtech-1.12.2-master-#2851.jar"
+hash = "f1270d79c5ed338cd1ef8448fb151952ee70a35fe530318eeaaf8584073b5bf0"
+
+[[files]]
+file = "mods/gregtech-lite-core-1.0.0.jar"
+hash = "4992c2e926e11aecbad472334ea51a45f5bac6f50b3999cb0c9875bf3e47ae4c"
+
+[[files]]
+file = "mods/groovyscript.pw.toml"
+hash = "97ea4af6d073d41cc4e1ee54fd99cf36a2a9631cb6db7c4b8588d18863719d26"
+metafile = true
+
+[[files]]
+file = "mods/had-enough-characters.pw.toml"
+hash = "cb5c1d6083e3ac971680859584b6b70356f17c4c5e5df906cc5079b9c95d59ee"
+metafile = true
+
+[[files]]
+file = "mods/had-enough-items.pw.toml"
+hash = "eb78718c73fbebe53263af59c606cdab18c394652caae97ed3c51e27d3d66bf6"
+metafile = true
+
+[[files]]
+file = "mods/inventory-bogosorter.pw.toml"
+hash = "d7961a9ee9eaf2ab8178f92fb7cbd9a7aeb221b79660770a44d0716d5f82ba7d"
+metafile = true
+
+[[files]]
+file = "mods/item-borders.pw.toml"
+hash = "634fdd89d4acf2ee1702f8eed0e5c088691850297366a3762ce548a16a55799f"
+metafile = true
+
+[[files]]
+file = "mods/itemzoom.pw.toml"
+hash = "dd837a22df3ea453629c63743442c8d75e7fd8f1bbace8f2b764c27391cb83fc"
+metafile = true
+
+[[files]]
+file = "mods/jei-utilities.pw.toml"
+hash = "5c459f9826df3f680475288cec929226a73f06989275d29c6e53f78808fb979c"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "34bcd62bca78729d9c295bb8d7cbfde2239af84c86719744a4e8c0af7e69f150"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-calculation.pw.toml"
+hash = "9659d8f844faa0c1c92e914d7969b6ac1ecf2b6a8155834f8bfebc4193c30d45"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-characters.pw.toml"
+hash = "2076abed696e5f140ea634e501482708204a68253b92b6a3fa8e39a796a7246b"
+metafile = true
+
+[[files]]
+file = "mods/keyboard-wizard.pw.toml"
+hash = "9f2991da95b34d0bfa5cc49840ea9cee54d021eeafe04d503d074429c42255d1"
+metafile = true
+
+[[files]]
+file = "mods/kleeslabs.pw.toml"
+hash = "21e1c7795d5c8cb8d95db171d42dda4fa3065e6bc1e59d6cb5c9b6e44d7008b5"
+metafile = true
+
+[[files]]
+file = "mods/libnine.pw.toml"
+hash = "aeeca03fc512fffed87f449bc8b631d59f4b95857dc3818492d6af0afd4e00c6"
+metafile = true
+
+[[files]]
+file = "mods/lolasm.pw.toml"
+hash = "c1eb5d7ffad071d644c92f8100d60a5d8bc09313c345a7b3df40a803f9538d95"
+metafile = true
+
+[[files]]
+file = "mods/minieffects-legacy-extended-life.pw.toml"
+hash = "61223d38ebe4fa770cc5c32dd8edd15649dbe7cd40968372ac183ce2c02af724"
+metafile = true
+
+[[files]]
+file = "mods/mixin-booter.pw.toml"
+hash = "df027ff53db0184b3a0e3d169fbf653ae1da77513baff72d854532ec71bce06c"
+metafile = true
+
+[[files]]
+file = "mods/mod-name-tooltip.pw.toml"
+hash = "33797f106d7f44073865b9c54e8f62c50162e9415bc66b4dd9305d947527f39e"
+metafile = true
+
+[[files]]
+file = "mods/modularui.pw.toml"
+hash = "338d7b1ed3eab71ef5d3cfa2538933d5acd9ad6b9410a3ea536c3e6e386841bd"
+metafile = true
+
+[[files]]
+file = "mods/more-overlays.pw.toml"
+hash = "99d1fe22e1ddc58a0a43f64a18a4e06298ef76c9f7608f57a7f0cee0d64fecaa"
+metafile = true
+
+[[files]]
+file = "mods/morefurnaces-nomifactory-edition.pw.toml"
+hash = "3c06bb98aa3b829ed838611f6625e894c2b4a0d4575bd8842996330b56ed0b56"
+metafile = true
+
+[[files]]
+file = "mods/morfonica-in-minecraft.pw.toml"
+hash = "221dcbe4f1653f33c5497ba3d258f4c6f9270c3e0ce1edc2fc701dfdfdbc3c63"
+metafile = true
+
+[[files]]
+file = "mods/morphismlib-1.12.2-1.0.0.jar"
+hash = "7f691cca0d84aae9a2370aaab2fc0aba561f8fe564117b5646a84f2b909dbf4b"
+
+[[files]]
+file = "mods/mouse-tweaks-unofficial.pw.toml"
+hash = "97afad43aab051629f2e0dddcd0aa9909b94b616642a5c5cd0ab1754e8cf9c9e"
+metafile = true
+
+[[files]]
+file = "mods/mrtjpcore.pw.toml"
+hash = "ae849763d546d4fea042e339ec74f8b0373472f76aeda340cd6bced6ac7754bd"
+metafile = true
+
+[[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "59c691bccb11a19c67a0272aae379c20d157d5240e7001b2d92d80bf555b88d0"
+metafile = true
+
+[[files]]
+file = "mods/neonium.pw.toml"
+hash = "258f4b824039de32284d22c109153db219e6badee62363e18354f3b29e0ae466"
+metafile = true
+
+[[files]]
+file = "mods/openblocks-elevator.pw.toml"
+hash = "3431051cce65c011bd7cd75412ad676ada9353851d7383199276faf34b5f3d6f"
+metafile = true
+
+[[files]]
+file = "mods/personal-worlds.pw.toml"
+hash = "c552d9280da417d62dc6e2188259a0e3dcacae3f7356ce0ae7d1043a19ca11dc"
+metafile = true
+
+[[files]]
+file = "mods/pick-up-notifier.pw.toml"
+hash = "f41635a60847db0c1d55791500eb63972555c209f5f587d64a447e5ad869d9b9"
+metafile = true
+
+[[files]]
+file = "mods/project-red-core.pw.toml"
+hash = "80a1afd5a26156aef0eeaedd9f19e881326bf40c087428b0d75240a63c33dd08"
+metafile = true
+
+[[files]]
+file = "mods/project-red-fabrication.pw.toml"
+hash = "5fa32c1398a3cfaeae452768d7bb396e441b50300e4332fa7ddabab62dd835ba"
+metafile = true
+
+[[files]]
+file = "mods/project-red-integration.pw.toml"
+hash = "bdd671787a660a9442327d14f5efbb63239a78dac60f88afcf93063d97bbd364"
+metafile = true
+
+[[files]]
+file = "mods/resource-loader.pw.toml"
+hash = "5b23fff02027846cadc887ffe26fce12a4e20bdee2cc0c06732897a44f364357"
+metafile = true
+
+[[files]]
+file = "mods/retro-sophisticated-backpacks.pw.toml"
+hash = "4ba78259d37fda69e3af576070a5606e95c21da80e7beb57c6f46210b41be8d3"
+metafile = true
+
+[[files]]
+file = "mods/scalingguis.pw.toml"
+hash = "77409dab9f58a882b334ef38e3f98961b6c47eae12480c097d2478d30d57f87c"
+metafile = true
+
+[[files]]
+file = "mods/shut-up-model-loader.pw.toml"
+hash = "0300d1dada7a218fe61e1b2816a8c3af13e04d685e07b2fa3aeae2073688c36b"
+metafile = true
+
+[[files]]
+file = "mods/simple-trophies.pw.toml"
+hash = "56f00404ff89ec6905b19349f9da6b87638dcf825015f8f2deb522c244c5ccd0"
+metafile = true
+
+[[files]]
+file = "mods/smooth-font.pw.toml"
+hash = "141a24db12cf5167dd2446d7d68c49ddf238ff6c48d588cd14440af5b42a5787"
+metafile = true
+
+[[files]]
+file = "mods/snad.pw.toml"
+hash = "e8f83a1b718ec25b337dc0fa7fe39e4ff4b562777bad9a062830f8ee6d8ef3db"
+metafile = true
+
+[[files]]
+file = "mods/stellarcore.pw.toml"
+hash = "fa9df380bba4f7a73750b16021099e343e34cdd14cd983d570603718a1c4a501"
+metafile = true
+
+[[files]]
+file = "mods/storage-drawers.pw.toml"
+hash = "1976cfb3222e1f141aa56af5824be673771a9db93b49c7e48fa2cca3f58aef02"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "ff5a7d6fe7c70f7db36e33ceefc6936b382a572c35c9f6efc21c4cccbaaea362"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
+hash = "4ac787e6cace749877d8fee3d9ad03bbfac49b5a28c1e8a3bf1a703bc92795d8"
+metafile = true
+
+[[files]]
+file = "mods/the-one-probe.pw.toml"
+hash = "260f0330b42aa9e33b8fb8165d06f64d29540b42f121dc9746c6ebcb7ef55158"
+metafile = true
+
+[[files]]
+file = "mods/top-addons.pw.toml"
+hash = "b0f7fc5d2a0177fb04294bde639aa21595933e00db66c7979f96a35824b1e7c4"
+metafile = true
+
+[[files]]
+file = "mods/translocators-1-8.pw.toml"
+hash = "e20c672b807a489407d4a11c6a0767f554d6ae5c97afb265388311611219bdbd"
+metafile = true
+
+[[files]]
+file = "mods/trash-cans.pw.toml"
+hash = "bbe76d22ce06aa6ba7fed1062d590436fc3f05b5eb7d7b12dec76558f4e4f607"
+metafile = true
+
+[[files]]
+file = "mods/universal-tweaks.pw.toml"
+hash = "ec6fa924cd52f756a56ad487089f06d42c54eaab650e3ef24c69d9272676bbe0"
+metafile = true
+
+[[files]]
+file = "mods/vintagedisplay.pw.toml"
+hash = "ed4be5e90269dd05df4cb3ea89b813be30f9c48c50bebc1c378ab65fe97c6079"
+metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "ab3172f320aa541e40386f9eaaa404d6c5edaaacc007731596f17233983feea9"
+
+[[files]]
+file = "resources/ae2ctl/lang/en_US.lang"
+hash = "21567c57e5ccb5484c0156271dac44af22deeb0a699dd3b3956af41c9ffa7822"
+
+[[files]]
+file = "resources/ae2ctl/lang/zh_CN.lang"
+hash = "d1a9fc410b7754925627718fb700b813866b5831e66e0ada516aae94825bdc19"
+
+[[files]]
+file = "resources/ae2ctl/textures/gui/guicraftingtree_256x256_light.png"
+hash = "d2fa934fd2f502743fc57ec7404c93f4fff8dcdd3b7d5bf5679d4f794b89b36a"
+
+[[files]]
+file = "resources/ae2ctl/textures/gui/guicraftingtree_320x256_light.png"
+hash = "9906366738b4847cbeb92e19c10ee58c891d4f6440ca9e86675ea16a59534413"
+
+[[files]]
+file = "resources/ae2ctl/textures/gui/guicraftingtree_384x320_light.png"
+hash = "02b2ac097b58a7d1a43beded151585f595f1bcbdfd1e1afbad0bd82e4867312b"
+
+[[files]]
+file = "resources/ae2ctl/textures/gui/guicraftingtree_512x320_light.png"
+hash = "e90d2f89924927bd1c0b2bf6d5425cb7885babd49336b8c48915748a1d3179fb"
+
+[[files]]
+file = "resources/ae2ctl/textures/gui/guicraftingtree_640x384_light.png"
+hash = "c408b99fde494a71d587805c6362055bc42cb0df0265be1606d32b3521d7643f"
+
+[[files]]
+file = "resources/ae2ctl/textures/gui/guicraftingtree_light.png"
+hash = "4cc1cee496264e50d4df4e5fc8512bf7cff36e44ec8459fe3f42b2c1db6c26ce"
+
+[[files]]
+file = "resources/ae2stuff/lang/zh_cn.lang"
+hash = "9f1230adf088720be34ac13f19e5d1575bd4c9ce74220dc3cd2586aa1b047891"
+
+[[files]]
+file = "resources/appliedenergistics2/textures/items/material_calculation_processor.png"
+hash = "7d0b8d3e0214a1051f63b39d3b2ee71e6ee7ef1c2c2429ceee6975a53aa22afc"
+
+[[files]]
+file = "resources/appliedenergistics2/textures/items/material_logic_processor.png"
+hash = "330f057881a85f2d0d0cc3bd0bbeb66d14a50f5472dc0b4ca7bc4913a50cac4b"
+
+[[files]]
+file = "resources/betterbuilderswands/lang/zh_cn.lang"
+hash = "41fd5d50b33cfd0b98324b4f3a36cbc6456ead6ce54e8c16fe5718be5b93525e"
+
+[[files]]
+file = "resources/betterquesting/lang/zh_cn.lang"
+hash = "e8794e517ad926598c4de7299f0e8a6b576c5df4293c04614e6f6191ab028e76"
+
+[[files]]
+file = "resources/betterquesting/textures/items/quest_book.png"
+hash = "0f9fc3b29b57387f3646121aa28ebeb4bcb63e6863b848ee59aa9abb80bc19d3"
+
+[[files]]
+file = "resources/bettertabs/lang/zh_cn.lang"
+hash = "64ef8338553d14fddbc01cb9154adcc0a9039025259398aa67ff843a3ac26387"
+
+[[files]]
+file = "resources/bettertabs/textures/icons/bqbook.png"
+hash = "868c59640b568c5de2132a0f0305355a8df68ad8a24a90feb49c5b249a3ef5ca"
+
+[[files]]
+file = "resources/catalogue/lang/zh_cn.lang"
+hash = "53c30dd4a26b29f6f81c6bfa5038ad5cc6a4193362ec5e56fff0cd2800ce3b0d"
+
+[[files]]
+file = "resources/craftingstation/lang/zh_cn.lang"
+hash = "cf05da3558aaa93b1f958d73c629c4500e8a5f07b5cef8f094b0337426174cb9"
+
+[[files]]
+file = "resources/ctoasmod/lang/zh_cn.lang"
+hash = "2739754904b4542da2c7565e134f7504c77a9a50670a80153b655c23bff70ba1"
+
+[[files]]
+file = "resources/customloadingscreen/config/gtlite/custom.json"
+hash = "530830ce0a92a515d027169efae15ff94b91752c838f9f0663dd9ac6e0c6d151"
+
+[[files]]
+file = "resources/customloadingscreen/font/ascii.png"
+hash = "eb20824a472c84b25ecfe685ce1db7db4cba7570ac65d02853fda078c65eb12e"
+
+[[files]]
+file = "resources/customloadingscreen/image/gtlite/bg0.png"
+hash = "fa597ed57d54cc6e5022fe19d71b67d4f3fdde2eb1a027b2357e65bb0c65abd7"
+
+[[files]]
+file = "resources/customloadingscreen/image/gtlite/bg1.png"
+hash = "ee27160dea6351f77ff3d74c24633bc02aad4c3907e84ef8bbfa0ea92a686a34"
+
+[[files]]
+file = "resources/customloadingscreen/image/gtlite/bg10.png"
+hash = "50a06957c4fee8fce6edb9b7cddf80515866fc03287c55d92a6e598aaa2a79e2"
+
+[[files]]
+file = "resources/customloadingscreen/image/gtlite/bg11.png"
+hash = "9a1af1db5f07403ef68166cabb4ccd553734d9696ff77a29bbbe3f9dfa157308"
+
+[[files]]
+file = "resources/customloadingscreen/image/gtlite/bg12.png"
+hash = "dbb53ce62c19d8df5ce827841206719fbf572b485048e409b2bb0e4b130d5bc5"
+
+[[files]]
+file = "resources/customloadingscreen/image/gtlite/bg13.png"
+hash = "0bedc32c2745e024a108167f7155980825441557e617b7a3f79a8b3750a2c9f9"
+
+[[files]]
+file = "resources/customloadingscreen/image/gtlite/bg2.png"
+hash = "606695471c810138ac4a891c0269e1151e198098cd9eee1093daff0b9d6516e9"
+
+[[files]]
+file = "resources/customloadingscreen/image/gtlite/bg3.png"
+hash = "b8ac7e5bb0f3146f781103fe5ed80ba6aa0052e713c9c6b9837b765889260782"
+
+[[files]]
+file = "resources/customloadingscreen/image/gtlite/bg4.png"
+hash = "37e7715886b37ad6f4c0afcb5ecd4123432850f0a495fbe0b48ca5dd9b566fde"
+
+[[files]]
+file = "resources/customloadingscreen/image/gtlite/bg5.png"
+hash = "8c1aa3093e8c8e7f49e6544f0cc47af84e5fa58700a2e604dbcf25e1fbf6512a"
+
+[[files]]
+file = "resources/customloadingscreen/image/gtlite/bg6.png"
+hash = "dd05aeff2cb05e145c160a93d20c7c60db75d5ab0e685ae36db9984c04d94a4b"
+
+[[files]]
+file = "resources/customloadingscreen/image/gtlite/bg7.png"
+hash = "88d177edfbca78fc87c981a3892e853d1324c5660aec1c3214e58c6911f21f9d"
+
+[[files]]
+file = "resources/customloadingscreen/image/gtlite/bg8.png"
+hash = "ec9744db6e6e382b55919f17b0e52b1abd3af7c519bde8cede561df7f35bcb9d"
+
+[[files]]
+file = "resources/customloadingscreen/image/gtlite/bg9.png"
+hash = "221b7efc93262c0ac9d5315bdd096560bdf427c9eecd5ec8f413de91a8f147ba"
+
+[[files]]
+file = "resources/forge/lang/zh_cn.lang"
+hash = "d73251c0b404017c1b1bf9710680edd9a8035ba6d3adaa6d2d6e3ac058bea4a4"
+
+[[files]]
+file = "resources/gregtech/lang/zh_cn.lang"
+hash = "ab0303681acfc444cb9e01093853ec49066680061f117aa8cbaab851f96ddf9e"
+
+[[files]]
+file = "resources/gregtech/textures/blocks/casings/mechanic/machine_casing_turbine_stainless_steel.png"
+hash = "63fb7e5ec1460d0dbe1a590ea9e8fc46195ccf87ef5c67d37080052ac214dd75"
+
+[[files]]
+file = "resources/gregtech/textures/blocks/casings/mechanic/machine_casing_turbine_steel.png"
+hash = "7934b1c830824ba14aa29874d7e068f1e775eb51bf9c0e8c807eb7125b18617f"
+
+[[files]]
+file = "resources/gregtech/textures/blocks/casings/mechanic/machine_casing_turbine_titanium.png"
+hash = "822d0bb1d8e87f2550284f11ede9cf25f2dff72f5e73747b8b42234b2511c78c"
+
+[[files]]
+file = "resources/gregtech/textures/blocks/casings/mechanic/machine_casing_turbine_tungstensteel.png"
+hash = "0a66b4cfdba9662d9508f429277362fffc2e62963018e8837bb201919ebb3082"
+
+[[files]]
+file = "resources/gregtech/textures/blocks/multiblock/pyrolyse_oven/overlay_front.png"
+hash = "33c7e39566fafb12b193299f3881231bccada12a3d7c7be346ae5d2d78735156"
+
+[[files]]
+file = "resources/gregtech/textures/blocks/multiblock/pyrolyse_oven/overlay_front_active.png"
+hash = "aa8b61ef00c1db76723417900bd1a65ceb46b8df3f23fe99f91333e147603a83"
+
+[[files]]
+file = "resources/gregtech/textures/blocks/multiblock/pyrolyse_oven/overlay_front_active_emissive.png"
+hash = "636b4611199e43242183a7f91a105068f1df97e6e3a7242dbac2c6cfb92ba9db"
+
+[[files]]
+file = "resources/gregtech/textures/blocks/multiblock/pyrolyse_oven/overlay_front_emissive.png"
+hash = "fa852f2ca7945a55e2dc231f3541793700ac29c125549230e93f610306665495"
+
+[[files]]
+file = "resources/gregtech/textures/blocks/multiblock/pyrolyse_oven/overlay_front_paused.png"
+hash = "33c7e39566fafb12b193299f3881231bccada12a3d7c7be346ae5d2d78735156"
+
+[[files]]
+file = "resources/gregtech/textures/blocks/multiblock/pyrolyse_oven/overlay_front_paused_emissive.png"
+hash = "33c7e39566fafb12b193299f3881231bccada12a3d7c7be346ae5d2d78735156"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/advanced_electric_jetpack.png"
+hash = "42aa5d57ce2d1db8ddef39700a6c234736623ba40cc25657b3ccb15782152fef"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/bottle.purple.drink.png"
+hash = "0c3f75f268a91614489c65331008a1a766daf147402d6740d8f861ef548a30ce"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/boule.naquadah.png"
+hash = "6696ea4c2d8cb2f88cc20f0ff27eef07429d4d4eb65599841ff674d355e36ecd"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/boule.neutronium.png"
+hash = "9898c498237f15ffd6d0cd96bf9c52e391ba2a3df5b458079751f3b10ec0d44a"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/boule.phosphorus.png"
+hash = "b5e669fdb76e99b2b1a3ddcec57d53e1ebd4ecf7cdbd56d0baa3ca4b05474668"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/boule.silicon.png"
+hash = "945d6c9867c835b497df5222e8f94fa1c7c8b675cf2332f2bc8b57fe67c6b1ab"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.crystal_assembly.png"
+hash = "4095872f9a5ddd9b13b63d4667fdc4bb6733ce7b5a8d1c79956e52202f384858"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.crystal_assembly.png.mcmeta"
+hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.crystal_computer.png"
+hash = "d65fb124163fe4b9975ff247423c97455be383d1b6df3b5841813e150a895507"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.crystal_computer.png.mcmeta"
+hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.crystal_mainframe.png"
+hash = "50941d632197c34eec75d351632edc6d7c99cc0120a19d135e4626ebcc3c4ea4"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.crystal_mainframe.png.mcmeta"
+hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.crystal_processor.png"
+hash = "363a30fc16bb7f19b5811b1788c5e72c3c1216a3f7a7541ae39ef0bc7b82e1eb"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.crystal_processor.png.mcmeta"
+hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.good_integrated.png"
+hash = "42049f0c525f80726b1cf1d272c9093a7f8ce4437a5bacf4d1c0be572471e3a5"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.good_integrated.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.nano_assembly.png"
+hash = "fa578b1065d1ba35057bb10bb51f615e706ef026868c97c87898a42413315d83"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.nano_assembly.png.mcmeta"
+hash = "c2867748450526bce27bf30bef22e5b9e8c7e886e7ab896cab5b37641d9e1ae4"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.nano_computer.png"
+hash = "17bd2c4d0230a129cb0783b345e1c46c2bdbc85c7e43ed6a218a27af45b1fd01"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.nano_computer.png.mcmeta"
+hash = "c2867748450526bce27bf30bef22e5b9e8c7e886e7ab896cab5b37641d9e1ae4"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.nano_mainframe.png"
+hash = "04c92d264e7408521b8b406a3e1c257b4a348d2d18c113af49fe20423aa841ea"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.nano_mainframe.png.mcmeta"
+hash = "c2867748450526bce27bf30bef22e5b9e8c7e886e7ab896cab5b37641d9e1ae4"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.nano_processor.png"
+hash = "b9bb8bdbda2684f5a67fc6998e10472a442f25f0b93ab185379ed36f5fdc895a"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.nano_processor.png.mcmeta"
+hash = "c2867748450526bce27bf30bef22e5b9e8c7e886e7ab896cab5b37641d9e1ae4"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.processor.png"
+hash = "d26c756f87a77ac536bc52ab1c2de36f8ec2a5f0751ec21b303eade109c1f7b6"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.processor.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.quantum_assembly.png"
+hash = "acea09b50359fcbc56c43ee2154c198bd8b6eeb286760cc4584b0a7655217877"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.quantum_assembly.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.quantum_computer.png"
+hash = "544f65371fa78887d7c76a49b84b4ad8da186ce056b735050e6993b83a38da9c"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.quantum_computer.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.quantum_mainframe.png"
+hash = "f023e398aef0a0d7929358ff6471ea1297af41e59944d6ac56f8af74c60d99b5"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.quantum_mainframe.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.quantum_processor.png"
+hash = "9ca1dd3605fc4a18843c85d04ec7284bd9ad39f797d993b37f4230116e120f6e"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.quantum_processor.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.wetware_assembly.png"
+hash = "3c60c7b9ef99beb14f6b22ea21542b2b6dd21df968fe5edccb10fc193f7978c5"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.wetware_assembly.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.wetware_computer.png"
+hash = "f47409693b81751d7e0c4b31a1f93fcd5058947544c88c55cafb8a0369a78619"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.wetware_computer.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.wetware_mainframe.png"
+hash = "0066779cae87de858e2f389ebc28e950d6fcc964601c196b4f1ae5a993f0496c"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.wetware_mainframe.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.wetware_processor.png"
+hash = "b0f32fc5afd987edfbc9d5e360600d0f8d8357df68264ae3c6037239b0e58f78"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/circuit.wetware_processor.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/cover.base.sai2"
+hash = "89298f079f728f3929b3fb006ada6646c73deb897ecd1193722b28208f9c34a8"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/gravistar.png"
+hash = "4d8663bcd751b5a785622389770cc5c6473ed817f171fad3739acbb7c7e9d6aa"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/gravistar.png.mcmeta"
+hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
+
+[[files]]
+file = "resources/gregtech/textures/items/metaitems/qts.advanced_chestplate.png"
+hash = "715ef9bb9fd73d761e750bb5a9f680dd4f4e6b3811647c7b3adec24fbf8716e9"
+
+[[files]]
+file = "resources/gtlitecore/lang/zh_cn.lang"
+hash = "ce8c2d3c03a043cd3e1b756f9e160070f1c9291588a56509dfe227aa50f0d9cc"
+
+[[files]]
+file = "resources/gtlitecore/textures/blocks/casings/mechanic/rhodium_plated_palladium_turbine.png"
+hash = "2f1005e9924924c4409d88845c08bda05adb88a8081fa8bf4ab6fdbd93eeb77c"
+
+[[files]]
+file = "resources/gtlitecore/textures/items/metaitems/boule.hassium.png"
+hash = "7c7f13b4b342b42ad4e1d04e04407ebafa46c6485440a77a37fb5bbc92754b4d"
+
+[[files]]
+file = "resources/minecraft/lang/zh_cn.lang"
+hash = "f204c404838e737e4df98ee41fa3b941b215e591e32f43ca4522cf8931a039be"
+
+[[files]]
+file = "resources/minecraft/textures/items/experience_bottle.png"
+hash = "671d327c255f174c5b31ed50e4842f00dce0200b4ff2869fb4914b0f643e9634"
+
+[[files]]
+file = "resources/minecraft/textures/items/potion_bottle_drinkable.png"
+hash = "5975709e01b8fdaaa5b5045699b9d64c3f01d91af3a7794d513f1bdfa27d2a69"
+
+[[files]]
+file = "resources/minecraft/textures/items/potion_bottle_empty.png"
+hash = "5975709e01b8fdaaa5b5045699b9d64c3f01d91af3a7794d513f1bdfa27d2a69"
+
+[[files]]
+file = "resources/minecraft/textures/items/potion_bottle_lingering.png"
+hash = "63061dcc8db8d17bb8183f589183e0d9240101ae7b12e5ddafc9da890302d238"
+
+[[files]]
+file = "resources/minecraft/textures/items/potion_bottle_splash.png"
+hash = "af163da8d4a435997ab19f4191c47e7e231824f485af2e23ebbd6f5f11a4999c"
+
+[[files]]
+file = "resources/minecraft/textures/items/potion_overlay.png"
+hash = "5c2a5f90dde0c61db190a50bc1821d7ec4b6387b8cce7e2f5cde8ccd727ad366"
+
+[[files]]
+file = "resources/neonium/lang/zh_cn.lang"
+hash = "4ebaaf3057e19cfac5065c5d9962dacbad81ef94f4390c8e9679e9b741e4807e"
+
+[[files]]
+file = "resources/retro_sophisticated_backpacks/lang/zh_cn.lang"
+hash = "f1b89db99a4d517888d0e27a2205d3fd9fe90a51e6a5d3c9294470bb5b1b5988"
+
+[[files]]
+file = "resources/scalingguis/lang/zh_cn.lang"
+hash = "e7fa2af0fb72ae0279db06d4ff1b2bb6d80d59208a318787f399bf486dbea907"
+
+[[files]]
+file = "resources/snad/lang/zh_cn.lang"
+hash = "feada5aa77e2f34e917bfe679b0170a930d7621290434d3b828a0c8df3755d2f"
+
+[[files]]
+file = "resources/translocators/lang/zh_cn.lang"
+hash = "ac4a4136a3776b55a4952132735d1d89902bb78ef91731ac2556be5ba266770e"

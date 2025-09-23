@@ -1,0 +1,13 @@
+name = "SuperMartijn642's Config Lib"
+filename = "supermartijn642configlib-1.1.8-forge-mc1.12.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "49f6b461ff22ad8e23bb99679c1f64eee85ee958"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4715393
+project-id = 438332

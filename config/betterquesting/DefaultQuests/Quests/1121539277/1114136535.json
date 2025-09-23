@@ -1,0 +1,22 @@
+{
+  "preRequisites:11": [
+    63436605
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "sea_water"
+        }
+      },
+      "name:8": "§b海水处理"
+    }
+  },
+  "questID:3": 1114136535,
+  "tasks:9": {}
+}

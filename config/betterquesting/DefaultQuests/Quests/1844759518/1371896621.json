@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    1914145006
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND_ON_CROSS",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 7,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "§8砹"
+    }
+  },
+  "questID:3": 1371896621,
+  "tasks:9": {}
+}

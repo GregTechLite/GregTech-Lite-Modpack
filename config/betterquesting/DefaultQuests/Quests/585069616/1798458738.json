@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    96558345
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "制作各种砖的基础，一个用于为其塑形的木制模具。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 348,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§3来制作砖块吧！"
+    }
+  },
+  "questID:3": 1798458738,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:clay_ball"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 347,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 348,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

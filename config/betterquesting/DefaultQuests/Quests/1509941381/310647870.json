@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1023355080
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 965,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§2氢气，甲烷或天然气的克星"
+    }
+  },
+  "questID:3": 310647870,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 965,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

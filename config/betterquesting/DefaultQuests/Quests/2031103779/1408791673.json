@@ -1,0 +1,88 @@
+{
+  "preRequisites:11": [
+    2130252233
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "在§bMV§r阶段，可以制作的大型机器有3种。\n\n在此阶段你应该对超频机制已经了如指掌了，在本任务中将会介绍一种特殊的超频机制。当你的机器运行配方时的耗时已经达到了§2最低限度§r，即1游戏刻，那么§a剩余没有作用的超频将会转换为并行§r，这种机制称为§6子刻超频§r（§7Sub-Tick Overclocking§r，简称§91tOC§r）。在一般情况下，机器将会尽可能尝试超频到最低限度，并在此后开始进行§e子刻超频§r。\n\n由子刻超频带来的并行可以与机器机制自带的并行叠加，某种程度上，机器的耗时减免也会因为子刻超频在一些配方的运行中转化为机器的并行数。在发电足够的情况下，尽可能多的使用§b多安能源仓§r来提高机器的运行功率吧。",
+      "frame:8": "DIAGONAL_CROSS_ON_DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 987,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§b§l中压阶段的大型机器"
+    }
+  },
+  "questID:3": 1408791673,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 4,
+          "id:8": "gregtech:meta_block_frame_20"
+        },
+        "1:10": {
+          "Count:3": 256,
+          "Damage:2": 324,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gtlitecore:motor_casing"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gtlitecore:piston_casing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gtlitecore:pump_casing"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gtlitecore:conveyor_casing"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gtlitecore:robot_arm_casing"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gtlitecore:emitter_casing"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gtlitecore:sensor_casing"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gtlitecore:field_gen_casing"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

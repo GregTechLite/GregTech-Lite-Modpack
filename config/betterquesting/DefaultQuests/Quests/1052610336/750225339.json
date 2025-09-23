@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    2052530456,
+    1141420396
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "STAR4",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "uu_matter"
+        }
+      },
+      "name:8": "§dUU生万物"
+    }
+  },
+  "questID:3": 750225339,
+  "tasks:9": {}
+}

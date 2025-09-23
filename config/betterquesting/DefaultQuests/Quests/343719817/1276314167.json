@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    2122539944
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 313,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§d数字接口"
+    }
+  },
+  "questID:3": 1276314167,
+  "tasks:9": {}
+}

@@ -1,0 +1,31 @@
+{
+  "name": "gtlitecore.veins.ore.shale_sphere",
+  "weight": 120,
+  "priority": 100,
+  "density": 1.0,
+  "min_height": 10,
+  "max_height": 40,
+  "count_as_vein": false,
+  "generator": {
+    "type": "sphere",
+    "radius": [
+      10,
+      20
+    ]
+  },
+  "filler": {
+    "type": "ignore_bedrock",
+    "value": {
+      "type": "weight_random",
+      "values": [
+        {
+          "weight": 100,
+          "value": {
+            "block": "gtlitecore:stone_smooth",
+            "variant": "shale"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    2122539944
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 780,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§a监控器屏幕升级"
+    }
+  },
+  "questID:3": 1331637659,
+  "tasks:9": {}
+}

@@ -1,0 +1,70 @@
+{
+  "preRequisites:11": [
+    1408791673
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "除了研磨机与洗矿机以外的矿物处理系列机器的大型机器版本现已解锁！",
+      "frame:8": "DIAMOND_ON_CROSS",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 988,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§6§l高压阶段的大型机器"
+    }
+  },
+  "questID:3": 960756305,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gtlitecore:motor_casing"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gtlitecore:piston_casing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gtlitecore:pump_casing"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gtlitecore:conveyor_casing"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gtlitecore:robot_arm_casing"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gtlitecore:emitter_casing"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gtlitecore:sensor_casing"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gtlitecore:field_gen_casing"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

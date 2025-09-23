@@ -1,0 +1,35 @@
+{
+  "name": "gtlitecore.veins.ore.jade",
+  "weight": 20,
+  "density": 0.35,
+  "max_height": 25,
+  "min_height": 5,
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "jade"
+  },
+  "generator": {
+    "type": "layered",
+    "radius": [
+      14,
+      16
+    ]
+  },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:jade"
+      },
+      {
+        "secondary": "ore:jasper"
+      },
+      {
+        "between": "ore:picotite"
+      },
+      {
+        "sporadic": "ore:anorthite"
+      }
+    ]
+  }
+}

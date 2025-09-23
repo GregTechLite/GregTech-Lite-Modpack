@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    1123757467
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "把铁锭在熔炉中再煅烧一次就可以得到锻铁锭。相较而言锻铁比铁作为材料更加优秀，以锻铁合成的工具较之于铁拥有更多的耐久。\n\n§3在原始的格雷科技中，实际上你需要将铁粒烧制为锻铁粒，再手动合成出锻铁锭（开启困难选项时需要蒸汽压缩机完成这一步骤），本整合包简化了这些不必要的流程。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 335,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "§8锻铁"
+    }
+  },
+  "questID:3": 505776444,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:iron_ingot"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 335,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 335,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

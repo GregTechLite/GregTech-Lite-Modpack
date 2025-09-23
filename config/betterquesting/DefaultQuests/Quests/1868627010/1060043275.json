@@ -1,0 +1,22 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    1193316526
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1013,
+        "id:8": "gregtech:meta_plate"
+      },
+      "name:8": "§6环氧树脂"
+    }
+  },
+  "questID:3": 1060043275,
+  "tasks:9": {}
+}

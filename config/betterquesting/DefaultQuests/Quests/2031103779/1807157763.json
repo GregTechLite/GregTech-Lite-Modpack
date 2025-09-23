@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    2004151966
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "gtlitecore:multiblock_casing_01"
+      },
+      "name:8": "§d§lPCB工厂升级：空冻塔"
+    }
+  },
+  "questID:3": 1807157763,
+  "tasks:9": {}
+}

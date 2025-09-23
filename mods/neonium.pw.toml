@@ -1,0 +1,13 @@
+name = "Neonium"
+filename = "neonium-1.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6f669725dd3fe41b2f548894be5228696e715f48"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6493855
+project-id = 1237961

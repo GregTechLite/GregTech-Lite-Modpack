@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    1769267826,
+    1658935733
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "最适宜§2核裂变反应容器§r的锆合金，在现实中主要被用于压水堆燃料外壳与核裂变反应堆堆芯结构中。\n\n§3通常来说你只需要制作一轮，因为暂时只有核反应堆主机需要它。",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 391,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "§6锆-4合金"
+    }
+  },
+  "questID:3": 1494545198,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 391,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

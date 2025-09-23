@@ -1,0 +1,16 @@
+{
+  "lineID:3": 717308044,
+  "order:3": 5,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "chisel:futura"
+      },
+      "name:8": "§5§l应用能源"
+    }
+  },
+  "quests:9": {}
+}

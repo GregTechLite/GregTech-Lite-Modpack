@@ -1,0 +1,22 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    62685679
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "GEAR",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2510,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "§9有色钢"
+    }
+  },
+  "questID:3": 1117957127,
+  "tasks:9": {}
+}

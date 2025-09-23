@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    907088952
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10129,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§c炽焱高炉"
+    }
+  },
+  "questID:3": 525316230,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10129,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "OreDict:8": "casingMotor",
+          "id:8": "gtlitecore:motor_casing"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "OreDict:8": "casingWireCoil",
+          "id:8": "gregtech:wire_coil"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

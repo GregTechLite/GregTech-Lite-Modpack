@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    106026029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "它有毒，但至少在这里没毒......\n\n暂时而言，只有制作§6多方块储罐§r的壁面与阀门时才会用到铅，但在之后或多或少也会开始使用，所以不需要挖很多。\n\n§3或许你只是想获得更多的银，然后不得不挖掉很多的铅，记得别全部扔掉。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 55,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "§5铅"
+    }
+  },
+  "questID:3": 1491751386,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_lead_0"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 55,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

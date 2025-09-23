@@ -1,0 +1,13 @@
+name = "EnderIO Continuous"
+filename = "enderio-1.12.2-5.4.1-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f27244f06055092835f3a6243b339dfc1e0185ab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6737790
+project-id = 1300712

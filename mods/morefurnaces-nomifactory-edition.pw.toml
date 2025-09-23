@@ -1,0 +1,13 @@
+name = "More Furnaces: Nomifactory Edition"
+filename = "MoreFurnaces-Nomifactory-Edition-1.12.2-1.11.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ddbbf9e3a4c2928b8683d3a4de4bdc6bf2118930"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3613142
+project-id = 391401

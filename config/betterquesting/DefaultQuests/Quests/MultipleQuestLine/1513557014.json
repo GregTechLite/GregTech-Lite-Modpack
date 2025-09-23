@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    1464280039,
+    621014539
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "在末地中会自然生成§c钚-239§r矿石，因此选择钚作为你的聚变起始点也是一个好选择。从镎裂变后的枯竭燃料棒中可以离心出§c钚-239§r与§4钚-241§r。",
+      "frame:8": "JAGGED",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 81,
+        "id:8": "gregtech:meta_fuel_rod"
+      },
+      "name:8": "§c裂变起始点：钚",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 1513557014,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {},
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 81,
+          "id:8": "gregtech:meta_fuel_rod"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 81,
+          "id:8": "gregtech:meta_fuel_rod_enriched"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 81,
+          "id:8": "gregtech:meta_fuel_rod_high_density"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

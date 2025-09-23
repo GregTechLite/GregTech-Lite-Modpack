@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    392393736
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "使用§c热流体§r来获取蒸汽也是一个好的选择，也可以作为销毁焦炉中的§2杂酚油§r的另类垃圾桶。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§5岩浆的另一种妙用"
+    }
+  },
+  "questID:3": 1586143453,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 5611,
+          "id:8": "gregtech:mte",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 32000,
+              "FluidName:8": "lava"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

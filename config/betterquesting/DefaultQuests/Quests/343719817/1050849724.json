@@ -1,0 +1,41 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    715387305
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "EMPTY",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 21,
+        "id:8": "gregtech:gt_armor",
+        "tag:10": {
+          "Charge:4": 6400000
+        }
+      },
+      "name:8": "§8纳米肌体™套装"
+    }
+  },
+  "questID:3": 1050849724,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 463,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Charge:4": 4000000
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {}
+}

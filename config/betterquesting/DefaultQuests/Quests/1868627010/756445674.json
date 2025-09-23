@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    2080736484
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2124,
+        "id:8": "gtlitecore:meta_dust"
+      },
+      "name:8": "§3三氯化钌"
+    }
+  },
+  "questID:3": 756445674,
+  "tasks:9": {}
+}

@@ -1,0 +1,20 @@
+{
+  "preRequisites:11": [
+    494226247,
+    1176611413
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 340,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§c能量的最终极形态"
+    }
+  },
+  "questID:3": 2074486534,
+  "tasks:9": {}
+}

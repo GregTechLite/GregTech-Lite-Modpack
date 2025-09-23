@@ -1,0 +1,36 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    2
+  ],
+  "preRequisites:11": [
+    415631972,
+    811189054
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description\n\n§3记得制作一台HV级的两极磁化机或者把你的大型电磁铁升压到合适电压，因为你需要磁化钕来制作EV级的电动马达。",
+      "frame:8": "STAR4_ON_SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 989,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§5§l超高压"
+    }
+  },
+  "questID:3": 1193316526,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 989,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

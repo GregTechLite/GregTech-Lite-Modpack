@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    2048785376
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND_ON_CROSS",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5316,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§b电池箱"
+    }
+  },
+  "questID:3": 468179674,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5316,
+          "id:8": "gregtech:mte"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 5331,
+          "id:8": "gregtech:mte"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 5346,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

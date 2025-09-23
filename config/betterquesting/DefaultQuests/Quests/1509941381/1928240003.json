@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    782579220
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10139,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§3大型酸性发电机"
+    }
+  },
+  "questID:3": 1928240003,
+  "tasks:9": {}
+}

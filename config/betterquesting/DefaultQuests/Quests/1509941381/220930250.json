@@ -1,0 +1,32 @@
+{
+  "preRequisites:11": [
+    251087430,
+    310647870
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 966,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§e苯环的超能力"
+    }
+  },
+  "questID:3": 220930250,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 966,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

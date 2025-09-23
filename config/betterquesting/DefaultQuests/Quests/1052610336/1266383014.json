@@ -1,0 +1,89 @@
+{
+  "preRequisites:11": [
+    264657195
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "现在所有的多方块结构可以使用§a多安能源仓§r或§a多安动力仓§r了！这些能源仓将允许你的机器以更高的功率运行，当然，它们无法打破§e电压等级的限制§r。在本整合包中，从§7LV§r级至§5EV§r级的多安能源仓与动力仓也被添加了。\n\n§3在之后，你将会接触到更大电流的能量输入/输出仓室，例如激光靶仓/源仓与无线能源仓，添加它们的目的只有一个：让机器以更高的功率运行。",
+      "frame:8": "DIAGONAL_CROSS_ON_DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11151,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§9现已支持多安仓室！"
+    }
+  },
+  "questID:3": 1266383014,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 112,
+          "id:8": "gregtech:wire_quadruple"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 112,
+          "id:8": "gregtech:wire_octal"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "Damage:2": 112,
+          "id:8": "gregtech:wire_hex"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11151,
+          "id:8": "gregtech:mte"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 11181,
+          "id:8": "gregtech:mte"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 11211,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11166,
+          "id:8": "gregtech:mte"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 11196,
+          "id:8": "gregtech:mte"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 11226,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+name = "Friendly Chests: No Fluid"
+filename = "friendly_chests_nofluid-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "57ff674d1a77d9131d246036529bd2e7b8882566"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6319170
+project-id = 1222540

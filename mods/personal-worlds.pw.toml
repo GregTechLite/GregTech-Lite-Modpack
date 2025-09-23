@@ -1,0 +1,13 @@
+name = "Personal Worlds"
+filename = "personalworlds-1.12.2-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "eb244010eb00e3ead59fbda283fe8935e115be0b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6474405
+project-id = 963010

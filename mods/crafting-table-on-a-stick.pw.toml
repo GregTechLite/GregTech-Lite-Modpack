@@ -1,0 +1,13 @@
+name = "Crafting Table on a Stick"
+filename = "ctoasmod-1.12.2-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "01ee62a3c90ed6b56dc70386381520c238b6eb3e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4892813
+project-id = 940778

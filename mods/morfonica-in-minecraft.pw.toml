@@ -1,0 +1,13 @@
+name = "Morfonica in Minecraft"
+filename = "morfonica-in-minecraft-1.12.2-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nZkdlwt0/versions/RfVvCboK/morfonica-in-minecraft-1.12.2-1.0.1.jar"
+hash-format = "sha512"
+hash = "15df7a9de23c19b920c3b5fbb858d619add5a2e9a6e5b83cf872fe0bb170eb2af209fad5919d1480db2516a8b7431f63ff59348f76eeb6b529c44b6436c46869"
+
+[update]
+[update.modrinth]
+mod-id = "nZkdlwt0"
+version = "RfVvCboK"

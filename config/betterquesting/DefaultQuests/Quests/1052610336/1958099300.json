@@ -1,0 +1,69 @@
+{
+  "preRequisiteTypes:7": [
+    2,
+    2
+  ],
+  "preRequisites:11": [
+    811483129,
+    1603368197
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description\n\n§3当你到达MV阶段后，可以制作一台MV流体加热器以为温室提供温室气体。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 138,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§b电动水培箱"
+    }
+  },
+  "questID:3": 1958099300,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:chainsaw_lv",
+          "tag:10": {
+            "Charge:4": 100000,
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "DisableShields:1": 1,
+              "HarvestIce:1": 1,
+              "RelocateMinedBlocks:1": 1,
+              "TreeFelling:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 100.0,
+              "AttackSpeed:5": -3.0,
+              "Durability:3": 0,
+              "HarvestLevel:3": 7,
+              "Material:8": "gtlitecore:metastable_oganesson",
+              "MaxDurability:3": 110591,
+              "ToolSpeed:5": 114.0
+            },
+            "HideFlags:3": 2,
+            "MaxCharge:4": 100000
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 138,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
