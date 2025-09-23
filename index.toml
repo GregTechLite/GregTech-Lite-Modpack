@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "LICENSE1"
-hash = "8ea9909911be952ad1fe9a81bc5938389176ac6d388e9cd005d2a520217fefd6"
-
-[[files]]
-file = "LICENSE2"
-hash = "432b872ed8f60dabf83d883b15e382e3dd80fa2a361f91e385c1637aeedd90db"
-
-[[files]]
 file = "PCL/Logo.png"
 hash = "ae8f9382249cbdd160bf757cf70348468072db76805963c8351c5c10606610ce"
 
