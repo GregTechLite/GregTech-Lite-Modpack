@@ -9,14 +9,6 @@ file = "PCL/Setup.ini"
 hash = "5f685b137182459da324e8fc5db351053179a493639eac38453185501a26d22b"
 
 [[files]]
-file = "config/AE2Stuff/overrides/recipes.cfg"
-hash = "e0f13f2bdec13b9fd8dd1393a4ef3d58fbd26fb19243649a4a4e74257634f446"
-
-[[files]]
-file = "config/AE2Stuff/overrides/tuning.cfg"
-hash = "9a6bd2374e1d85d4cd74363ac18ec8372303d88538a186d77ee34c34cfdee238"
-
-[[files]]
 file = "config/AppliedEnergistics2/AppliedEnergistics2.cfg"
 hash = "18eafc946907f7e69551338052d5705fb66f9fbb3cb472af1a0979ba6fc8cdf1"
 
@@ -41,32 +33,8 @@ file = "config/Building Gadgets.cfg"
 hash = "e15ed6fd9ff4d5a8facc9f4a7fec3db1cb658af7387233d9ca0b3901120cd371"
 
 [[files]]
-file = "config/Gnetum.cfg"
-hash = "5073d6ae2b9ad5ece93e26e914cff886d963552ea55684892f1d748dbad8cf67"
-
-[[files]]
 file = "config/HadEnoughCharacters.cfg"
 hash = "4a8d6a3a0012959913c2288df340320e7e8aee245b81a90586cb001be701a4ff"
-
-[[files]]
-file = "config/JustEnoughCalculation/main.cfg"
-hash = "9fd71d935bce13fb80c078c18284fbcff08496cc42e4b6c1a1acf583fb742d49"
-
-[[files]]
-file = "config/JustEnoughCalculation/record.json"
-hash = "f40ea8135c7a0f598d9548eba85c517d05d3244a94b806261f0521dada8d4a15"
-
-[[files]]
-file = "config/JustEnoughCharacters.cfg"
-hash = "4c3c305ad807dad3e0eb530dbe4d5e6fb958895da67c1897ce94d967787ce405"
-
-[[files]]
-file = "config/MoreOverlays.cfg"
-hash = "081814e142c935f474b4cc84e33f8ddd090857843d5a7d0924dd09c17e866f3c"
-
-[[files]]
-file = "config/MrTJPCore.cfg"
-hash = "c6fb030033fc55c377d661a621d7b0d63816fe08afac5021891f7addc97cfef3"
 
 [[files]]
 file = "config/ProjectRed.cfg"
@@ -103,14 +71,6 @@ hash = "ccd9ac409fd318ce8a97bf0a1711e1063c4551c40bd9cb70c57b207260515bfa"
 [[files]]
 file = "config/betterbuilderswands.cfg"
 hash = "e17d187e264559f465aa1b79850a95518858308fd310a74f9263c6a9eb24d312"
-
-[[files]]
-file = "config/betterchat.cfg"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/betterp2p.cfg"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/betterquesting.cfg"
@@ -2177,36 +2137,12 @@ file = "config/chisel.cfg"
 hash = "c2dc371659cb7beef9ad0e210100200058d85049630621d8af4b1d8044a2e0e6"
 
 [[files]]
-file = "config/codechickenlib.cfg"
-hash = "1aa05b9dac4c5718764e3e0a4e23addce945ca283dd21959088520160b34a66e"
-
-[[files]]
-file = "config/craftingstation.cfg"
-hash = "eb664b7c61d532596ae449a60b4085efcb26257eda20eea76d96e10b5663d3f7"
-
-[[files]]
-file = "config/ctm.cfg"
-hash = "7ddf0e7cd4bb1dc03e6201ab78a7f73f0e7ac2cbbdb615c44fa72df5db63ca89"
-
-[[files]]
-file = "config/ctoasmod.cfg"
-hash = "963b57cdebc03fb9d68d05a79287690a465825398e39d734b6643ff74a3b025e"
-
-[[files]]
 file = "config/customloadingscreen.cfg"
 hash = "77c01ddb20381f7380b64c10f9910baeee9bf502ea366c6cd1c134d108f230af"
 
 [[files]]
 file = "config/customloadingscreen/example.json"
 hash = "a347a1090de0ccc6373ba2e476938cabb0574edd70f585605da04c74fb74818e"
-
-[[files]]
-file = "config/customloadingscreen_timings.nbt"
-hash = "dc3fa07196ff6f0e1f180576ea8e1f655794476f260a0eae81ddffcc4477e98e"
-
-[[files]]
-file = "config/customloadingscreen_tips.txt"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/duradisplay.cfg"
@@ -2905,92 +2841,12 @@ file = "config/itemborders.cfg"
 hash = "41b685937b631cc416bf530348524e5fa51c4c589e8d11a9790c9c5ff109b898"
 
 [[files]]
-file = "config/itemzoom.cfg"
-hash = "1339c7255daeb6ed145fd9c03a6fd83ab9159cdc8cc46364137a6c1f0bb139fe"
-
-[[files]]
-file = "config/jei/itemBlacklist.cfg"
-hash = "413f63e9bf3b76e4e9c742f98ec0c3b8a1469ac83a917f13d5a6c40badeb0e57"
-
-[[files]]
-file = "config/jei/jei.cfg"
-hash = "a7960085e61ddca0163d06acf0d00b2360a137ef9b16d8afdf6ffefe8cc9d5c5"
-
-[[files]]
-file = "config/jei/searchColors.cfg"
-hash = "37063325efc43a8396530587822ee5aa1a0f7cba31bbf77f66d6c7042e8cc8ea"
-
-[[files]]
-file = "config/jei/worldSettings.cfg"
-hash = "edf71ba0f7f0429c42d062798625a1734b161b9f3aab9256dbae7911dc8fb1c4"
-
-[[files]]
-file = "config/jeiutilities/jeiutilities.cfg"
-hash = "959effb2822ae84517aae1cd0befd929bf2d2bb8b98c79ef23dff52eb18e141d"
-
-[[files]]
-file = "config/journeymap_ModInfo.cfg"
-hash = "6aabe8f8225e54495b99d71ccb03ceabbf1c5f5ae25205f4011fdb04c3d91b35"
-
-[[files]]
-file = "config/journeymap_server.cfg"
-hash = "bfd7c39f740bf5008fb0dc55e1b140d7436f47c57775f5a0fee9721db56229bc"
-
-[[files]]
-file = "config/keywizard.cfg"
-hash = "f3912c3b2ef0b4d391912af93a082f3f309abd2d32cd996362126367cc540bba"
-
-[[files]]
-file = "config/kleeslabs.cfg"
-hash = "d682da56898b089947b56e5f4226f148c96ee1d2412b5778c1ce95f54998da8f"
-
-[[files]]
 file = "config/loliasm.cfg"
 hash = "b116b2ed6e6221c5381d56da74c52824e20cc58c44a11af02e44053ba9b999be"
 
 [[files]]
-file = "config/loliasm/methods-stable_39.csv"
-hash = "0a583eb8a8f4e8f797e965fdecb5d72ec4d33fc7e8d6002a82a4e62d35abe9c2"
-
-[[files]]
-file = "config/microblocks.cfg"
-hash = "c37d2987b0316ae1e4b0bff9af8bca096e1d67cc5032c1287154b83cee37928e"
-
-[[files]]
-file = "config/minieffects.cfg"
-hash = "b4d9558f9a70d1d417ee5196ac889b70fae560ac3fa77d5f694be19d29d5850e"
-
-[[files]]
-file = "config/modnametooltip.cfg"
-hash = "c3b897ecd08bf4cf0a29747d40f5a5326df8cff30e797c15e37a3161a0b8de68"
-
-[[files]]
-file = "config/modularui.cfg"
-hash = "f3e46e51086d61ec7e30f0b5f46a723bf9d7806f0a49b364121179ee3a26bd27"
-
-[[files]]
-file = "config/morefurnaces.cfg"
-hash = "5113d755fa5e92a2aff47489cce11f3b915d1019494b4c8c83badc73b85ef1ae"
-
-[[files]]
 file = "config/morfonica.cfg"
 hash = "820acaaf843b6720ded49a0da244f57bc4c68ee758a05fa521e7e940a3917160"
-
-[[files]]
-file = "config/mousetweaks.cfg"
-hash = "ddfdf0aaff4f90ed208e8f583b8e98f517aade4dbe97f1b504c9c917a7b0c69a"
-
-[[files]]
-file = "config/multipart.cfg"
-hash = "09e84839cd81ded44c4a89136ad4c53ad9b276a3e3540e1b4040539ec040e0d7"
-
-[[files]]
-file = "config/naturescompass.cfg"
-hash = "28e572c7e27e276012f39ed1ff90a4b90ab85dbc0760e550883a10facbf974ef"
-
-[[files]]
-file = "config/neonium-options.json"
-hash = "60b242fefd42e57111292054dc850b85a64bd7c4c92299db3ce18e22c0fc5e95"
 
 [[files]]
 file = "config/personalworlds.cfg"
@@ -3001,28 +2857,12 @@ file = "config/pickupnotifier.cfg"
 hash = "513bda857945ca222782a6a76e1ceda47c7a45da49f4aaaaaffa7754617708e4"
 
 [[files]]
-file = "config/retro_sophisticated_backpacks_client.cfg"
-hash = "9564bacdffdf5a403b99329436216e11f25fd4a950022a5d93505ec9d5562d2c"
-
-[[files]]
-file = "config/retro_sophisticated_backpacks_general.cfg"
-hash = "045c92977d5109578773c9aa86fd73435527d18c864ada7e5817f977ffe43268"
-
-[[files]]
 file = "config/simple_trophies.cfg"
 hash = "ce056dee2429773d85e88a952d5da6e6e47d8ab391bbe5de91008a846e67333f"
 
 [[files]]
 file = "config/smoothfont/smoothfont.cfg"
 hash = "91eb6e81590afa89799ac1108a13a7aa360cb1d02ffc9b17811ce1380c881fa2"
-
-[[files]]
-file = "config/snad.cfg"
-hash = "e30f8f43574957910bb41e19569f652518545fa09dbe54568ca006fa75fa6b32"
-
-[[files]]
-file = "config/splash.properties"
-hash = "9e1310d5281a1e09b8dc2ea7dad3e510b6ed8acb4cece1a29fa11e646cf967cf"
 
 [[files]]
 file = "config/stellar_core.cfg"
@@ -3043,338 +2883,6 @@ hash = "17c7ceb4ac7bc4c5c918fe6c4bb4686680fdafa6a7fdb5fee4651e05f069ea92"
 [[files]]
 file = "config/topaddons_client.cfg"
 hash = "c2027d998f8ee0556c643faf22bdc0aacda877d5dc43945546112f4b72bdea3a"
-
-[[files]]
-file = "config/translocators.cfg"
-hash = "7da7581e87df4f0f619d85bf78431aabe35b32d83fea33881556ab5f4083e708"
-
-[[files]]
-file = "config/worldgen/dimensions.json"
-hash = "24fb71fcf6fa9e538e62e951d3f9190ae788ed67607196bc69d633bc37779cf4"
-
-[[files]]
-file = "config/worldgen/fluid/nether/blaze_deposit.json"
-hash = "12cead808847d962bf1d6b042a22562c4f35913d040f09b155beaaa1b711595d"
-
-[[files]]
-file = "config/worldgen/fluid/nether/lava_deposit.json"
-hash = "d307913c6ee099a19a91a79e295e774ebc272d80d984d72dd970e4bded0c5d83"
-
-[[files]]
-file = "config/worldgen/fluid/nether/natural_gas_deposit.json"
-hash = "ce4614b65f3fa79218c5302067acbdaed863fa4227257260905cbc8680ba9aa1"
-
-[[files]]
-file = "config/worldgen/fluid/overworld/heavy_oil_deposit.json"
-hash = "d001b65acf1a6e7619ab56fd83de9d7d228377649d578ec68e6907bdf63e4041"
-
-[[files]]
-file = "config/worldgen/fluid/overworld/light_oil_deposit.json"
-hash = "0e6a97e8179f5cda74da3408100a8b54fa76e445726c32fd6a977f959b911f9c"
-
-[[files]]
-file = "config/worldgen/fluid/overworld/natural_gas_deposit.json"
-hash = "a5fbc91670cfb82827c1e69eeabc67b05cb04e5c3fe434c6c73635edd05123ee"
-
-[[files]]
-file = "config/worldgen/fluid/overworld/oil_deposit.json"
-hash = "715bd3e87a0f7e7e7f43e4552720a00a09d5cd2033a179c8cb4fd491bbaad523"
-
-[[files]]
-file = "config/worldgen/fluid/overworld/raw_oil_deposit.json"
-hash = "26351ff871ee417f2b2e5aa85d10113c8bf8e99197824725968edbeee03dd0c5"
-
-[[files]]
-file = "config/worldgen/fluid/overworld/salt_water_deposit.json"
-hash = "d35a298dd3eb8363c6cb9be63211127feae862d5b3044b655d29090dcb7c8ca7"
-
-[[files]]
-file = "config/worldgen/vein/end/bauxite_vein.json"
-hash = "f911f5b00e642b72bf067ee797d0611719da011662ebb418b99365f2edbc401b"
-
-[[files]]
-file = "config/worldgen/vein/end/magnetite_vein.json"
-hash = "8545cd67498baf84abeac791f13ca337e5071bc3ea597ad7bdeb7fb0b85c64d5"
-
-[[files]]
-file = "config/worldgen/vein/end/naquadah_vein.json"
-hash = "37a0919bb9df9f7702327f65f6bebff07f249593d5b6ad949f96fd2593fcc789"
-
-[[files]]
-file = "config/worldgen/vein/end/pitchblende_vein.json"
-hash = "28af2934f52e822cb2194c4b1b19bef1ca90c7118f424239e7516b94dd660eae"
-
-[[files]]
-file = "config/worldgen/vein/end/plutonium_vein.json"
-hash = "159f3b0f0fc910ab9f11802a30e6b2821b217bd239d72c3fa7e2f0a7adce76ba"
-
-[[files]]
-file = "config/worldgen/vein/end/scheelite_vein.json"
-hash = "564d48c196c307c511e6921e6517d98915cbc4b279ba3e953b9ce6c51c72d5af"
-
-[[files]]
-file = "config/worldgen/vein/end/sheldonite_vein.json"
-hash = "6041560fc0361e53ceb107c9efa8bbb13dd8bd78a4fae156d30d31c17b9d9db5"
-
-[[files]]
-file = "config/worldgen/vein/nether/banded_iron_vein.json"
-hash = "1523904971b042a3ab198e5917ce8f8e807677c368b61343b641b8f4f7bdbe42"
-
-[[files]]
-file = "config/worldgen/vein/nether/beryllium_vein.json"
-hash = "ef3c61ab9743f594bcd9b822fd78f5fba49157b0e87802bb8101d8df1bb9bfe5"
-
-[[files]]
-file = "config/worldgen/vein/nether/certus_quartz_vein.json"
-hash = "fd6b81d14333be17b6eddd9cc9f9d4c30633b4c7ad89bca6558cd0b645f89b97"
-
-[[files]]
-file = "config/worldgen/vein/nether/firestone_vein.json"
-hash = "d2cd65c53b2465710f98ffc36c5701589f29bb706a327df2adf545261ea1b17e"
-
-[[files]]
-file = "config/worldgen/vein/nether/fluorite_vein.json"
-hash = "c0f4e505fda5311cdf1ed4b53b7858ffbb07a8e5737e979e736454261306bea4"
-
-[[files]]
-file = "config/worldgen/vein/nether/manganese_vein.json"
-hash = "6c4108d4f423d28d94bf0df5a84e5a1e625d4d3e7647408eeac4f72209cd92fb"
-
-[[files]]
-file = "config/worldgen/vein/nether/mica_group_vein.json"
-hash = "fe983f304564b10374ed1ac6722ccc27504b5cd5409a179a619f261197f47911"
-
-[[files]]
-file = "config/worldgen/vein/nether/molybdenum_vein.json"
-hash = "038360edac20b01d4e480ad29fb95957e0eae21b95ea9754a0118e75f1416114"
-
-[[files]]
-file = "config/worldgen/vein/nether/monazite_vein.json"
-hash = "42064e309059563a0ab8708b0b3deb833babe0e646bb2a779c39e201923f6e4b"
-
-[[files]]
-file = "config/worldgen/vein/nether/nether_quartz_vein.json"
-hash = "b64dcf5fd34ffac901acc9ee9fe586b734465c71778f094c7e46118a4f529b79"
-
-[[files]]
-file = "config/worldgen/vein/nether/prasiolite_vein.json"
-hash = "b5678525b7566c990b4f7fb843a637838f1b826c9fbf595b581dacbd8b88ba1a"
-
-[[files]]
-file = "config/worldgen/vein/nether/realgar_vein.json"
-hash = "736d6520bd282ce891081e93891458c8f0093f601e52850a66451bbf95149990"
-
-[[files]]
-file = "config/worldgen/vein/nether/redstone_vein.json"
-hash = "35c4c84f3bb5093786d87ccc4a2371159b03748f58e50433ffaa1146ca8ea030"
-
-[[files]]
-file = "config/worldgen/vein/nether/saltpeter_vein.json"
-hash = "8b44c2e63714a74a24d5dffb4221e1da6d72bdbb483105e1239640ba0d673e2a"
-
-[[files]]
-file = "config/worldgen/vein/nether/sulfur_vein.json"
-hash = "ace82b39caf92f17a04589d50f4f5550beb8bc0330a55c0ecb13bfbfa51f3cb3"
-
-[[files]]
-file = "config/worldgen/vein/nether/tetrahedrite_vein.json"
-hash = "42a373a6ddbc29a0a2a5e5ca3407d1bcc888e3b34a82a18ee68ea1cee24dddf0"
-
-[[files]]
-file = "config/worldgen/vein/nether/topaz_vein.json"
-hash = "27358f82f539909876eb912997850df92794de31a10444c94409a4a6de4666da"
-
-[[files]]
-file = "config/worldgen/vein/nether/uvarovite_vein.json"
-hash = "104c6ccb53c3787a074a901d92110cf6a3c45866fa6bbc291363c9b3b105935b"
-
-[[files]]
-file = "config/worldgen/vein/overworld/apatite_vein.json"
-hash = "bdea93a51961fc638c1dabb54ca9c9a88444b40e1be250736b7aa1afbfb7b92b"
-
-[[files]]
-file = "config/worldgen/vein/overworld/baddeleyite_vein.json"
-hash = "d6d9f8f9f73d7ec9b29d18a8d9d81a1fffd2a48bb95505dca58545496d49bd8c"
-
-[[files]]
-file = "config/worldgen/vein/overworld/basalt_sphere.json"
-hash = "d3d9da46bd40ddab02949f511175c76f299e3bd15a7cf7c4f4f463dc651f12eb"
-
-[[files]]
-file = "config/worldgen/vein/overworld/black_granite_sphere.json"
-hash = "6838a1bee8fbf5e4056d3a59f283a262598b2ebabc5bb62837c026e503c62c01"
-
-[[files]]
-file = "config/worldgen/vein/overworld/blue_schist_sphere.json"
-hash = "4a56c59f6a68a2d33df644192da3c3761e68498ede43ae608abc5a7682d0ccb8"
-
-[[files]]
-file = "config/worldgen/vein/overworld/cassiterite_vein.json"
-hash = "797d2941c5ca037737da265320c4804d3f792ad19617a63d6d69da8181ee6701"
-
-[[files]]
-file = "config/worldgen/vein/overworld/coal_vein.json"
-hash = "ebe7cb7f08f5a5b18b68b7994601a14b8e317c2619ffe347a324a5443ca1731e"
-
-[[files]]
-file = "config/worldgen/vein/overworld/copper_tin_vein.json"
-hash = "d4ba8c082ede5c15953f8ebf6f4feb64142170384cb88cdd064e479afbf43508"
-
-[[files]]
-file = "config/worldgen/vein/overworld/copper_vein.json"
-hash = "aa7ae4a6b90d6427b3ac28db09f4a42565d4615e5041b041838892cfe039251d"
-
-[[files]]
-file = "config/worldgen/vein/overworld/cryolite_vein.json"
-hash = "7fffdfbffec643f5a7c640886d03427d72fe5b20dea09fac7213e2a80553b08f"
-
-[[files]]
-file = "config/worldgen/vein/overworld/diamond_vein.json"
-hash = "2e082708860df0237ebee3aece8fcf01a309cbff00b3819b5e677dd2ce9e8d19"
-
-[[files]]
-file = "config/worldgen/vein/overworld/dolomite_vein.json"
-hash = "f09652d00bdc0be2de803c1d80b607ab05572d7e829477379984654d9d1e3302"
-
-[[files]]
-file = "config/worldgen/vein/overworld/feldspar_vein.json"
-hash = "326c7da6bfabf42a96c376e18495c80d1ac7ac87ce6e359c7c07f9bef87d0111"
-
-[[files]]
-file = "config/worldgen/vein/overworld/galena_vein.json"
-hash = "8007a65e990e78cd08acc511010633ff3502ee6dfcac3b2c93ea09022acea229"
-
-[[files]]
-file = "config/worldgen/vein/overworld/garnet_tin_vein.json"
-hash = "1db05a2b2f3589daa94ded637bdb9261c859024d75ca907e9d03940fbf473576"
-
-[[files]]
-file = "config/worldgen/vein/overworld/garnet_vein.json"
-hash = "93b457629bc881eafd0b5a806a2777234430deb844076534ca2fbbdbf8bf6cbd"
-
-[[files]]
-file = "config/worldgen/vein/overworld/green_schist_sphere.json"
-hash = "69ee45946e3f2baf8c38dd60892dad2f4996e4e5542455d5543d6b20e101bdb8"
-
-[[files]]
-file = "config/worldgen/vein/overworld/iron_vein.json"
-hash = "e2f243977a30b31e6608f836dac24370f9c3c04e2a709198b18baf528ac9684d"
-
-[[files]]
-file = "config/worldgen/vein/overworld/jade_vein.json"
-hash = "d7ed183f70394b963fdab46e7141690cc58960a64e51a56e404bbaee230671f8"
-
-[[files]]
-file = "config/worldgen/vein/overworld/kaolinite_vein.json"
-hash = "d0e467ba421eb48f637f7547aa554e331d69180b843dbf39872c9b1b2f9c33bb"
-
-[[files]]
-file = "config/worldgen/vein/overworld/kimberlite_sphere.json"
-hash = "9bce5155fb64dbb335cef890cbf54e3dc13e2dc0fd07ba4695a7dc5a74e8d1ae"
-
-[[files]]
-file = "config/worldgen/vein/overworld/komatiite_sphere.json"
-hash = "ec8eb10d48dc93d4683f2b8648c6205d30b62e1eeca0e56f95644f6637dc0d48"
-
-[[files]]
-file = "config/worldgen/vein/overworld/lapis_vein.json"
-hash = "1b1b328ed57ff73d5f9fa9893fc5dc646d125e9b3c796d5cdc038572bd2cd3e2"
-
-[[files]]
-file = "config/worldgen/vein/overworld/lignite_vein.json"
-hash = "0ad6d1d9b78b780cb800e5497fa2f7ad075ec4008d01a73c46d0d6fd86c2b2ab"
-
-[[files]]
-file = "config/worldgen/vein/overworld/limestone_sphere.json"
-hash = "8229f2b1c1bcfe72ce5d3f079a07e7e757de2108283f7bcfa6cabc30ddee3366"
-
-[[files]]
-file = "config/worldgen/vein/overworld/lubricant_vein.json"
-hash = "4e8cde20ed67aa8d7e6e8f2e5bc6e132c379eb0e34885bb01b35d7e08dc87930"
-
-[[files]]
-file = "config/worldgen/vein/overworld/magnetite_vein.json"
-hash = "e5f1a666b792e0cdf7d848c1cd2f6b5295a1a7b2bc885a4145a6fe66fe9ba232"
-
-[[files]]
-file = "config/worldgen/vein/overworld/manganese_vein.json"
-hash = "995f136e6000de2579cdc16262854968fc020a62d3511c2c3e0d949f2364dce8"
-
-[[files]]
-file = "config/worldgen/vein/overworld/marble_sphere.json"
-hash = "5d0bc683629746edcac721ef58bcc70fc303c7d8c9190c44dcfcb1cc0346382c"
-
-[[files]]
-file = "config/worldgen/vein/overworld/mica_vein.json"
-hash = "31e3de4509ca82e2b53c478e9230123b6b3a494b7af2a56be25e40d351c25407"
-
-[[files]]
-file = "config/worldgen/vein/overworld/mineral_sand_vein.json"
-hash = "9496e0f177dbde01a48a5c8f383c5782a4c6846a13a9d21b6d48450bd20ae2d0"
-
-[[files]]
-file = "config/worldgen/vein/overworld/nickel_vein.json"
-hash = "7c07921b63df52f7a001b20a6ae0d3615dbf90a3a1a047c95a65e5305fc1cb02"
-
-[[files]]
-file = "config/worldgen/vein/overworld/oilsands_vein.json"
-hash = "d5deaa5ec870d065b8267795b71e127feffcbb0fb8dc79f01316d1f31df51670"
-
-[[files]]
-file = "config/worldgen/vein/overworld/olivine_vein.json"
-hash = "07b8e8a35963f0beecfb6dfd5869e1d29cc0b35df69afb9ab2a9d49b51b288ec"
-
-[[files]]
-file = "config/worldgen/vein/overworld/olivine_vein_2.json"
-hash = "fe11ca4f9bd627de5862251b747cc79b36037783b15433b7a84e5ee8fe609a0f"
-
-[[files]]
-file = "config/worldgen/vein/overworld/quartzite_sphere.json"
-hash = "923b80327a72972dd8d8a4daa8fbf7df478971319c0cbdf2d49d2fce35eee7a3"
-
-[[files]]
-file = "config/worldgen/vein/overworld/raw_oil_sphere.json"
-hash = "1267e81e0cf33735275d634c551869e90da72481d03acb63aaa7f03d60650125"
-
-[[files]]
-file = "config/worldgen/vein/overworld/red_granite_sphere.json"
-hash = "c3be841d464fdcb810ed85d9420b43610d5e791084fcb117b120c65fa377fb4c"
-
-[[files]]
-file = "config/worldgen/vein/overworld/redstone_vein.json"
-hash = "8fff32674645d91bf9a29103911c9e2d6ad93302e00df2455afb1ab5670b0451"
-
-[[files]]
-file = "config/worldgen/vein/overworld/salts_vein.json"
-hash = "d0ae94a827738c7d0e0e4bfee9c41d1e58e3655d306e3c189c421df4d090ccb0"
-
-[[files]]
-file = "config/worldgen/vein/overworld/sapphire_vein.json"
-hash = "dde0a4a9c1dd7c5429d93381f835a0738763ca6dc687a17b6aa495b0d0f04b0f"
-
-[[files]]
-file = "config/worldgen/vein/overworld/shale_sphere.json"
-hash = "06f3f61571fe7f5d74aec22244a5f2f87b74bb489d2352b8c29a06ba13c34a37"
-
-[[files]]
-file = "config/worldgen/vein/overworld/slate_sphere.json"
-hash = "8a9f0cf87830d6b03c0bb3e45832f869c8b9dfef56a9a0392bb7261d099cb40d"
-
-[[files]]
-file = "config/worldgen/vein/overworld/strontium_vein.json"
-hash = "b0c05d08430f9b9e25125447a4893f145ddb2380a49882a478e897166a631059"
-
-[[files]]
-file = "config/worldgen/vein/overworld/tanzanite_vein.json"
-hash = "7963ee12b3beb8fa3630c403ab14148f916325147e184e6c0150a7a06288f968"
-
-[[files]]
-file = "config/worldgen/vein/overworld/tenorite_vein.json"
-hash = "99fcf0755cf5341ba7d5e82c1b7c5b3bc707b3df508b8b4260eb91ff03879f85"
-
-[[files]]
-file = "config/worldgen/worldgen_extracted.json"
-hash = "c546ad832791db6889e41edc4d3dc0cf59dbeaf6f94d9d8dbd611748274368a6"
 
 [[files]]
 file = "fontfiles/Exo-Medium.otf"
@@ -3483,58 +2991,6 @@ hash = "b583e3ca86336603797c1267aa3afe1ad635166c2977e423a7df9dac9ba92094"
 [[files]]
 file = "icon.png"
 hash = "ae8f9382249cbdd160bf757cf70348468072db76805963c8351c5c10606610ce"
-
-[[files]]
-file = "journeymap/config/5.7/journeymap.core.config"
-hash = "ded218a69573a5ed4f08165de54de744d0076108922f63d59f7485a3d7037375"
-
-[[files]]
-file = "journeymap/config/5.7/journeymap.fullmap.config"
-hash = "0d34bb4a62862cfe2a1c928310222422edb8a371891f53475a72a42892181a6b"
-
-[[files]]
-file = "journeymap/config/5.7/journeymap.minimap.config"
-hash = "455128cd7c6ee01a5284fa4f1b1d1b06357a0e17bfdbbef96c5af5048c105ed9"
-
-[[files]]
-file = "journeymap/config/5.7/journeymap.minimap2.config"
-hash = "752cffce7794f4a16c29966aaa9ba177668f928c3f9d724bdf3c0a71580aae01"
-
-[[files]]
-file = "journeymap/config/5.7/journeymap.topo.config"
-hash = "3ca2e63e8a623fa9127e86dee069de04623d79defb69d4c6d1fc3332de2e06d2"
-
-[[files]]
-file = "journeymap/config/5.7/journeymap.waypoint.config"
-hash = "e479de804a9c65e4457227122a346c1f2469139fe050380ab3dace4675db5a97"
-
-[[files]]
-file = "journeymap/config/5.7/journeymap.webmap.config"
-hash = "39cb4b996a6d807388b83388b2a2b76f0750a374d096783e4bbb432cacebcd9e"
-
-[[files]]
-file = "journeymap/server/5.7/journeymap.server.default.config"
-hash = "dbcb60526331c65a496cd5d8d19a47862206b9ada85498c5278b97e64c24c222"
-
-[[files]]
-file = "journeymap/server/5.7/journeymap.server.dim-1.config"
-hash = "380f439f7a48211f54ec1cd9b4ea94c27b1c1502159822bc63b57b94c30908ff"
-
-[[files]]
-file = "journeymap/server/5.7/journeymap.server.dim0.config"
-hash = "4293ea54106ddc1c2b42f854344e4f7b81a370403ba52957cfae031c8407aacc"
-
-[[files]]
-file = "journeymap/server/5.7/journeymap.server.dim1.config"
-hash = "07fba1ccf9fa184b68f70629018fe5b3319b495e620f535e9ceb90108dc2c709"
-
-[[files]]
-file = "journeymap/server/5.7/journeymap.server.dim2.config"
-hash = "6395e26504c460385bd8d7a19d41356771abd9697ba1679b640b891f2a057705"
-
-[[files]]
-file = "journeymap/server/5.7/journeymap.server.global.config"
-hash = "791a1e4f9b78926b3f2c6af8e7c83a5f1b25623ced756ccc5de34e4a1b7fb146"
 
 [[files]]
 file = "local/client/ftblib.cfg"
