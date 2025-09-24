@@ -2561,18 +2561,6 @@ file = "icon.png"
 hash = "ae8f9382249cbdd160bf757cf70348468072db76805963c8351c5c10606610ce"
 
 [[files]]
-file = "local/client/ftblib.cfg"
-hash = "54f56c7239c748712baa64c1ea099af6588692c454e3cd5e01efede29836ea08"
-
-[[files]]
-file = "local/client/ftbutilities.cfg"
-hash = "a9a6f52877c572c0afed8a3712ec0ed451cd75f41f767f58da1f5cb7d704d664"
-
-[[files]]
-file = "local/client/sidebar_buttons.json"
-hash = "18bb9a018ab7dc4fac9f7c7b050861f02fef8a6654da8cfb690f7b32cc3aac46"
-
-[[files]]
 file = "mods/ae2-crafting-tree-legacy.pw.toml"
 hash = "64e7a392556a055d0e9566b47937a51febf61251694b8e72a145d5f7e55d6d7a"
 metafile = true
