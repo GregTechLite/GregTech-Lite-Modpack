@@ -1,5 +1,33 @@
-# Exclude exported CurseForge zip files
-*.zip
+# See https://git-scm.com/docs/gitignore
 
-# Exclude exported Modrinth modpacks
+# exported modpacks
+*.zip
 *.mrpack
+
+# packwiz
+packwiz.exe
+packwiz
+
+# eclipse
+*.launch
+.settings
+.metadata
+.classpath
+.project
+/bin/
+
+# idea
+*.ipr
+*.iws
+*.iml
+/out/
+/.idea/
+
+# vscode
+/.vscode/
+
+# fleet
+/.fleet/
+
+# MacOS
+*.DS_Store

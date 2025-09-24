@@ -1,13 +1,13 @@
 name = "ModularUI"
-filename = "modularui-2.5.0-rc6.jar"
+filename = "modularui-2.5.0-rc4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "2f1e64d550a2f1be26c6b5dbad5513410f51857a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/Ecvd12QC/versions/Bs36wHXR/modularui-2.5.0-rc4.jar"
+hash-format = "sha512"
+hash = "73815ecdaf1212b79e50c2cb4162aa98ae8832124271994641103aae6dc78c415d2e49873c8ff9f3c879a06048bc26b59cc4b2374cd0c72629ec7e9317ebef7d"
 
 [update]
-[update.curseforge]
-file-id = 6919652
-project-id = 624243
+[update.modrinth]
+mod-id = "Ecvd12QC"
+version = "Bs36wHXR"
