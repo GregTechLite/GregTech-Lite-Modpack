@@ -41,3 +41,6 @@ packwiz
 
 # MacOS
 *.DS_Store
+
+# modpack
+/docs/
