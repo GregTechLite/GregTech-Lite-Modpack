@@ -13,30 +13,6 @@ file = "config/AppliedEnergistics2/AppliedEnergistics2.cfg"
 hash = "18eafc946907f7e69551338052d5705fb66f9fbb3cb472af1a0979ba6fc8cdf1"
 
 [[files]]
-file = "config/AppliedEnergistics2/CustomRecipes.cfg"
-hash = "0d3d693515c9113c94f5741f7e8dad4f2f7d3ddd496647f8d4343b32ccb8f125"
-
-[[files]]
-file = "config/AppliedEnergistics2/Facades.cfg"
-hash = "661cd844fe44c188c95368174e115681b69d63f5b6f62a676bb9331860599ebb"
-
-[[files]]
-file = "config/AppliedEnergistics2/VersionChecker.cfg"
-hash = "db1a2d1685bef645d9a70659c0a07a20eb624b7f8e12b6edca76ba69189613d9"
-
-[[files]]
-file = "config/AppliedEnergistics2/items.csv"
-hash = "d25c39c08b3474fa3d671bcd548ba2681ff0970801748f83361eda99c657d302"
-
-[[files]]
-file = "config/Building Gadgets.cfg"
-hash = "e15ed6fd9ff4d5a8facc9f4a7fec3db1cb658af7387233d9ca0b3901120cd371"
-
-[[files]]
-file = "config/HadEnoughCharacters.cfg"
-hash = "4a8d6a3a0012959913c2288df340320e7e8aee245b81a90586cb001be701a4ff"
-
-[[files]]
 file = "config/ProjectRed.cfg"
 hash = "e820b1564ef8515271b1b62fc72ff0b6a5ea61b7344060c76ac401a1de0aa41d"
 
@@ -45,32 +21,8 @@ file = "config/ScalingGUIs/ScalingGUIs.cfg"
 hash = "89f6e4acf75fa3ae814610bf34f268d990c6096a2dc49592a07fed861061f3c8"
 
 [[files]]
-file = "config/ScalingGUIs/ScalingGUIsCustomScales.json"
-hash = "30a5abe4a5b9c5fa16e5d0d01ba6b77747d1c310e2597f24cfa83f786f460ba0"
-
-[[files]]
-file = "config/Universal Tweaks - Bugfixes.cfg"
-hash = "fd8bf05127f16eca73ebfbf5a1a4942eb6062e44b27d3ca4ef1cf56446234163"
-
-[[files]]
-file = "config/Universal Tweaks - General.cfg"
-hash = "4a68b49bf108303bf17d8a0c225091bd999dcff9c3b493778cc694df9e2c2452"
-
-[[files]]
-file = "config/Universal Tweaks - Mod Integration.cfg"
-hash = "468033bcaf41507add1fce339ed3a4148dcbd2f028aff78dd625c96be80cdb1b"
-
-[[files]]
 file = "config/Universal Tweaks - Tweaks.cfg"
 hash = "9c3ce512d2fdad8d50b291f3b83ef2362df728491d43a3bb62db74bed1ab2337"
-
-[[files]]
-file = "config/baubles.cfg"
-hash = "ccd9ac409fd318ce8a97bf0a1711e1063c4551c40bd9cb70c57b207260515bfa"
-
-[[files]]
-file = "config/betterbuilderswands.cfg"
-hash = "e17d187e264559f465aa1b79850a95518858308fd310a74f9263c6a9eb24d312"
 
 [[files]]
 file = "config/betterquesting.cfg"
@@ -2117,18 +2069,6 @@ file = "config/betterquesting/DefaultQuests/Quests/NoQuestLine/1880269973.json"
 hash = "60e5180974d72362146013640d6790b9fbbec06ce84973f9bf571ad2b6f5eb32"
 
 [[files]]
-file = "config/bettertabs.cfg"
-hash = "4506e88bf5739de7ef0001989b2ffb3ca8f0ed2e4495413c46d286dc9147d362"
-
-[[files]]
-file = "config/blur.cfg"
-hash = "d81d0b0d97f5555f295ae2aa0a8c437de035352f81c194937548bcdb3626813d"
-
-[[files]]
-file = "config/bogosorter/config.json"
-hash = "52a92d814458333d1248f59c88ab33a191f0be0b664afb2e44c6a2dd6a01af4c"
-
-[[files]]
 file = "config/bogosorter/orePrefix.json"
 hash = "bb49c7b079dfe5948ae022bddc60d7812ecbb88cc0b065c64e6a3ac921e7e86b"
 
@@ -2145,360 +2085,16 @@ file = "config/customloadingscreen/example.json"
 hash = "a347a1090de0ccc6373ba2e476938cabb0574edd70f585605da04c74fb74818e"
 
 [[files]]
-file = "config/duradisplay.cfg"
-hash = "7c2398b116b4d41ce013335605a33c6ab23ecb51634acf499c7cd82e05cc7e24"
-
-[[files]]
-file = "config/elevatorid.cfg"
-hash = "8e77335385f267aec64478f3b772a35e58e16f3f7c46af367ff22f08a99f949a"
-
-[[files]]
-file = "config/endercore/cropconfig.json"
-hash = "f7c71c3da20edeb996b16f4d72709b55ba3f650eb91b0793a4dcefe495c200f3"
-
-[[files]]
-file = "config/endercore/endercore.cfg"
-hash = "291c54abd790f314cfa3ff4088c7a395927764827746137254728bfcb5a7ef37"
-
-[[files]]
 file = "config/enderio/enderio.cfg"
 hash = "569b4a65449c2f3d364f06752ed3d1befac3d83cea385173eea06c521d49a0ed"
-
-[[files]]
-file = "config/enderio/enderioadditions.cfg"
-hash = "1e04cb3b7aef7fca8ec909a8ac036fc3d0fbc9447f6a2f9b2d649cfe44bb6794"
-
-[[files]]
-file = "config/enderio/enderioconduits.cfg"
-hash = "35a4e0457fb74f9e03ab14030b1c4dcdac3f79dc1d38140e78fb536cba346946"
-
-[[files]]
-file = "config/enderio/enderioendergy.cfg"
-hash = "6044c83a86d2e70e0fe77ab33be7e36b38d8c41b47c974a007fd53cdcc6f7b47"
-
-[[files]]
-file = "config/enderio/enderiointegrationforestry.cfg"
-hash = "b2b939bdf9e2e31dcb49b51fb43e22c61ecdf2b86beb8f42b17c53830a189672"
-
-[[files]]
-file = "config/enderio/enderioinvpanel.cfg"
-hash = "ed4d7af6b5daba92828cbd7e71ae71891fe0d590411fdbcb5eccb6620c5fb1eb"
-
-[[files]]
-file = "config/enderio/enderiomachines.cfg"
-hash = "86ee8432e8dbc13f1be7c377cbe03f107d8c312297e47c459eaa1246f4c28e2d"
-
-[[files]]
-file = "config/enderio/enderiopowertools.cfg"
-hash = "e9d80640582d81c907ee378a35c2ec25f5edba4b4dcc394dd3153b455bd53908"
-
-[[files]]
-file = "config/enderio/painter_paint_sources_core.xml"
-hash = "e25dbcf90745a8318f6a47af83ffed9b3669de71039885c43ac568f9bf1274c0"
-
-[[files]]
-file = "config/enderio/painter_paint_sources_user.xml"
-hash = "c80691313787a06617249cfa769d71ac660e663ed62ec305188905cd9a2f53a7"
-
-[[files]]
-file = "config/enderio/recipes/addition_items.pdf"
-hash = "1c956fe6c6a620fc88280f7713ec529fdba052f37d44a1b5442102f88de0d350"
-
-[[files]]
-file = "config/enderio/recipes/aliases.pdf"
-hash = "accfb76970d255599c46ec39f30322f4751de99d73a4a36516d5decff5fc4db2"
-
-[[files]]
-file = "config/enderio/recipes/alloying.pdf"
-hash = "77edf12a532cc7128a877e0253120f4b0b32ed2e08fe0941f60d9ecb0ec487c7"
-
-[[files]]
-file = "config/enderio/recipes/alloying_modded.pdf"
-hash = "8bcdb1b550c47e45ca24fb2d80d1791e629ed9c1831cf9d4226821b19c895d63"
-
-[[files]]
-file = "config/enderio/recipes/balls.pdf"
-hash = "a63c49a33f835f2f726a7ccd71c226ec41adea087cce3312f1ffd38805b481f2"
-
-[[files]]
-file = "config/enderio/recipes/base.pdf"
-hash = "37c90cbee4cdce240f0ae5dd13f4c00ddab00d5f231aa4f6b5c77344eb6edeb3"
-
-[[files]]
-file = "config/enderio/recipes/capacitor.pdf"
-hash = "1ff0b4f184090992e08c77eb6a49ae9d88b77fe5ece905641db98a8d76c48675"
-
-[[files]]
-file = "config/enderio/recipes/capacitor_invpanel.pdf"
-hash = "0628f3052b093423f39d9574e775bf0318c5969152d2536b909b591452d74be9"
-
-[[files]]
-file = "config/enderio/recipes/capacitor_machines.pdf"
-hash = "82db42fe58e15489bad584bcc8fe6a32c09e006d9e45ec5c69f72acaaa119f91"
-
-[[files]]
-file = "config/enderio/recipes/conduits-applied-energistics.pdf"
-hash = "d3eb136581669c5638e7c41305848a97f0530e3e4d62535e529f07218430a2fa"
-
-[[files]]
-file = "config/enderio/recipes/conduits.pdf"
-hash = "3da70f090e37bc72ffce9cc3d902c9932301e4db0e2d6f86ae7fc9e35fd8c1f4"
-
-[[files]]
-file = "config/enderio/recipes/darksteel_upgrades.pdf"
-hash = "5f36b0fcf6087bb68294e3904fa15c3ccd19d7fc5a03889174b050a4174ef773"
-
-[[files]]
-file = "config/enderio/recipes/darksteel_upgrades_machines.pdf"
-hash = "0cf49b0c821889e73c6923ae5202454ab26a286ed56db9c9410178596a37d91b"
-
-[[files]]
-file = "config/enderio/recipes/enchanter.pdf"
-hash = "0041284886339fb4e8c6b55d534559762c09cbfeb897590988b78bace91c5e50"
-
-[[files]]
-file = "config/enderio/recipes/endergy.pdf"
-hash = "11cc2b22d249613d6d96e858b88ab114282b1d7a648fad5ad726558f314f0907"
-
-[[files]]
-file = "config/enderio/recipes/endergy_balls.pdf"
-hash = "1aa9d58c4c312dc6afbef38080186d7d223ca5f1a13400a8f78276c8ef2be17b"
-
-[[files]]
-file = "config/enderio/recipes/examples/broken_spawner.xml"
-hash = "91721516b595eae23e06403a8946f50c4d8983799046e7ea17e3d1a44d98c13f"
-
-[[files]]
-file = "config/enderio/recipes/examples/cheap_machines.xml"
-hash = "e18c6fccf85e3dc52ea15e7bb676001c7de23652dcfcf5048c22ff7b42a01fb7"
-
-[[files]]
-file = "config/enderio/recipes/examples/cheap_materials.xml"
-hash = "5944e2c14c0366c8e9744e69ebadf6f963698f33ac5730b19cebcde7fdff4c4c"
-
-[[files]]
-file = "config/enderio/recipes/examples/cheaty_spawner.xml"
-hash = "6f72476c5d2c48fa43581d79b2e15719439d2db3cadb41228cf4eae273568abf"
-
-[[files]]
-file = "config/enderio/recipes/examples/conduits_easy_recipes.xml"
-hash = "44ce32e12306aa8c3862cb3e4d08118157e27a077effce68503cabe82587163f"
-
-[[files]]
-file = "config/enderio/recipes/examples/conduits_hard_recipes.xml"
-hash = "9ea221f48997eb46c92035d1e306fd4575a5eed6454d152036d01e1fffe1d4de"
-
-[[files]]
-file = "config/enderio/recipes/examples/easy_recipes.xml"
-hash = "150ce6b1f7736e96ca426740c40adaaca5fb79963bc03f5b9067d408d57dec5c"
-
-[[files]]
-file = "config/enderio/recipes/examples/hard_recipes.xml"
-hash = "44d2ea959cf0051249d93f2137b03f8bfc5a17b71096b7205fb9a2dce7cc66bd"
-
-[[files]]
-file = "config/enderio/recipes/examples/infinity.xml"
-hash = "ca99c19ec38649911cfd1cf870f0fb26c68392f868d0427552fb9a02d3502c6e"
-
-[[files]]
-file = "config/enderio/recipes/examples/legacy_recipes.xml"
-hash = "12cecc0a543bfdbf11fb221ec39a2ded114e938d6fb0a82ddc72b40b8c70ca4a"
-
-[[files]]
-file = "config/enderio/recipes/examples/machines_easy_recipes.xml"
-hash = "725f3ff9e25ca184765fba828d57f75c2e33bbb2858310b2ba95b0820a1c74b9"
-
-[[files]]
-file = "config/enderio/recipes/examples/optional_tweaks.xml"
-hash = "283c497f2573598b40b4053f4fc39892a35c6a5ee30bab692ca297259c106362"
-
-[[files]]
-file = "config/enderio/recipes/examples/peaceful.xml"
-hash = "cf086eb4766932d17a1f9c2ea43611ba5d9f2e8b82231838886c483f6d0b3eef"
-
-[[files]]
-file = "config/enderio/recipes/examples/powertools_easy_recipes.xml"
-hash = "8c57899ec32317d1b6865fb2a6d37ed372e37f3d85450b0aea3f4435528550dc"
-
-[[files]]
-file = "config/enderio/recipes/examples/recipes.xsd"
-hash = "dc1c19a29b13f87bbd8a101d5c3fa46cd16f7c75bd8f3aadae6371bd27b413a6"
-
-[[files]]
-file = "config/enderio/recipes/examples/sagmill_dupe_recipe_patches.xml"
-hash = "f7fcb88fe9e7095fe0717195041a94bc11420a7467959653104d7e28cd734531"
-
-[[files]]
-file = "config/enderio/recipes/examples/strict_iron.xml"
-hash = "fed20d7748b10d2cd4e3e6092f3161f86dbd544a3f4158b375df4f69d582f722"
-
-[[files]]
-file = "config/enderio/recipes/examples/unhide_base.xml"
-hash = "59c4bb08fd7252d66b71bed3505f2b14603b5da10d0f2560a192d1fbfcb46c4d"
-
-[[files]]
-file = "config/enderio/recipes/fuels.pdf"
-hash = "9f9bd7a8494c3ee07658012e1e6c836fad26b1c641c7bd4df6469a588caa1a49"
-
-[[files]]
-file = "config/enderio/recipes/generated.pdf"
-hash = "2ca1e85a74d800abf27b4dff5efd4999b0652a72d0e67d33b33f8f3fa0be2c70"
-
-[[files]]
-file = "config/enderio/recipes/glass.pdf"
-hash = "1137e8cfee8ba06ec9780d536d2ada509450e94adef0440865631e1344ac5a74"
-
-[[files]]
-file = "config/enderio/recipes/hiding_base.pdf"
-hash = "cc941e27e86d10f27194d9a0bc0443a8ccfa3fd18900d7a7471330e68b516656"
-
-[[files]]
-file = "config/enderio/recipes/hiding_conduits.pdf"
-hash = "f5bbb578fa018c9d5de328f684ae726e92e5d4e7493d5a141a829d0850ab394a"
-
-[[files]]
-file = "config/enderio/recipes/hiding_endergy.pdf"
-hash = "6f21fbca440b860e0020192b24d3594a7aa8c897263c99afe440f79ac4f7634c"
-
-[[files]]
-file = "config/enderio/recipes/hiding_invpanel.pdf"
-hash = "da1daa537dd8aa6b77e406e4ebaad11f46d3ac46384ea4b2ec311467b3348e80"
-
-[[files]]
-file = "config/enderio/recipes/hiding_machines.pdf"
-hash = "c87e53e9c0037da13b6ef23e8fa59a9176aa071892f6364d91ada271a0bb69df"
-
-[[files]]
-file = "config/enderio/recipes/integration_railcraft_recipes.pdf"
-hash = "e13abb7ba0328f1ab000c7192bfa4c98ea9e605b7783c84b499b30ebf335dcf2"
-
-[[files]]
-file = "config/enderio/recipes/invpanel.pdf"
-hash = "2d1e803817bbc9de79d4e82ddeda547ff42e6615327ca5afc1a9c132ffd4b848"
-
-[[files]]
-file = "config/enderio/recipes/items.pdf"
-hash = "8166836f52bce62a4ad0d1fe5f1fe8232a5f940c4a390f5a83fe314a31b4fec6"
-
-[[files]]
-file = "config/enderio/recipes/machines.pdf"
-hash = "f8b9752c38418494d9987f32a4605dfce0ee0fb33dc735c3455f26783b7ffcb4"
-
-[[files]]
-file = "config/enderio/recipes/materials.pdf"
-hash = "78e1be25c54e289e6229d4bcad23a94b1f523752b009565913be1bbbc984c29f"
-
-[[files]]
-file = "config/enderio/recipes/misc.pdf"
-hash = "8134b05286aa1b3136f10619dcf28f1e8e6170d63798e487f23953b5bd974376"
-
-[[files]]
-file = "config/enderio/recipes/powertools.pdf"
-hash = "edff29ab75d7137f0e0506a2e0062ecc0ddb3d13a7386bbb31071234084d7462"
-
-[[files]]
-file = "config/enderio/recipes/sagmill.pdf"
-hash = "8c270abbdca6f3b9832ac6b2d02671943f6f1b21cc6564ea578fed00c46c9882"
-
-[[files]]
-file = "config/enderio/recipes/sagmill_metals.pdf"
-hash = "2324a56dbbfdebaa148c4b865c06f891d7f1a30933270eb9128b4d28cd97bdeb"
-
-[[files]]
-file = "config/enderio/recipes/sagmill_modded.pdf"
-hash = "42b56b097f90249c7fc71f3d801a5846504d24fb5629b4f8167c9e6aabe89f9e"
-
-[[files]]
-file = "config/enderio/recipes/sagmill_ores.pdf"
-hash = "0d22d9d9ade2645e2996334d9174a0400f26a51bd90f9171205d2e0c25171509"
-
-[[files]]
-file = "config/enderio/recipes/sagmill_silentgems.pdf"
-hash = "43b36963b874e906d7902cffd08994864adf913e9e60aafc8598208c686a62f0"
-
-[[files]]
-file = "config/enderio/recipes/sagmill_vanilla.pdf"
-hash = "d62bf64db08ba684a974dd01d667f1e7263aafb61e173870a29df0d15cd24a67"
-
-[[files]]
-file = "config/enderio/recipes/sagmill_vanilla2modded.pdf"
-hash = "1b746aff310b0aa7f5b49fb49024e70b7f961d9a7c082266fc518298318e9128"
-
-[[files]]
-file = "config/enderio/recipes/soulbinder.pdf"
-hash = "05342fb67486b98489f5bfc818c4e74367e492aafd27d36f7c94545fc0af5709"
-
-[[files]]
-file = "config/enderio/recipes/spawner.pdf"
-hash = "c89341ee06c299a3f730fd58ac973aed5380fbecbd5ddb851f7fb108f3fcb52c"
-
-[[files]]
-file = "config/enderio/recipes/tank.pdf"
-hash = "4ba8b206c6903cdce9a14903478d319aec741ef361b5b5df8dd055531fbb44fb"
-
-[[files]]
-file = "config/enderio/recipes/user/recipes.xsd"
-hash = "dc1c19a29b13f87bbd8a101d5c3fa46cd16f7c75bd8f3aadae6371bd27b413a6"
-
-[[files]]
-file = "config/enderio/recipes/user/user_recipes.xml"
-hash = "5e8ca1c4fbda4fe8ade0c4f180fa2f98feeb45a09729f8ba43f15e62bd331a85"
-
-[[files]]
-file = "config/enderio/recipes/vat.pdf"
-hash = "723a349168c2529297133d4705db609f1008720f8f7e3996c2b79dfd5511eb8e"
-
-[[files]]
-file = "config/enderutilities.cfg"
-hash = "fcd2ab45299a7b4c233a89d112f438d23ba35d173469f310022b1621f4f46529"
-
-[[files]]
-file = "config/entangled-common.toml"
-hash = "419e187d83bb43ef3dc1b50824a2a4b560747d27ddd64297120b16f5b0ea1562"
 
 [[files]]
 file = "config/fluiddrawers.cfg"
 hash = "a9845be03a2b99a5fb389e01d60f71acec618451a73872dd0a6a107c594636d0"
 
 [[files]]
-file = "config/forge.cfg"
-hash = "c642d286a0379b2aafd2d282a79239e58d32ac15cc25dfd08bab5747a5d85662"
-
-[[files]]
-file = "config/forgeChunkLoading.cfg"
-hash = "564d473aa2fd110645997db36a2307ded2f922243dd8df7a18670ebbc9bcd897"
-
-[[files]]
-file = "config/ftbbackups.cfg"
-hash = "08f58653a25082e11d04f3830994d1ca9e2c366f48ffce9c21dbcc2fba646c3f"
-
-[[files]]
-file = "config/ftblib.cfg"
-hash = "0c2a28be1dcc0fd1823e88430b8038de265c153b3441d9f972860e1df5c9d025"
-
-[[files]]
-file = "config/ftbutilities.cfg"
-hash = "160802c827b9a0482f56665e95d03b1c2ee4eb81736b08a4fe746c4c7ca37440"
-
-[[files]]
-file = "config/gregtech/dimensions.json"
-hash = "24fb71fcf6fa9e538e62e951d3f9190ae788ed67607196bc69d633bc37779cf4"
-
-[[files]]
-file = "config/gregtech/forestry_integration.cfg"
-hash = "09891bc5a3c4a7469571fc12b54fe47b8d94dd096edc218a40144db1aa093966"
-
-[[files]]
 file = "config/gregtech/gregtech.cfg"
 hash = "ef95cf59a855e968b0743cd879e3c61a09c143b7dedf4573c2b413c89b75f684"
-
-[[files]]
-file = "config/gregtech/modules.cfg"
-hash = "1dafe9419a719e790c5066872506411ebd7d515a54c7bfb24a47d7e75d434312"
-
-[[files]]
-file = "config/gregtech/persistent_data.dat"
-hash = "04eef7adca0b0ae5f3044df3fe0bf90d39aa55e84ffde7139881b4874bb44626"
 
 [[files]]
 file = "config/gregtech/worldgen/fluid/nether/blaze_deposit.json"
@@ -2821,36 +2417,12 @@ file = "config/gregtech/worldgen/vein/overworld/tenorite_vein.json"
 hash = "99fcf0755cf5341ba7d5e82c1b7c5b3bc707b3df508b8b4260eb91ff03879f85"
 
 [[files]]
-file = "config/gregtech/worldgen_extracted.json"
-hash = "c546ad832791db6889e41edc4d3dc0cf59dbeaf6f94d9d8dbd611748274368a6"
-
-[[files]]
-file = "config/groovyscript.cfg"
-hash = "c946c841746b46de99943a919d888c817152b3016ea07e811d242b0a54ced15c"
-
-[[files]]
-file = "config/gtlitecore/gtlitecore.cfg"
-hash = "b298c4b9da43679c7e271f411d1bf1dd7ffcb264eb9c90df6915f4bd502ba213"
-
-[[files]]
-file = "config/gtlitecore/modules.cfg"
-hash = "15c1ccf15731a889f665d5e7f57a824759c4aaaf2f4d3e85377f12bc70ef996b"
-
-[[files]]
-file = "config/itemborders.cfg"
-hash = "41b685937b631cc416bf530348524e5fa51c4c589e8d11a9790c9c5ff109b898"
-
-[[files]]
 file = "config/loliasm.cfg"
 hash = "b116b2ed6e6221c5381d56da74c52824e20cc58c44a11af02e44053ba9b999be"
 
 [[files]]
 file = "config/morfonica.cfg"
 hash = "820acaaf843b6720ded49a0da244f57bc4c68ee758a05fa521e7e940a3917160"
-
-[[files]]
-file = "config/personalworlds.cfg"
-hash = "b3b732fc30eeb22b44de84c03a0dbbe8e5ebc9a6b53481b517edfce15632607f"
 
 [[files]]
 file = "config/pickupnotifier.cfg"
@@ -2867,10 +2439,6 @@ hash = "91eb6e81590afa89799ac1108a13a7aa360cb1d02ffc9b17811ce1380c881fa2"
 [[files]]
 file = "config/stellar_core.cfg"
 hash = "82a84d87fb1ace7812094177611692648b23fdbeeba8e3de6136477249ba062b"
-
-[[files]]
-file = "config/storagedrawers.cfg"
-hash = "03ef69e1c7510532653a463d0a8443cb5518df21bbf95f282b59a98fef085ad0"
 
 [[files]]
 file = "config/theoneprobe.cfg"
