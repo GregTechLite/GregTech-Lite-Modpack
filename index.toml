@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "PCL/Logo.png"
-hash = "ae8f9382249cbdd160bf757cf70348468072db76805963c8351c5c10606610ce"
-
-[[files]]
-file = "PCL/Setup.ini"
-hash = "5f685b137182459da324e8fc5db351053179a493639eac38453185501a26d22b"
-
-[[files]]
 file = "config/AppliedEnergistics2/AppliedEnergistics2.cfg"
 hash = "18eafc946907f7e69551338052d5705fb66f9fbb3cb472af1a0979ba6fc8cdf1"
 
