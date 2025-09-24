@@ -1,13 +1,13 @@
-name = "Inventory Bogo Sorter"
-filename = "bogosorter-1.4.11.jar"
+name = "Inventory Bogosorter"
+filename = "bogosorter-1.4.10.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3818a1b8826868dfa0aa784ec28dd4f78876d20a"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/CuLATCrJ/versions/BFrxCWrU/bogosorter-1.4.10.jar"
+hash-format = "sha512"
+hash = "813bb21ded27202213c00c5de0ad9b457db50bc43b676117ec277f8c19afc0d634da1fc83e336b19f1d63d88a4aed4b1f1c76ea85ea33018af9dd1f5015d7e8e"
 
 [update]
-[update.curseforge]
-file-id = 6717232
-project-id = 632327
+[update.modrinth]
+mod-id = "CuLATCrJ"
+version = "BFrxCWrU"
