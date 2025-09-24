@@ -2836,7 +2836,7 @@ metafile = true
 
 [[files]]
 file = "mods/modularui.pw.toml"
-hash = "338d7b1ed3eab71ef5d3cfa2538933d5acd9ad6b9410a3ea536c3e6e386841bd"
+hash = "b6687ee824c3aab78a9ef39d1c690345cfdef25723649f0fe8bfbb1da7d99612"
 metafile = true
 
 [[files]]
