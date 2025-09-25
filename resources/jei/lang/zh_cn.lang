@@ -1,0 +1,18 @@
+config.jei.interface.recipeBookmarksEnabled=启用配方书签功能
+config.jei.interface.recipeBookmarksEnabled.comment=允许添加/移除配方书签。
+config.jei.interface.autocraftingEnabled=启用自动合成功能
+config.jei.interface.autocraftingEnabled.comment=只有配方书签功能启用时此选项才会生效，允许自动合成配方书签所表示的配方。
+
+config.jei.advanced.recipeBookmarkGroupColor=配方书签组颜色
+config.jei.advanced.recipeBookmarkGroupColor.comment=配方书签组的颜色，使用RGBA形式。
+
+hei.tooltip.unfavorite=移除喜好配方
+hei.tooltip.favorite=添加喜好配方
+hei.tooltip.favorite_scroll=使用鼠标中键以更改喜好物品
+hei.tooltip.recipe_bookmark=配方书签
+
+hei.tooltip.press_alt=按住§fALT§r键以显示工具提示
+hei.tooltip.organizer.1=§fUP§r或§fDOWN§r键：移动书签组至上方/下方
+hei.tooltip.organizer.2=§fCTRL + SCROLL§r键：更改最终输出
+hei.tooltip.organizer.3=§f%s§r：自动合成（默认）
+hei.tooltip.missing_ingredients=§c缺少内容：

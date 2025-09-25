@@ -3382,6 +3382,10 @@ file = "resources/gtlitecore/textures/items/metaitems/boule.hassium.png"
 hash = "7c7f13b4b342b42ad4e1d04e04407ebafa46c6485440a77a37fb5bbc92754b4d"
 
 [[files]]
+file = "resources/jei/lang/zh_cn.lang"
+hash = "a57d1d17f82d6a63a2bd408208ecc7274b803be6ab99db1efcafbd95b5cfc1b1"
+
+[[files]]
 file = "resources/minecraft/lang/zh_cn.lang"
 hash = "f204c404838e737e4df98ee41fa3b941b215e591e32f43ca4522cf8931a039be"
 
