@@ -3047,7 +3047,7 @@ hash = "41fd5d50b33cfd0b98324b4f3a36cbc6456ead6ce54e8c16fe5718be5b93525e"
 
 [[files]]
 file = "resources/betterquesting/lang/zh_cn.lang"
-hash = "e8794e517ad926598c4de7299f0e8a6b576c5df4293c04614e6f6191ab028e76"
+hash = "131ad7b689bf2ee6d212339893db5c2d29e51e1e4f8b14239e420edb8a31d4fe"
 
 [[files]]
 file = "resources/betterquesting/textures/items/quest_book.png"
@@ -3382,6 +3382,10 @@ file = "resources/gtlitecore/textures/items/metaitems/boule.hassium.png"
 hash = "7c7f13b4b342b42ad4e1d04e04407ebafa46c6485440a77a37fb5bbc92754b4d"
 
 [[files]]
+file = "resources/jei/lang/zh_cn.lang"
+hash = "a57d1d17f82d6a63a2bd408208ecc7274b803be6ab99db1efcafbd95b5cfc1b1"
+
+[[files]]
 file = "resources/minecraft/lang/zh_cn.lang"
 hash = "f204c404838e737e4df98ee41fa3b941b215e591e32f43ca4522cf8931a039be"
 
@@ -3411,7 +3415,7 @@ hash = "5c2a5f90dde0c61db190a50bc1821d7ec4b6387b8cce7e2f5cde8ccd727ad366"
 
 [[files]]
 file = "resources/neonium/lang/zh_cn.lang"
-hash = "4ebaaf3057e19cfac5065c5d9962dacbad81ef94f4390c8e9679e9b741e4807e"
+hash = "f7560f7f72b4d12fef4b93317ef9f6dbdc04edad4da588d0818bf993970027b5"
 
 [[files]]
 file = "resources/retro_sophisticated_backpacks/lang/zh_cn.lang"

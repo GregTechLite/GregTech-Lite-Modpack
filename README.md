@@ -1,4 +1,4 @@
-# ![logo](logo.png "GregTech Lite Modpack Logo") GregTech Lite
+# ![logo](icon.png "GregTech Lite Modpack Logo") GregTech Lite
 
 A Minecraft 1.12.2 Modpack for GregTech CEu.
 
