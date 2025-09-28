@@ -2746,13 +2746,13 @@ file = "mods/gregtech-1.12.2-master-#2851.jar"
 hash = "f1270d79c5ed338cd1ef8448fb151952ee70a35fe530318eeaaf8584073b5bf0"
 
 [[files]]
-file = "mods/gregtech-lite-core-1.0.0.jar"
-hash = "4992c2e926e11aecbad472334ea51a45f5bac6f50b3999cb0c9875bf3e47ae4c"
-
-[[files]]
 file = "mods/groovyscript.pw.toml"
 hash = "97ea4af6d073d41cc4e1ee54fd99cf36a2a9631cb6db7c4b8588d18863719d26"
 metafile = true
+
+[[files]]
+file = "mods/gtlitecore-1.0.0.jar"
+hash = "fba6b81320c92f162c1ccb7b89286f5b0e1afd69cb965d3501f8294a2daaf621"
 
 [[files]]
 file = "mods/had-enough-characters.pw.toml"
