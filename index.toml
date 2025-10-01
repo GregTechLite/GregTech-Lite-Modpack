@@ -2445,6 +2445,10 @@ file = "config/topaddons_client.cfg"
 hash = "c2027d998f8ee0556c643faf22bdc0aacda877d5dc43945546112f4b72bdea3a"
 
 [[files]]
+file = "fixup.sh"
+hash = "5fb7c8d0d21b10095d210496e3dbb4f2c5f44388d2a1058f9d0c91d91ec2f61a"
+
+[[files]]
 file = "fontfiles/Exo-Medium.otf"
 hash = "bd00b3dce2f70c2568a15f2a23de48f9c357c1b8bdf8b680c143ad52739e3c7d"
 
@@ -2992,10 +2996,6 @@ metafile = true
 file = "mods/vintagedisplay.pw.toml"
 hash = "ed4be5e90269dd05df4cb3ea89b813be30f9c48c50bebc1c378ab65fe97c6079"
 metafile = true
-
-[[files]]
-file = "options.txt"
-hash = "ab3172f320aa541e40386f9eaaa404d6c5edaaacc007731596f17233983feea9"
 
 [[files]]
 file = "resources/ae2ctl/lang/en_US.lang"
