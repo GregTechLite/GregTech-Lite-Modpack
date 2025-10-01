@@ -36,9 +36,9 @@ body:
       label: 游戏环境
       description: 问题发生在哪个游戏环境？
       options:
-        - label: 单人游戏
-        - label: 多人游戏-局域网联机
-        - label: 多人游戏-专用服务端
+        - 单人游戏
+        - 多人游戏-局域网联机
+        - 多人游戏-专用服务器
     validations:
       required: true
 
@@ -111,7 +111,7 @@ body:
       label: 贡献意愿
       description: 您是否愿意协助解决这个问题？
       options:
-        - label: 我可以协助测试
-        - label: 我可以协助解决修复过程中的问题
-        - label: 我可以负责修复这个问题
-        - label: 我只是报告问题，无法参与解决
+        - 我可以协助测试
+        - 我可以协助解决修复过程中的问题
+        - 我可以负责修复这个问题
+        - 我只是报告问题，无法参与解决
