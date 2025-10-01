@@ -30,7 +30,7 @@ body:
     validations:
       required: true
   
-  - type: input
+  - type: dropdown
     id: environment
     attributes:
       label: 游戏环境
