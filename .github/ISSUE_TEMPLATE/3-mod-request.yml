@@ -82,7 +82,7 @@ body:
         - 已知问题
         - 特殊注意事项
 
-  - type: input
+  - type: dropdown
     id: contribution-willingness
     attributes:
       label: 贡献意愿

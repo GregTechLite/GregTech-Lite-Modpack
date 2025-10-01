@@ -55,7 +55,7 @@ body:
         - 社区讨论的相关内容
         - 类似功能的实现案例
 
-  - type: input
+  - type: dropdown
     id: contribution-willingness
     attributes:
       label: 贡献意愿
