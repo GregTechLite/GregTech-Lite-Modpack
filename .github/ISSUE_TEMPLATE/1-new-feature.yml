@@ -1,0 +1,67 @@
+name: ✨ 新功能请求
+description: 请求添加全新的功能或特性
+title: "[New Feature] "
+labels: ["new-feature", "enhancement", "needs-review"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您的新功能建议！请填写以下信息来帮助我们了解您希望添加的新功能。
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 检查清单
+      description: 在提交之前，请确认以下事项
+      options:
+        - label: 我已经搜索了现有的 Issues，确认这个功能没有被请求过
+          required: true
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: 功能描述
+      description: 详细描述您希望添加的新功能
+      placeholder: |
+        功能详细描述：
+        - 功能的核心作用
+        - 主要的使用场景
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation-suggestions
+    attributes:
+      label: 实现建议
+      description: 您对如何实现这个功能有什么建议？
+      placeholder: |
+        实现建议：
+        - 可能的技术方案
+        - 推荐的工具或库
+        - 分阶段实现的计划
+        - 需要考虑的技术挑战
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: 其他信息
+      description: 任何其他有助于理解这个功能请求的信息
+      placeholder: |
+        其他信息：
+        - 相关的截图或示例
+        - 参考资料或链接
+        - 社区讨论的相关内容
+        - 类似功能的实现案例
+
+  - type: input
+    id: contribution-willingness
+    attributes:
+      label: 贡献意愿
+      description: 您是否愿意协助实现这个新功能？
+      options:
+        - label: 我可以协助测试
+        - label: 我可以协助解决实现过程中的问题
+        - label: 我可以负责实现这个新功能
+        - label: 我只是提出建议，无法参与实现

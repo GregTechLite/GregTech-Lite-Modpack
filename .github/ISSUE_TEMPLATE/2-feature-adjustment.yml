@@ -1,0 +1,78 @@
+name: ⚙️ 功能调整请求
+description: 请求调整现有功能、配置或行为设置
+title: "[Adjustment] "
+labels: ["adjustment", "enhancement", "needs-review"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您的功能调整建议！请填写以下信息来帮助我们了解需要调整的内容。
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 检查清单
+      description: 在提交之前，请确认以下事项
+      options:
+        - label: 我已经搜索了现有的 Issues，确认这个功能调整没有被请求过
+          required: true
+        - label: 我了解当前的功能并认为需要改进
+          required: true
+        - label: 这个调整有助于改善游戏体验或解决问题
+          required: true
+        - label: 我考虑过这个调整对其他玩家的影响
+          required: true
+
+  - type: textarea
+    id: proposed_adjustment
+    attributes:
+      label: 建议调整
+      description: 您建议的功能调整内容
+    validations:
+      required: true
+
+  - type: textarea
+    id: adjustment-reason
+    attributes:
+      label: 调整理由
+      description: 为什么需要进行这个功能调整？
+      placeholder: |
+        需要调整的原因：
+        - 当前设置导致的问题
+        - 对游戏体验的影响
+        - 与整合包主题的契合度
+        - 用户反馈的问题
+        - 平衡性考虑
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact-scope
+    attributes:
+      label: 影响范围
+      description: 这个功能调整会影响游戏的哪些方面？
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: 其他信息
+      description: 任何其他有助于理解和实现这个配置调整的信息
+      placeholder: |
+        - 相关的社区讨论
+        - 其他整合包的处理方式
+        - 特殊注意事项
+
+  - type: input
+    id: contribution-willingness
+    attributes:
+      label: 贡献意愿
+      description: 您是否愿意协助这个功能调整的实现？
+      options:
+        - label: 我可以协助测试
+        - label: 我可以协助解决调整过程中的问题
+        - label: 我可以负责调整这个功能
+        - label: 我只是提出建议，无法参与调整

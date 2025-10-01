@@ -1,0 +1,117 @@
+name: 🐛 Bug 报告
+description: 报告一个问题或错误
+title: "[Bug] "
+labels: ["bug", "needs-triage"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢您报告问题！请填写以下信息以帮助我们更好地理解和解决问题。
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 检查清单
+      description: 在提交之前，请确认以下事项
+      options:
+        - label: 我已经搜索了现有的 Issues，确认这不是重复报告
+          required: true
+        - label: 我使用的是最新版本的整合包
+          required: true
+
+  - type: input
+    id: pack-version
+    attributes:
+      label: 整合包版本
+      description: 您使用的整合包版本号
+      placeholder: "例如: 0.1.0"
+    validations:
+      required: true
+  
+  - type: input
+    id: environment
+    attributes:
+      label: 游戏环境
+      description: 问题发生在哪个游戏环境？
+      options:
+        - label: 单人游戏
+        - label: 多人游戏-局域网联机
+        - label: 多人游戏-专用服务端
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: 复现步骤
+      description: 详细描述如何复现这个问题
+      placeholder: |
+        1. 进入游戏
+        2. 点击 '...'
+        3. 执行 '...'
+        4. 看到错误
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: 预期行为
+      description: 描述您期望发生什么
+      placeholder: 应该发生什么...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: 实际行为
+      description: 描述实际发生了什么
+      placeholder: 实际发生了什么...
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图或视频
+      description: 如果适用，请添加截图或视频来帮助解释问题
+      placeholder: 拖拽图片到这里或粘贴图片链接...
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 相关日志
+      description: 请提供相关的崩溃报告或日志文件内容
+      placeholder: |
+        请粘贴相关的日志内容，特别是：
+        - latest.log
+        - crash-reports 中的崩溃报告
+        - debug.log（如果存在）
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: 其他信息
+      description: 添加其他有助于解决问题的信息
+      placeholder: 任何其他相关信息...
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: 建议解决方案
+      description: 添加可能的解决方案
+      placeholder: 任何可能的解决方案...
+
+  - type: input
+    id: contribution-willingness
+    attributes:
+      label: 贡献意愿
+      description: 您是否愿意协助解决这个问题？
+      options:
+        - label: 我可以协助测试
+        - label: 我可以协助解决修复过程中的问题
+        - label: 我可以负责修复这个问题
+        - label: 我只是报告问题，无法参与解决
