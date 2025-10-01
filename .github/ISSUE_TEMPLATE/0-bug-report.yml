@@ -59,7 +59,7 @@ body:
     id: expected-behavior
     attributes:
       label: 预期行为
-      description: 描述您期望发生什么
+      description: 描述您期望发生什么，可以添加截图或视频来帮助解释问题
       placeholder: 应该发生什么...
     validations:
       required: true
@@ -68,17 +68,10 @@ body:
     id: actual-behavior
     attributes:
       label: 实际行为
-      description: 描述实际发生了什么
+      description: 描述实际发生了什么，可以添加截图或视频来帮助解释问题
       placeholder: 实际发生了什么...
     validations:
       required: true
-
-  - type: textarea
-    id: screenshots
-    attributes:
-      label: 截图或视频
-      description: 如果适用，请添加截图或视频来帮助解释问题
-      placeholder: 拖拽图片到这里或粘贴图片链接...
 
   - type: textarea
     id: logs
@@ -90,6 +83,8 @@ body:
         - latest.log
         - crash-reports 中的崩溃报告
         - debug.log（如果存在）
+    validations:
+      required: true
 
   - type: textarea
     id: additional-context
