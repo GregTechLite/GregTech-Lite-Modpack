@@ -1,8 +1,10 @@
 ## How to calculate Post Overclocking Buffs
 
+### For Duration Buff
+
 The general formula of the duration buff is:
 
-$$t=\frac{d}{1 - b + bc} $$
+$$t=\frac{d}{1+b(c-1)}$$
 
 where:
 - $d$ is the original duration of each recipe request;
@@ -11,7 +13,7 @@ where:
 
 For example, when $b=0.5$ (means each tier increase $50\%$ speed):
 
-$$t=\frac{d}{1-\frac{1}{2}+\frac{1}{2}c}=\frac{d}{\frac{1}{2} + \frac{1}{2}c}=\frac{d}{\frac{1}{2}(1+c)}=\frac{2d}{1+c}$$
+$$t=\frac{d}{1+\frac{1}{2}(c-1)}=\frac{d}{1+\frac{1}{2}c -\frac{1}{2}}=\frac{d}{\frac{1}{2}c + \frac{1}{2}}=\frac{d}{\frac{1}{2}(c+1)}=\frac{2d}{c+1}$$
 
 This is the logic of Pyrolyse Oven, here is the source code:
 
@@ -24,3 +26,5 @@ in this situation, we have:
 - $t$ is the new duration which each recipe request, i.e. `ocResult.setDuration()` do;
 - $b$ is $50\%$ per each coil tier increase , i.e. `0.5`;
 - $c$ is the `coilTier`, means the wire coil block tier of the multiblock;
+
+### For Energy Request Buff
