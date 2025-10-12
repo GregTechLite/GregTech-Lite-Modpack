@@ -28,3 +28,10 @@ in this situation, we have:
 - $c$ is the `coilTier`, means the wire coil block tier of the multiblock;
 
 ### For Energy Request Buff
+
+This is the logic of Cracking Unit:
+```java
+ocResult.setEut(Math.max(1, (long) (ocResult.eut() * (1.0 - coilTier * 0.1))));
+```
+
+We just need to change the factor of it.
