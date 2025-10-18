@@ -2765,6 +2765,11 @@ hash = "e4761a0bf1d2da93d22af67b9f0c1baed282e6391a3967e17be8da55f47901cb"
 metafile = true
 
 [[files]]
+file = "mods/ingameime-vintage.pw.toml"
+hash = "e8ba65b6908f2ccd72ec517c3af5825443738bbee39623eaa6bbd2c090a32e59"
+metafile = true
+
+[[files]]
 file = "mods/inventory-bogosorter.pw.toml"
 hash = "983c90a4c24cb46fe90acd483d6670b9a3db0e51e84f19bc8e55ed1947d947a4"
 metafile = true
