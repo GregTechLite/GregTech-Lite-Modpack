@@ -1,7 +1,7 @@
 # Additional Copyright License
 
 Here is the additional notice for the GregTech Lite Modpack, if you want to use our licensed contents, 
-you **MUST** add the [License](/LICENSE.md) and [Notice](/NOTICE.md) file in your repository.
+you **MUST** add the [License](/LICENSE) and [Notice](/NOTICE.md) file in your repository.
 
 ## Background Copyrights
 
@@ -26,3 +26,4 @@ These textures is licensed on [**CC-BY-NC-SA 4.0**](https://github.com/santisole
 ## Translation Texts and Quest Texts Copyrights
 
 These is licensed on [**CC-BY-NC-SA 4.0**](https://github.com/santisoler/cc-licenses/blob/main/LICENSE-CC-BY-NC-SA).
+
