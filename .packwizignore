@@ -2,6 +2,8 @@
 # See https://git-scm.com/docs/gitignore
 
 README.md
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
 LICENSE*
 /.github/
 
