@@ -2506,7 +2506,7 @@ hash = "aaf757179d00247a25894f968f298eefff64f0572efc7d16541f89fb9fb76f22"
 
 [[files]]
 file = "groovy/loader/recipe/GregTech.groovy"
-hash = "06c481d3c123a6a035354614d37054294744513ba19c4a7f6650c9ca4f337212"
+hash = "2f323eafa23d5fd1330928014aac6939bb5af28a388738d8844b089c78269ffc"
 
 [[files]]
 file = "groovy/loader/recipe/GregTechLiteCore.groovy"
