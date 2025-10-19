@@ -7,6 +7,8 @@ log.info("Starting to load GregTech Recipes...")
 /* -------------------------------------------------------------------------- */
 def assembler = recipemap('assembler')
 def lathe = recipemap('lathe')
+def alloyer = recipemap('alloy_smelter')
+def mixer = recipemap('mixer')
 /* -------------------------------------------------------------------------- */
 
 // Obsidian Stick
@@ -45,3 +47,21 @@ crafting.shapedBuilder()
     .key('T', ore('toolSaw'))
     .output(metaitem('workbench'))
     .register()
+
+//Convenient Potin
+crafting.addShapeless(metaitem('dustPotin') * 8,{def recipe = [ore('dustBronze')]*9;recipe[8]=ore('dustLead');return recipe}())
+mixer.recipeBuilder()
+    .outputs(metaitem('dustPotin')*9)
+    .inputs(ore('dustBronze')*8,ore('dustLead'))
+    .EUt(7)//ULV
+    .duration(20*SECOND)
+    .buildAndRegister()
+
+[[ore('dustBronze'),ore('ingotBronze')],[ore('dustLead'),ore('ingotLead')]].combinations().forEach({
+    alloyer.recipeBuilder()
+    .outputs(metaitem('ingotPotin')*9)
+    .inputs(it[0]*8,it[1])
+    .EUt(16)//LV
+    .duration(10*SECOND)
+    .buildAndRegister()
+})
