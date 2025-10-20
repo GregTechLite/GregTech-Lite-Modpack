@@ -1,6 +1,6 @@
 name = "ItemZoom"
 filename = "itemzoom_1.12.2-1.11.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
