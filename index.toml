@@ -2682,6 +2682,11 @@ hash = "4ae7dfd7273c1ec0d60dd27b5e9e265ad0935901461d2e15a7ce5ca3724ad643"
 metafile = true
 
 [[files]]
+file = "mods/crafting-tweaks-unofficial.pw.toml"
+hash = "e5fcda70b8ea1265a35520c4838fc975c5f8926d440c98e4237989f1aea36588"
+metafile = true
+
+[[files]]
 file = "mods/ctm.pw.toml"
 hash = "430820ab4fc97024a7c5c188555c57e6fa22f33fe3d5f98d2a75254a0bd07633"
 metafile = true
@@ -2781,7 +2786,7 @@ metafile = true
 
 [[files]]
 file = "mods/itemzoom.pw.toml"
-hash = "dd837a22df3ea453629c63743442c8d75e7fd8f1bbace8f2b764c27391cb83fc"
+hash = "55fe557779bafe6d40b3e251d301a9c1cfe7a61059c16f3b07f9e6710609d432"
 metafile = true
 
 [[files]]
@@ -2940,7 +2945,7 @@ metafile = true
 
 [[files]]
 file = "mods/smooth-font.pw.toml"
-hash = "141a24db12cf5167dd2446d7d68c49ddf238ff6c48d588cd14440af5b42a5787"
+hash = "8f18aeb339a5c9f0576a69e5ae0c6f27cf32b7abbbf303415338a995ce4aaeda"
 metafile = true
 
 [[files]]
