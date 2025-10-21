@@ -1,5 +1,7 @@
 # Contributor Covenant Code of Conduct
 
+[**Chinese**](/docs/i18n/zh_cn/CODE_OF_CONDUCT.md) | [**English**](/CODE_OF_CONDUCT.md)
+
 This is a Code of Conduct for all contributors for the GregTech Lite Modpack and its Addon Mods,
 it is based on [**Contributor Covenant 2.0**][homepage].
 
