@@ -1,6 +1,8 @@
-## How to calculate Post Overclocking Buffs
+# How to calculate Post Overclocking Buffs
 
-### For Duration Buff
+[**Chinese**](/docs/i18n/zh_cn/gtceu-overclocking-api.md) | [**English**](/docs/gtceu-overclocking-api.md)
+
+## For Duration Buff
 
 The general formula of the duration buff is:
 
@@ -27,12 +29,11 @@ in this situation, we have:
 - $k$ is 50% per each coil tier increase , i.e. 0.5;
 - $T$ is the `coilTier`, means the wire coil block tier of the multiblock;
 
-### For Energy Request Buff
+## For Energy Request Buff
 
 This is the logic of Cracking Unit:
 ```java
 ocResult.setEut(Math.max(1, (long) (ocResult.eut() * (1.0 - coilTier * 0.1))));
 ```
-
 
 We just need to change the factor of it.
