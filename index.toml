@@ -2979,6 +2979,11 @@ hash = "260f0330b42aa9e33b8fb8165d06f64d29540b42f121dc9746c6ebcb7ef55158"
 metafile = true
 
 [[files]]
+file = "mods/tomb-many-graves-2.pw.toml"
+hash = "4aadc797a9cef1e2d93d7c7ffa1d015379f93bd3e68f8aa66991cc45a089d207"
+metafile = true
+
+[[files]]
 file = "mods/top-addons.pw.toml"
 hash = "b0f7fc5d2a0177fb04294bde639aa21595933e00db66c7979f96a35824b1e7c4"
 metafile = true
