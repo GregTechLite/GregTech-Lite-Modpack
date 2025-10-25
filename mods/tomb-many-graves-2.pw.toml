@@ -1,0 +1,13 @@
+name = "Tomb Many Graves 2"
+filename = "TombManyGraves-1.12-4.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cfba896b87294e2351c383b5d4127112d26ab5e0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2619249
+project-id = 262823
