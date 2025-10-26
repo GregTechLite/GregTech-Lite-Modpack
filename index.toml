@@ -2723,7 +2723,7 @@ metafile = true
 
 [[files]]
 file = "mods/fps-reducer.pw.toml"
-hash = "2571263ec4228ca6c6d2cdbf677bbb7b07622382163f606630304696ba5d4abc"
+hash = "a9f6a8afd76ec0197998bd8e7efe05c64b9daf5a1052ffb6dc60804b392f4806"
 metafile = true
 
 [[files]]

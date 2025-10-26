@@ -1,6 +1,6 @@
 name = "FPS Reducer"
 filename = "FpsReducer-mc1.12.2-1.20.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
