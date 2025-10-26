@@ -2722,6 +2722,11 @@ hash = "7f20adcb7c10f9966bea19a174df4196a9539155d764edb7e31edd8ed58e438e"
 metafile = true
 
 [[files]]
+file = "mods/fps-reducer.pw.toml"
+hash = "2571263ec4228ca6c6d2cdbf677bbb7b07622382163f606630304696ba5d4abc"
+metafile = true
+
+[[files]]
 file = "mods/friendly-chests-no-fluid.pw.toml"
 hash = "a9599f4182c396732c8cfdf628084efa42e217ffd657cf4c273c5a3158d82a95"
 metafile = true
