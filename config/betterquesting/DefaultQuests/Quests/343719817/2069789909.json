@@ -1,0 +1,40 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    2,
+    2,
+    2
+  ],
+  "preRequisites:11": [
+    811189054,
+    191891218,
+    340391495,
+    366064264
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 637,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§9次世代电路组装"
+    }
+  },
+  "questID:3": 2069789909,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 637,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

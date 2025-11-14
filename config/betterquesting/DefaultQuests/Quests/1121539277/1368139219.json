@@ -1,0 +1,24 @@
+{
+  "preRequisiteTypes:7": [
+    2,
+    2
+  ],
+  "preRequisites:11": [
+    466032222,
+    62685679
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 425,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "§5二硼化镁（MV超导体）"
+    }
+  },
+  "questID:3": 1368139219,
+  "tasks:9": {}
+}

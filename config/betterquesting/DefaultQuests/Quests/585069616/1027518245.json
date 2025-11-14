@@ -1,0 +1,62 @@
+{
+  "preRequisites:11": [
+    1360261223
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "你忠实的合成伙伴，工作台。\n\n§3工作站是工作台的升级，其在关闭时会保留放置在其上的合成物品，且可以将附近容器的内容物作为合成素材。\n\n§3注意，手持工作台不支持合成手势，它只能作为你的辅助合成手段。",
+      "frame:8": "STAR4_ON_SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:crafting_table"
+      },
+      "name:8": "§f工作台"
+    }
+  },
+  "questID:3": 1027518245,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ctoasmod:crafting_table_on_a_stick"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "OreDict:8": "plankWood",
+          "id:8": "minecraft:planks"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:crafting_table"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "craftingstation:crafting_station"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

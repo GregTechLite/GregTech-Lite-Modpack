@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    179841533
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10011,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§a多方块燃气涡轮"
+    }
+  },
+  "questID:3": 2004440720,
+  "tasks:9": {}
+}

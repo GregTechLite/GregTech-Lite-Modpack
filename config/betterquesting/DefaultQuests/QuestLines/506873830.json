@@ -1,0 +1,16 @@
+{
+  "lineID:3": 506873830,
+  "order:3": 14,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10022,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§6§l后启示录§r§f | §4§l极高压"
+    }
+  },
+  "quests:9": {}
+}

@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    106026029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "科技发展的基石，也是原版中的第一种金属。\n\n§3有太多矿石都可以烧制出铁，试试查询JEI来获得答案吧。尽管这可能稍微有点违反直觉，但是一些看起来与铁无关的矿石也包含铁，比如玄武岩矿砂和花岗岩矿砂。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:iron_ingot"
+      },
+      "name:8": "§7铁"
+    }
+  },
+  "questID:3": 1123757467,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_iron_0"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:iron_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

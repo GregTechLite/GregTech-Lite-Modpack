@@ -1,0 +1,51 @@
+{
+  "preRequisites:11": [
+    1377988171
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "更好的沙子，或者说，更容易自动化的沙子。子沙可以被红石信号触发并使其上的甘蔗或仙人掌生长，使用高频红石持续激活子沙可以迅速催熟甘蔗来满足你在各个阶段对其的需求。\n\n使用§c红石导管§r与一个用于传感红石信号的过滤器升级即可达到足够高的触发频率，使用§a虚空箱子§r来收集掉落物吧。\n\n§3如果你希望收集足够量的甘蔗又不希望它彻底撑爆你的内存，不妨试试抽屉配合销毁升级。",
+      "frame:8": "DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:reeds"
+      },
+      "name:8": "§e通过子沙获取更多甘蔗"
+    }
+  },
+  "questID:3": 987239996,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "snad:snad"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_redstone_conduit"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_redstone_sensor_filter"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:piston"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "enderio:block_vacuum_chest"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

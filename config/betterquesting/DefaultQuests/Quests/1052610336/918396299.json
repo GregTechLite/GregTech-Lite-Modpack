@@ -1,0 +1,47 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    1919423198
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "用于发射信号。\n\n§3建筑小帮手等物品需要发射器，当然，它们中的一部分也同时需要传感器，这两种部件的合成是类似的。",
+      "frame:8": "SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 217,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§7§l发射器"
+    }
+  },
+  "questID:3": 918396299,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 217,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 217,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

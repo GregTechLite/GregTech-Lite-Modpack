@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    208047722
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "早期常见的来自其他模组的物流手段来自§3末影接口§r与§e转运器§r。\n\n来自§3末影接口§r的各类导管可能是你能使用的最好用的管道之一，不仅有§2物品§r，§2流体§r与§2能量§r版本，还支持§2红石§r，§2物质能网络§r等多种形式；这些导管可以在一个方块内共存数条，且可以对§9几乎所有§r容器或方块交互。\n\n你可以在很多地方看到关于§3末影接口§r的导管的介绍，试试查阅它们！事实上，通过自己探索你也完全可以掌握这些导管的使用方式。\n\n来自§e转运器§r的§2物品§r与§2流体§r转运器常用于单格内的路由，它们比起§3末影接口§r的导管更加便宜。手持一些材料可以为任意转运器附加升级：\n\n- 手持§6荧石粉§r时\n§a提高单次工作的最大路由量。§r\n- 手持§c红石粉§r时\n§a允许转运器接受红石信号来切换输入/输出模式。§r\n- 手持§b钻石粒§r时\n§a使转运器尽可能保持其所代理的容器的内容与过滤设置内容一致。§r\n- 手持§7铁粒§r时\n§a使得转运器可以向其所代理的容器发出红石信号。§r\n\n潜行右击可以取下所有升级。\n\n§3虽然不知道为什么一个宝石类材料有粒，但是或许我们可以当作把一块钻石砸碎后的粒吧...",
+      "frame:8": "DIAMOND_ON_CIRCLE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:item_item_conduit"
+      },
+      "name:8": "§3其他模组的物流手段"
+    }
+  },
+  "questID:3": 303587179,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_item_conduit"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "enderio:item_liquid_conduit"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "translocators:translocator_part"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 1,
+          "id:8": "translocators:translocator_part"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

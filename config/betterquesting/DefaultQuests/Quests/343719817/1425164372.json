@@ -1,0 +1,24 @@
+{
+  "preRequisiteTypes:7": [
+    2,
+    2
+  ],
+  "preRequisites:11": [
+    284263248,
+    340391495
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description\n\n§3通过化学染料直接染色玻璃透镜的手段已解锁，你暂时不需要抛光宝石板了，除非是使用特定种类材料的透镜的配方。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 202,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§2高级化学浸洗"
+    }
+  },
+  "questID:3": 1425164372,
+  "tasks:9": {}
+}

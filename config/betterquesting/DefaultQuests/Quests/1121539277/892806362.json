@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    326203230,
+    430260606,
+    835904145
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "GEAR",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 625,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§6§l进阶集成电路"
+    }
+  },
+  "questID:3": 892806362,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 93,
+            "TrophyColorGreen:3": 154,
+            "TrophyColorRed:3": 122,
+            "TrophyEarnedAt:4": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 625,
+              "id:8": "gregtech:meta_item_1"
+            },
+            "TrophyName:8": "高级电路",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {}
+    }
+  },
+  "tasks:9": {}
+}

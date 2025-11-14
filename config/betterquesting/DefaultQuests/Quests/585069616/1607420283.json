@@ -1,0 +1,173 @@
+{
+  "preRequisites:11": [
+    2129175123
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "你可能已经体验过许多次§2格雷科技§r的流程了，亦或者想节省不必要的时间。这个任务提供了一条§b跳过这些无聊的繁琐内容的捷径§r，一些能够快速跳过这些内容的工具会作为任务奖励送给你。注意，这个任务是§e可选的§r，选择或不选择这个任务§l都不会§r造成任何游戏内容上的影响，请根据你想得到的游戏体验选择是否领取这些工具。\n\n§6采矿锤§r与§6铲§r与原版的镐与锹不同，它们一次可以挖掘§93x3§r内的所有方块，按住§7SHIFT§r键并鼠标右击以打开配置页面来设置§7挖掘范围§r的大小，可调范围最小为§b1x1§r，即原版工具的范围。\n\n§3如你所见，这是一些以后期材料制成的工具，它们拥有在当前阶段足够优秀的性能，但也不至于过于强大以至于无法操纵；当然，你无法在这个阶段通过使用材料的方式修复它们，但它们都拥有足够的耐久与经验修补附魔（必要的时候请节省些）。§r\n\n",
+      "frame:8": "GEAR",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "chisel:technical"
+      },
+      "name:8": "§c开局：选择性奖励"
+    }
+  },
+  "questID:3": 1607420283,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:sword",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "RelocateMinedBlocks:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 98.0,
+              "AttackSpeed:5": -2.2,
+              "Durability:3": 0,
+              "Material:8": "gtlitecore:metastable_oganesson",
+              "MaxDurability:3": 110591
+            },
+            "HideFlags:3": 2,
+            "ench:9": {
+              "0:10": {
+                "id:2": 70,
+                "lvl:2": 3
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:mining_hammer",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "AoEColumn:3": 1,
+              "AoELayer:3": 0,
+              "AoERow:3": 1,
+              "MaxAoEColumn:3": 1,
+              "MaxAoELayer:3": 0,
+              "MaxAoERow:3": 1,
+              "RelocateMinedBlocks:1": 1,
+              "TorchPlacing:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 96.5,
+              "AttackSpeed:5": -3.0,
+              "Durability:3": 0,
+              "HarvestLevel:3": 7,
+              "Material:8": "gtlitecore:metastable_oganesson",
+              "MaxDurability:3": 331775,
+              "ToolSpeed:5": 26.0
+            },
+            "HideFlags:3": 2,
+            "ench:9": {
+              "0:10": {
+                "id:2": 70,
+                "lvl:2": 3
+              }
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:axe",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "DisableShields:1": 1,
+              "RelocateMinedBlocks:1": 1,
+              "TreeFelling:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 100.0,
+              "AttackSpeed:5": -3.0,
+              "Durability:3": 0,
+              "HarvestLevel:3": 7,
+              "Material:8": "gtlitecore:metastable_oganesson",
+              "MaxDurability:3": 110591,
+              "ToolSpeed:5": 57.0
+            },
+            "HideFlags:3": 2,
+            "ench:9": {
+              "0:10": {
+                "id:2": 70,
+                "lvl:2": 3
+              }
+            }
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:spade",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "AoEColumn:3": 1,
+              "AoELayer:3": 0,
+              "AoERow:3": 1,
+              "MaxAoEColumn:3": 1,
+              "MaxAoELayer:3": 0,
+              "MaxAoERow:3": 1,
+              "RelocateMinedBlocks:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 96.5,
+              "AttackSpeed:5": -3.0,
+              "Durability:3": 0,
+              "HarvestLevel:3": 7,
+              "Material:8": "gtlitecore:metastable_oganesson",
+              "MaxDurability:3": 331775,
+              "ToolSpeed:5": 26.0
+            },
+            "HideFlags:3": 2,
+            "ench:9": {
+              "0:10": {
+                "id:2": 70,
+                "lvl:2": 3
+              }
+            }
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:hoe",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "RelocateMinedBlocks:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 0.0,
+              "AttackSpeed:5": -0.8,
+              "Durability:3": 0,
+              "Material:8": "gtlitecore:metastable_oganesson",
+              "MaxDurability:3": 110591
+            },
+            "HideFlags:3": 2,
+            "ench:9": {
+              "0:10": {
+                "id:2": 70,
+                "lvl:2": 3
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

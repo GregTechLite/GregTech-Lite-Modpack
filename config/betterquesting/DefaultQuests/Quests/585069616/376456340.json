@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    420003901
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\n§3如果你正在创造模式进行一些测试，不要用原版自带的“搜索物品”（因为物品数量过多会导致一定的卡顿），使用JEI作为替代吧！",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "jecalculation:item_calculator"
+      },
+      "name:8": "§9配方查询与标记：从入门到精通"
+    }
+  },
+  "questID:3": 376456340,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "jecalculation:item_calculator"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "jecalculation:item_calculator"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

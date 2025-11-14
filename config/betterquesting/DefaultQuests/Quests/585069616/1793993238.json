@@ -1,0 +1,54 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    1123757467
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "EMPTY",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "chisel:chisel_iron"
+      },
+      "name:8": "§3雕刻的技术"
+    }
+  },
+  "questID:3": 1793993238,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "chisel:chisel_iron"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "chisel:chisel_diamond",
+          "tag:10": {
+            "chiseldata:10": {}
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "chisel:chisel_hitech",
+          "tag:10": {
+            "chiseldata:10": {}
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "chisel:offsettool"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

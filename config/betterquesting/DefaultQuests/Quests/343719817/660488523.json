@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    811189054
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description\n",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10005,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§b§l蒸馏塔"
+    }
+  },
+  "questID:3": 660488523,
+  "tasks:9": {}
+}

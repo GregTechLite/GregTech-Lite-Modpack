@@ -1,0 +1,70 @@
+{
+  "preRequisites:11": [
+    966160976
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\n\n§3作为任务奖励，你将获得在低压阶段可以模拟的几种怪物意识存储卡原材料，即它们各自的掉落物。别把它们花了！用它们制作出对应的意识存储卡之后塞进生物模拟机可以生产更多的掉落物，以此可以实现大批量生产和扩展。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 303,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§2生物模拟室"
+    }
+  },
+  "questID:3": 516226803,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:rotten_flesh"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:bone"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:gunpowder"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:spider_eye"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:slime_ball"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 641,
+          "id:8": "gtlitecore:gtlite_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 303,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

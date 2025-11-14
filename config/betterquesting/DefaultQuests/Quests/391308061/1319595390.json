@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    1337503977,
+    140669168
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "在本阶段获取§e硫§r有两种方法：其一是在下界挖矿，其二是使用§a焙烧炉§r来处理矿物。你可能已经挖到了不少黄铁矿，将黄铁矿焙烧即可得到硫与硫酸铁，而后者继续焙烧还可以获得带状铁与§2三氧化硫§r。在§7LV§r阶段，你可能需要这些三氧化硫来制作硫酸。",
+      "frame:8": "DIAGONAL_CROSS_ON_DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 103,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "§e硫",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 1319595390,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_pyrite_0"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 103,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

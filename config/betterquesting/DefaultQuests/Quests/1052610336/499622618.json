@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1919423198
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "或许你该看看§6大型蒸汽熔炉§r......这个机器当且仅当你§2不得不使用的情况§r才会考虑，它真的不如大型蒸汽熔炉，可能也不如§a更多熔炉§r中的那些熔炉。\n\n§3查看任务书中的“批量生产”章节以获得关于大型蒸汽熔炉的信息，到现在你应该知道这一页的重要性了。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 50,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§b电力熔炉"
+    }
+  },
+  "questID:3": 499622618,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 50,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    1805214138
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "经过热处理的铜！将铜置入§6电弧炉§r中加工即可获得退火铜，这是一种在一些方面上性能更优于铜的材料。\n\n§3你将在之后的数个电路板与电路的配方中看到它。",
+      "frame:8": "GEAR",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 252,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "§6退火铜"
+    }
+  },
+  "questID:3": 589853967,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 252,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

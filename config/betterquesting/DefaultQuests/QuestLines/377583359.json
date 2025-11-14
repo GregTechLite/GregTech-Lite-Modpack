@@ -1,0 +1,16 @@
+{
+  "lineID:3": 377583359,
+  "order:3": 10,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10019,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§a§l科技革命§r§f | §1§l强导压"
+    }
+  },
+  "quests:9": {}
+}

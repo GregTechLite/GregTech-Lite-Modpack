@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    1513557014
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\n\n§3镅需要两个LuV能源仓与硅岩线圈方块提供的温度才能烧制（尽管JEI界面上显示的是凯金线圈方块，但只比硅岩线圈方块提供的温度高300K，可以通过电力高炉的温度奖励达到）。",
+      "frame:8": "DIAMOND_ON_CROSS",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "§2镅"
+    }
+  },
+  "questID:3": 165241322,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 3,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "gregtech:meta_fuel_rod"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "gregtech:meta_fuel_rod_enriched"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "gregtech:meta_fuel_rod_high_density"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

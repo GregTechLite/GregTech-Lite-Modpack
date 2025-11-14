@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    1408791673
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "应该是你的第一台具有§d无损超频§r机制的多方块机器。\n\n当你使用§e流体固化器§r模式时，开启§a总线隔离§r并使用不同的§b输入总成§r放置模具以材料来进行自动化。\n\n§3如果你不知道什么是“无损超频”，请查看本任务页中的“多方块革命”任务。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10110,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§7大型流体固化机"
+    }
+  },
+  "questID:3": 1923555583,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10110,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "OreDict:8": "casingPump",
+          "id:8": "gtlitecore:pump_casing"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

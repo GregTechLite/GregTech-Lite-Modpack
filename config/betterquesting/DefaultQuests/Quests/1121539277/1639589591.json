@@ -1,0 +1,36 @@
+{
+  "preRequisiteTypes:7": [
+    2,
+    0
+  ],
+  "preRequisites:11": [
+    1936066148,
+    900889184
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description\n\n§3与MV发射器相同，你需要一台LV或MV级的筛选机来获取无暇的绿宝石。",
+      "frame:8": "SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 233,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§6§l传感器 #2"
+    }
+  },
+  "questID:3": 1639589591,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 233,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

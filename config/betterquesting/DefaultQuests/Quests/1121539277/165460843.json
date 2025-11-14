@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    1881742610
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAGONAL_CROSS_ON_DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterquesting:placeholder"
+      },
+      "name:8": "§a进阶焙烧处理"
+    }
+  },
+  "questID:3": 165460843,
+  "tasks:9": {}
+}

@@ -1,0 +1,20 @@
+{
+  "preRequisites:11": [
+    729461503,
+    1795666037
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND_ON_CROSS",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 627,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§7微型处理器"
+    }
+  },
+  "questID:3": 1176017256,
+  "tasks:9": {}
+}

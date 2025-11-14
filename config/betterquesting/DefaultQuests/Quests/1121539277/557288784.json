@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    1936066148
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "不要为你的§7LV§r级的电网接入§bMV§r级的电，这些机器和导线会烧毁！\n\n如果你需要使用§bMV§r级的发电机对§7LV§r级的电网供电，那么需要使用§e变压器§r来调整电压。",
+      "frame:8": "CROSS",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 580,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§e记得变压！"
+    }
+  },
+  "questID:3": 557288784,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1001,
+          "id:8": "gregtech:mte"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1016,
+          "id:8": "gregtech:mte"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1031,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

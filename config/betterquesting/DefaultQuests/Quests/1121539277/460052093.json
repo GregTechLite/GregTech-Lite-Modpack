@@ -1,0 +1,50 @@
+{
+  "preRequisiteTypes:7": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "preRequisites:11": [
+    65704285,
+    1544202470,
+    1639589591,
+    750814474
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "还记得抽屉控制器吗？§6量子存储控制器§r实际上就相当于适用于§2格雷科技§r中的§e超级箱/超级缸§r与§e量子箱/量子缸§r的存储管理系统。",
+      "frame:8": "STAR4_ON_SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1075,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§9量子存储系统"
+    }
+  },
+  "questID:3": 460052093,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1075,
+          "id:8": "gregtech:mte"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1076,
+          "id:8": "gregtech:mte"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1077,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

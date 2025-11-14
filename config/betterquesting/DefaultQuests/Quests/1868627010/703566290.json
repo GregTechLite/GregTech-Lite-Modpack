@@ -1,0 +1,22 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    1782299287
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 40,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "§8锗处理"
+    }
+  },
+  "questID:3": 703566290,
+  "tasks:9": {}
+}

@@ -1,0 +1,20 @@
+{
+  "preRequisites:11": [
+    1273790036,
+    37836067
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 338,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§a便携式清洁能源"
+    }
+  },
+  "questID:3": 1800338614,
+  "tasks:9": {}
+}

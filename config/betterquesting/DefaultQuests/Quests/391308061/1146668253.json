@@ -1,0 +1,61 @@
+{
+  "preRequisites:11": [
+    96558345
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "GEAR",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:wire_cutter",
+        "tag:10": {
+          "DisallowContainerItem:1": 0,
+          "GT.Behaviours:10": {
+            "RelocateMinedBlocks:1": 1
+          },
+          "GT.Tool:10": {
+            "AttackDamage:5": 99.0,
+            "AttackSpeed:5": -1.9000001,
+            "Durability:3": 0,
+            "HarvestLevel:3": 6,
+            "Material:8": "gregtech:neutronium",
+            "MaxDurability:3": 65534,
+            "ToolSpeed:5": 184.0
+          },
+          "HideFlags:3": 2,
+          "Unbreakable:1": 1
+        }
+      },
+      "name:8": "§7剪线钳"
+    }
+  },
+  "questID:3": 1146668253,
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:wire_cutter",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 1.0,
+              "AttackSpeed:5": -2.6000001,
+              "Durability:3": 0,
+              "HarvestLevel:3": 2,
+              "Material:8": "gregtech:wrought_iron",
+              "MaxDurability:3": 383,
+              "ToolSpeed:5": 6.0
+            },
+            "HideFlags:3": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "preRequisiteTypes:7": [
+    2,
+    2
+  ],
+  "preRequisites:11": [
+    1060124818,
+    308877360
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "EMPTY",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10004,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§c更好的焦炉！"
+    }
+  },
+  "questID:3": 1288498615,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 102,
+            "TrophyColorGreen:3": 204,
+            "TrophyColorRed:3": 153,
+            "TrophyEarnedAt:4": 1756187169,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 10004,
+              "id:8": "gregtech:mte"
+            },
+            "TrophyName:8": "热解炉",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {}
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10004,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "OreDict:8": "casingWireCoil",
+          "id:8": "gregtech:wire_coil"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

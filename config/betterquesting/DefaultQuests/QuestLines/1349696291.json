@@ -1,0 +1,16 @@
+{
+  "lineID:3": 1349696291,
+  "order:3": 11,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10020,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§4§l聚变起步§r§f | §d§l剧差压"
+    }
+  },
+  "quests:9": {}
+}

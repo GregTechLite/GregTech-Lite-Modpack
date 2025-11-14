@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    907088952
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10127,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§5电动聚爆压缩机"
+    }
+  },
+  "questID:3": 495102496,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10127,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "emitterCasingAny",
+          "id:8": "gtlitecore:emitter_casing"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "OreDict:8": "pistonCasingAny",
+          "id:8": "gtlitecore:piston_casing"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

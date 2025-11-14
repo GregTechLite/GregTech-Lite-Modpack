@@ -1,0 +1,104 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    2,
+    2,
+    2
+  ],
+  "preRequisites:11": [
+    1631763710,
+    1513456368,
+    857979572,
+    1838419930
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "\n\n§3这是你的第一个ULV级电路，尽管它看上去只是制作LV级电路的原材料，但是它解锁了一系列其他模组中的内容，例如末影设备中的存储卡与便携箱子。",
+      "frame:8": "DIAGONAL_CROSS_ON_DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 516,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§b真空管"
+    }
+  },
+  "questID:3": 148390723,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 224,
+            "TrophyColorGreen:3": 195,
+            "TrophyColorRed:3": 128,
+            "TrophyEarnedAt:4": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 516,
+              "id:8": "gregtech:meta_item_1"
+            },
+            "TrophyName:8": "最原始的电子元件",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 274,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 4001,
+          "id:8": "gtlitecore:meta_ingot"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 517,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1101,
+          "id:8": "gtlitecore:gtlite_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 516,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

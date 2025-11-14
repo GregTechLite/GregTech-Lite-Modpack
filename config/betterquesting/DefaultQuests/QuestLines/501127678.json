@@ -1,0 +1,16 @@
+{
+  "lineID:3": 501127678,
+  "order:3": 15,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10027,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§1§l见微知著§r§f | §a§l超极限压"
+    }
+  },
+  "quests:9": {}
+}

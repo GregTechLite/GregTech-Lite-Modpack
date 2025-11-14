@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    1023355080
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 987,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§b§lMV阶段的发电机"
+    }
+  },
+  "questID:3": 251087430,
+  "tasks:9": {}
+}

@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    1338192913
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5560,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§e虚空存储"
+    }
+  },
+  "questID:3": 1591684656,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5560,
+          "id:8": "gregtech:mte"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 5575,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

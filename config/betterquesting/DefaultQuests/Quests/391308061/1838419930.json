@@ -1,0 +1,20 @@
+{
+  "preRequisites:11": [
+    1123757467,
+    379067085
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4001,
+        "id:8": "gtlitecore:meta_ingot"
+      },
+      "name:8": "§9柯伐合金"
+    }
+  },
+  "questID:3": 1838419930,
+  "tasks:9": {}
+}

@@ -1,0 +1,70 @@
+{
+  "preRequisites:11": [
+    295458084,
+    8409593
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "一台大型研磨机，与普通的蒸汽研磨机一样不会产出副产物，但它的效率足够高，你甚至可以只使用这个机器直到可以产出副产物的§6HV§r级研磨机。\n\n§3可以产出副产物的多方块研磨机在EV阶段初期才可以制作，如果你对此感到好奇，那么可以查看本页任务中的EV部分的“大型研磨机”。§r",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10025,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§6大号粉碎机"
+    }
+  },
+  "questID:3": 1928195702,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 2030,
+          "id:8": "gtlitecore:mte"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 22,
+          "id:8": "gregtech:metal_casing"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 11509,
+          "id:8": "gregtech:mte"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 11508,
+          "id:8": "gregtech:mte"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 11507,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10025,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

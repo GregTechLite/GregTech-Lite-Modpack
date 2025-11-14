@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    1720750929,
+    1387463929,
+    1578798472
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "从枯竭的铀燃料棒中提取出镎，同时可以回收一些§a铀-235§r。\n\n§3除了升级反应堆堆芯以外，镎螺栓将作为大型复制机的制作原料之一。",
+      "frame:8": "DIAMOND_ON_CROSS",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 68,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "§1镎",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 1464280039,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 68,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 68,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_fuel_rod_single",
+            "orig_meta:3": 68
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 68,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_fuel_rod_double",
+            "orig_meta:3": 68
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 68,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_fuel_rod_quadruple",
+            "orig_meta:3": 68
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

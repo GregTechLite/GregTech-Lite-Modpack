@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    264657195
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "CIRCLE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10004,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§e工业蒸汽引擎"
+    }
+  },
+  "questID:3": 557081992,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10004,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

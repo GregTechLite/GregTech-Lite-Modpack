@@ -1,0 +1,90 @@
+{
+  "preRequisites:11": [
+    1603276916,
+    414711137,
+    2041154940
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "frame:8": "STAR4_ON_SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1,
+        "id:8": "gregtech:steam_casing"
+      },
+      "name:8": "§6蒸汽革命"
+    }
+  },
+  "questID:3": 1511047056,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 0,
+            "TrophyColorGreen:3": 128,
+            "TrophyColorRed:3": 255,
+            "TrophyEarnedAt:4": 0,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 0,
+              "id:8": "gregtech:steam_casing"
+            },
+            "TrophyName:8": "蒸汽时代",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "neon"
+          }
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 260,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 260,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "id:8": "minecraft:brick_block"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "Damage:2": 260,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:steam_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

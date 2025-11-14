@@ -1,0 +1,20 @@
+{
+  "preRequisites:11": [
+    1773698161,
+    1398707307
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 322,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§e化学能的真正形态"
+    }
+  },
+  "questID:3": 1773356308,
+  "tasks:9": {}
+}

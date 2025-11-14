@@ -1,0 +1,65 @@
+{
+  "preRequisites:11": [
+    1370457451
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "同时具有§a输入总线§r与§e输入仓§r的作用，它可以为机器同时输入物品与流体。\n\n当开启§d总线隔离§r模式时，每个§6输入总成§r将被视为一个整体，§2无论是物品还是流体都会与其他的仓室隔离§r。因此它可以帮助你完成一些需要物品与流体混合输入的机器的自动化，例如§b化学反应釜§r或§b流体固化机§r。\n\n作为代价，每个阶段的§6输入总成§r与§6输出总成§r需要比当前阶段高一个等级的电路来参与合成，除此以外，还需要一些当前阶段的输入/输出仓室与材料。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5038,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§a§l一体化输入"
+    }
+  },
+  "questID:3": 428819210,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 5612,
+          "id:8": "gregtech:mte"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 324,
+          "id:8": "gregtech:meta_plate"
+        },
+        "2:10": {
+          "Count:3": 32,
+          "Damage:2": 324,
+          "id:8": "gregtech:meta_stick_long"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5038,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5054,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

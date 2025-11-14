@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    1360261223
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "用于跳过漫长的夜晚时间并设置重生点。\n\n§3附近没有羊的话或许可以考虑种植一些棉花，然后用线制作羊毛。",
+      "frame:8": "CIRCLE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 14,
+        "id:8": "minecraft:bed"
+      },
+      "name:8": "§a睡觉时间到"
+    }
+  },
+  "questID:3": 1992848526,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "minecraft:bed"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

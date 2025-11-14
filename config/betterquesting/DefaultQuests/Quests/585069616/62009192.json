@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    106026029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "一种贵金属，常见于§e磁铁矿-钒磁铁矿-金矿矿脉§r中。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:gold_ingot"
+      },
+      "name:8": "§e金"
+    }
+  },
+  "questID:3": 62009192,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_gold_0"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:gold_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

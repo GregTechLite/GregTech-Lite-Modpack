@@ -1,0 +1,27 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    2
+  ],
+  "preRequisites:11": [
+    187561121,
+    1153240589
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "EMPTY",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "gregtech:gt_armor",
+        "tag:10": {
+          "Charge:4": 6400000
+        }
+      },
+      "name:8": "§b更好的喷气背包"
+    }
+  },
+  "questID:3": 1775700618,
+  "tasks:9": {}
+}

@@ -1,0 +1,71 @@
+{
+  "preRequisites:11": [
+    96558345
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "更好的流体存储容器！\n\n§6金属桶§r不仅可以存储大量流体，还可以与其他流体容器交互。不同种类的金属桶拥有自己的温度上限，超过其温度上限的流体无法存入其中。\n\n§3不止如此，金属桶还可以直接和格雷科技机器与其中的槽位交互。",
+      "frame:8": "CIRCLE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2002,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§7金属桶"
+    }
+  },
+  "questID:3": 1219420238,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 2016,
+          "id:8": "gtlitecore:mte"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_plate"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_stick"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_stick_long"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2002,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

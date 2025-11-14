@@ -1,0 +1,60 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "EMPTY",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "buildinggadgets:buildingtool",
+        "tag:10": {
+          "blockstate:10": {
+            "Name:8": "minecraft:air"
+          }
+        }
+      },
+      "name:8": "§a建筑小帮手"
+    }
+  },
+  "questID:3": 1863781240,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "buildinggadgets:buildingtool",
+          "tag:10": {
+            "blockstate:10": {
+              "Name:8": "minecraft:air"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "buildinggadgets:exchangertool",
+          "tag:10": {
+            "blockstate:10": {
+              "Name:8": "minecraft:air"
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "buildinggadgets:copypastetool",
+          "tag:10": {
+            "mode:8": "Copy"
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "buildinggadgets:destructiontool",
+          "tag:10": {
+            "fuzzy:1": 1,
+            "overlay:1": 1
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

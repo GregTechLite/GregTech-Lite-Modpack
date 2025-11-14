@@ -1,0 +1,30 @@
+{
+  "preRequisites:11": [
+    1531300267
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "gregtech:wire_coil"
+      },
+      "name:8": "§9§l升级镍铬合金线圈方块"
+    }
+  },
+  "questID:3": 1569594151,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 2,
+          "id:8": "gregtech:wire_coil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

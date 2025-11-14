@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    2118886718
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description\n\n§3需要至少256A ZPM/1024A LuV激光靶仓提供的功率才能生产银纳米蜂群。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 100,
+        "id:8": "gregtech:meta_nanite"
+      },
+      "name:8": "§9§l2阶纳米锻炉"
+    }
+  },
+  "questID:3": 729402919,
+  "tasks:9": {}
+}

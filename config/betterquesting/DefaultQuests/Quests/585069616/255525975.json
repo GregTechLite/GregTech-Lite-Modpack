@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    106026029
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "至关重要的金属材料，被广泛的用于各种合金，电子电路元件与其他物品的合成中。铜的来源有很多，例如§e黄铜矿§r，§e赤铜矿§r与§e斑铜矿§r，有许多种不同的矿石都会产出铜。\n\n§3它的消耗真的很大，多挖点备用是一个好的选择，你的下一个阶段蒸汽时代就需要消耗大量的铜。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 25,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "§e铜"
+    }
+  },
+  "questID:3": 255525975,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_copper_0"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_azurite_0"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_tenorite_0"
+        },
+        "3:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_cuprite_0"
+        },
+        "4:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_chalcopyrite_0"
+        },
+        "5:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_tetrahedrite_0"
+        },
+        "6:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_bornite_0"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

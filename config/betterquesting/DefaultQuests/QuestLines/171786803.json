@@ -1,0 +1,16 @@
+{
+  "lineID:3": 171786803,
+  "order:3": 13,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10030,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§2§l掌控自然§r§f | §3§l极限压"
+    }
+  },
+  "quests:9": {}
+}

@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    1919423198
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "转子真的很难做...如果你想简化它，或许需要看看§6流体固化器§r。\n\n§3需要电动泵的机器也有很多，所以你也可以先用任务奖励的转子来制作，毕竟实在有太多机器要做。",
+      "frame:8": "SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 142,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§7§l电动泵"
+    }
+  },
+  "questID:3": 1603368197,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 112,
+          "id:8": "gregtech:meta_rotor"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 142,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "preRequisites:11": [
+    505776444
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "不论是制作机器还是零部件，一些趁手的工具都是必要的。\n\n这些工具都可以使用不同版本的材料来制作，你可以在§2JEI§r界面中查询一个工具可以用什么材料制作。另外，一部分工具还有对应的电动版本，它们与普通工具的不同是可以消耗电力来减免消耗耐久的概率。\n\n§3注意，在目前版本中工具皮带与便携包有一定兼容问题，这个工具本身也有或多或少的问题，但是大部分时候可以正常使用。",
+      "frame:8": "GEAR",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:hammer",
+        "tag:10": {
+          "DisallowContainerItem:1": 0,
+          "GT.Behaviours:10": {
+            "RelocateMinedBlocks:1": 1
+          },
+          "GT.Tool:10": {
+            "AttackDamage:5": 101.0,
+            "AttackSpeed:5": -2.3,
+            "Durability:3": 0,
+            "HarvestLevel:3": 6,
+            "Material:8": "gregtech:neutronium",
+            "MaxDurability:3": 65534,
+            "ToolSpeed:5": 184.0
+          },
+          "HideFlags:3": 2,
+          "Unbreakable:1": 1
+        }
+      },
+      "name:8": "§b格雷科技中的工具"
+    }
+  },
+  "questID:3": 96558345,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "ForgeCaps:10": {
+            "Parent:10": {
+              "Items:9": {},
+              "Size:3": 8
+            }
+          },
+          "id:8": "gregtech:toolbelt",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "RelocateMinedBlocks:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 0.0,
+              "AttackSpeed:5": -2.2,
+              "Durability:3": 0,
+              "Material:8": "gtlitecore:metastable_oganesson",
+              "MaxDurability:3": 110591
+            },
+            "HideFlags:3": 2,
+            "ench:9": {
+              "0:10": {
+                "id:2": 70,
+                "lvl:2": 3
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:hammer",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 3.0,
+              "AttackSpeed:5": -3.0,
+              "Durability:3": 0,
+              "HarvestLevel:3": 2,
+              "Material:8": "gregtech:wrought_iron",
+              "MaxDurability:3": 383,
+              "ToolSpeed:5": 6.0
+            },
+            "HideFlags:3": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:wrench",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 3.0,
+              "AttackSpeed:5": -3.0,
+              "Durability:3": 0,
+              "HarvestLevel:3": 2,
+              "Material:8": "gregtech:wrought_iron",
+              "MaxDurability:3": 383,
+              "ToolSpeed:5": 6.0
+            },
+            "HideFlags:3": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:file",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 0.0,
+              "AttackSpeed:5": -2.6000001,
+              "Durability:3": 0,
+              "Material:8": "gregtech:wrought_iron",
+              "MaxDurability:3": 383
+            },
+            "HideFlags:3": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:saw",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "HarvestIce:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 1.0,
+              "AttackSpeed:5": -2.8,
+              "Durability:3": 0,
+              "Material:8": "gregtech:wrought_iron",
+              "MaxDurability:3": 383
+            },
+            "HideFlags:3": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:screwdriver",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 1.0,
+              "AttackSpeed:5": 2.8,
+              "Durability:3": 0,
+              "Material:8": "gregtech:wrought_iron",
+              "MaxDurability:3": 383
+            },
+            "HideFlags:3": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

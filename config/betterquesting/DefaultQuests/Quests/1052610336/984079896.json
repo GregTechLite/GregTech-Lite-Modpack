@@ -1,0 +1,54 @@
+{
+  "preRequisiteTypes:7": [
+    2,
+    2,
+    0
+  ],
+  "preRequisites:11": [
+    1603368197,
+    1597156033,
+    857979572
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description\n\n",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 530,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§7收集空气",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 984079896,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 530,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 115,
+          "id:8": "gtlitecore:gtlite_meta_item"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

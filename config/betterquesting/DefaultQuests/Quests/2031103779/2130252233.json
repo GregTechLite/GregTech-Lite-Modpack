@@ -1,0 +1,76 @@
+{
+  "preRequisites:11": [
+    295458084,
+    1919423198
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "是时候来试试这些§a大型机器§r了，你在蒸汽时代已经接触过一些使用蒸汽的大型机器，而这些新的大型机器基于电力时代。在本整合包中，所有大型机器与一部分普通多方块机器都需要使用一类特殊的结构方块，在此统称它们为§e部件方块§r，包括§2格雷科技§r中常见的部件类型，例如电动马达与电力活塞等。\n\n§3它们不怎么贵！如你所见，它们只是用脱氧钢机器外壳作为基础架构，在中间嵌入部件部分构成的。请查看多方块机器的工具提示，升级这些部件外壳将会提升大型机器的性能。",
+      "frame:8": "DIAMOND_ON_CROSS",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 986,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§7§l低压阶段的大型机器"
+    }
+  },
+  "questID:3": 2130252233,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1004,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gtlitecore:motor_casing"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "gtlitecore:piston_casing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "gtlitecore:pump_casing"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "gtlitecore:conveyor_casing"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "gtlitecore:robot_arm_casing"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "gtlitecore:emitter_casing"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "gtlitecore:sensor_casing"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "id:8": "gtlitecore:field_gen_casing"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "preRequisites:11": [
+    1153240589,
+    1552045377
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND_ON_SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11123,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§e下一阶段的能源仓"
+    }
+  },
+  "questID:3": 1528938427,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11123,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11138,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11153,
+          "id:8": "gregtech:mte"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 11183,
+          "id:8": "gregtech:mte"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 11213,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11168,
+          "id:8": "gregtech:mte"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 11198,
+          "id:8": "gregtech:mte"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 11228,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

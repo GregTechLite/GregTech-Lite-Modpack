@@ -1,0 +1,59 @@
+{
+  "preRequisiteTypes:7": [
+    2,
+    2
+  ],
+  "preRequisites:11": [
+    918396299,
+    1579334975
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "用激光对宝石板或晶圆进行蚀刻以得到电路组件。\n\n在§7LV§r阶段，这台机器并不是必选的，但是它是§a应用能源2§r的起点（除此以外，你还需要完成§6电路组装机§r才可以继续）。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 560,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§e电子束蚀刻"
+    }
+  },
+  "questID:3": 224590458,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 278,
+          "id:8": "gregtech:meta_lens"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 311,
+          "id:8": "gregtech:meta_lens"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 314,
+          "id:8": "gregtech:meta_lens"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 560,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

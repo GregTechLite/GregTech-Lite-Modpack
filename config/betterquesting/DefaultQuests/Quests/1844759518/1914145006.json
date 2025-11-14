@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    1474142456
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND_ON_CROSS",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 34,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "§5镄"
+    }
+  },
+  "questID:3": 1914145006,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 34,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 34,
+          "id:8": "gregtech:meta_fuel_rod"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 34,
+          "id:8": "gregtech:meta_fuel_rod_enriched"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 34,
+          "id:8": "gregtech:meta_fuel_rod_high_density"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}
