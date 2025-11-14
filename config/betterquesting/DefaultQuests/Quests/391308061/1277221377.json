@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§3你需要一些基础电子元件来构成你的电路板",
+      "desc:8": "你需要一些基础电子元件来构成你的电路板。",
       "frame:8": "DIAMOND_ON_CROSS",
       "icon:10": {
         "Count:3": 1,
