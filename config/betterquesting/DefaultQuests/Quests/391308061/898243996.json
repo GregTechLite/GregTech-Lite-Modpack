@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "如果你选择了这条路,你应该庆幸在格雷科技里大量挖煤炭是一件还算轻松的工作.\n§7希望长时间的挖煤没把你搞的灰头土脸 :P§r",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
@@ -19,6 +19,18 @@
     }
   },
   "questID:3": 898243996,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:coal_block"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

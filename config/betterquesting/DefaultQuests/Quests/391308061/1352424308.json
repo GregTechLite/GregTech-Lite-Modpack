@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "在§4格雷科技§r中,§d无限圆石§r以更便利的手段出现了!\n在造出§c碎岩机§r后,在机器的两端放§c岩浆§r和§9水§r,再在里面放上§7圆石§r,无穷无尽的§7圆石§r就会从机器的输出口输出.\nHV版本的§c碎岩机§r可以无损产出§d黑曜石§r,HV和EV版本的碎岩机能产出§7种类各异的石头§r.或许§6研磨这些石头后电解§r是个好主意",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -15,6 +15,22 @@
     }
   },
   "questID:3": 1352424308,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:water_bucket"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:lava_bucket"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

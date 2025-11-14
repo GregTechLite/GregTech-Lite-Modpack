@@ -11,7 +11,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "在§4gregtech§r中,史蒂夫踩在普通线缆上会§c触电§r(踩在超导线缆上不会),所以给你的线缆加橡胶绝缘层是很重要的一步!\n§7它能让史蒂夫在工厂安全手册上少写几行§r\n\n§3生产一些机器和其部件也需要绝缘线缆§r",
       "frame:8": "STAR4",
       "icon:10": {
         "Count:3": 1,
@@ -22,6 +22,19 @@
     }
   },
   "questID:3": 1004585364,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 1068,
+          "id:8": "gregtech:meta_plate"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

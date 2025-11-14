@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "你可能注意到了§c蒸汽碎岩机§r的缺点:§e慢§r\n§c高压蒸汽碎岩机§r能一定程度上解决这个问题.代价是§d更多的蒸汽§r\n(其实我建议你挖矿获取§7圆石§r,这是目前最高效的§7圆石§r获取手段,§8如果你懒,你可以喊你的朋友去帮你挖 :P§r)",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -20,6 +20,18 @@
     }
   },
   "questID:3": 25140166,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 256,
+          "id:8": "minecraft:stone"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

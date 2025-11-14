@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "伟大的§4Chisel§r模组来了!\n这个模组是完完全全的装饰性模组,其添加了成百上千§9纹理各异§r的方块.你可以很低成本的生产这些方块来装饰你的基地.\n手持§d凿子§r右键打开，在左侧放入方块后,右侧就会出现所有和其同种但是花纹不同的方块.§a直接点击§r就可以获得这些方块了.\n现在,拿起你的凿子,发挥你的想象力,将基地建设成你梦想中的样子吧~",
       "frame:8": "EMPTY",
       "icon:10": {
         "Count:3": 1,
@@ -17,6 +17,19 @@
     }
   },
   "questID:3": 1793993238,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 256,
+          "Damage:2": 2,
+          "id:8": "chisel:laboratory"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
