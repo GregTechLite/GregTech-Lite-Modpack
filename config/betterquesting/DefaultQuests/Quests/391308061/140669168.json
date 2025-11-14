@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "将黑曜石围成中空的，最小4×5大小的框架，再使用打火石点燃即可打开§c下界传送门§r。\n§4小心§r！下界遍布岩浆，如你所见，这是个§4危险§r的维度。\n但是许多其他世界中找不到的资源能在这里被发现。\n目前来说，你最需要这里的§e硫§r和§b石英§r。后续，你可以考虑开采：\n§a绿宝石矿脉(铍,绿宝石)；\n§d氟碳镧铈矿脉和蓝黄玉矿脉(为了氟)；\n§7钕矿脉(为了钕)。",
       "frame:8": "SKULL",
       "icon:10": {
         "Count:3": 1,
@@ -14,6 +14,18 @@
     }
   },
   "questID:3": 140669168,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "minecraft:obsidian"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

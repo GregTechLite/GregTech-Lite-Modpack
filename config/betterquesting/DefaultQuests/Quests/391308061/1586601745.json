@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "如果你觉得普通的§c蒸汽提取机§r速度太慢，不妨试试§c高压版本的蒸汽提取机。§r",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -20,6 +20,22 @@
     }
   },
   "questID:3": 1586601745,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:piston"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:glass"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "§c固体燃料锅炉§r，一个以§6烧煤炭§r为动力产出蒸汽的机器。\n§7如果你不想当一个矿工天天挖煤炭，你最好尽快想办法生产更高级的锅炉替换它。§r\n§4§l请注意这种锅炉需要持续供水，当没水且高温时再通水会爆炸。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
@@ -14,6 +14,18 @@
     }
   },
   "questID:3": 1738168220,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "minecraft:coal_block"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

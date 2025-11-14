@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "这里给你列出了许多§d莓果类食物§r，食用它们后会获得§b§o奇妙的效果§r。\n在你饥饿的时候，不妨试试§e食用§r这些莓果！",
       "frame:8": "CIRCLE",
       "icon:10": {
         "Count:3": 1,
@@ -22,7 +22,43 @@
     },
     "1:10": {
       "index:3": 1,
-      "requiredItems:9": {},
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 9270,
+          "id:8": "gtlitecore:gtlite_meta_item"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 9271,
+          "id:8": "gtlitecore:gtlite_meta_item"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 9272,
+          "id:8": "gtlitecore:gtlite_meta_item"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 9273,
+          "id:8": "gtlitecore:gtlite_meta_item"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 9279,
+          "id:8": "gtlitecore:gtlite_meta_item"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 9601,
+          "id:8": "gtlitecore:gtlite_meta_item"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 9602,
+          "id:8": "gtlitecore:gtlite_meta_item"
+        }
+      },
       "taskID:8": "bq_standard:optional_retrieval"
     }
   }

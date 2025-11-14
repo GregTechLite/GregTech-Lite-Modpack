@@ -11,7 +11,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "每个电路板都需要一个电路基板，你目前只能用这种最廉价的玩意。",
       "frame:8": "DIAMOND",
       "icon:10": {
         "Count:3": 1,
