@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "§2发酵槽§r最主要的功能是帮你生产§d发酵生物质§r。\n\n发酵生物质能进一步被处理成§d石油§r，这可能是一个前期无中生有获取石油的好方法！\n\n同时，藻类处理也在发酵槽中进行。\n\n如果你有相关的处理需求，不妨做一个吧。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -18,6 +18,24 @@
     }
   },
   "questID:3": 538676299,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 12116,
+          "id:8": "gtlitecore:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 12117,
+          "id:8": "gtlitecore:meta_dust"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
