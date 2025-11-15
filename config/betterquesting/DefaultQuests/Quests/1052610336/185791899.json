@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "§2组装机§r能够将各种物品组合在一起，有相当多的配方能通过组装机完成。\n\n§3解锁组装机后，你可以查找更简单的漏斗，箱子等物品的配方以节约一些材料。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,

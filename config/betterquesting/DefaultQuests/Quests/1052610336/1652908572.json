@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "§2电力高炉§r，格雷科技中最具代表性的机器之一，它会贯穿你游戏的始终。\n\n它主要的作用就是烧制材料，最大的特点是耗时长和耗电量大。\n\n在未来，你可以通过通入保护气来加速处理。至于现在，制造多联电力高炉或许是个不错的主意。前提是你的发电量跟得上这家伙的消耗。",
       "frame:8": "EMPTY",
       "icon:10": {
         "Count:3": 1,
@@ -64,5 +64,17 @@
       }
     }
   },
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10001,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }
