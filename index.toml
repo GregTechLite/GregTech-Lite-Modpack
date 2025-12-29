@@ -2762,7 +2762,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtlitecore-1.0.0.jar"
-hash = "49ea2f3abbe91c66d8a2d7b6d832d1e7e022a45b1b1dd9e5747c96a565825703"
+hash = "eef3f4600543536a9e4c0eb26c8a81919c5cf4e640067a6ee7661f44d21a7fc6"
 
 [[files]]
 file = "mods/had-enough-characters.pw.toml"
@@ -2871,7 +2871,7 @@ metafile = true
 
 [[files]]
 file = "mods/morphismlib-1.12.2-1.0.0.jar"
-hash = "7f691cca0d84aae9a2370aaab2fc0aba561f8fe564117b5646a84f2b909dbf4b"
+hash = "02f4e71b8a7017e93a9582fa0ff8124e95b62ddee9d890b30975a01352b28241"
 
 [[files]]
 file = "mods/mouse-tweaks-unofficial.pw.toml"
