@@ -140,7 +140,7 @@ cutter.recipeBuilder()
 // Logic Processor
 mods.ae2.inscriber.removeByOutput(logic_processor)
 circuit_assembler.recipeBuilder()
-    .inputs(item('gtlitecore:gtlite_meta_item', 1104)) // Engraved Ruby Chip
+    .inputs(item('gtlitecore:gtlite_meta_item_1', 1104)) // Engraved Ruby Chip
     .inputs(metaitem('circuit_board.basic'))
     .inputs(ore('wireGtSingleRedAlloy') * 2)
     .inputs(ore('boltGold') * 4)
@@ -151,7 +151,7 @@ circuit_assembler.recipeBuilder()
     .buildAndRegister()
 
 circuit_assembler.recipeBuilder()
-    .inputs(item('gtlitecore:gtlite_meta_item', 1104)) // Engraved Ruby Chip
+    .inputs(item('gtlitecore:gtlite_meta_item_1', 1104)) // Engraved Ruby Chip
     .inputs(metaitem('circuit_board.good'))
     .inputs(ore('wireGtSingleRedAlloy') * 2)
     .inputs(ore('boltElectrum') * 4)
@@ -164,7 +164,7 @@ circuit_assembler.recipeBuilder()
 // Calculation Processor
 mods.ae2.inscriber.removeByOutput(calculation_processor)
 circuit_assembler.recipeBuilder()
-    .inputs(item('gtlitecore:gtlite_meta_item', 1105)) // Engraved Sapphire Chip
+    .inputs(item('gtlitecore:gtlite_meta_item_1', 1105)) // Engraved Sapphire Chip
     .inputs(metaitem('circuit_board.basic'))
     .inputs(ore('wireGtSingleRedAlloy') * 2)
     .inputs(ore('boltGold') * 4)
@@ -175,7 +175,7 @@ circuit_assembler.recipeBuilder()
     .buildAndRegister()
 
 circuit_assembler.recipeBuilder()
-    .inputs(item('gtlitecore:gtlite_meta_item', 1105)) // Engraved Sapphire Chip
+    .inputs(item('gtlitecore:gtlite_meta_item_1', 1105)) // Engraved Sapphire Chip
     .inputs(metaitem('circuit_board.good'))
     .inputs(ore('wireGtSingleRedAlloy') * 2)
     .inputs(ore('boltElectrum') * 4)
@@ -188,7 +188,7 @@ circuit_assembler.recipeBuilder()
 // Engineering Processor
 mods.ae2.inscriber.removeByOutput(engineering_processor)
 circuit_assembler.recipeBuilder()
-    .inputs(item('gtlitecore:gtlite_meta_item', 1103)) // Engraved Diamond Chip
+    .inputs(item('gtlitecore:gtlite_meta_item_1', 1103)) // Engraved Diamond Chip
     .inputs(metaitem('circuit_board.basic'))
     .inputs(ore('wireGtSingleRedAlloy') * 2)
     .inputs(ore('boltGold') * 4)
@@ -199,7 +199,7 @@ circuit_assembler.recipeBuilder()
     .buildAndRegister()
 
 circuit_assembler.recipeBuilder()
-    .inputs(item('gtlitecore:gtlite_meta_item', 1103)) // Engraved Diamond Chip
+    .inputs(item('gtlitecore:gtlite_meta_item_1', 1103)) // Engraved Diamond Chip
     .inputs(metaitem('circuit_board.good'))
     .inputs(ore('wireGtSingleRedAlloy') * 2)
     .inputs(ore('boltElectrum') * 4)
