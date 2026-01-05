@@ -1,6 +1,6 @@
 name = "IngameIME Vintage"
 filename = "ingameime-0.2.0.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
