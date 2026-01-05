@@ -2776,7 +2776,7 @@ metafile = true
 
 [[files]]
 file = "mods/ingameime-vintage.pw.toml"
-hash = "d3503d7c9f018d240fbde20d44c102065d08d142d86d01e079c7efc083b836ab"
+hash = "d0dcc37fd7a4bc7e7920b9fc3acea125f6c2fcec223aba733693025be9ff9a45"
 metafile = true
 
 [[files]]
@@ -3005,7 +3005,7 @@ metafile = true
 
 [[files]]
 file = "mods/vintagedisplay.pw.toml"
-hash = "710627b781dcd16d247ab6c9cdcc0f2ab79f5fc4e78276b94c9b6f01649d4e78"
+hash = "9cbf670e334ecef266d0dfb9332b22f950739ba3e324364befeed02f975f1ab0"
 metafile = true
 
 [[files]]
