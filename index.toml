@@ -2470,7 +2470,7 @@ hash = "830bd25835d7de559257f7a312081fcfab880fdf0f3dffcc1d2b6b60feb5c725"
 
 [[files]]
 file = "groovy/loader/recipe/AppliedEnergistics2.groovy"
-hash = "dc297c234b98d070c997937e877863bb691f43b6a0b40f1b8f93586741a6556d"
+hash = "929cb2a2dae66263f5bf3f9e4cabbddbf17d853964b99943d0b8f97230a271b1"
 
 [[files]]
 file = "groovy/loader/recipe/BetterBuildersWands.groovy"
@@ -2510,7 +2510,7 @@ hash = "06c481d3c123a6a035354614d37054294744513ba19c4a7f6650c9ca4f337212"
 
 [[files]]
 file = "groovy/loader/recipe/GregTechLiteCore.groovy"
-hash = "26852b402516c15a35a1caadc11d6ae4989e837a68d42ad0da45450763258469"
+hash = "2fda43c84e3bec5dfbfbcddd9a2cc7dbe83878232f550349c27754730daf63cf"
 
 [[files]]
 file = "groovy/loader/recipe/JustEnoughItems.groovy"
@@ -3005,7 +3005,7 @@ metafile = true
 
 [[files]]
 file = "mods/vintagedisplay.pw.toml"
-hash = "ed4be5e90269dd05df4cb3ea89b813be30f9c48c50bebc1c378ab65fe97c6079"
+hash = "710627b781dcd16d247ab6c9cdcc0f2ab79f5fc4e78276b94c9b6f01649d4e78"
 metafile = true
 
 [[files]]

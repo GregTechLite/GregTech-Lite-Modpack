@@ -1,13 +1,13 @@
 name = "VintageDisplay"
-filename = "DuraDisplay-1.2.jar"
-side = "both"
+filename = "DuraDisplay-1.5.jar"
+side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "f074279cc45c4f39b7d093818e110fad3fc4c414"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/ajT8mUTF/versions/oV8kMOjS/DuraDisplay-1.5.jar"
+hash-format = "sha512"
+hash = "bc3faf5f733d62dd93fa533f4c6d68ed1986c731b64a34540318b780b4fe423e4bfeef17672a50b532c982730cc7b5b3b2fcc6d7196f0abc0145eac0361f2d66"
 
 [update]
-[update.curseforge]
-file-id = 6628650
-project-id = 1255064
+[update.modrinth]
+mod-id = "ajT8mUTF"
+version = "oV8kMOjS"
