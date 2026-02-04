@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "这里给你列出了许多§d莓果类食物§r，食用它们后会获得§b§o奇妙的效果§r。\n在你饥饿的时候，不妨试试§e食用§r这些莓果！",
+      "desc:8": "在你忙碌于四处奔波时，你可能会注意到这些长在地上的§a浆果丛§r们，你可以收获并种植它们。所有的浆果类作物都需要§2成片的种植才能生长§r，但附近不能有太多，否则它们会互相争抢养分。",
       "frame:8": "CIRCLE",
       "icon:10": {
         "Count:3": 1,
@@ -15,6 +15,19 @@
     }
   },
   "questID:3": 1817558900,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1903,
+          "id:8": "gtlitecore:gtlite_meta_item_2"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

@@ -32,12 +32,12 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "OreDict:8": "emitterCasingAny",
+          "OreDict:8": "casingEmitter",
           "id:8": "gtlitecore:emitter_casing"
         },
         "1:10": {
           "Count:3": 1,
-          "OreDict:8": "pistonCasingAny",
+          "OreDict:8": "casingPiston",
           "id:8": "gtlitecore:piston_casing"
         }
       },

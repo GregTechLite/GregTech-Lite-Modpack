@@ -62,6 +62,11 @@
           "Count:3": 1,
           "Damage:2": 2,
           "id:8": "gtlitecore:field_gen_casing"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gtlitecore:processor_casing"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
