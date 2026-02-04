@@ -32,7 +32,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "OreDict:8": "pumpCasingAny",
+          "OreDict:8": "casingPump",
           "id:8": "gtlitecore:pump_casing"
         }
       },

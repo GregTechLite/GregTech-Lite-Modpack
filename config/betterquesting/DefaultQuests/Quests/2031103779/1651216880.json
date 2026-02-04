@@ -32,7 +32,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "OreDict:8": "sensorCasingAny",
+          "OreDict:8": "casingSensor",
           "id:8": "gtlitecore:sensor_casing"
         }
       },

@@ -9,7 +9,7 @@
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5003,
-        "id:8": "gtlitecore:gtlite_meta_item"
+        "id:8": "gtlitecore:gtlite_meta_item_1"
       },
       "name:8": "§b绝缘云母板"
     }
@@ -22,7 +22,7 @@
         "0:10": {
           "Count:3": 32,
           "Damage:2": 5002,
-          "id:8": "gtlitecore:gtlite_meta_item"
+          "id:8": "gtlitecore:gtlite_meta_item_1"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
@@ -33,7 +33,7 @@
         "0:10": {
           "Count:3": 32,
           "Damage:2": 5003,
-          "id:8": "gtlitecore:gtlite_meta_item"
+          "id:8": "gtlitecore:gtlite_meta_item_1"
         }
       },
       "taskID:8": "bq_standard:retrieval"

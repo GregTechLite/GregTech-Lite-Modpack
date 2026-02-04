@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "伟大的§2Chisel§r模组来了！\n这个模组是完完全全的装饰性模组，其添加了成百上千§9纹理各异§r的方块。你可以很低成本的生产这些方块来装饰你的基地。\n手持§d凿子§r右键打开，在左侧放入方块后,右侧就会出现所有和其同种但是花纹不同的方块。§a直接点击§r就可以获得这些方块了。\n现在，拿起你的凿子，发挥你的想象力，将基地建设成你梦想中的样子吧~",
+      "desc:8": "你最忠诚的装饰们将随着一把凿子而出现。使用凿子点击方块以雕凿之，或者直接使用§e鼠标右键§r打开界面来放入方块进行雕凿。\n\n现在，拿起你的凿子，发挥你的想象力，将基地建设成你梦想中的样子吧。",
       "frame:8": "EMPTY",
       "icon:10": {
         "Count:3": 1,
@@ -23,45 +23,26 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 256,
-          "Damage:2": 2,
-          "id:8": "chisel:laboratory"
+          "Count:3": 1,
+          "id:8": "chisel:chisel_diamond",
+          "tag:10": {
+            "chiseldata:10": {}
+          }
         }
       }
     }
   },
   "tasks:9": {
     "0:10": {
+      "ignoreNBT:1": 1,
       "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
-    },
-    "1:10": {
-      "index:3": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "id:8": "chisel:chisel_iron"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "id:8": "chisel:chisel_diamond",
-          "tag:10": {
-            "chiseldata:10": {}
-          }
-        },
-        "2:10": {
-          "Count:3": 1,
-          "id:8": "chisel:chisel_hitech",
-          "tag:10": {
-            "chiseldata:10": {}
-          }
-        },
-        "3:10": {
-          "Count:3": 1,
-          "id:8": "chisel:offsettool"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

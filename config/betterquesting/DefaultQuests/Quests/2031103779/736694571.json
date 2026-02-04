@@ -32,12 +32,12 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,
-          "OreDict:8": "pumpCasingAny",
+          "OreDict:8": "casingPump",
           "id:8": "gtlitecore:pump_casing"
         },
         "1:10": {
           "Count:3": 24,
-          "OreDict:8": "wireCoilAny",
+          "OreDict:8": "casingWireCoil",
           "id:8": "gregtech:wire_coil"
         }
       },

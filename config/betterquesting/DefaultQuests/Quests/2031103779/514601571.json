@@ -19,6 +19,57 @@
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "gtlitecore:motor_casing"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "gtlitecore:piston_casing"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "gtlitecore:pump_casing"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "gtlitecore:conveyor_casing"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "gtlitecore:robot_arm_casing"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "gtlitecore:emitter_casing"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "gtlitecore:sensor_casing"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "gtlitecore:field_gen_casing"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "gtlitecore:processor_casing"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
