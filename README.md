@@ -1,4 +1,4 @@
-# GregTech Lite <img src="icon.png" alt="logo" width="160" align="right" style="margin-left: 16px; vertical-align: middle">
+# GregTech Lite <img src="logo.png" alt="logo" width="160" align="right" style="margin-left: 16px; vertical-align: middle">
 
 [![MC Version](https://img.shields.io/badge/MC%20Version-%201.12.2%20Forge-brightgreen.svg)][Forge]
 [![Modpack License](https://img.shields.io/badge/Modpack%20License-GNU%20AGPL%203.0-blue.svg)][AGPL License]

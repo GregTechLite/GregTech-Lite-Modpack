@@ -42,7 +42,7 @@ hash = "62f4fd4e71300ce77548c58454fd926e1a035b70311bf1e19ab9a937d74775d4"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/171786803.json"
-hash = "235e5c428fa68c5ad533e6616940915ac851e95b5e8c77db3ce1a9add576ac9e"
+hash = "ee1ef609c3679d3a50805f63654bb1bdce012e9184416c160e43f754bad14664"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/1754878463.json"
@@ -2550,7 +2550,7 @@ hash = "b583e3ca86336603797c1267aa3afe1ad635166c2977e423a7df9dac9ba92094"
 
 [[files]]
 file = "icon.png"
-hash = "ae8f9382249cbdd160bf757cf70348468072db76805963c8351c5c10606610ce"
+hash = "78b5fdc7f5945756104be53854115c89cb38b4714183af86b07c6f7377e8685c"
 
 [[files]]
 file = "mods/ae2-crafting-tree-legacy.pw.toml"
