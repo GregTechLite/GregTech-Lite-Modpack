@@ -2762,7 +2762,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtlitecore-1.0.0.jar"
-hash = "715e3526649aa22e886faf016f995907a93a396aa4a9c15955086d11c2b9a4dd"
+hash = "53aafcc9a68e773f10265f7c6b3a903556db97265ae113df8caef98b0de51aa0"
 
 [[files]]
 file = "mods/had-enough-characters.pw.toml"
@@ -3201,10 +3201,6 @@ file = "resources/gregtech/textures/blocks/multiblock/pyrolyse_oven/overlay_fron
 hash = "33c7e39566fafb12b193299f3881231bccada12a3d7c7be346ae5d2d78735156"
 
 [[files]]
-file = "resources/gregtech/textures/items/metaitems/advanced_electric_jetpack.png"
-hash = "42aa5d57ce2d1db8ddef39700a6c234736623ba40cc25657b3ccb15782152fef"
-
-[[files]]
 file = "resources/gregtech/textures/items/metaitems/bottle.purple.drink.png"
 hash = "0c3f75f268a91614489c65331008a1a766daf147402d6740d8f861ef548a30ce"
 
@@ -3369,20 +3365,12 @@ file = "resources/gregtech/textures/items/metaitems/circuit.wetware_processor.pn
 hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
 
 [[files]]
-file = "resources/gregtech/textures/items/metaitems/cover.base.sai2"
-hash = "89298f079f728f3929b3fb006ada6646c73deb897ecd1193722b28208f9c34a8"
-
-[[files]]
 file = "resources/gregtech/textures/items/metaitems/gravistar.png"
 hash = "4d8663bcd751b5a785622389770cc5c6473ed817f171fad3739acbb7c7e9d6aa"
 
 [[files]]
 file = "resources/gregtech/textures/items/metaitems/gravistar.png.mcmeta"
 hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
-
-[[files]]
-file = "resources/gregtech/textures/items/metaitems/qts.advanced_chestplate.png"
-hash = "715ef9bb9fd73d761e750bb5a9f680dd4f4e6b3811647c7b3adec24fbf8716e9"
 
 [[files]]
 file = "resources/gtlitecore/lang/zh_cn.lang"
