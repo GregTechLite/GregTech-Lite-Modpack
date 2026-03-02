@@ -2633,8 +2633,9 @@ hash = "c8ee6b8c56dc5011af73660d1063d881376b6d66b7b3686c6ab73edb6f598c14"
 metafile = true
 
 [[files]]
-file = "mods/catalogue-1.0.0.jar"
-hash = "be18225e82a6dc26427770dbf9ded0f91e26f7ddba27dfd18135926eb0c4faf3"
+file = "mods/catalogue-vintage.pw.toml"
+hash = "373dbcfdc4f1630ca415a7e3b9388eae5a4e6de53bf8c0614c90bd9d2f26d9af"
+metafile = true
 
 [[files]]
 file = "mods/cb-multipart.pw.toml"
