@@ -21,7 +21,8 @@ packwiz
 *.iws
 *.iml
 /out/
-/.idea/
+.idea/*
+!.idea/icon.png
 
 # vscode
 /.vscode/
