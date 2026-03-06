@@ -193,7 +193,7 @@ for (int i = 0; i < 16; i++) {
                     'WWW')
             .key('W', item('projectred-transmission:wire'))
             .key('D', ore(dyeColorOres[i]))
-            .output(item('projectred-transmission:wire', i + 1))
+            .output(item('projectred-transmission:wire', i + 1) * 8)
             .register()
 
     chemical_bath.recipeBuilder()
@@ -223,7 +223,7 @@ for (int i = 0; i < 16; i++) {
                     'WWW')
             .key('W', item('projectred-transmission:framed_wire'))
             .key('D', ore(dyeColorOres[i]))
-            .output(item('projectred-transmission:framed_wire', i + 1))
+            .output(item('projectred-transmission:framed_wire', i + 1) * 8)
             .register()
 
     chemical_bath.recipeBuilder()
@@ -242,3 +242,4 @@ for (int i = 0; i < 16; i++) {
             .duration(TICK)
             .buildAndRegister()
 }
+
