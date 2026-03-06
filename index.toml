@@ -2526,7 +2526,7 @@ hash = "0200e0e094ce9c6e952db5315a3e131444624484e5466cb879027d290a5df4c6"
 
 [[files]]
 file = "groovy/loader/recipe/ProjectRed.groovy"
-hash = "0b2b9ec7c316ee6183b09ad8a06f8e492974b6e7340231a2899540808e651cf3"
+hash = "81cfa18a5c7293f19084bea08215d9264064b629b38fd31cdd8a32fd4c6fb31e"
 
 [[files]]
 file = "groovy/loader/recipe/SophisticatedBackpacks.groovy"
@@ -2763,7 +2763,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtlitecore-1.0.0.jar"
-hash = "a36fb7e3611661b80e5535fffd553fd828483e257793ee03c674e9303ad08716"
+hash = "125d9dacaa89540bc4ef804387c97f731f18220e22c5a53263adcf183beec18b"
 
 [[files]]
 file = "mods/had-enough-characters.pw.toml"
