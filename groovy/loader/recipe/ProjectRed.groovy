@@ -10,6 +10,7 @@ def laser_engraver = recipemap('laser_engraver')
 def polarizer = recipemap('polarizer')
 def vacuum_chamber = recipemap('vacuum_chamber')
 def chemical_bath = recipemap('chemical_bath')
+def compressor = recipemap('compressor')
 /* -------------------------------------------------------------------------- */
 
 // Circuit Board
@@ -243,3 +244,47 @@ for (int i = 0; i < 16; i++) {
             .buildAndRegister()
 }
 
+// Bundled Cable
+crafting.removeByOutput(item('projectred-transmission:wire', 17))
+crafting.shapelessBuilder()
+        .name(resource('gtlite:bundled_cable'))
+        .input([item('projectred-transmission:wire'), ore('ringTin'), item('minecraft:string')])
+        .output([item('projectred-transmission:wire', 17)])
+        .register()
+
+compressor.recipeBuilder()
+        .inputs([item('projectred-transmission:wire')])
+        .outputs([item('projectred-transmission:wire', 17)])
+        .EUt(VH[ULV])
+        .duration(5 * TICK)
+        .buildAndRegister()
+
+// Colored Bundled Cables
+for (int i = 17; i < 33; i++) {
+    crafting.removeByOutput(item('projectred-transmission:wire', i + 1))
+    crafting.shapedBuilder()
+            .name(resource('gtlite:bundled_cable_' + dyeColors[i - 17]))
+            .shape('WWW',
+                    'WDW',
+                    'WWW')
+            .key('W', item('projectred-transmission:wire', 17))
+            .key('D', ore(dyeColorOres[i - 17]))
+            .output(item('projectred-transmission:wire', i + 1) * 8)
+            .register()
+
+    chemical_bath.recipeBuilder()
+            .inputs(item('projectred-transmission:wire', 17))
+            .fluidInputs(fluid('dye_' + dyeColors[i - 17]) * 36)
+            .outputs(item('projectred-transmission:wire', i + 1))
+            .EUt(VA[LV])
+            .duration(TICK)
+            .buildAndRegister()
+
+    chemical_bath.recipeBuilder()
+            .inputs(item('projectred-transmission:wire', i + 1))
+            .fluidInputs(fluid('water') * 100)
+            .outputs(item('projectred-transmission:wire', 17))
+            .EUt(VA[LV])
+            .duration(TICK)
+            .buildAndRegister()
+}
