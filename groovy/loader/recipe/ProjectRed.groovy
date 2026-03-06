@@ -259,6 +259,23 @@ compressor.recipeBuilder()
         .duration(5 * TICK)
         .buildAndRegister()
 
+// Framed Bundled Cable
+crafting.removeByOutput(item('projectred-transmission:framed_wire', 17))
+crafting.shapelessBuilder()
+        .name(resource('gtlite:framed_bundled_transmission_wire'))
+        .input([item('projectred-transmission:wire', 17), ore('frameGtWood')])
+        .output([item('projectred-transmission:framed_wire', 17)])
+        .register()
+
+assembler.recipeBuilder()
+        .circuitMeta(2)
+        .inputs(item('projectred-transmission:wire', 17))
+        .inputs(ore('frameGtWood'))
+        .outputs(item('projectred-transmission:framed_wire', 17))
+        .EUt(VA[LV])
+        .duration(2 * SECOND + 10 * TICK)
+        .buildAndRegister()
+
 // Colored Bundled Cables
 for (int i = 17; i < 33; i++) {
     crafting.removeByOutput(item('projectred-transmission:wire', i + 1))
