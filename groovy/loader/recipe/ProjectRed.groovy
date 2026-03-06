@@ -338,3 +338,25 @@ assembler.recipeBuilder()
         .EUt(VA[LV])
         .duration(2 * SECOND + 10 * TICK)
         .buildAndRegister()
+
+// Illumar
+for (int i = 500; i < 516; i++) {
+    crafting.removeByOutput(item('projectred-core:resource_item', i))
+    crafting.shapedBuilder()
+            .name(resource('gtlite:illumar_' + dyeColors[i - 500]))
+            .shape('WWW',
+                    'WDW',
+                    'WWW')
+            .key('W', item('minecraft:glowstone_dust'))
+            .key('D', ore(dyeColorOres[i - 500]))
+            .output(item('projectred-core:resource_item', i) * 8)
+            .register()
+
+    chemical_bath.recipeBuilder()
+            .inputs(item('minecraft:glowstone_dust'))
+            .fluidInputs(fluid('dye_' + dyeColors[i - 500]) * 36)
+            .outputs(item('projectred-core:resource_item', i))
+            .EUt(VA[LV])
+            .duration(TICK)
+            .buildAndRegister()
+}
