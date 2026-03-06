@@ -288,3 +288,36 @@ for (int i = 17; i < 33; i++) {
             .duration(TICK)
             .buildAndRegister()
 }
+
+// Low Load Wire
+crafting.removeByOutput(item('projectred-transmission:wire', 34))
+crafting.shapelessBuilder()
+        .name(resource('gtlite:low_load_transmission_wire'))
+        .input([ore('wireGtSingleBlueAlloy')])
+        .output([item('projectred-transmission:wire', 34) * 4])
+        .register()
+
+vacuum_chamber.recipeBuilder()
+        .circuitMeta(1)
+        .inputs(ore('wireGtSingleBlueAlloy'))
+        .outputs(item('projectred-transmission:wire', 34) * 4)
+        .EUt(VA[ULV])
+        .duration(10 * TICK)
+        .buildAndRegister()
+
+// Framed Low Load Wire
+crafting.removeByOutput(item('projectred-transmission:framed_wire', 34))
+crafting.shapelessBuilder()
+        .name(resource('gtlite:framed_low_load_transmission_wire'))
+        .input([item('projectred-transmission:wire', 34), ore('frameGtWood')])
+        .output([item('projectred-transmission:framed_wire', 34)])
+        .register()
+
+assembler.recipeBuilder()
+        .circuitMeta(2)
+        .inputs(item('projectred-transmission:wire', 34))
+        .inputs(ore('frameGtWood'))
+        .outputs(item('projectred-transmission:framed_wire', 34))
+        .EUt(VA[LV])
+        .duration(2 * SECOND + 10 * TICK)
+        .buildAndRegister()
