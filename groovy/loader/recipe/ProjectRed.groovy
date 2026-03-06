@@ -212,3 +212,33 @@ for (int i = 0; i < 16; i++) {
             .duration(TICK)
             .buildAndRegister()
 }
+
+// Colored Framed Wires
+for (int i = 0; i < 16; i++) {
+    crafting.removeByOutput(item('projectred-transmission:framed_wire', i + 1))
+    crafting.shapedBuilder()
+            .name(resource('gtlite:framed_transmission_wire_' + dyeColors[i]))
+            .shape('WWW',
+                    'WDW',
+                    'WWW')
+            .key('W', item('projectred-transmission:framed_wire'))
+            .key('D', ore(dyeColorOres[i]))
+            .output(item('projectred-transmission:framed_wire', i + 1))
+            .register()
+
+    chemical_bath.recipeBuilder()
+            .inputs(item('projectred-transmission:framed_wire'))
+            .fluidInputs(fluid('dye_' + dyeColors[i]) * 36)
+            .outputs(item('projectred-transmission:framed_wire', i + 1))
+            .EUt(VA[LV])
+            .duration(TICK)
+            .buildAndRegister()
+
+    chemical_bath.recipeBuilder()
+            .inputs(item('projectred-transmission:framed_wire', i + 1))
+            .fluidInputs(fluid('water') * 100)
+            .outputs(item('projectred-transmission:framed_wire'))
+            .EUt(VA[LV])
+            .duration(TICK)
+            .buildAndRegister()
+}
