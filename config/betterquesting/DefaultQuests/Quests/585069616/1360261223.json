@@ -16,15 +16,52 @@
   "questID:3": 1360261223,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
+      "choices:9": {
         "0:10": {
-          "Count:3": 1,
-          "id:8": "minecraft:elytra"
+          "Count:3": 64,
+          "id:8": "minecraft:planks"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 1,
+          "id:8": "minecraft:planks"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "Damage:2": 2,
+          "id:8": "minecraft:planks"
+        },
+        "3:10": {
+          "Count:3": 64,
+          "Damage:2": 3,
+          "id:8": "minecraft:planks"
+        },
+        "4:10": {
+          "Count:3": 64,
+          "Damage:2": 4,
+          "id:8": "minecraft:planks"
+        },
+        "5:10": {
+          "Count:3": 64,
+          "Damage:2": 5,
+          "id:8": "minecraft:planks"
         }
-      }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "OreDict:8": "logWood",
+          "id:8": "minecraft:log"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }
