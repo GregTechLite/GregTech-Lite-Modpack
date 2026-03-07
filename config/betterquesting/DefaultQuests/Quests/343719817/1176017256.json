@@ -16,5 +16,56 @@
     }
   },
   "questID:3": 1176017256,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 403,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 591,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 519,
+          "OreDict:8": "componentResistor",
+          "id:8": "gregtech:meta_item_1"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "Damage:2": 520,
+          "OreDict:8": "componentCapacitor",
+          "id:8": "gregtech:meta_item_1"
+        },
+        "4:10": {
+          "Count:3": 2,
+          "Damage:2": 518,
+          "OreDict:8": "componentTransistor",
+          "id:8": "gregtech:meta_item_1"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_wire_fine"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 627,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

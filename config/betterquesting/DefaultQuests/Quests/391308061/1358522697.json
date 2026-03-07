@@ -19,6 +19,23 @@
     }
   },
   "questID:3": 1358522697,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 100,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:gold_ingot"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

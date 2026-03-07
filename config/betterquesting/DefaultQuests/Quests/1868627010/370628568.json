@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "普通的§6化学反应釜§r无法胜任纳米粒子的合成，这种小于10纳米的半导体颗粒是开启§a量子点§r材料的钥匙。为了在保持电路运转质量的前提下尽可能缩小规模，得到§b纳米电路§r，我们计划使用纳米粒子的技术。\n\n§6化学气相沉积§r是在化学反应的基础上在其气相中外延式沉积固体材料的技术，它被广泛的用于某些§a人造宝石晶体§r，§9纳米级材料§r与其他化工产物的合成中。为了制造§b纳米电路§r，你需要为这种高级化学反应提供一个更好的反应容器。",
       "frame:8": "EMPTY",
       "icon:10": {
         "Count:3": 1,
@@ -23,11 +23,6 @@
   "tasks:9": {
     "0:10": {
       "index:3": 0,
-      "requiredItems:9": {},
-      "taskID:8": "bq_standard:optional_retrieval"
-    },
-    "1:10": {
-      "index:3": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -36,6 +31,22 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "OreDict:8": "casingPump",
+          "id:8": "gtlitecore:pump_casing"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "OreDict:8": "casingEmitter",
+          "id:8": "gtlitecore:emitter_casing"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
