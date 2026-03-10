@@ -1,10 +1,11 @@
 {
   "preRequisites:11": [
+    1398529010,
     1408791673
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "除了研磨机与洗矿机以外的矿物处理系列机器的大型机器版本现已解锁！",
+      "desc:8": "除了研磨机与洗矿机以外的矿物处理系列机器的大型机器版本现已解锁！\n\n§3嘿！你可能已经看到了其中的一些机器需要在HV中末期至EV前期才能获得的材料，你可以在任务奖励中选择一种材料，它们分别用于大型离心机与工业焦炉的控制器中，好好使用它们！",
       "frame:8": "DIAMOND_ON_CROSS",
       "icon:10": {
         "Count:3": 1,
@@ -15,6 +16,35 @@
     }
   },
   "questID:3": 960756305,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2510,
+          "id:8": "gregtech:meta_gear"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4021,
+          "id:8": "gtlitecore:meta_spring"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 277,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

@@ -1,5 +1,6 @@
 {
   "preRequisites:11": [
+    1193316526,
     179841533
   ],
   "properties:10": {
@@ -15,5 +16,10 @@
     }
   },
   "questID:3": 1861594375,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
 }
