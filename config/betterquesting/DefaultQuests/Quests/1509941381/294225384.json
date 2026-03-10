@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "或许你囤积了太多的§c红石§r或者酸性物质？§6酸性发电机§r可以通过消耗§d酸性流体§r的方式来进行发电。\n\n除非你有太多的§2汞，红石或者可以被它吞掉的流体剩余§r，那把这些剩余流体丢进这台机器发电总比销毁好。\n\n§3最好不要拿这台机器作为你的主力发电机......它没《缺氧》里的酸气发电那么好，不如说是两种东西。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -15,5 +15,17 @@
     }
   },
   "questID:3": 294225384,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 349,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

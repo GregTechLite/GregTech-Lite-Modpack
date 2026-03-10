@@ -23,6 +23,10 @@
   "tasks:9": {
     "0:10": {
       "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -30,7 +34,7 @@
           "id:8": "gregtech:mte"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }
