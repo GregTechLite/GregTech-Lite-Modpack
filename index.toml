@@ -2753,8 +2753,8 @@ hash = "8f137ee8120548601de516ef55eff0c4a499a924dd2cce53b3fb702634bb920c"
 metafile = true
 
 [[files]]
-file = "mods/gregtech-1.12.2-master-#2851.jar"
-hash = "f1270d79c5ed338cd1ef8448fb151952ee70a35fe530318eeaaf8584073b5bf0"
+file = "mods/gregtech-1.12.2-master-#2901.jar"
+hash = "b9fea8ac4599f04348c12611e515d43dc15819a9b11df9bfbc1495e7e123b317"
 
 [[files]]
 file = "mods/groovyscript.pw.toml"
@@ -2763,7 +2763,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtlitecore-1.0.0.jar"
-hash = "17078219e3582dc59a42b40d24b0e0c55b3afb550a91f0a95faec74cd1ec2803"
+hash = "2cb94f15464958e9f153f870d0a4b28be2c9d47a0c38573b50cd8908ea6c6ed5"
 
 [[files]]
 file = "mods/had-enough-characters.pw.toml"
@@ -2852,7 +2852,7 @@ metafile = true
 
 [[files]]
 file = "mods/modularui.pw.toml"
-hash = "32e538c5445226da3b2e205b44373a9abd0d54965a03a3223826a63c5075f13c"
+hash = "10c6a1715ad82e0e313bf7f03cd79085448a78dea29a767d8bc4cfb8e79ae18d"
 metafile = true
 
 [[files]]
@@ -2931,7 +2931,7 @@ metafile = true
 
 [[files]]
 file = "mods/retro-sophisticated-backpacks.pw.toml"
-hash = "4ba78259d37fda69e3af576070a5606e95c21da80e7beb57c6f46210b41be8d3"
+hash = "d5a89f0adba825457e8043657da9ceb06f7f3cb7182da810312f7d05fdcfee43"
 metafile = true
 
 [[files]]
