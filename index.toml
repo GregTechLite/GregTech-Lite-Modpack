@@ -2901,7 +2901,7 @@ metafile = true
 
 [[files]]
 file = "mods/personal-worlds.pw.toml"
-hash = "c552d9280da417d62dc6e2188259a0e3dcacae3f7356ce0ae7d1043a19ca11dc"
+hash = "9f37290f8cb6ae80cc116a82387a0bf5d2b94f89004b4753252e42d08a43379b"
 metafile = true
 
 [[files]]
