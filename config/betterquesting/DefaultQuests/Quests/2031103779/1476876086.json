@@ -32,6 +32,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
+          "OreDict:8": "casingMotor",
           "id:8": "gtlitecore:motor_casing"
         }
       },

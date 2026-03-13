@@ -4,16 +4,63 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "普通的橡胶现已不能满足高精尖的机器零件需求，你需要制作§9合成橡胶§r，这一等级的橡胶分为§8丁苯橡胶§r与§7硅橡胶§r两种。一般情况下，它们在合成中可以互相替换使用，这意味着你只需要选择一种进行生产。\n\n§3这个任务不要求你同时制作两种橡胶，你只需要制作其中一种的板形态即可。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1004,
         "id:8": "gregtech:meta_ingot"
       },
-      "name:8": "§8丁苯橡胶 or 硅橡胶"
+      "name:8": "§9合成橡胶"
     }
   },
   "questID:3": 355010707,
-  "tasks:9": {}
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 1004,
+          "id:8": "gregtech:meta_plate"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 1000,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1003,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 1011,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1000,
+          "OreDict:8": "plateAnySyntheticRubber",
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

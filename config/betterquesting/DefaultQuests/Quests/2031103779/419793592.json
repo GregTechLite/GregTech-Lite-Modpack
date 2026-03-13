@@ -32,12 +32,12 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "OreDict:8": "robotArmCasingAny",
+          "OreDict:8": "casingRobotArm",
           "id:8": "gtlitecore:robot_arm_casing"
         },
         "1:10": {
           "Count:3": 4,
-          "OreDict:8": "conveyorCasingAny",
+          "OreDict:8": "casingConveyor",
           "id:8": "gtlitecore:conveyor_casing"
         }
       },

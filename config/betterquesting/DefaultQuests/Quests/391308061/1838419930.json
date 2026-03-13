@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "在§2格雷科技§r中，柯伐合金主要用来生产二极管。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -16,5 +16,17 @@
     }
   },
   "questID:3": 1838419930,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4001,
+          "id:8": "gtlitecore:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

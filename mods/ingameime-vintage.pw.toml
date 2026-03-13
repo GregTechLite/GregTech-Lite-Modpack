@@ -1,0 +1,13 @@
+name = "IngameIME Vintage"
+filename = "ingameime-0.2.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "819cc42d4e665084c690f886a5598c60bfdc7f81"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7407429
+project-id = 1281907

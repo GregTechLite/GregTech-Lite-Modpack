@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description\n\n§3红石计划现已解锁，你可以借助它构筑出复杂的红石电路与自动化结构。",
+      "desc:8": "你需要§c大量的红石§r来制作这种合金......\n\n§3红石计划现已解锁，你可以借助它构筑出复杂的红石电路与自动化结构。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "用于跳过漫长的夜晚时间并设置重生点。\n\n§3附近没有羊的话或许可以考虑种植一些棉花，然后用线制作羊毛。",
+      "desc:8": "用于跳过漫长的夜晚时间并设置重生点。\n\n§3如果你的附近找不到羊，或许可以考虑清理杂草来获得一些棉花种子，棉花可以制作成线，进而合成羊毛。",
       "frame:8": "CIRCLE",
       "icon:10": {
         "Count:3": 1,
@@ -15,6 +15,21 @@
     }
   },
   "questID:3": 1992848526,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:potion",
+          "tag:10": {
+            "Potion:8": "minecraft:long_night_vision"
+          }
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

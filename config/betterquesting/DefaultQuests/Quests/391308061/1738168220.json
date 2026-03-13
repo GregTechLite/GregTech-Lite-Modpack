@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "使用固体燃料提供热量的锅炉，大部分§2可以在熔炉中作为燃料的物品§r都可以作为热源。在此阶段，使用木炭，煤炭或§6焦炉§r产出的焦煤作为燃料就足够了。\n\n§3请注意与锅炉连接的管道的位置，锅炉输出的蒸汽会从其的四面输出，因此，建议仅从其的顶部与底部输送水以防串流造成的堵塞或管道损坏。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 1,
@@ -14,6 +14,18 @@
     }
   },
   "questID:3": 1738168220,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "minecraft:coal_block"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

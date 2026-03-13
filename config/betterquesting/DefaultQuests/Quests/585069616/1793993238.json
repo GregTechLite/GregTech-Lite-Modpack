@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "你最忠诚的装饰们将随着一把凿子而出现。使用凿子点击方块以雕凿之，或者直接使用§e鼠标右键§r打开界面来放入方块进行雕凿。\n\n现在，拿起你的凿子，发挥你的想象力，将基地建设成你梦想中的样子吧。",
       "frame:8": "EMPTY",
       "icon:10": {
         "Count:3": 1,
@@ -17,38 +17,32 @@
     }
   },
   "questID:3": 1793993238,
-  "tasks:9": {
+  "rewards:9": {
     "0:10": {
       "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
-    },
-    "1:10": {
-      "index:3": 1,
-      "requiredItems:9": {
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
         "0:10": {
-          "Count:3": 1,
-          "id:8": "chisel:chisel_iron"
-        },
-        "1:10": {
           "Count:3": 1,
           "id:8": "chisel:chisel_diamond",
           "tag:10": {
             "chiseldata:10": {}
           }
-        },
-        "2:10": {
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
           "Count:3": 1,
-          "id:8": "chisel:chisel_hitech",
-          "tag:10": {
-            "chiseldata:10": {}
-          }
-        },
-        "3:10": {
-          "Count:3": 1,
-          "id:8": "chisel:offsettool"
+          "id:8": "chisel:chisel_iron"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }

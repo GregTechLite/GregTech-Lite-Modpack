@@ -6,7 +6,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "9No Description",
+      "desc:8": "§r在§2格雷科技§r中,粗青铜合金管道是前期很好用的东西。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -17,5 +17,17 @@
     }
   },
   "questID:3": 1434706839,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2037,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

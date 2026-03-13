@@ -1,13 +1,13 @@
 name = "AE2UEL Wireless Universal Terminal"
-filename = "ae2wut-1.2.3.jar"
+filename = "ae2wut-1.2.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "aeb903ce8120291e83879176d35699a9c855760d"
+hash = "5d1171556715c5b21b663c199affd9e3cdea3531"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7015449
+file-id = 7024967
 project-id = 1196988

@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "用于揉擀软质材料，也可以用来做面包的工具。你可以使用这个工具把§a甘蔗§r擀制成可以使用的纸张。",
       "frame:8": "STAR4",
       "icon:10": {
         "Count:3": 1,
@@ -29,6 +29,38 @@
     }
   },
   "questID:3": 1184542432,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gtlitecore:rolling_pin",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "RelocateMinedBlocks:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 0.0,
+              "AttackSpeed:5": -2.3,
+              "Durability:3": 0,
+              "Material:8": "gtlitecore:metastable_oganesson",
+              "MaxDurability:3": 110591
+            },
+            "HideFlags:3": 2,
+            "ench:9": {
+              "0:10": {
+                "id:2": 70,
+                "lvl:2": 3
+              }
+            }
+          }
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "ignoreNBT:1": 1,

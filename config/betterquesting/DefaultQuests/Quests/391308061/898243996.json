@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "在获得钢后解锁的高级锅炉，如果你觉得挖点煤或者驱使你的§6焦炉§r们弄些木炭还算轻松，你可以考虑使用这台锅炉。\n\n§3又或许你尝试了机械动力：遗产一类的可以无限产出熔岩的模组？那与其使用熔岩桶为固体锅炉供能，不如使用液体锅炉吧！",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 2,
@@ -19,6 +19,18 @@
     }
   },
   "questID:3": 898243996,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:coal_block"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

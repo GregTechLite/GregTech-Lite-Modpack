@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "普通的蒸汽合金炉可以升级为高压版本或者多方块§6大型蒸汽合金炉§r，后者的效率比起高压蒸汽合金炉而言要高，但也需要更大的占地面积。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,

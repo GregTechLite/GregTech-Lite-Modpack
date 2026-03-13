@@ -16,6 +16,36 @@
     }
   },
   "questID:3": 748439490,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 54,
+            "TrophyColorGreen:3": 54,
+            "TrophyColorRed:3": 73,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 10023,
+              "id:8": "gregtech:mte"
+            },
+            "TrophyName:8": "大型化学反应釜",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {}
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

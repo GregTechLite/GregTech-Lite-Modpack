@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Descriptio",
+      "desc:8": "地下常见的可燃性矿石之一，偶尔与其伴生的褐煤也是可燃的。\n\n§3在之后，你还可以在下界找到火石，它相当于下界的煤炭，也可以用于烧炼物品。它似乎比煤炭稍好一些？",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -14,6 +14,22 @@
     }
   },
   "questID:3": 1996729176,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_coal_0"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_lignite_0"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

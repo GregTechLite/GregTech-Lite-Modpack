@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "使用§d哈氏合金§r作为锯片的更高强度的§6切割机§r，用于高级晶片例如§a量子位中央处理器§r的切割中。\n\n§3使用处于量子叠加态的锯片，切割中会同时从复数时间线对目标进行切割，显然以上功效均不存在，或许你认识它的“兄弟”微元劫裂者，至少它会。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -21,6 +21,10 @@
   "tasks:9": {
     "0:10": {
       "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -28,7 +32,7 @@
           "id:8": "gregtech:mte"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

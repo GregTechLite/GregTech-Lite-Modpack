@@ -11,7 +11,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "别踩在非超导的导线上，这会让你§e触电§r并持续受到伤害，§a绝缘线缆§r则可以避免这一问题，它也被用于各种机器的内部构造内。",
       "frame:8": "STAR4",
       "icon:10": {
         "Count:3": 1,
@@ -22,6 +22,19 @@
     }
   },
   "questID:3": 1004585364,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 1068,
+          "id:8": "gregtech:meta_plate"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
