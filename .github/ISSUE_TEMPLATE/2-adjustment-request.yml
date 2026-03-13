@@ -1,0 +1,61 @@
+name: ⚙️ Adjustment Request
+description: Suggest a change to an existing feature, config, or behavior
+title: "[Adjustment] "
+labels: ["adjustment", "enhancement", "needs-review"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an adjustment. Please fill out the information below so we can understand what needs to change.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm the following before submitting
+      options:
+        - label: I have searched the existing issues and confirmed this adjustment has not already been requested
+          required: true
+
+  - type: textarea
+    id: proposed_adjustment
+    attributes:
+      label: Proposed Adjustment
+      description: Describe the adjustment you would like to see
+    validations:
+      required: true
+
+  - type: textarea
+    id: adjustment-reason
+    attributes:
+      label: Reason for Adjustment
+      description: Why is this adjustment needed?
+      placeholder: |
+        Why this adjustment is needed:
+        - Problems caused by the current setup
+        - Impact on gameplay
+        - How well it fits the modpack's theme
+        - Issues raised by user feedback
+        - Balance considerations
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact-scope
+    attributes:
+      label: Impact Scope
+      description: What parts of the game would this adjustment affect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other information that would help us understand and implement this adjustment
+      placeholder: |
+        - Relevant community discussions
+        - How other modpacks handle this
+        - Special considerations

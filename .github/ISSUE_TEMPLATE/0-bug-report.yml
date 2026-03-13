@@ -1,5 +1,5 @@
-name: 🐛 Bug 报告
-description: 报告一个问题或错误
+name: 🐛 Bug Report
+description: Report a bug or issue
 title: "[Bug] "
 labels: ["bug", "needs-triage"]
 assignees: []
@@ -8,107 +8,86 @@ body:
   - type: markdown
     attributes:
       value: |
-        感谢您报告问题！请填写以下信息以帮助我们更好地理解和解决问题。
+        Thank you for reporting an issue. Please fill out the information below so we can better understand and resolve it.
 
   - type: checkboxes
     id: checklist
     attributes:
-      label: 检查清单
-      description: 在提交之前，请确认以下事项
+      label: Checklist
+      description: Please confirm the following before submitting
       options:
-        - label: 我已经搜索了现有的 Issues，确认这不是重复报告
+        - label: I have searched the existing issues and confirmed this is not a duplicate report
           required: true
-        - label: 我使用的是最新版本的整合包
+        - label: I am using the latest version of the modpack
           required: true
 
   - type: input
     id: pack-version
     attributes:
-      label: 整合包版本
-      description: 您使用的整合包版本号
-      placeholder: "例如: 0.1.0"
+      label: Modpack Version
+      description: The version of the modpack you are using
+      placeholder: "e.g. 0.1.0"
     validations:
       required: true
   
   - type: dropdown
     id: environment
     attributes:
-      label: 游戏环境
-      description: 问题发生在哪个游戏环境？
+      label: Environment
+      description: Where does the issue occur?
       options:
-        - 单人游戏
-        - 多人游戏-局域网联机
-        - 多人游戏-专用服务器
+        - Singleplayer
+        - Multiplayer (LAN)
+        - Multiplayer (Dedicated Server)
     validations:
       required: true
 
   - type: textarea
     id: reproduction-steps
     attributes:
-      label: 复现步骤
-      description: 详细描述如何复现这个问题
+      label: Steps to Reproduce
+      description: Describe how to reproduce the issue in detail
       placeholder: |
-        1. 进入游戏
-        2. 点击 '...'
-        3. 执行 '...'
-        4. 看到错误
+        1. Launch the game
+        2. Click '...'
+        3. Do '...'
+        4. See the error
     validations:
       required: true
 
   - type: textarea
     id: expected-behavior
     attributes:
-      label: 预期行为
-      description: 描述您期望发生什么，可以添加截图或视频来帮助解释问题
-      placeholder: 应该发生什么...
+      label: Expected Behavior
+      description: Describe what you expected to happen. You may attach screenshots or videos to help explain the issue.
+      placeholder: What should have happened...
     validations:
       required: true
 
   - type: textarea
     id: actual-behavior
     attributes:
-      label: 实际行为
-      description: 描述实际发生了什么，可以添加截图或视频来帮助解释问题
-      placeholder: 实际发生了什么...
+      label: Actual Behavior
+      description: Describe what actually happened. You may attach screenshots or videos to help explain the issue.
+      placeholder: What actually happened...
     validations:
       required: true
 
   - type: textarea
     id: logs
     attributes:
-      label: 相关日志
-      description: 请提供相关的崩溃报告或日志文件内容
+      label: Logs / Crash Report
+      description: Please provide any relevant crash reports or log output, if available
+      render: shell
       placeholder: |
-        请粘贴相关的日志内容，特别是：
+        Please paste any relevant log output here, especially:
         - latest.log
-        - crash-reports 中的崩溃报告
-        - debug.log（如果存在）
-    validations:
-      required: true
+        - crash reports from crash-reports
+        - debug.log (if present)
 
   - type: textarea
-    id: additional-context
+    id: additional-notes
     attributes:
-      label: 其他信息
-      description: 添加其他有助于解决问题的信息
-      placeholder: 任何其他相关信息...
-
-  - type: textarea
-    id: additional-info
-    attributes:
-      label: 建议解决方案
-      description: 添加可能的解决方案
-      placeholder: 任何可能的解决方案...
-
-  - type: dropdown
-    id: contribution-willingness
-    attributes:
-      label: 贡献意愿
-      description: 您是否愿意协助解决这个问题？
-      options:
-        - 我可以协助测试
-        - 我可以协助解决修复过程中的问题
-        - 我可以负责修复这个问题
-        - 我只是报告问题，无法参与解决
-    validations:
-      required: true
+      label: Additional Notes / Workarounds
+      description: Add any other useful context, including temporary workarounds if you found any
+      placeholder: Any extra context or workaround details...

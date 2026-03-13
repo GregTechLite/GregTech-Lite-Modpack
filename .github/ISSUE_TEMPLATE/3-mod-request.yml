@@ -1,5 +1,5 @@
-name: 📦 模组添加请求
-description: 请求添加新的模组到整合包
+name: 📦 Mod Request
+description: Suggest a mod to add to the modpack
 title: "[Mod Request] "
 labels: ["mod-request", "enhancement", "needs-review"]
 assignees: []
@@ -8,89 +8,76 @@ body:
   - type: markdown
     attributes:
       value: |
-        感谢您的模组建议！请填写以下信息来帮助我们评估是否将该模组添加到整合包中。
+        Thank you for the mod suggestion. Please fill out the information below to help us evaluate whether this mod should be added to the modpack.
 
   - type: checkboxes
     id: checklist
     attributes:
-      label: 检查清单
-      description: 在提交之前，请确认以下事项
+      label: Checklist
+      description: Please confirm the following before submitting
       options:
-        - label: 我已经搜索了现有的 Issues，确认这个模组没有被请求过
+        - label: I have searched the existing issues and confirmed this mod has not already been requested
           required: true
-        - label: 我确认这个模组支持整合包使用的 Minecraft 版本和加载器版本
-          required: true
-        - label: 我了解由于兼容性等原因，并非所有模组都能被添加
+        - label: I have confirmed that this mod supports the Minecraft version and mod loader used by the modpack
           required: true
 
   - type: input
     id: mod-name
     attributes:
-      label: 模组名称
-      description: 您希望添加的模组名称
-      placeholder: "例如: JourneyMap"
+      label: Mod Name
+      description: The name of the mod you would like to add
+      placeholder: "e.g. JourneyMap"
     validations:
       required: true
 
   - type: input
     id: mod-link
     attributes:
-      label: 模组链接
-      description: 此模组的官方链接
+      label: Mod Link
+      description: The official link for this mod
       placeholder: "https://www.curseforge.com/minecraft/mc-mods/..."
+    validations:
+      required: true
 
   - type: textarea
     id: mod-reason
     attributes:
-      label: 添加理由
-      description: 这个模组有什么功能，为什么适合添加到整合包？
-      placeholder: 这个模组适合整合包因为...
+      label: Why Add This Mod?
+      description: What does this mod do, and why would it be a good fit for the modpack?
+      placeholder: This mod would be a good fit for the modpack because...
     validations:
       required: true
 
   - type: textarea
     id: testing-notes
     attributes:
-      label: 测试说明
-      description: 您是否已经测试过这个模组？有什么发现？
+      label: Testing Notes
+      description: Have you tested this mod already? If so, what did you find?
       placeholder: |
-        测试环境：
-        测试时间：
-        发现的问题：
-        性能影响：
-        与其他模组的交互：
+        Test environment:
+        Test date:
+        Issues found:
+        Performance impact:
+        Interactions with other mods:
 
   - type: textarea
     id: configuration-suggestions
     attributes:
-      label: 配置建议
-      description: 如果添加这个模组，您建议如何配置以适应整合包？
+      label: Configuration Suggestions
+      description: If this mod is added, how would you recommend configuring it for the modpack?
       placeholder: |
-        建议的配置调整：
-        - 禁用某些功能以避免冲突
-        - 调整生成概率
-        - 修改配方以平衡游戏
+        Suggested configuration adjustments:
+        - Disable certain features to avoid conflicts
+        - Adjust spawn rates
+        - Modify recipes for balance
 
   - type: textarea
     id: additional-info
     attributes:
-      label: 其他信息
-      description: 任何其他有助于评估这个模组的信息
+      label: Additional Information
+      description: Any other information that would help us evaluate this mod
       placeholder: |
-        - 模组的更新频率
-        - 社区反馈
-        - 已知问题
-        - 特殊注意事项
-
-  - type: dropdown
-    id: contribution-willingness
-    attributes:
-      label: 贡献意愿
-      description: 您是否愿意协助这个模组的添加工作？
-      options:
-        - 我可以协助测试
-        - 我可以协助解决添加过程中的问题
-        - 我可以负责添加这个模组
-        - 我只是提出建议，无法参与添加
-    validations:
-      required: true
+        - Update frequency
+        - Community feedback
+        - Known issues
+        - Special considerations
