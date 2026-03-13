@@ -1,0 +1,30 @@
+@echo off
+setlocal
+cd /d "%~dp0"
+
+set "PACK_URL=@PACK_URL@"
+set "FORGE_ID=@FORGE_ID@"
+if not defined JAVA_BIN set "JAVA_BIN=java"
+
+findstr /B /C:"eula=true" eula.txt >nul 2>&1
+if errorlevel 1 (
+  echo Accept Mojang's EULA in eula.txt before starting the server.
+  exit /b 1
+)
+
+"%JAVA_BIN%" -jar packwiz-installer-bootstrap.jar -g -s server "%PACK_URL%"
+
+set "FORGE_JAR="
+for %%F in (forge-%FORGE_ID%*.jar) do (
+  echo %%~nxF | findstr /I /C:"installer" >nul
+  if errorlevel 1 (
+    set "FORGE_JAR=%%F"
+    goto run_server
+  )
+)
+
+echo Forge server jar not found.
+exit /b 1
+
+:run_server
+"%JAVA_BIN%" %JAVA_ARGS% -jar "%FORGE_JAR%" nogui

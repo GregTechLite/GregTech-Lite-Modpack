@@ -1,0 +1,11 @@
+Server pack for @ASSET_PREFIX@
+
+Pack manifest:
+@PACK_URL@
+
+Usage:
+1. Install Java 8.
+2. Review Mojang's EULA and set eula=true in eula.txt.
+3. Start the server with start.sh or start.bat.
+
+The start script will update server files from the hosted pack manifest before launching Forge.

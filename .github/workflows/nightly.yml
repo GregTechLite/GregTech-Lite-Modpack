@@ -1,0 +1,94 @@
+name: Nightly Modpack Build
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  PAGES_REPO: GregTechLite/gregtechlite.github.io
+  PAGES_BRANCH: main
+  PAGES_BASE_URL: https://gregtechlite.github.io
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nightly-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  nightly:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+
+      - name: Install Nix
+        uses: cachix/install-nix-action@v31
+
+      - name: Pre-build devShell
+        run: nix build --no-link .#devShells.$(nix eval --impure --raw --expr 'builtins.currentSystem').default
+
+      - name: Package modpack
+        id: package
+        shell: 'nix develop -c bash -e {0}'
+        env:
+          BUILD_KIND: nightly
+          PAGES_BASE_URL: ${{ env.PAGES_BASE_URL }}
+        run: bash .github/scripts/package-client.sh
+
+      - name: Prepare manifest
+        id: stage_pages
+        shell: 'nix develop -c bash -e {0}'
+        run: bash .github/scripts/manifest.sh "${{ steps.package.outputs.pages_path }}"
+
+      - name: Prepare nightly metadata
+        id: nightly_meta
+        run: |
+          short_sha="${GITHUB_SHA::7}"
+          echo "label=Nightly ${short_sha}" >> "$GITHUB_OUTPUT"
+          echo "artifact_name=${{ steps.package.outputs.asset_prefix }}-${short_sha}" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy nightly Pages content
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.PAGES_REPO_TOKEN }}
+          external_repository: ${{ env.PAGES_REPO }}
+          publish_branch: ${{ env.PAGES_BRANCH }}
+          publish_dir: ${{ steps.stage_pages.outputs.pages_dir }}/${{ steps.package.outputs.pages_path }}
+          destination_dir: ${{ steps.package.outputs.pages_path }}
+          full_commit_message: ${{ steps.nightly_meta.outputs.label }}
+
+      - name: Update nightly tag
+        run: |
+          git tag -f nightly "${GITHUB_SHA}"
+          git push origin refs/tags/nightly --force
+
+      - name: Publish nightly release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: nightly
+          target_commitish: ${{ github.sha }}
+          name: ${{ steps.nightly_meta.outputs.label }}
+          body: ${{ steps.nightly_meta.outputs.label }}
+          prerelease: true
+          make_latest: false
+          files: |
+            ${{ steps.package.outputs.curseforge_zip }}
+            ${{ steps.package.outputs.server_zip }}
+          overwrite_files: true
+          fail_on_unmatched_files: true
+
+      - name: Upload nightly artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.nightly_meta.outputs.artifact_name }}
+          path: |
+            ${{ steps.package.outputs.curseforge_zip }}
+            ${{ steps.package.outputs.server_zip }}
+          if-no-files-found: error

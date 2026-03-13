@@ -2445,10 +2445,6 @@ file = "config/topaddons_client.cfg"
 hash = "c2027d998f8ee0556c643faf22bdc0aacda877d5dc43945546112f4b72bdea3a"
 
 [[files]]
-file = "fixup.sh"
-hash = "5fb7c8d0d21b10095d210496e3dbb4f2c5f44388d2a1058f9d0c91d91ec2f61a"
-
-[[files]]
 file = "fontfiles/Exo-Medium.otf"
 hash = "bd00b3dce2f70c2568a15f2a23de48f9c357c1b8bdf8b680c143ad52739e3c7d"
 
