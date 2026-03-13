@@ -3,28 +3,11 @@ set -euo pipefail
 
 cd -- "$(dirname -- "${BASH_SOURCE[0]}")"
 
-PACK_URL="@PACK_URL@"
-FORGE_ID="@FORGE_ID@"
-JAVA_BIN="${JAVA_BIN:-java}"
-
 if ! grep -q '^eula=true$' eula.txt 2>/dev/null; then
     echo "Accept Mojang's EULA in eula.txt before starting the server."
     exit 1
 fi
 
-"$JAVA_BIN" -jar packwiz-installer-bootstrap.jar -g -s server "$PACK_URL"
+java -jar packwiz-installer-bootstrap.jar -g -s server "@PACK_URL@"
 
-forge_jar="$(find . -maxdepth 1 -type f -name "forge-${FORGE_ID}*.jar" ! -name '*installer*' | sort | head -n 1)"
-if [ -z "$forge_jar" ]; then
-    echo >&2 "Forge server jar not found."
-    exit 1
-fi
-
-if [ -n "${JAVA_ARGS:-}" ]; then
-    # shellcheck disable=SC2206
-    java_args=(${JAVA_ARGS})
-else
-    java_args=()
-fi
-
-exec "$JAVA_BIN" "${java_args[@]}" -jar "$forge_jar" nogui
+exec java -jar "@FORGE_JAR@" nogui

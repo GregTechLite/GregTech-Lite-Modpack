@@ -1,4 +1,4 @@
-Server pack for @ASSET_PREFIX@
+Server pack for @ARTIFACT_BASE@
 
 Pack manifest:
 @PACK_URL@
