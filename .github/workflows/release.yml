@@ -56,15 +56,15 @@ jobs:
           publish_branch: ${{ env.MANIFEST_BRANCH }}
           publish_dir: dist/manifest
           destination_dir: releases/${{ env.VERSION }}
-          full_commit_message: "Release ${{ github.ref_name }}"
+          full_commit_message: "Release ${{ env.VERSION }}"
 
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.ref_name }}
+          tag_name: "v${{ env.VERSION }}"
           target_commitish: ${{ github.sha }}
-          name: Release ${{ github.ref_name }}
-          body: Release ${{ github.ref_name }}
+          name: Release ${{ env.VERSION }}
+          body: Release ${{ env.VERSION }}
           prerelease: false
           make_latest: true
           files: |
