@@ -56,7 +56,8 @@ jobs:
           publish_branch: ${{ env.MANIFEST_BRANCH }}
           publish_dir: dist/manifest
           destination_dir: releases/${{ env.VERSION }}
-          full_commit_message: "Release ${{ env.VERSION }}"
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
 
       - name: Publish release
         uses: softprops/action-gh-release@v2

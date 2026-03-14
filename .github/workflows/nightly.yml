@@ -63,7 +63,8 @@ jobs:
           publish_branch: ${{ env.MANIFEST_BRANCH }}
           publish_dir: dist/manifest
           destination_dir: nightly
-          full_commit_message: ${{ steps.nightly_meta.outputs.label }}
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
 
       - name: Update nightly tag
         run: |
