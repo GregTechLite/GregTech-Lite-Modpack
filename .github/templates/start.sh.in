@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd -- "$(dirname -- "${BASH_SOURCE[0]}")"
+
+if ! grep -q '^eula=true$' eula.txt 2>/dev/null; then
+    echo "Accept Mojang's EULA in eula.txt before starting the server."
+    exit 1
+fi
+
+java -jar packwiz-installer-bootstrap.jar -g -s server "@PACK_URL@"
+
+exec java -jar "@FORGE_JAR@" nogui

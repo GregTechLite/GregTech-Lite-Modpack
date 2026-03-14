@@ -1,0 +1,12 @@
+@echo off
+setlocal
+cd /d "%~dp0"
+
+findstr /B /C:"eula=true" eula.txt >nul 2>&1
+if errorlevel 1 (
+  echo Accept Mojang's EULA in eula.txt before starting the server.
+  exit /b 1
+)
+
+java -jar packwiz-installer-bootstrap.jar -g -s server "@PACK_URL@"
+java -jar "@FORGE_JAR@" nogui

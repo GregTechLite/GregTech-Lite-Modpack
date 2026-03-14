@@ -1,0 +1,56 @@
+name: ✨ Feature Request
+description: Suggest a new feature for the modpack
+title: "[New Feature] "
+labels: ["type: new feature"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new feature. Please fill out the information below so we can understand what you would like to add.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm the following before submitting
+      options:
+        - label: I have searched the existing issues and confirmed this feature has not already been requested
+          required: true
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description
+      description: Describe the feature you would like to add in detail
+      placeholder: |
+        Feature overview:
+        - What the feature does
+        - Main use cases
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation-suggestions
+    attributes:
+      label: Implementation Suggestions
+      description: Do you have any suggestions for how this feature could be implemented?
+      placeholder: |
+        Implementation ideas:
+        - Possible technical approaches
+        - Recommended tools or libraries
+        - A phased implementation plan
+        - Technical challenges to consider
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other information that would help us understand this feature request
+      placeholder: |
+        Additional details:
+        - Relevant screenshots or examples
+        - Reference materials or links
+        - Related community discussions
+        - Similar feature implementations

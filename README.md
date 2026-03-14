@@ -18,6 +18,20 @@ We provided carefully curated GregTech-focused gameplay experience with integrat
 - **Rich World Generation**: Expanded underground ecology and additional trees, building blocks and berries, inspired by [**GregTech 6**][GT6] and [**GregTech Food Option**][GTFO].
 - **Integrated Mod Compatibility** – Smooth integration and QoL tweaks for various supporting mods, e.g. [**Applied Energistics 2**][AE2uEL] and [**EnderIO**][EIOC].
 
+## :hammer_and_wrench: Development
+
+This repository includes a Nix flake for the development shell. To enter it, run:
+
+```bash
+nix develop
+```
+
+If flakes are not enabled in your Nix config yet, use:
+
+```bash
+nix develop --extra-experimental-features "nix-command flakes"
+```
+
 ## :coffee: License
 
 For details, all licensing information consists of several parts for the modpack, basically, the modpack is licensed under the [**GNU AGPL 3.0**][AGPL License].
