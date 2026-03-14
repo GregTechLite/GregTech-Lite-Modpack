@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussions & Q&A
+    url: https://github.com/GregTechLite/GregTech-Lite-Modpack/discussions
+    about: Use Discussions for questions, suggestions, and community chat.
+  - name: 📖 Installation Guide
+    url: https://github.com/GregTechLite/GregTech-Lite-Modpack/blob/main/README.md
+    about: Read the installation and usage guide.

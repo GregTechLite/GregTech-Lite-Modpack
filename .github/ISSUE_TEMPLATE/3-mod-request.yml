@@ -1,0 +1,83 @@
+name: 📦 Mod Request
+description: Suggest a mod to add to the modpack
+title: "[Mod Request] "
+labels: ["type: mod change"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for the mod suggestion. Please fill out the information below to help us evaluate whether this mod should be added to the modpack.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm the following before submitting
+      options:
+        - label: I have searched the existing issues and confirmed this mod has not already been requested
+          required: true
+        - label: I have confirmed that this mod supports the Minecraft version and mod loader used by the modpack
+          required: true
+
+  - type: input
+    id: mod-name
+    attributes:
+      label: Mod Name
+      description: The name of the mod you would like to add
+      placeholder: "e.g. JourneyMap"
+    validations:
+      required: true
+
+  - type: input
+    id: mod-link
+    attributes:
+      label: Mod Link
+      description: The official link for this mod
+      placeholder: "https://www.curseforge.com/minecraft/mc-mods/..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: mod-reason
+    attributes:
+      label: Why Add This Mod?
+      description: What does this mod do, and why would it be a good fit for the modpack?
+      placeholder: This mod would be a good fit for the modpack because...
+    validations:
+      required: true
+
+  - type: textarea
+    id: testing-notes
+    attributes:
+      label: Testing Notes
+      description: Have you tested this mod already? If so, what did you find?
+      placeholder: |
+        Test environment:
+        Test date:
+        Issues found:
+        Performance impact:
+        Interactions with other mods:
+
+  - type: textarea
+    id: configuration-suggestions
+    attributes:
+      label: Configuration Suggestions
+      description: If this mod is added, how would you recommend configuring it for the modpack?
+      placeholder: |
+        Suggested configuration adjustments:
+        - Disable certain features to avoid conflicts
+        - Adjust spawn rates
+        - Modify recipes for balance
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other information that would help us evaluate this mod
+      placeholder: |
+        - Update frequency
+        - Community feedback
+        - Known issues
+        - Special considerations

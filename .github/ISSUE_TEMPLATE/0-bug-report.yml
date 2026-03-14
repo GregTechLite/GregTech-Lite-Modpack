@@ -1,0 +1,93 @@
+name: 🐛 Bug Report
+description: Report a bug or issue
+title: "[Bug] "
+labels: ["type: bug"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue. Please fill out the information below so we can better understand and resolve it.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm the following before submitting
+      options:
+        - label: I have searched the existing issues and confirmed this is not a duplicate report
+          required: true
+        - label: I am using the latest version of the modpack
+          required: true
+
+  - type: input
+    id: pack-version
+    attributes:
+      label: Modpack Version
+      description: The version of the modpack you are using
+      placeholder: "e.g. 0.1.0"
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      description: Where does the issue occur?
+      options:
+        - Singleplayer
+        - Multiplayer (LAN)
+        - Multiplayer (Dedicated Server)
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to Reproduce
+      description: Describe how to reproduce the issue in detail
+      placeholder: |
+        1. Launch the game
+        2. Click '...'
+        3. Do '...'
+        4. See the error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Describe what you expected to happen. You may attach screenshots or videos to help explain the issue.
+      placeholder: What should have happened...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: Describe what actually happened. You may attach screenshots or videos to help explain the issue.
+      placeholder: What actually happened...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Crash Report
+      description: Please provide any relevant crash reports or log output, if available
+      render: shell
+      placeholder: |
+        Please paste any relevant log output here, especially:
+        - latest.log
+        - crash reports from crash-reports
+        - debug.log (if present)
+
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes / Workarounds
+      description: Add any other useful context, including temporary workarounds if you found any
+      placeholder: Any extra context or workaround details...
