@@ -3432,3 +3432,7 @@ hash = "feada5aa77e2f34e917bfe679b0170a930d7621290434d3b828a0c8df3755d2f"
 [[files]]
 file = "resources/translocators/lang/zh_cn.lang"
 hash = "ac4a4136a3776b55a4952132735d1d89902bb78ef91731ac2556be5ba266770e"
+
+[[files]]
+file = "tigger"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
