@@ -2,6 +2,9 @@ name: Nightly Modpack Build
 
 on:
   push:
+    branches:
+      - 'main'
+      - 'workflow'
 
 env:
   MANIFEST_REPO: GregTechLite/gregtechlite.github.io
@@ -48,13 +51,6 @@ jobs:
         id: package_server
         run: bash .github/scripts/server.sh "${SLUG}-nightly" "${MANIFEST_BASE_URL}/nightly/pack.toml"
 
-      - name: Prepare nightly metadata
-        id: nightly_meta
-        run: |
-          short_sha="${GITHUB_SHA::7}"
-          echo "label=Nightly ${short_sha}" >> "$GITHUB_OUTPUT"
-          echo "artifact_name=${SLUG}-nightly-${short_sha}" >> "$GITHUB_OUTPUT"
-
       - name: Deploy nightly manifest
         uses: peaceiris/actions-gh-pages@v4
         with:
@@ -65,19 +61,18 @@ jobs:
           destination_dir: nightly
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: "Nightly ${{ env.SHORT_SHA }}"
 
       - name: Update nightly tag
         run: |
-          git tag -f nightly "${GITHUB_SHA}"
-          git push origin refs/tags/nightly --force
+          git tag -f nightly
+          git push origin nightly --force
 
       - name: Publish nightly release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: nightly
-          target_commitish: ${{ github.sha }}
-          name: ${{ steps.nightly_meta.outputs.label }}
-          body: ${{ steps.nightly_meta.outputs.label }}
+          name: Nightly ${{ env.SHORT_SHA }}
           prerelease: true
           make_latest: false
           files: |
@@ -85,11 +80,12 @@ jobs:
             ${{ steps.package_server.outputs.server_zip }}
           overwrite_files: true
           fail_on_unmatched_files: true
+          generate_release_notes: true
 
       - name: Upload nightly artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ steps.nightly_meta.outputs.artifact_name }}
+          name: "${{ env.SLUG }}-nightly-${{ env.SHORT_SHA }}"
           path: |
             ${{ steps.package.outputs.curseforge_zip }}
             ${{ steps.package_server.outputs.server_zip }}

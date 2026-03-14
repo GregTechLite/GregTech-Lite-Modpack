@@ -2,6 +2,8 @@ name: Release Modpack Build
 
 on:
   push:
+    tags:
+      - 'v*'
 
 env:
   MANIFEST_REPO: GregTechLite/gregtechlite.github.io
@@ -37,6 +39,14 @@ jobs:
       - name: Resolve metadata
         run: bash .github/scripts/meta.sh
 
+      - name: Validate release tag
+        run: |
+          expected_tag="v${VERSION}"
+          if [ "${GITHUB_REF_NAME}" != "${expected_tag}" ]; then
+            echo >&2 "Tag ${GITHUB_REF_NAME} does not match pack version ${expected_tag}"
+            exit 1
+          fi
+
       - name: Prepare manifest
         run: bash .github/scripts/manifest.sh
 
@@ -58,18 +68,16 @@ jobs:
           destination_dir: releases/${{ env.VERSION }}
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: "Release ${{ env.VERSION }}"
 
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: "v${{ env.VERSION }}"
-          target_commitish: ${{ github.sha }}
           name: Release ${{ env.VERSION }}
-          body: Release ${{ env.VERSION }}
           prerelease: false
           make_latest: true
           files: |
             ${{ steps.package.outputs.curseforge_zip }}
             ${{ steps.package_server.outputs.server_zip }}
-          overwrite_files: true
           fail_on_unmatched_files: true
+          generate_release_notes: true
