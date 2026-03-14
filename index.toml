@@ -3010,6 +3010,10 @@ hash = "9cbf670e334ecef266d0dfb9332b22f950739ba3e324364befeed02f975f1ab0"
 metafile = true
 
 [[files]]
+file = "options.txt"
+hash = "ab3172f320aa541e40386f9eaaa404d6c5edaaacc007731596f17233983feea9"
+
+[[files]]
 file = "resources/ae2ctl/lang/en_US.lang"
 hash = "21567c57e5ccb5484c0156271dac44af22deeb0a699dd3b3956af41c9ffa7822"
 
