@@ -7,7 +7,7 @@ on:
 
 env:
   MANIFEST_REPO: GregTechLite/gregtechlite.github.io
-  MANIFEST_BRANCH: test
+  MANIFEST_BRANCH: main
   MANIFEST_BASE_URL: https://gregtechlite.github.io
 
 permissions:
