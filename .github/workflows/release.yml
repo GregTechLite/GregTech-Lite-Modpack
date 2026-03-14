@@ -71,13 +71,12 @@ jobs:
           commit_message: "Release ${{ env.VERSION }}"
 
       - name: Publish release
-        uses: softprops/action-gh-release@v2
+        uses: ncipollo/release-action@v1
         with:
           name: Release ${{ env.VERSION }}
           prerelease: false
-          make_latest: true
-          files: |
+          makeLatest: true
+          artifacts: |
             ${{ steps.package.outputs.curseforge_zip }}
             ${{ steps.package_server.outputs.server_zip }}
-          fail_on_unmatched_files: true
-          generate_release_notes: true
+          generateReleaseNotes: true

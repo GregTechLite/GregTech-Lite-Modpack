@@ -69,18 +69,17 @@ jobs:
           git push origin nightly --force
 
       - name: Publish nightly release
-        uses: softprops/action-gh-release@v2
+        uses: ncipollo/release-action@v1
         with:
-          tag_name: nightly
+          tag: nightly
           name: Nightly ${{ env.SHORT_SHA }}
           prerelease: true
-          make_latest: false
-          files: |
+          artifacts: |
             ${{ steps.package.outputs.curseforge_zip }}
             ${{ steps.package_server.outputs.server_zip }}
-          overwrite_files: true
-          fail_on_unmatched_files: true
-          generate_release_notes: true
+          allowUpdates: true
+          updateOnlyUnreleased: true
+          generateReleaseNotes: true
 
       - name: Upload nightly artifacts
         uses: actions/upload-artifact@v4
