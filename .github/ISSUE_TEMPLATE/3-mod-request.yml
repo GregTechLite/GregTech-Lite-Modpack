@@ -1,7 +1,7 @@
 name: 📦 Mod Request
 description: Suggest a mod to add to the modpack
 title: "[Mod Request] "
-labels: ["mod-request", "enhancement", "needs-review"]
+labels: ["type: mod change"]
 assignees: []
 
 body:

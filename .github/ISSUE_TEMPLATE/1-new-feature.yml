@@ -1,7 +1,7 @@
 name: ✨ Feature Request
 description: Suggest a new feature for the modpack
 title: "[New Feature] "
-labels: ["new-feature", "enhancement", "needs-review"]
+labels: ["type: new feature"]
 assignees: []
 
 body:

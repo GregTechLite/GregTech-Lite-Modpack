@@ -1,7 +1,7 @@
 name: ⚙️ Adjustment Request
 description: Suggest a change to an existing feature, config, or behavior
 title: "[Adjustment] "
-labels: ["adjustment", "enhancement", "needs-review"]
+labels: ["type: affects balance"]
 assignees: []
 
 body:
