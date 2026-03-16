@@ -29,7 +29,13 @@ jobs:
           ref: ${{ github.ref_name }}
 
       - name: Install Nix
-        uses: cachix/install-nix-action@v31
+        uses: nixbuild/nix-quick-install-action@v34
+
+      - name: Restore Nix store cache
+        uses: nix-community/cache-nix-action/restore@v7
+        with:
+          primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.lock') }}
+          restore-prefixes-first-match: nix-${{ runner.os }}-
 
       - name: Load devShell
         uses: rrbutani/use-nix-shell-action@v1

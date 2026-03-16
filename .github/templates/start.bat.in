@@ -9,4 +9,8 @@ if errorlevel 1 (
 )
 
 java -jar packwiz-installer-bootstrap.jar -g -s server "@PACK_URL@"
+if errorlevel 1 (
+  echo Pack update failed.
+  exit /b 1
+)
 java -jar "@FORGE_JAR@" nogui
