@@ -54,3 +54,7 @@ flake.lock
 
 # GitHub
 /.github/
+
+# Claude
+CLAUDE.md
+/.claude/
