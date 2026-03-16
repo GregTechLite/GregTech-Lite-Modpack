@@ -29,8 +29,6 @@ fi
 
 {
     echo "body<<BODY_EOF"
-    echo "## Nightly \`${SHORT_SHA}\`"
-    echo ""
     echo "**Date:** $(date -u '+%Y-%m-%d %H:%M UTC')"
     echo "**Commit:** ${GITHUB_SHA}"
     [ -n "$compare_url" ] && echo "**Changes:** [compare](${compare_url})"
