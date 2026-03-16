@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - 'main'
+    paths-ignore:
+      - 'docs/**'
+      - 'README.md'
+      - 'LICENSE'
+      - 'NOTICE.md'
+      - 'CLAUDE.md'
+      - '.github/ISSUE_TEMPLATE/**'
 
 env:
   MANIFEST_REPO: GregTechLite/gregtechlite.github.io
@@ -29,7 +36,13 @@ jobs:
           ref: ${{ github.ref_name }}
 
       - name: Install Nix
-        uses: cachix/install-nix-action@v31
+        uses: nixbuild/nix-quick-install-action@v34
+
+      - name: Cache Nix store
+        uses: nix-community/cache-nix-action@v7
+        with:
+          primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.lock') }}
+          restore-prefixes-first-match: nix-${{ runner.os }}-
 
       - name: Load devShell
         uses: rrbutani/use-nix-shell-action@v1
@@ -62,6 +75,10 @@ jobs:
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: "Nightly ${{ env.SHORT_SHA }}"
 
+      - name: Generate changelog
+        id: changelog
+        run: bash .github/scripts/changelog.sh
+
       - name: Update nightly tag
         run: |
           git tag -f nightly
@@ -72,13 +89,14 @@ jobs:
         with:
           tag: nightly
           name: Nightly ${{ env.SHORT_SHA }}
+          body: ${{ steps.changelog.outputs.body }}
           prerelease: true
           artifacts: |
             ${{ steps.package.outputs.curseforge_zip }}
             ${{ steps.package_server.outputs.server_zip }}
           allowUpdates: true
           updateOnlyUnreleased: true
-          generateReleaseNotes: true
+          removeArtifacts: true
 
       - name: Upload nightly artifacts
         uses: actions/upload-artifact@v4
@@ -87,4 +105,5 @@ jobs:
           path: |
             ${{ steps.package.outputs.curseforge_zip }}
             ${{ steps.package_server.outputs.server_zip }}
+          retention-days: 7
           if-no-files-found: error
