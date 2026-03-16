@@ -9,7 +9,7 @@ GregTech Lite (GTLite) is a Minecraft 1.12.2 Forge modpack centered around GregT
 - Pack metadata: `pack.toml` (name, version, Minecraft/Forge versions)
 - File manifest: `index.toml` (SHA256 hashes of all packed files)
 - Mod definitions: `mods/*.pw.toml` (PackWiz metadata referencing CurseForge)
-- Two local JARs in `mods/`: `gregtech-*.jar` (GTCEu) and `gtlitecore-*.jar` (custom core mod)
+- Three local JARs in `mods/`: `gregtech-*.jar` (GTCEu), `gtlitecore-*.jar` (custom core mod), `morphismlib-*.jar` (dependency library)
 
 ## Development Environment
 
@@ -45,12 +45,18 @@ Recipe loading is configured in `groovy/runConfig.json` with two phases:
 
 Each file in `loader/recipe/` handles recipe modifications for a specific mod (e.g., `AppliedEnergistics2.groovy`, `EnderIO.groovy`, `GregTech.groovy`). All recipes are redesigned to follow GregTech's philosophy.
 
+**Recipe syntax patterns:**
+- Machine recipes: `recipemap('assembler').recipeBuilder().inputs(...).outputs(...).duration(...).EUt(VA[LV]).buildAndRegister()`
+- Crafting: `crafting.addShapeless(...)`, `crafting.shapedBuilder(...).key(...).build()`
+- Item references: `metaitem('circuit.good')`, `ore('plateSteel')`, `item('minecraft:stone')`, `fluid('water')`
+- Energy tiers: `VA[ULV]` through `VA[MAX]`, duration constants like `SECOND`
+
 ### Quest System (`config/betterquesting/DefaultQuests/`)
 
 - `QuestLines/*.json` — Quest line definitions (20 lines covering LV through MAX voltage tiers)
 - `Quests/<questline-id>/<quest-id>.json` — Individual quest data
 
-Quest JSON uses a NBT-like format with type suffixes (`:3` = int, `:8` = string, `:9` = tag list, `:10` = compound tag).
+Quest JSON uses a NBT-like format with type suffixes: `:2` = short, `:3` = int, `:7` = byte array, `:8` = string, `:9` = tag list, `:10` = compound tag, `:11` = int array.
 
 ### Config (`config/`)
 
@@ -61,25 +67,27 @@ Mod configuration files. Key ones:
 
 ### Resources (`resources/`)
 
-Resource pack overrides: custom textures, lang files, and JEI integration.
+Resource pack overrides: custom textures, lang files, and JEI integration. Organized by mod namespace (e.g., `gregtech/`, `appliedenergistics2/`, `minecraft/`).
 
 ## CI/CD
 
 Three GitHub Actions workflows (all use Nix dev shell):
-- **ci.yml**: Triggered on PRs to `main`. Builds client + server packages for validation. No deploy or release.
-- **nightly.yml**: Triggered on push to `main` (+ `workflow_dispatch`). Builds prerelease artifacts, deploys manifest, updates `nightly` tag, publishes prerelease.
-- **release.yml**: Triggered by `v*` tags. Validates tag matches `pack.toml` version, builds client + server packages, deploys manifest to `gregtechlite.github.io`, publishes GitHub Release.
 
-Build scripts in `.github/scripts/`:
-- `meta.sh` — Extracts metadata from `pack.toml` into env vars
-- `manifest.sh` — Prepares manifest directory for deployment
-- `client.sh` — Runs `packwiz curseforge export`
-- `server.sh` — Creates server package with Forge installer + packwiz bootstrap
-- `changelog.sh` — Generates incremental nightly changelog from git history
+- **pr.yml** ("PR Build"): Triggered on PRs to `main`. Ignores docs-only changes. Uses PR number and short SHA in artifact names (e.g., `gregtech-lite-pr42-a1b2c3d-curseforge.zip`). Concurrency groups by PR number to cancel stale builds. 3-day artifact retention.
+- **nightly.yml**: Triggered on push to `main` (+ `workflow_dispatch`). Builds artifacts, deploys manifest to `GregTechLite/gregtechlite.github.io` under `nightly/`, generates changelog from git history, force-updates `nightly` tag, publishes prerelease. 7-day artifact retention.
+- **release.yml**: Triggered by `v*` tags. Validates tag matches `pack.toml` version, builds artifacts, deploys manifest to `releases/{VERSION}/`, publishes GitHub Release.
+
+### Build Scripts (`.github/scripts/`)
+
+- `meta.sh` — Extracts metadata from `pack.toml` via `tomlq` and exports to `$GITHUB_ENV`: `NAME`, `SLUG`, `VERSION`, `MINECRAFT_VERSION`, `FORGE_VERSION`, `SHORT_SHA`
+- `client.sh` — Runs `packwiz curseforge export` into `dist/`
+- `server.sh` — Downloads Forge installer + packwiz-installer-bootstrap, runs Forge install, generates start scripts from `.github/templates/` (`start.sh.in`, `start.bat.in`, `eula.txt`, `README.txt.in`), creates server ZIP
+- `manifest.sh` — Copies `pack.toml`, `index.toml`, and all indexed files to `dist/manifest/` for deployment
+- `changelog.sh` — Generates incremental nightly changelog by diffing from previous `nightly` tag or latest `v*` tag
 
 ## File Exclusions
 
-`.packwizignore` excludes development-only files (docs/, .github/, flake.nix, logo.png, etc.) from pack exports. Only game-relevant files ship to players.
+`.packwizignore` excludes development-only files (docs/, .github/, flake.nix, CLAUDE.md, logo.png, IDE metadata, etc.) from pack exports. Only game-relevant files ship to players.
 
 ## Licensing
 

@@ -48,16 +48,16 @@ jobs:
 
       - name: Package client
         id: package
-        run: bash .github/scripts/client.sh "${SLUG}-pr${{ github.event.pull_request.number }}"
+        run: bash .github/scripts/client.sh "${SLUG}-pr${{ github.event.pull_request.number }}-${SHORT_SHA}"
 
       - name: Package server
         id: package_server
-        run: bash .github/scripts/server.sh "${SLUG}-pr${{ github.event.pull_request.number }}" "https://raw.githubusercontent.com/${{ github.event.pull_request.head.repo.full_name }}/${{ github.event.pull_request.head.sha }}/pack.toml"
+        run: bash .github/scripts/server.sh "${SLUG}-pr${{ github.event.pull_request.number }}-${SHORT_SHA}" "https://raw.githubusercontent.com/${{ github.event.pull_request.head.repo.full_name }}/${{ github.event.pull_request.head.sha }}/pack.toml"
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: "${{ env.SLUG }}-pr${{ github.event.pull_request.number }}"
+          name: "${{ env.SLUG }}-pr${{ github.event.pull_request.number }}-${{ env.SHORT_SHA }}"
           path: |
             ${{ steps.package.outputs.curseforge_zip }}
             ${{ steps.package_server.outputs.server_zip }}
