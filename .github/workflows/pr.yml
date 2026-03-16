@@ -37,6 +37,12 @@ jobs:
         with:
           devShell: .#default
 
+      - name: Cache Nix store
+        uses: nix-community/cache-nix-action@v7
+        with:
+          primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.lock') }}
+          restore-prefixes-first-match: nix-${{ runner.os }}-
+
       - name: Resolve metadata
         run: bash .github/scripts/meta.sh
 
