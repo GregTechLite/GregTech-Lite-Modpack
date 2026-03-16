@@ -65,9 +65,10 @@ Resource pack overrides: custom textures, lang files, and JEI integration.
 
 ## CI/CD
 
-Two GitHub Actions workflows (both use Nix dev shell):
+Three GitHub Actions workflows (all use Nix dev shell):
+- **ci.yml**: Triggered on PRs to `main`. Builds client + server packages for validation. No deploy or release.
+- **nightly.yml**: Triggered on push to `main` (+ `workflow_dispatch`). Builds prerelease artifacts, deploys manifest, updates `nightly` tag, publishes prerelease.
 - **release.yml**: Triggered by `v*` tags. Validates tag matches `pack.toml` version, builds client + server packages, deploys manifest to `gregtechlite.github.io`, publishes GitHub Release.
-- **nightly.yml**: Triggered on push to `main`. Builds prerelease artifacts, updates `nightly` tag.
 
 Build scripts in `.github/scripts/`:
 - `meta.sh` — Extracts metadata from `pack.toml` into env vars
