@@ -32,12 +32,6 @@ jobs:
       - name: Install Nix
         uses: nixbuild/nix-quick-install-action@v34
 
-      - name: Cache Nix store
-        uses: nix-community/cache-nix-action@v7
-        with:
-          primary-key: nix-${{ runner.os }}-${{ hashFiles('flake.lock') }}
-          restore-prefixes-first-match: nix-${{ runner.os }}-
-
       - name: Load devShell
         uses: rrbutani/use-nix-shell-action@v1
         with:
