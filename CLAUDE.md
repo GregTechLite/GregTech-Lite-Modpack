@@ -74,6 +74,7 @@ Build scripts in `.github/scripts/`:
 - `manifest.sh` — Prepares manifest directory for deployment
 - `client.sh` — Runs `packwiz curseforge export`
 - `server.sh` — Creates server package with Forge installer + packwiz bootstrap
+- `changelog.sh` — Generates incremental nightly changelog from git history
 
 ## File Exclusions
 
