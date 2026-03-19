@@ -69,7 +69,7 @@ jobs:
           deploy_key: ${{ secrets.MANIFEST_DEPLOY_KEY }}
           external_repository: ${{ env.ARCHIVE_REPO }}
           publish_branch: ${{ env.ARCHIVE_BRANCH }}
-          publish_dir: dist/archive
+          publish_dir: archive
           destination_dir: archives/nightly
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'

@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-archive_dir="dist/archive"
+archive_dir="archive"
 
 mkdir -p "$archive_dir"
 cp pack.toml index.toml "$archive_dir/"
