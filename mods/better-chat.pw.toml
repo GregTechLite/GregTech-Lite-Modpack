@@ -1,6 +1,6 @@
 name = "Better Chat"
 filename = "betterchat-1.4.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
