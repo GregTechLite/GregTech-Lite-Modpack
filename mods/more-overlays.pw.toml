@@ -1,6 +1,6 @@
 name = "More Overlays"
 filename = "moreoverlays-1.15.1-mc1.12.2.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

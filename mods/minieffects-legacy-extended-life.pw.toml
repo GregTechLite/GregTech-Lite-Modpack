@@ -1,6 +1,6 @@
 name = "MiniEffects-Legacy Extended Life"
 filename = "minieffects-2.3.2.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
