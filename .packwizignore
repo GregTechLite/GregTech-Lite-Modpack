@@ -15,6 +15,7 @@ NOTICE.md
 *.zip
 *.mrpack
 /dist/
+/archive/
 
 # packwiz
 packwiz.exe
