@@ -2704,7 +2704,7 @@ metafile = true
 
 [[files]]
 file = "mods/enderio-continuous.pw.toml"
-hash = "2156869ecf30f7f75072098857a42e8fb96bbf699b582e161fa8499f2b29a87a"
+hash = "41e2722586f57fbb5fa40986e58778a70f29656f44d5e965b06785f0e8d851bf"
 metafile = true
 
 [[files]]
