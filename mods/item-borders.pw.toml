@@ -1,6 +1,6 @@
 name = "Item Borders [Neo/Forge]"
 filename = "ItemBorders-1.12.2-forge-1.2.0.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

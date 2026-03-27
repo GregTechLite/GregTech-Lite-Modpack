@@ -1,6 +1,6 @@
 name = "Controlling"
 filename = "Controlling-3.0.12.4.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
