@@ -2782,7 +2782,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-bogosorter.pw.toml"
-hash = "983c90a4c24cb46fe90acd483d6670b9a3db0e51e84f19bc8e55ed1947d947a4"
+hash = "a2d7f5517cfd949db7443c292faf9d4eeab46789b7fa5c82149696a4d9b06ec5"
 metafile = true
 
 [[files]]
@@ -2813,6 +2813,11 @@ metafile = true
 [[files]]
 file = "mods/just-enough-characters.pw.toml"
 hash = "073783bfacb2c1b8062ae9bca20b49022689f89dcddf0437d7cf6b434d27acaa"
+metafile = true
+
+[[files]]
+file = "mods/key-binding-patch.pw.toml"
+hash = "cea0823d3b224e7bfee140dce362f0321cfb689fa8aaf9d7095ccd244f2051b4"
 metafile = true
 
 [[files]]
