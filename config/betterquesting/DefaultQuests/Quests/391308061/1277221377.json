@@ -16,6 +16,29 @@
     }
   },
   "questID:3": 1277221377,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 271,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 266,
+          "id:8": "gregtech:meta_dust"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 18,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 1,

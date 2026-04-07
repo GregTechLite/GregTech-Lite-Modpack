@@ -1,0 +1,45 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    69693529
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "这种导电性极佳的纳米材料是下一阶段导线的绝佳人选。\n\n用§6硝酸混酸§r浸泡§7石墨粉§r将其氧化后，你需要先制作§4肼§r，然后将氧化石墨烯还原为真正的§8石墨烯§r，需要一些惰性的§a氩§r气体作为保护。\n\n复杂之处在于，在目前阶段，合成肼使用的§b过氧化氢§r使用了§22-乙基蒽氢醌§r，这个化合物拥有相对复杂的合成线路，且消耗§9钯§r作为催化剂。\n\n幸运的是，你只需要制作足够一台§1IV§r级的组装机的石墨烯，然后就可以制作§e磁控管§r，这种工具通过有效的化学控制可以直接使用§7石墨粉§r与§6硝酸混酸§r制造§8石墨烯§r，不需要使用§4肼§r或§a氩§r。\n\n§3如果你发现2-乙基蒽氢醌需要IV电压才能进行合成，试试为你的大型化学反应釜安装两个EV能源仓！",
+      "frame:8": "GEAR",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 342,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "§7石墨烯"
+    }
+  },
+  "questID:3": 2388267,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 2130,
+          "id:8": "gtlitecore:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 342,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
