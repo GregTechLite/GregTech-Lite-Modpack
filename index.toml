@@ -2875,8 +2875,8 @@ hash = "3c06bb98aa3b829ed838611f6625e894c2b4a0d4575bd8842996330b56ed0b56"
 metafile = true
 
 [[files]]
-file = "mods/morfonica-in-minecraft.pw.toml"
-hash = "221dcbe4f1653f33c5497ba3d258f4c6f9270c3e0ce1edc2fc701dfdfdbc3c63"
+file = "mods/morfonica-dolls.pw.toml"
+hash = "7ce22cfed6d82b3eadc5519319630bbfd065ecfbe06e3f59e7f1b1240f1e7934"
 metafile = true
 
 [[files]]
