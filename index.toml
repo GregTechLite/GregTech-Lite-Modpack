@@ -2553,6 +2553,10 @@ file = "icon.png"
 hash = "78b5fdc7f5945756104be53854115c89cb38b4714183af86b07c6f7377e8685c"
 
 [[files]]
+file = "local/ftbutilities/ranks.txt"
+hash = "5b6d3b43aaf002a5e8e8b4469c8c65999455e4da21b52ed4d797ef3454ab4834"
+
+[[files]]
 file = "mods/ae2-crafting-tree-legacy.pw.toml"
 hash = "64e7a392556a055d0e9566b47937a51febf61251694b8e72a145d5f7e55d6d7a"
 metafile = true
