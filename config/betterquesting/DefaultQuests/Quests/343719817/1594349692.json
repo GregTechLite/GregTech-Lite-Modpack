@@ -23,7 +23,40 @@
   "tasks:9": {
     "0:10": {
       "index:3": 0,
-      "requiredItems:9": {},
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 2,
+          "id:8": "gregtech:meta_block_frame_0"
+        },
+        "1:10": {
+          "Count:3": 2,
+          "Damage:2": 630,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 522,
+          "OreDict:8": "componentInductor",
+          "id:8": "gregtech:meta_item_1"
+        },
+        "3:10": {
+          "Count:3": 16,
+          "Damage:2": 520,
+          "OreDict:8": "componentCapacitor",
+          "id:8": "gregtech:meta_item_1"
+        },
+        "4:10": {
+          "Count:3": 16,
+          "Damage:2": 592,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "5:10": {
+          "Count:3": 16,
+          "Damage:2": 252,
+          "id:8": "gregtech:wire_single"
+        }
+      },
       "taskID:8": "bq_standard:optional_retrieval"
     },
     "1:10": {
