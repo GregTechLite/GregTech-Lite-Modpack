@@ -2553,6 +2553,10 @@ file = "icon.png"
 hash = "78b5fdc7f5945756104be53854115c89cb38b4714183af86b07c6f7377e8685c"
 
 [[files]]
+file = "local/ftbutilities/ranks.txt"
+hash = "5b6d3b43aaf002a5e8e8b4469c8c65999455e4da21b52ed4d797ef3454ab4834"
+
+[[files]]
 file = "mods/ae2-crafting-tree-legacy.pw.toml"
 hash = "64e7a392556a055d0e9566b47937a51febf61251694b8e72a145d5f7e55d6d7a"
 metafile = true
@@ -2871,8 +2875,8 @@ hash = "3c06bb98aa3b829ed838611f6625e894c2b4a0d4575bd8842996330b56ed0b56"
 metafile = true
 
 [[files]]
-file = "mods/morfonica-in-minecraft.pw.toml"
-hash = "221dcbe4f1653f33c5497ba3d258f4c6f9270c3e0ce1edc2fc701dfdfdbc3c63"
+file = "mods/morfonica-dolls.pw.toml"
+hash = "7ce22cfed6d82b3eadc5519319630bbfd065ecfbe06e3f59e7f1b1240f1e7934"
 metafile = true
 
 [[files]]
