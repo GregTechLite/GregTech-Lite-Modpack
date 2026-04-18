@@ -2767,7 +2767,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtlitecore-1.0.0.jar"
-hash = "bfa263e9872a5b46b8d8b0f93e4e7fdaf0119b1d0bf122a59cc652c45169bc88"
+hash = "a53f2a72b75c063f5a3d419ccf9d0d94194cead99364bebb725efa949b2b5318"
 
 [[files]]
 file = "mods/had-enough-characters.pw.toml"
