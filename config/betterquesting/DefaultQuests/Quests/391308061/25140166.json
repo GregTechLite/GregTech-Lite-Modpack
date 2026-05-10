@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "你可能注意到了§c蒸汽碎岩机§r的缺点：§e慢§r。\n§c高压蒸汽碎岩机§r能一定程度上解决这个问题，代价是§d更多的蒸汽§r。\n（其实我建议你挖矿获取§7圆石§r，这是目前最高效的§7圆石§r获取手段。§8如果你懒，你可以喊你的朋友去帮你挖 :P§r）",
+      "desc:8": "如果你需要更多的圆石，看看它。\n\n§3在你进入LV阶段后，使用电力的碎岩机不需要电路板就可以制作，它可能不是个好选择。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -26,8 +26,33 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 256,
-          "id:8": "minecraft:stone"
+          "Count:3": 1,
+          "id:8": "storagedrawers:basicdrawers",
+          "tag:10": {
+            "material:8": "oak",
+            "tile:10": {
+              "Cap:3": 32,
+              "Dir:1": 4,
+              "Drawers:9": {
+                "0:10": {
+                  "Count:3": 2048,
+                  "Item:10": {
+                    "Count:3": 1,
+                    "Damage:2": 0,
+                    "id:8": "minecraft:stone"
+                  }
+                }
+              },
+              "ForgeCaps:10": {},
+              "Mat:8": "oak",
+              "Tape:1": 1,
+              "Upgrades:9": {},
+              "id:8": "storagedrawers:basicdrawers.1",
+              "x:3": -772,
+              "y:3": 4,
+              "z:3": -329
+            }
+          }
         }
       }
     }

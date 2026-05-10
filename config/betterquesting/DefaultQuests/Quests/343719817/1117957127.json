@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "包括§8黑钢§r，§9蓝钢§r与§4红钢§r在内的§a有色钢§r是你在§6HV§r阶段及后续阶段中经常使用的材料，它们均可以使用§2水浴冷凝槽§r冷却。\n\n§现在你可能会使用红钢来制作锯片以制作§6HV§r级别的切割机，或者使用§8黑钢§r作为小型线圈材料（这需要一台§6HV§r级别的组装机）。\n\n§3这个任务不会强制你制作全部的三种有色钢，请根据需求制作吧。",
       "frame:8": "GEAR",
       "icon:10": {
         "Count:3": 1,
@@ -18,5 +18,52 @@
     }
   },
   "questID:3": 1117957127,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 25,
+          "Damage:2": 2011,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 2510,
+          "id:8": "gregtech:meta_dust"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 2511,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2011,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2510,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2511,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
 }

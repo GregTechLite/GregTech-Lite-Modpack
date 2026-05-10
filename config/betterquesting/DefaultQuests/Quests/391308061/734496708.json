@@ -22,6 +22,24 @@
     }
   },
   "questID:3": 734496708,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 25,
+          "id:8": "gregtech:wire_single"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_wire_fine"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
