@@ -2820,7 +2820,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-characters.pw.toml"
-hash = "aad87f9ea7ba6ed99cc50bfee6bc72575a0dc2a3a834a8f004a1c4990d20a8cd"
+hash = "abacf8f21c596f0ae9f1f26746a958089c3841e76cef22b4117b5dbe9efccfc3"
 metafile = true
 
 [[files]]
@@ -3400,7 +3400,7 @@ hash = "7c7f13b4b342b42ad4e1d04e04407ebafa46c6485440a77a37fb5bbc92754b4d"
 
 [[files]]
 file = "resources/jei/lang/zh_cn.lang"
-hash = "a57d1d17f82d6a63a2bd408208ecc7274b803be6ab99db1efcafbd95b5cfc1b1"
+hash = "e713b34b699a19e477d4470a65297db5df8f0733f65e431a6014bdb712bbc62f"
 
 [[files]]
 file = "resources/minecraft/lang/zh_cn.lang"
