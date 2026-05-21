@@ -2413,6 +2413,10 @@ file = "config/loliasm.cfg"
 hash = "b116b2ed6e6221c5381d56da74c52824e20cc58c44a11af02e44053ba9b999be"
 
 [[files]]
+file = "config/morefurnaces.cfg"
+hash = "b75f1085f38e170988eb09f4a255f26441957df25ff0b589f256ff61de15d711"
+
+[[files]]
 file = "config/morfonica.cfg"
 hash = "820acaaf843b6720ded49a0da244f57bc4c68ee758a05fa521e7e940a3917160"
 
