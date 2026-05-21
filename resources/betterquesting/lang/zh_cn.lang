@@ -263,3 +263,5 @@ betterquesting.notification.tooltip=切换任务通知
 
 betterquesting.context.add_task=增加任务目标
 betterquesting.context.add_reward=增加奖励
+
+bq_standard.task.is_optional=可选

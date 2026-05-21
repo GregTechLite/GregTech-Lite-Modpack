@@ -14,5 +14,10 @@
     }
   },
   "questID:3": 165460843,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
 }

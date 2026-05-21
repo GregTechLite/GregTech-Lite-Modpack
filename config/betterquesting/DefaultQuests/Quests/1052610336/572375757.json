@@ -21,6 +21,28 @@
   "tasks:9": {
     "0:10": {
       "index:3": 0,
+      "optional:1": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 16000,
+          "FluidName:8": "sulfur_dioxide"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "1:10": {
+      "index:3": 1,
+      "optional:1": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 16000,
+          "FluidName:8": "sulfur_trioxide"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "2:10": {
+      "index:3": 2,
       "requiredFluids:9": {
         "0:10": {
           "Amount:3": 16000,

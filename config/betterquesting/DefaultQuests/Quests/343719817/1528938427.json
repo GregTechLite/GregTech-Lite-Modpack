@@ -30,6 +30,7 @@
     },
     "1:10": {
       "index:3": 1,
+      "optional:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -37,10 +38,11 @@
           "id:8": "gregtech:mte"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
       "index:3": 2,
+      "optional:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -58,10 +60,11 @@
           "id:8": "gregtech:mte"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "3:10": {
       "index:3": 3,
+      "optional:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
@@ -79,7 +82,7 @@
           "id:8": "gregtech:mte"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }
