@@ -30,6 +30,7 @@
   "tasks:9": {
     "0:10": {
       "index:3": 0,
+      "optional:1": 1,
       "requiredFluids:9": {
         "0:10": {
           "Amount:3": 16000,

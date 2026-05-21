@@ -35,6 +35,7 @@
   "tasks:9": {
     "0:10": {
       "index:3": 0,
+      "optional:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
@@ -47,10 +48,11 @@
           "id:8": "gregtech:meta_stick"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "index:3": 2,
+      "optional:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
@@ -58,7 +60,7 @@
           "id:8": "gregtech:meta_stick_long"
         }
       },
-      "taskID:8": "bq_standard:optional_retrieval"
+      "taskID:8": "bq_standard:retrieval"
     },
     "2:10": {
       "index:3": 3,
