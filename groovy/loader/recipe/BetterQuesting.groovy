@@ -1,5 +1,3 @@
-package recipe
-
 log.info("Starting to load BetterQuesting Recipes...")
 
 // Questbook
