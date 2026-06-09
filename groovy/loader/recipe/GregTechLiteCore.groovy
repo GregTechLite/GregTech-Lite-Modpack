@@ -5,6 +5,7 @@ import static util.GroovyUtil.*
 log.info("Starting to load GregTechLiteCore Recipes...")
 
 /* -------------------------------------------------------------------------- */
+def vacuum_chamber = recipemap('vacuum_chamber')
 def wiremill = recipemap('wiremill')
 /* -------------------------------------------------------------------------- */
 
@@ -12,12 +13,12 @@ def wiremill = recipemap('wiremill')
 crafting.addShapeless(item('minecraft:string') * 4, [item('gtlitecore:gtlite_meta_item_2', 219)]) // Cotton
 
 wiremill.recipeBuilder()
-    .circuitMeta(1)
-    .inputs(item('gtlitecore:gtlite_meta_item_2', 219)) // Cotton
-    .outputs(item('minecraft:string') * 4)
-    .EUt(7) // ULV
-    .duration(2 * TICK)
-    .buildAndRegister()
+        .circuitMeta(1)
+        .inputs(item('gtlitecore:gtlite_meta_item_2', 219)) // Cotton
+        .outputs(item('minecraft:string') * 4)
+        .EUt(7) // ULV
+        .duration(2 * TICK)
+        .buildAndRegister()
 
 // Drain
 crafting.removeByOutput(item('gtlitecore:gtlite_meta_item_1', 116))
@@ -31,3 +32,11 @@ crafting.shapedBuilder()
         .key('I', ore('barsIron'))
         .output(item('gtlitecore:gtlite_meta_item_1', 116))
         .register()
+
+// Bedrock convert
+vacuum_chamber.recipeBuilder()
+        .inputs(item('gtlitecore:meta_block_compressed_135', 12)) // Bedrockium block
+        .outputs(item('minecraft:bedrock'))
+        .EUt(VA[LV])
+        .duration(5 * SECOND)
+        .buildAndRegister()

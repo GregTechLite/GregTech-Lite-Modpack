@@ -2534,7 +2534,7 @@ hash = "06c481d3c123a6a035354614d37054294744513ba19c4a7f6650c9ca4f337212"
 
 [[files]]
 file = "groovy/loader/recipe/GregTechLiteCore.groovy"
-hash = "4bad8115cfabf14320ddddcb23d38ff200319a874cd20fd96b42ce922b89f01d"
+hash = "0977a33355ae33c85613e16d60cdf0c1045daa5a6c8365114e0ee86898a267b2"
 
 [[files]]
 file = "groovy/loader/recipe/JustEnoughItems.groovy"
