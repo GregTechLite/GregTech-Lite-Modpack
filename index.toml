@@ -2498,7 +2498,7 @@ hash = "e8d85f0a56bc9f5222ffb10068bbb9b2b590cc99b9898d16a8cf172ec4ea96d3"
 
 [[files]]
 file = "groovy/loader/recipe/BetterQuesting.groovy"
-hash = "b8c4badc0c0f911363959230afab9c6a73c91f69cc11e4d9568c84e337063b05"
+hash = "6ce2cb739e70b90e100574444759bfc77b2fefc8d0efd332c176db79b2d722c9"
 
 [[files]]
 file = "groovy/loader/recipe/BuildingGadgets.groovy"
@@ -2506,7 +2506,7 @@ hash = "3634d1052d476d56f5948d61b1794db0dba092f7866378ef3e8cd3728f1eaa62"
 
 [[files]]
 file = "groovy/loader/recipe/Chisel.groovy"
-hash = "55327d614d51879e1ee8c9e2382edae4dd7ba8d791c6b992e75977ec048fa5b7"
+hash = "e5863761e759edd2b379e83177c29f1c411783eca784ef615192000dd2f0d7d6"
 
 [[files]]
 file = "groovy/loader/recipe/EnderCore.groovy"
@@ -2534,7 +2534,7 @@ hash = "06c481d3c123a6a035354614d37054294744513ba19c4a7f6650c9ca4f337212"
 
 [[files]]
 file = "groovy/loader/recipe/GregTechLiteCore.groovy"
-hash = "4bad8115cfabf14320ddddcb23d38ff200319a874cd20fd96b42ce922b89f01d"
+hash = "0977a33355ae33c85613e16d60cdf0c1045daa5a6c8365114e0ee86898a267b2"
 
 [[files]]
 file = "groovy/loader/recipe/JustEnoughItems.groovy"
@@ -2796,7 +2796,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtlitecore-1.0.0.jar"
-hash = "cd892cd0a7134fa641262aa1d1a60da97bffd121eef83518c96fbdd51f48ff01"
+hash = "7211165b210115ae714347056f7e6d325efd6c9bea4ff5cb99d0ea652b19bc4a"
 
 [[files]]
 file = "mods/had-enough-characters.pw.toml"
