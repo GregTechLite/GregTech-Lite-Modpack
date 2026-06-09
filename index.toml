@@ -2478,7 +2478,7 @@ hash = "80476d3d3169ff17dc7f772e62cd9debfb6e2426558aabab7cf892c1d8e051ff"
 
 [[files]]
 file = "groovy/event/TooltipEventHandler.groovy"
-hash = "357c55860e75ffd6356cb9004b5cbaa27d74a1bc0d06bbb8471081164cd169be"
+hash = "9642f696ebcbcaa089f6cb17207c309ec396e8bb8ea282483f408329a991745a"
 
 [[files]]
 file = "groovy/loader/OreDictionaryLoader.groovy"
@@ -2490,11 +2490,15 @@ hash = "830bd25835d7de559257f7a312081fcfab880fdf0f3dffcc1d2b6b60feb5c725"
 
 [[files]]
 file = "groovy/loader/recipe/AppliedEnergistics2.groovy"
-hash = "8338860ed8b8a0e08842e73fe0184a3adced61decd8de6be757e22867336f71a"
+hash = "fb54ce8f0a85411c3bef415f7e2363d69a763eb6a65ba77aca68ec3964a9dc90"
 
 [[files]]
 file = "groovy/loader/recipe/BetterBuildersWands.groovy"
 hash = "e8d85f0a56bc9f5222ffb10068bbb9b2b590cc99b9898d16a8cf172ec4ea96d3"
+
+[[files]]
+file = "groovy/loader/recipe/BetterQuesting.groovy"
+hash = "b8c4badc0c0f911363959230afab9c6a73c91f69cc11e4d9568c84e337063b05"
 
 [[files]]
 file = "groovy/loader/recipe/BuildingGadgets.groovy"
@@ -2502,7 +2506,7 @@ hash = "3634d1052d476d56f5948d61b1794db0dba092f7866378ef3e8cd3728f1eaa62"
 
 [[files]]
 file = "groovy/loader/recipe/Chisel.groovy"
-hash = "ade37f8532433693b2e42fca2f6d81d7a0e4671b9e81c612232308c0599e98e3"
+hash = "55327d614d51879e1ee8c9e2382edae4dd7ba8d791c6b992e75977ec048fa5b7"
 
 [[files]]
 file = "groovy/loader/recipe/EnderCore.groovy"
@@ -2530,11 +2534,11 @@ hash = "06c481d3c123a6a035354614d37054294744513ba19c4a7f6650c9ca4f337212"
 
 [[files]]
 file = "groovy/loader/recipe/GregTechLiteCore.groovy"
-hash = "2fda43c84e3bec5dfbfbcddd9a2cc7dbe83878232f550349c27754730daf63cf"
+hash = "4bad8115cfabf14320ddddcb23d38ff200319a874cd20fd96b42ce922b89f01d"
 
 [[files]]
 file = "groovy/loader/recipe/JustEnoughItems.groovy"
-hash = "638ab5d8f957f344ec42d077648bf40a9296c7917914105ca7282c5c0b83ab37"
+hash = "eef8f70d54c6ec5228dc1a3c553c6915def58dd90eaec182af11e37d35e32e73"
 
 [[files]]
 file = "groovy/loader/recipe/MoreFurnaces.groovy"
@@ -2546,7 +2550,7 @@ hash = "0200e0e094ce9c6e952db5315a3e131444624484e5466cb879027d290a5df4c6"
 
 [[files]]
 file = "groovy/loader/recipe/ProjectRed.groovy"
-hash = "81cfa18a5c7293f19084bea08215d9264064b629b38fd31cdd8a32fd4c6fb31e"
+hash = "29963592ab5099d08ba918ebf93a9f9e812eb5bcee4987c29914864f93da4dfc"
 
 [[files]]
 file = "groovy/loader/recipe/SophisticatedBackpacks.groovy"
@@ -3102,7 +3106,7 @@ hash = "41fd5d50b33cfd0b98324b4f3a36cbc6456ead6ce54e8c16fe5718be5b93525e"
 
 [[files]]
 file = "resources/betterquesting/lang/zh_cn.lang"
-hash = "f6d138dcd27b478ddc03a162e7e095cf46abcfc5598ac0cef775e13584d46e18"
+hash = "0213eea9646f613a2380319c4e8402f073848248fcb0257006bc1e820ee5f7ea"
 
 [[files]]
 file = "resources/betterquesting/textures/items/quest_book.png"
