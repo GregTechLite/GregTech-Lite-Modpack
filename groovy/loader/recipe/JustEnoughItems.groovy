@@ -37,9 +37,11 @@ mods.jei.ingredient.removeAndHide(item('bq_standard:loot_chest', 101).withNbt(['
 mods.jei.ingredient.removeAndHide(item('bq_standard:loot_chest', 102))
 mods.jei.ingredient.removeAndHide(item('bq_standard:loot_chest', 103).withNbt(['loottable': 'minecraft:chests/simple_dungeon', 'hideLootInfo': (byte) 1]))
 mods.jei.ingredient.removeAndHide(item('bq_standard:loot_chest', 104).withNbt(['fixedLootList': [['Count': 1, 'Damage': (short) 0, 'id': 'minecraft:stone', 'OreDict': '']], 'hideLootInfo': (byte) 1, 'fixedLootName': 'Item Set']))
+mods.jei.ingredient.removeAndHide(item('betterquesting:extra_life'))
+mods.jei.ingredient.removeAndHide(item('betterquesting:extra_life', 1))
+mods.jei.ingredient.removeAndHide(item('betterquesting:extra_life', 2))
 
 // EnderIO
-
 mods.jei.ingredient.removeAndHide(item('enderio:item_material')) // Simple Machine Chassi
 mods.jei.ingredient.removeAndHide(item('enderio:item_material', 1)) // Industrial Machine Chassis
 mods.jei.ingredient.removeAndHide(item('enderio:item_material', 2)) // Machine Parts
