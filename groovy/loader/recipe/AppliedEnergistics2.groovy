@@ -1993,6 +1993,7 @@ forming_press.recipeBuilder()
     .buildAndRegister()
 
 // Wireless Booster
+crafting.remove('appliedenergistics2:network/wireless_booster')
 laser_engraver.recipeBuilder()
     .notConsumable(ore('craftingLensLime'))
     .inputs(ore('plateEnderPearl'))

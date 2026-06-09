@@ -18,3 +18,16 @@ wiremill.recipeBuilder()
     .EUt(7) // ULV
     .duration(2 * TICK)
     .buildAndRegister()
+
+// Drain
+crafting.removeByOutput(item('gtlitecore:gtlite_meta_item_1', 116))
+crafting.shapedBuilder()
+        .name(resource('gtlitecore:drain'))
+        .shape('SSS',
+                'IPI',
+                'SSS')
+        .key('S', ore('stickIron'))
+        .key('P', ore('pipeSmallFluidSteel'))
+        .key('I', ore('barsIron'))
+        .output(item('gtlitecore:gtlite_meta_item_1', 116))
+        .register()
