@@ -1993,6 +1993,7 @@ forming_press.recipeBuilder()
     .buildAndRegister()
 
 // Wireless Booster
+crafting.remove('appliedenergistics2:network/wireless_booster')
 laser_engraver.recipeBuilder()
     .notConsumable(ore('craftingLensLime'))
     .inputs(ore('plateEnderPearl'))
@@ -2166,7 +2167,7 @@ for (int i = 0; i < 16; i++) {
     // Glass Cable + Chem Dye -> Colored Glass Cable
     chemical_bath.recipeBuilder()
         .inputs(item('appliedenergistics2:part', 16))
-        .fluidInputs(fluid('dye_' + dyeColors[i]) * 36)
+        .fluidInputs(fluid('dye_' + dyeColors[i]) * 18)
         .outputs(item('appliedenergistics2:part', i))
         .EUt(VA[LV])
         .duration(TICK)
@@ -2186,7 +2187,7 @@ for (int i = 20; i < 36; i++) {
     // Covered Cable + Chem Dye -> Covered Cable
     chemical_bath.recipeBuilder()
         .inputs(item('appliedenergistics2:part', 36))
-        .fluidInputs(fluid('dye_' + dyeColors[i - 20]) * 36)
+        .fluidInputs(fluid('dye_' + dyeColors[i - 20]) * 18)
         .outputs(item('appliedenergistics2:part', i))
         .EUt(VA[LV])
         .duration(TICK)
@@ -2207,7 +2208,7 @@ for (int i = 40; i < 56; i++) {
     // Smart Cable + Chem Dye -> Colored Smart Cable
     chemical_bath.recipeBuilder()
         .inputs(item('appliedenergistics2:part', 56))
-        .fluidInputs(fluid('dye_' + dyeColors[i - 40]) * 36)
+        .fluidInputs(fluid('dye_' + dyeColors[i - 40]) * 18)
         .outputs(item('appliedenergistics2:part', i))
         .EUt(VA[LV])
         .duration(TICK)
@@ -2227,7 +2228,7 @@ for (int i = 60; i < 76; i++) {
     // Dense Cable + Chem Dye -> Colored Dense Cable
     chemical_bath.recipeBuilder()
         .inputs(item('appliedenergistics2:part', 76))
-        .fluidInputs(fluid('dye_' + dyeColors[i - 60]) * 36)
+        .fluidInputs(fluid('dye_' + dyeColors[i - 60]) * 18)
         .outputs(item('appliedenergistics2:part', i))
         .EUt(VA[LV])
         .duration(TICK)

@@ -199,7 +199,7 @@ for (int i = 0; i < 16; i++) {
 
     chemical_bath.recipeBuilder()
             .inputs(item('projectred-transmission:wire'))
-            .fluidInputs(fluid('dye_' + dyeColors[i]) * 36)
+            .fluidInputs(fluid('dye_' + dyeColors[i]) * 18)
             .outputs(item('projectred-transmission:wire', i + 1))
             .EUt(VA[LV])
             .duration(TICK)
@@ -229,7 +229,7 @@ for (int i = 0; i < 16; i++) {
 
     chemical_bath.recipeBuilder()
             .inputs(item('projectred-transmission:framed_wire'))
-            .fluidInputs(fluid('dye_' + dyeColors[i]) * 36)
+            .fluidInputs(fluid('dye_' + dyeColors[i]) * 18)
             .outputs(item('projectred-transmission:framed_wire', i + 1))
             .EUt(VA[LV])
             .duration(TICK)
@@ -291,7 +291,7 @@ for (int i = 17; i < 33; i++) {
 
     chemical_bath.recipeBuilder()
             .inputs(item('projectred-transmission:wire', 17))
-            .fluidInputs(fluid('dye_' + dyeColors[i - 17]) * 36)
+            .fluidInputs(fluid('dye_' + dyeColors[i - 17]) * 18)
             .outputs(item('projectred-transmission:wire', i + 1))
             .EUt(VA[LV])
             .duration(TICK)
@@ -354,7 +354,7 @@ for (int i = 500; i < 516; i++) {
 
     chemical_bath.recipeBuilder()
             .inputs(item('minecraft:glowstone_dust'))
-            .fluidInputs(fluid('dye_' + dyeColors[i - 500]) * 36)
+            .fluidInputs(fluid('dye_' + dyeColors[i - 500]) * 18)
             .outputs(item('projectred-core:resource_item', i))
             .EUt(VA[LV])
             .duration(TICK)

@@ -2081,6 +2081,22 @@ file = "config/enderio/enderio.cfg"
 hash = "569b4a65449c2f3d364f06752ed3d1befac3d83cea385173eea06c521d49a0ed"
 
 [[files]]
+file = "config/fancymenu/config.txt"
+hash = "dec62ee16ed6524524df3007d1397b9b5994342220a92f6139a4cb6bf834346e"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "6dfe1a1fa3c8bea225b68ea388db57cbce7f373766479e195b8b89104432c6d7"
+
+[[files]]
+file = "config/fancymenu/customization/default-gtlite.txt"
+hash = "b040b5844632bf4c389c4e83279172262603213360c5e9104104f7ab4c3f0594"
+
+[[files]]
+file = "config/fancymenu/menu_identifiers.db"
+hash = "003a1c89846741e0eb9475089d4ed653896fd08e0b994667fae452b4ad894a72"
+
+[[files]]
 file = "config/fluiddrawers.cfg"
 hash = "a9845be03a2b99a5fb389e01d60f71acec618451a73872dd0a6a107c594636d0"
 
@@ -2462,7 +2478,7 @@ hash = "80476d3d3169ff17dc7f772e62cd9debfb6e2426558aabab7cf892c1d8e051ff"
 
 [[files]]
 file = "groovy/event/TooltipEventHandler.groovy"
-hash = "357c55860e75ffd6356cb9004b5cbaa27d74a1bc0d06bbb8471081164cd169be"
+hash = "9642f696ebcbcaa089f6cb17207c309ec396e8bb8ea282483f408329a991745a"
 
 [[files]]
 file = "groovy/loader/OreDictionaryLoader.groovy"
@@ -2474,11 +2490,15 @@ hash = "830bd25835d7de559257f7a312081fcfab880fdf0f3dffcc1d2b6b60feb5c725"
 
 [[files]]
 file = "groovy/loader/recipe/AppliedEnergistics2.groovy"
-hash = "929cb2a2dae66263f5bf3f9e4cabbddbf17d853964b99943d0b8f97230a271b1"
+hash = "fb54ce8f0a85411c3bef415f7e2363d69a763eb6a65ba77aca68ec3964a9dc90"
 
 [[files]]
 file = "groovy/loader/recipe/BetterBuildersWands.groovy"
 hash = "e8d85f0a56bc9f5222ffb10068bbb9b2b590cc99b9898d16a8cf172ec4ea96d3"
+
+[[files]]
+file = "groovy/loader/recipe/BetterQuesting.groovy"
+hash = "b8c4badc0c0f911363959230afab9c6a73c91f69cc11e4d9568c84e337063b05"
 
 [[files]]
 file = "groovy/loader/recipe/BuildingGadgets.groovy"
@@ -2486,7 +2506,7 @@ hash = "3634d1052d476d56f5948d61b1794db0dba092f7866378ef3e8cd3728f1eaa62"
 
 [[files]]
 file = "groovy/loader/recipe/Chisel.groovy"
-hash = "ade37f8532433693b2e42fca2f6d81d7a0e4671b9e81c612232308c0599e98e3"
+hash = "55327d614d51879e1ee8c9e2382edae4dd7ba8d791c6b992e75977ec048fa5b7"
 
 [[files]]
 file = "groovy/loader/recipe/EnderCore.groovy"
@@ -2514,11 +2534,11 @@ hash = "06c481d3c123a6a035354614d37054294744513ba19c4a7f6650c9ca4f337212"
 
 [[files]]
 file = "groovy/loader/recipe/GregTechLiteCore.groovy"
-hash = "2fda43c84e3bec5dfbfbcddd9a2cc7dbe83878232f550349c27754730daf63cf"
+hash = "4bad8115cfabf14320ddddcb23d38ff200319a874cd20fd96b42ce922b89f01d"
 
 [[files]]
 file = "groovy/loader/recipe/JustEnoughItems.groovy"
-hash = "638ab5d8f957f344ec42d077648bf40a9296c7917914105ca7282c5c0b83ab37"
+hash = "eef8f70d54c6ec5228dc1a3c553c6915def58dd90eaec182af11e37d35e32e73"
 
 [[files]]
 file = "groovy/loader/recipe/MoreFurnaces.groovy"
@@ -2530,7 +2550,7 @@ hash = "0200e0e094ce9c6e952db5315a3e131444624484e5466cb879027d290a5df4c6"
 
 [[files]]
 file = "groovy/loader/recipe/ProjectRed.groovy"
-hash = "81cfa18a5c7293f19084bea08215d9264064b629b38fd31cdd8a32fd4c6fb31e"
+hash = "29963592ab5099d08ba918ebf93a9f9e812eb5bcee4987c29914864f93da4dfc"
 
 [[files]]
 file = "groovy/loader/recipe/SophisticatedBackpacks.groovy"
@@ -2721,6 +2741,11 @@ hash = "6843e8fbb7c7872902ce42daccc1287428caca3b56742b9e6e33048c9a0653f1"
 metafile = true
 
 [[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "a0b9178824a6998223027dbca140b3652300a9140c7ed908db5508c9f4af1902"
+metafile = true
+
+[[files]]
 file = "mods/fluid-drawers.pw.toml"
 hash = "6f59b412881512ae1339649a4c46cb8406a4ca3d6b7b24705819324b6fd039e4"
 metafile = true
@@ -2771,7 +2796,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtlitecore-1.0.0.jar"
-hash = "8c69479e9a0455b51f2d81ddfd32b5ea964dd928c98c366f6f042e6b2c352305"
+hash = "cd892cd0a7134fa641262aa1d1a60da97bffd121eef83518c96fbdd51f48ff01"
 
 [[files]]
 file = "mods/had-enough-characters.pw.toml"
@@ -2836,6 +2861,11 @@ metafile = true
 [[files]]
 file = "mods/kleeslabs.pw.toml"
 hash = "21e1c7795d5c8cb8d95db171d42dda4fa3065e6bc1e59d6cb5c9b6e44d7008b5"
+metafile = true
+
+[[files]]
+file = "mods/konkrete.pw.toml"
+hash = "35d4f2d6f3ee79b918349a01c16e8c7f5c4ffc7c057e1ee1ac2cd5095ee1a8c1"
 metafile = true
 
 [[files]]
@@ -3076,7 +3106,7 @@ hash = "41fd5d50b33cfd0b98324b4f3a36cbc6456ead6ce54e8c16fe5718be5b93525e"
 
 [[files]]
 file = "resources/betterquesting/lang/zh_cn.lang"
-hash = "f6d138dcd27b478ddc03a162e7e095cf46abcfc5598ac0cef775e13584d46e18"
+hash = "0213eea9646f613a2380319c4e8402f073848248fcb0257006bc1e820ee5f7ea"
 
 [[files]]
 file = "resources/betterquesting/textures/items/quest_book.png"
@@ -3165,6 +3195,42 @@ hash = "ec9744db6e6e382b55919f17b0e52b1abd3af7c519bde8cede561df7f35bcb9d"
 [[files]]
 file = "resources/customloadingscreen/image/gtlite/bg9.png"
 hash = "221b7efc93262c0ac9d5315bdd096560bdf427c9eecd5ec8f413de91a8f147ba"
+
+[[files]]
+file = "resources/fancymenu/textures/mainmenu.button.0.png"
+hash = "0153ea8d4102e88d56e1f15ffbaaaafaf54a9cd56d33d143418f4a000833e9db"
+
+[[files]]
+file = "resources/fancymenu/textures/mainmenu.button.1.png"
+hash = "ef59e5f08686a9deb9787a166f94450bfbf40984bb6a13661bc4651b70cda1fa"
+
+[[files]]
+file = "resources/fancymenu/textures/mainmenu.button.exit.0.png"
+hash = "6e1399b94ce50039129a5ed8d749b3b7ab6bd4a0f164320a3d9b65edce4fa4d8"
+
+[[files]]
+file = "resources/fancymenu/textures/mainmenu.button.exit.1.png"
+hash = "03c35ae1f1944e768da0bd3373e7c1d1b0a72ce3674761fd482b633f0ce0af96"
+
+[[files]]
+file = "resources/fancymenu/textures/mainmenu.button.i18n.0.png"
+hash = "0236486945385ef2380ac2d78cbaa937e341af80bd8997baac9faef4e87abd80"
+
+[[files]]
+file = "resources/fancymenu/textures/mainmenu.button.i18n.1.png"
+hash = "b5ae2969792e4eb4dab71662deb38ba7f7e81d5c8abbb5dc1471be6c1fc4b5c6"
+
+[[files]]
+file = "resources/fancymenu/textures/mainmenu.button.link.0.png"
+hash = "0a3f37926b5930dcb0c506e13a2de7c44b8b799d237eecdb75277d65c7c8ec49"
+
+[[files]]
+file = "resources/fancymenu/textures/mainmenu.button.link.1.png"
+hash = "cd3a8ff871bf06b93cf6355f0c2d7caac5f2703141110893218605bdb1cd0b2b"
+
+[[files]]
+file = "resources/fancymenu/textures/mainmenu.logo.png"
+hash = "5089865fcf1e622ea35fe808bc3f0508f8b8791f4bbc98f064d6ab6071c73a38"
 
 [[files]]
 file = "resources/forge/lang/zh_cn.lang"

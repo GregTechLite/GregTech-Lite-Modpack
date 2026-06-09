@@ -92,3 +92,8 @@ mods.chisel.carving.addVariation(p2p_tunnels_group, item('appliedenergistics2:pa
 mods.chisel.carving.addVariation(p2p_tunnels_group, item('appliedenergistics2:part', 467)) // Light
 mods.chisel.carving.addVariation(p2p_tunnels_group, item('appliedenergistics2:part', 469)) // FE
 mods.chisel.carving.addVariation(p2p_tunnels_group, item('appliedenergistics2:part', 470)) // GTEU
+
+// Bedrock
+mods.chisel.carving.addGroup(bedrock_group)
+mods.chisel.carving.addVariation(bedrock_group, item('minecraft:bedrock'))
+mods.chisel.carving.addVariation(bedrock_group, item('gtlitecore:meta_block_compressed_135', 12))
