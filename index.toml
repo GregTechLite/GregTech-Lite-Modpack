@@ -2446,7 +2446,7 @@ hash = "95a1643620e2fab1f135a7a100d2cf336eaa2353a4ace7cc3a665897aa6b03c9"
 
 [[files]]
 file = "config/smoothfont/smoothfont.cfg"
-hash = "91eb6e81590afa89799ac1108a13a7aa360cb1d02ffc9b17811ce1380c881fa2"
+hash = "269e74b4e4fb98d181fe22b474e2ecd336de5a8786803b20fa4519cdb9c9d8fa"
 
 [[files]]
 file = "config/stellar_core.cfg"
@@ -2465,12 +2465,20 @@ file = "config/topaddons_client.cfg"
 hash = "c2027d998f8ee0556c643faf22bdc0aacda877d5dc43945546112f4b72bdea3a"
 
 [[files]]
+file = "fontfiles/Exo-Medium-License"
+hash = "a9176aff497ac22082bb6c4cb5293b9d3c3b95b500ccb3cb07c5675d6aabf0ff"
+
+[[files]]
 file = "fontfiles/Exo-Medium.otf"
 hash = "bd00b3dce2f70c2568a15f2a23de48f9c357c1b8bdf8b680c143ad52739e3c7d"
 
 [[files]]
-file = "fontfiles/Resource Han Rounded CN-Regular.ttf"
-hash = "1c5c623f008eabef10c45135a48b01b46311f9369c28857355872cfe05f48dc0"
+file = "fontfiles/GlowSansSC-Normal-Medium-License"
+hash = "59cdca38d7fe80ad89049dbfcc00d1c91ebf199f5a735c8a52894b8dff904b80"
+
+[[files]]
+file = "fontfiles/GlowSansSC-Normal-Medium.otf"
+hash = "56481618894253fb71427a097706f9a440806b4957a7381946dc6464b98aa192"
 
 [[files]]
 file = "groovy/event/MaterialEventHandler.groovy"
@@ -3238,7 +3246,7 @@ hash = "d73251c0b404017c1b1bf9710680edd9a8035ba6d3adaa6d2d6e3ac058bea4a4"
 
 [[files]]
 file = "resources/gregtech/lang/zh_cn.lang"
-hash = "ab0303681acfc444cb9e01093853ec49066680061f117aa8cbaab851f96ddf9e"
+hash = "e3b950265656e16b3c0eaa0e82bb10ff193e7e0d935213963a13851343540a68"
 
 [[files]]
 file = "resources/gregtech/textures/blocks/casings/mechanic/machine_casing_turbine_stainless_steel.png"
@@ -3454,7 +3462,7 @@ hash = "7dc16041541801a5bbfd3e98fc2e939ca860cc063a19393da16841eca4212b37"
 
 [[files]]
 file = "resources/gtlitecore/lang/zh_cn.lang"
-hash = "ce8c2d3c03a043cd3e1b756f9e160070f1c9291588a56509dfe227aa50f0d9cc"
+hash = "3083bc6d935146ee83fdccfb9430877bbc1c63a5c59778aec08e8b1e88929e38"
 
 [[files]]
 file = "resources/gtlitecore/textures/blocks/casings/mechanic/rhodium_plated_palladium_turbine.png"
