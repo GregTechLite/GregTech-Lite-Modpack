@@ -1,0 +1,33 @@
+{
+  "preRequisites:11": [
+    804519284
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "sterilized_nutrient_paste_emulsion"
+        }
+      },
+      "name:8": "§2灭菌营养膏乳液"
+    }
+  },
+  "questID:3": 1305117417,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "sterilized_nutrient_paste_emulsion"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

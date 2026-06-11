@@ -1,0 +1,48 @@
+{
+  "preRequisites:11": [
+    1824263132
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "stearic_acid"
+        }
+      },
+      "name:8": "§7硬脂酸"
+    }
+  },
+  "questID:3": 970196201,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "optional:1": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "fat"
+        },
+        "1:10": {
+          "Amount:3": 3000,
+          "FluidName:8": "water"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 3000,
+          "FluidName:8": "stearic_acid"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

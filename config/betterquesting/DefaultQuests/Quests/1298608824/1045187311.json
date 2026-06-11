@@ -1,17 +1,19 @@
 {
-  "lineID:3": 1851152505,
-  "order:3": 19,
+  "preRequisites:11": [
+    1775197747
+  ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 5651,
+        "Damage:2": 5515,
         "id:8": "gregtech:mte"
       },
-      "name:8": "§c§l万物归一§r§f | §l终压",
-      "visibility:8": "HIDDEN"
+      "name:8": "§b捕鱼机"
     }
   },
-  "quests:9": {}
+  "questID:3": 1045187311,
+  "tasks:9": {}
 }

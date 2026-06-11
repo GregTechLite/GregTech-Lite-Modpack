@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1635948147
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "一颗隐藏于月球上的草莓。\n\n你的无人机们似乎没有发现它，即使它们装备了最先进的传感器也无济于事。所幸，你找到了一种通过§2人工合成§r来制作它的手段，你确信这一切是值得的。\n\n§3出于阶段性设计，目前的配方还不是最终配方，敬请期待！",
+      "frame:8": "SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1905,
+        "id:8": "gtlitecore:gtlite_meta_item_2"
+      },
+      "name:8": "§9月球上的草莓"
+    }
+  },
+  "questID:3": 1605833894,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1905,
+          "id:8": "gtlitecore:gtlite_meta_item_2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

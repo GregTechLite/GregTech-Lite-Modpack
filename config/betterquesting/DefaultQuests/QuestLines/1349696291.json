@@ -9,7 +9,8 @@
         "Damage:2": 10020,
         "id:8": "gregtech:mte"
       },
-      "name:8": "§4§l聚变起步§r§f | §d§l剧差压"
+      "name:8": "§4§l聚变起步§r§f | §d§l剧差压",
+      "visibility:8": "HIDDEN"
     }
   },
   "quests:9": {}

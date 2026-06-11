@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    1817558900
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1903,
+        "id:8": "gtlitecore:gtlite_meta_item_2"
+      },
+      "name:8": "§e金灿灿的草莓"
+    }
+  },
+  "questID:3": 1404858290,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1903,
+          "id:8": "gtlitecore:gtlite_meta_item_2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
