@@ -1,19 +1,17 @@
 import static gregtech.api.GTValues.*
-
 import static util.GroovyUtil.*
 
-log.info("Starting to load MoreFurnaces Recipes...")
+log.info("Starting to load morefurnaces recipes...")
 
-/* -------------------------------------------------------------------------- */
 def assembler = recipemap('assembler')
-/* -------------------------------------------------------------------------- */
 
 // Iron Furnace
 crafting.removeByOutput(item('morefurnaces:furnaceblock'))
 crafting.shapedBuilder()
-    .row('hPd')
-    .row('PFP')
-    .row('SPS')
+    .name(resource('gtlite:iron_furnace'))
+    .shape('hPd',
+           'PFP',
+           'SPS')
     .key('h', ore('toolHammer'))
     .key('d', ore('toolScrewdriver'))
     .key('F', item('minecraft:furnace'))
@@ -34,9 +32,10 @@ assembler.recipeBuilder()
 // Gold Furnace
 crafting.removeByOutput(item('morefurnaces:furnaceblock', 1))
 crafting.shapedBuilder()
-    .row('hPd')
-    .row('PFP')
-    .row('SPS')
+    .name(resource('gtlite:gold_furnace'))
+    .shape('hPd',
+           'PFP',
+           'SPS')
     .key('h', ore('toolHammer'))
     .key('d', ore('toolScrewdriver'))
     .key('F', item('minecraft:furnace'))
@@ -57,9 +56,10 @@ assembler.recipeBuilder()
 // Diamond Furnace
 crafting.removeByOutput(item('morefurnaces:furnaceblock', 2))
 crafting.shapedBuilder()
-    .row('hPd')
-    .row('PFP')
-    .row('SPS')
+    .name(resource('gtlite:diamond_furnace'))
+    .shape('hPd',
+           'PFP',
+           'SPS')
     .key('h', ore('toolHammer'))
     .key('d', ore('toolScrewdriver'))
     .key('F', item('minecraft:furnace'))
@@ -80,9 +80,10 @@ assembler.recipeBuilder()
 // Obsidian Furnace
 crafting.removeByOutput(item('morefurnaces:furnaceblock', 3))
 crafting.shapedBuilder()
-    .row('hPd')
-    .row('PFP')
-    .row('SPS')
+    .name(resource('gtlite:obsidian_furnace'))
+    .shape('hPd',
+           'PFP',
+           'SPS')
     .key('h', ore('toolHammer'))
     .key('d', ore('toolScrewdriver'))
     .key('F', item('morefurnaces:furnaceblock', 2)) // Diamond Furnace
@@ -103,9 +104,10 @@ assembler.recipeBuilder()
 // Netherrack Furnace
 crafting.removeByOutput(item('morefurnaces:furnaceblock', 4))
 crafting.shapedBuilder()
-    .row('hPd')
-    .row('PFP')
-    .row('SPS')
+    .name(resource('gtlite:netherrack_furnace'))
+    .shape('hPd',
+           'PFP',
+           'SPS')
     .key('h', ore('toolHammer'))
     .key('d', ore('toolScrewdriver'))
     .key('F', item('minecraft:furnace'))
@@ -126,9 +128,10 @@ assembler.recipeBuilder()
 // Copper Furnace
 crafting.removeByOutput(item('morefurnaces:furnaceblock', 5))
 crafting.shapedBuilder()
-    .row('hPd')
-    .row('PFP')
-    .row('SPS')
+    .name(resource('gtlite:copper_furnace'))
+    .shape('hPd',
+           'PFP',
+           'SPS')
     .key('h', ore('toolHammer'))
     .key('d', ore('toolScrewdriver'))
     .key('F', item('minecraft:furnace'))
@@ -149,9 +152,10 @@ assembler.recipeBuilder()
 // Silver Furnace
 crafting.removeByOutput(item('morefurnaces:furnaceblock', 6))
 crafting.shapedBuilder()
-    .row('hPd')
-    .row('PFP')
-    .row('SPS')
+    .name(resource('gtlite:silver_furnace'))
+    .shape('hPd',
+           'PFP',
+           'SPS')
     .key('h', ore('toolHammer'))
     .key('d', ore('toolScrewdriver'))
     .key('F', item('minecraft:furnace'))
@@ -172,9 +176,10 @@ assembler.recipeBuilder()
 // Furnace Upgrade: Vanilla -> Iron
 crafting.removeByOutput(item('morefurnaces:upgrade'))
 crafting.shapedBuilder()
-    .row('hPd')
-    .row('PFP')
-    .row('SPS')
+    .name(resource('gtlite:furnace_to_iron_furnace_upgrade'))
+    .shape('hPd',
+           'PFP',
+           'SPS')
     .key('h', ore('toolHammer'))
     .key('d', ore('toolScrewdriver'))
     .key('F', item('minecraft:stone'))
@@ -195,9 +200,10 @@ assembler.recipeBuilder()
 // Furnace Upgrade: Vanilla -> Netherrack
 crafting.removeByOutput(item('morefurnaces:upgrade', 1))
 crafting.shapedBuilder()
-    .row('hPd')
-    .row('PFP')
-    .row('SPS')
+    .name(resource('gtlite:furnace_to_netherrack_furnace_upgrade'))
+    .shape('hPd',
+           'PFP',
+           'SPS')
     .key('h', ore('toolHammer'))
     .key('d', ore('toolScrewdriver'))
     .key('F', item('minecraft:stone'))
@@ -218,9 +224,10 @@ assembler.recipeBuilder()
 // Furnace Upgrade: Iron -> Gold
 crafting.removeByOutput(item('morefurnaces:upgrade', 2))
 crafting.shapedBuilder()
-    .row('hPd')
-    .row('PFP')
-    .row('SPS')
+    .name(resource('gtlite:iron_furnace_to_gold_furnace_upgrade'))
+    .shape('hPd',
+           'PFP',
+           'SPS')
     .key('h', ore('toolHammer'))
     .key('d', ore('toolScrewdriver'))
     .key('F', ore('plateIron'))
@@ -241,9 +248,10 @@ assembler.recipeBuilder()
 // Furnace Upgrade: Iron -> Obsidian
 crafting.removeByOutput(item('morefurnaces:upgrade', 3))
 crafting.shapedBuilder()
-    .row('hPd')
-    .row('PFP')
-    .row('SPS')
+    .name(resource('gtlite:iron_furnace_to_obsidian_furnace_upgrade'))
+    .shape('hPd',
+           'PFP',
+           'SPS')
     .key('h', ore('toolHammer'))
     .key('d', ore('toolScrewdriver'))
     .key('F', ore('plateDiamond'))
@@ -264,9 +272,10 @@ assembler.recipeBuilder()
 // Furnace Upgrade: Gold -> Diamond
 crafting.removeByOutput(item('morefurnaces:upgrade', 4))
 crafting.shapedBuilder()
-    .row('hPd')
-    .row('PFP')
-    .row('SPS')
+    .name(resource('gtlite:gold_furnace_to_diamond_furnace_upgrade'))
+    .shape('hPd',
+           'PFP',
+           'SPS')
     .key('h', ore('toolHammer'))
     .key('d', ore('toolScrewdriver'))
     .key('F', ore('plateGold'))
@@ -287,9 +296,10 @@ assembler.recipeBuilder()
 // Furnace Upgrade: Copper -> Silver
 crafting.removeByOutput(item('morefurnaces:upgrade', 5))
 crafting.shapedBuilder()
-    .row('hPd')
-    .row('PFP')
-    .row('SPS')
+    .name(resource('gtlite:copper_furnace_to_silver_furnace_upgrade'))
+    .shape('hPd',
+           'PFP',
+           'SPS')
     .key('h', ore('toolHammer'))
     .key('d', ore('toolScrewdriver'))
     .key('F', ore('plateCopper'))
@@ -310,9 +320,10 @@ assembler.recipeBuilder()
 // Furnace Upgrade: Iron -> Silver
 crafting.removeByOutput(item('morefurnaces:upgrade', 6))
 crafting.shapedBuilder()
-    .row('hPd')
-    .row('PFP')
-    .row('SPS')
+    .name(resource('gtlite:iron_furnace_to_silver_furnace_upgrade'))
+    .shape('hPd',
+           'PFP',
+           'SPS')
     .key('h', ore('toolHammer'))
     .key('d', ore('toolScrewdriver'))
     .key('F', ore('plateIron'))
@@ -333,9 +344,10 @@ assembler.recipeBuilder()
 // Furnace Upgrade: Vanilla -> Copper
 crafting.removeByOutput(item('morefurnaces:upgrade', 7))
 crafting.shapedBuilder()
-    .row('hPd')
-    .row('PFP')
-    .row('SPS')
+    .name(resource('gtlite:furnace_to_copper_furnace_upgrade'))
+    .shape('hPd',
+           'PFP',
+           'SPS')
     .key('h', ore('toolHammer'))
     .key('d', ore('toolScrewdriver'))
     .key('F', item('minecraft:stone'))
@@ -352,3 +364,5 @@ assembler.recipeBuilder()
     .EUt(VA[ULV])
     .duration(2 * SECOND + 10 * TICK)
     .buildAndRegister()
+
+log.info("Complete load morefurnaces recipes!")
