@@ -15,5 +15,32 @@
     }
   },
   "questID:3": 527503703,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 288,
+          "id:8": "gtlitecore:mte"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 289,
+          "id:8": "gtlitecore:mte"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 290,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }
