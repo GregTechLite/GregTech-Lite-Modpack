@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1352275584,
+    1120479252
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "EMPTY",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:drive"
+      },
+      "name:8": "§e驱动器"
+    }
+  },
+  "questID:3": 1034306394,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:chest"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:drive"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "preRequisiteTypes:7": [
+    2,
+    2
+  ],
+  "preRequisites:11": [
+    169088241,
+    468342799
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "EMPTY",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 58,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "§b样板扩展卡"
+    }
+  },
+  "questID:3": 1400623169,
+  "tasks:9": {}
+}

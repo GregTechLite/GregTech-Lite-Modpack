@@ -1,0 +1,32 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    503745124
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "EMPTY",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:energy_acceptor"
+      },
+      "name:8": "§b能源接收器"
+    }
+  },
+  "questID:3": 42026173,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:energy_acceptor"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

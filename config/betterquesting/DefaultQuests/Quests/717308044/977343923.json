@@ -1,0 +1,37 @@
+{
+  "preRequisites:11": [
+    2129085776
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "GEAR",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "ae2stuff:adv_wireless_kit",
+        "tag:10": {
+          "loc:10": {},
+          "mode:3": 0
+        }
+      },
+      "name:8": "§e队列无线设置"
+    }
+  },
+  "questID:3": 977343923,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "ae2stuff:adv_wireless_kit",
+          "tag:10": {
+            "loc:10": {},
+            "mode:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "preRequisites:11": [
+    833375932,
+    436003492,
+    224590458
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "为了更好的传输与计算效率，AE2的机器需要§2更精细化的处理器§r作为核心。在你获得§6电路组装机§r与§6精密激光蚀刻机§r后，你可以将§a刻蚀好的宝石晶片§r勾勒出电路回路，然后制作成专用于AE2机器的处理器。默认情况下使用§7基础电路板§r，使用更高级的§b优质电路板§r可以§e翻倍产出§r，同时需要将金螺栓替换为琥珀金螺栓。\n\n§3在原本的AE2中，你需要使用金，钻石与赛特斯石英制作晶片，然后与硅板和红石在压印机内制作它们，但我们希望有更高效的配方存在。",
+      "frame:8": "CIRCLE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 24,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "§b从晶片到处理器"
+    }
+  },
+  "questID:3": 1120479252,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 24,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 22,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 23,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1103,
+          "id:8": "gtlitecore:gtlite_meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1104,
+          "id:8": "gtlitecore:gtlite_meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1105,
+          "id:8": "gtlitecore:gtlite_meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 24,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 22,
+          "id:8": "appliedenergistics2:material"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 23,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

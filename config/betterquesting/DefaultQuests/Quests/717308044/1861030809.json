@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    1034306394,
+    2144736605,
+    1247483445
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterquesting:placeholder"
+      },
+      "name:8": "§5§l从存储网络到更多功能"
+    }
+  },
+  "questID:3": 1861030809,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
