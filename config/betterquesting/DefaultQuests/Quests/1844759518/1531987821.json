@@ -15,5 +15,39 @@
     }
   },
   "questID:3": 1531987821,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 60,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 60,
+          "id:8": "gregtech:meta_fuel_rod"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 60,
+          "id:8": "gregtech:meta_fuel_rod_enriched"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 60,
+          "id:8": "gregtech:meta_fuel_rod_high_density"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

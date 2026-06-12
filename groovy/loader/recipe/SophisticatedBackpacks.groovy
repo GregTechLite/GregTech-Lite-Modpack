@@ -1,12 +1,13 @@
-log.info("Starting to load SophisticatedBackpacks Recipes...")
+log.info("Starting to load retro_sophisticated_backpacks recipes...")
 
 // Leather Backpack
 crafting.removeByOutput(item('retro_sophisticated_backpacks:backpack_leather'))
 crafting.shapedBuilder()
-    .row('SLS')
-    .row('SCS')
-    .row('LLL')
-    .key('C', item('gregtech:mte', 5625)) // Wooden Crate
+    .name(resource('gtlite:leather_backpack'))
+    .shape('SLS',
+           'SCS',
+           'LLL')
+    .key('C', metaitem('crate.wood'))
     .key('L', item('minecraft:leather'))
     .key('S', item('minecraft:string'))
     .output(item('retro_sophisticated_backpacks:backpack_leather'))
@@ -15,11 +16,12 @@ crafting.shapedBuilder()
 // Iron Backpack
 crafting.removeByOutput(item('retro_sophisticated_backpacks:backpack_iron'))
 crafting.shapedBuilder()
-    .row('PCP')
-    .row('PBP')
-    .row('PSP')
+    .name(resource('gtlite:iron_backpack'))
+    .shape('PCP',
+           'PBP',
+           'PSP')
     .key('B', item('retro_sophisticated_backpacks:backpack_leather'))
-    .key('C', item('gtlitecore:mte', 2026)) // Iron Crate
+    .key('C', metaitem('gtlitecore:crate.iron'))
     .key('P', ore('plateDoubleIron'))
     .key('S', ore('screwIron'))
     .output(item('retro_sophisticated_backpacks:backpack_iron'))
@@ -28,11 +30,12 @@ crafting.shapedBuilder()
 // Gold Backpack
 crafting.removeByOutput(item('retro_sophisticated_backpacks:backpack_gold'))
 crafting.shapedBuilder()
-    .row('PCP')
-    .row('PBP')
-    .row('PSP')
+    .name(resource('gtlite:gold_backpack'))
+    .shape('PCP',
+           'PBP',
+           'PSP')
     .key('B', item('retro_sophisticated_backpacks:backpack_iron'))
-    .key('C', item('gtlitecore:mte', 2029)) // Gold Crate
+    .key('C', metaitem('gtlitecore:crate.gold'))
     .key('P', ore('plateDoubleGold'))
     .key('S', ore('screwGold'))
     .output(item('retro_sophisticated_backpacks:backpack_gold'))
@@ -41,11 +44,12 @@ crafting.shapedBuilder()
 // Diamond Backpack
 crafting.removeByOutput(item('retro_sophisticated_backpacks:backpack_diamond'))
 crafting.shapedBuilder()
-    .row('PCP')
-    .row('GBG')
-    .row('PSP')
+    .name(resource('gtlite:diamond_backpack'))
+    .shape('PCP',
+           'GBG',
+           'PSP')
     .key('B', item('retro_sophisticated_backpacks:backpack_gold'))
-    .key('C', item('gtlitecore:mte', 2030)) // Diamond Crate
+    .key('C', metaitem('gtlitecore:crate.diamond'))
     .key('P', ore('plateDiamond'))
     .key('G', ore('gearDiamond'))
     .key('S', ore('screwDiamond'))
@@ -55,9 +59,10 @@ crafting.shapedBuilder()
 // Obsidian Backpack
 crafting.removeByOutput(item('retro_sophisticated_backpacks:backpack_obsidian'))
 crafting.shapedBuilder()
-    .row('PFP')
-    .row('QBQ')
-    .row('PSP')
+    .name(resource('gtlite:obsidian_backpack'))
+    .shape('PFP',
+           'QBQ',
+           'PSP')
     .key('B', item('retro_sophisticated_backpacks:backpack_diamond'))
     .key('F', metaitem('field.generator.lv'))
     .key('P', ore('plateDenseObsidian'))
@@ -69,9 +74,10 @@ crafting.shapedBuilder()
 // Upgrade Base
 crafting.removeByOutput(item('retro_sophisticated_backpacks:upgrade_base'))
 crafting.shapedBuilder()
-    .row('SLS')
-    .row('RFR')
-    .row('STS')
+    .name(resource('gtlite:backpack_upgrade_base'))
+    .shape('SLS',
+           'RFR',
+           'STS')
     .key('F', metaitem('wooden_form.empty'))
     .key('L', item('minecraft:leather'))
     .key('S', item('minecraft:string'))
@@ -82,35 +88,63 @@ crafting.shapedBuilder()
 
 // Stack Upgrade T0
 crafting.removeByOutput(item('retro_sophisticated_backpacks:stack_upgrade_starter_tier'))
-crafting.addShapeless(item('retro_sophisticated_backpacks:stack_upgrade_starter_tier'),
-    [item('retro_sophisticated_backpacks:upgrade_base'), ore('gearSmallBrass'), ore('ringBrass')])
+crafting.shapelessBuilder()
+    .name(resource('gtlite:stack_upgrade_0'))
+    .input([item('retro_sophisticated_backpacks:upgrade_base'),
+            ore('gearSmallBrass'), 
+            ore('ringBrass')])
+    .output(item('retro_sophisticated_backpacks:stack_upgrade_starter_tier'))
+    .register()
 
 // Stack Upgrade T1
 crafting.removeByOutput(item('retro_sophisticated_backpacks:stack_upgrade_tier_1'))
-crafting.addShapeless(item('retro_sophisticated_backpacks:stack_upgrade_tier_1'),
-    [item('retro_sophisticated_backpacks:stack_upgrade_starter_tier'), item('gtlitecore:mte', 2027)]) // Copper Crate
+crafting.shapelessBuilder()
+    .name(resource('gtlite:stack_upgrade_1'))
+    .input([item('retro_sophisticated_backpacks:stack_upgrade_starter_tier'), 
+            metaitem('gtlitecore:crate.copper')])
+    .output(item('retro_sophisticated_backpacks:stack_upgrade_tier_1'))
+    .register()
 
 // Stack Upgrade T2
 crafting.removeByOutput(item('retro_sophisticated_backpacks:stack_upgrade_tier_2'))
-crafting.addShapeless(item('retro_sophisticated_backpacks:stack_upgrade_tier_2'),
-    [item('retro_sophisticated_backpacks:stack_upgrade_tier_1'), item('gtlitecore:mte', 2028), metaitem('field.generator.lv'), ore('gearRoseGold')]) // Silver Crate
+crafting.shapelessBuilder()
+    .name(resource('gtlite:stack_upgrade_2'))
+    .input([item('retro_sophisticated_backpacks:stack_upgrade_tier_1'), 
+            metaitem('gtlitecore:crate.silver'),
+            metaitem('field.generator.lv'), 
+            ore('gearRoseGold')])
+    .output(item('retro_sophisticated_backpacks:stack_upgrade_tier_2'))
+    .register()
 
 // Stack Upgrade T3
 crafting.removeByOutput(item('retro_sophisticated_backpacks:stack_upgrade_tier_3'))
-crafting.addShapeless(item('retro_sophisticated_backpacks:stack_upgrade_tier_3'),
-    [item('retro_sophisticated_backpacks:stack_upgrade_tier_2'), item('gregtech:mte', 5628), item('gregtech:mte', 1076), ore('springSterlingSilver')]) // Aluminium Crate, Quantum Storage Proxy
+crafting.shapelessBuilder()
+    .name(resource('gtlite:stack_upgrade_3'))
+    .input([item('retro_sophisticated_backpacks:stack_upgrade_tier_2'),
+            metaitem('crate.aluminium'), 
+            metaitem('quantum_storage_proxy'),
+            ore('springSterlingSilver')])
+    .output(item('retro_sophisticated_backpacks:stack_upgrade_tier_3'))
+    .register()
 
 // Stack Upgrade T4
 crafting.removeByOutput(item('retro_sophisticated_backpacks:stack_upgrade_tier_4'))
-crafting.addShapeless(item('retro_sophisticated_backpacks:stack_upgrade_tier_4'),
-    [item('retro_sophisticated_backpacks:stack_upgrade_tier_3'), item('gregtech:mte', 5629), metaitem('field.generator.mv'), ore('plateDenseObsidian')]) // Stainless Steel Crate, MV Field Generator
+crafting.shapelessBuilder()
+    .name(resource('gtlite:stack_upgrade_4'))
+    .input([item('retro_sophisticated_backpacks:stack_upgrade_tier_3'),
+            metaitem('crate.stainless_steel'), 
+            metaitem('field.generator.mv'), 
+            ore('plateDenseObsidian')])
+    .output(item('retro_sophisticated_backpacks:stack_upgrade_tier_4'))
+    .register()
 
 // Exponential Stack Upgrade
 crafting.removeByOutput(item('retro_sophisticated_backpacks:exponential_stack_upgrade'))
 crafting.shapedBuilder()
-    .row('DSD')
-    .row('SFS')
-    .row('DSD')
+    .name(resource('gtlite:exponential_stack_upgrade'))
+    .shape('DSD',
+           'SFS',
+           'DSD')
     .key('S', item('retro_sophisticated_backpacks:stack_upgrade_tier_4'))
     .key('F', metaitem('field.generator.mv'))
     .key('D', ore('plateDenseTitanium'))
@@ -120,11 +154,12 @@ crafting.shapedBuilder()
 // Inception Upgrade
 crafting.removeByOutput(item('retro_sophisticated_backpacks:inception_upgrade'))
 crafting.shapedBuilder()
-    .row('DED')
-    .row('DBD')
-    .row('DMD')
+    .name(resource('gtlite:inception_upgrade'))
+    .shape('DED',
+           'DBD',
+           'DMD')
     .key('B', item('retro_sophisticated_backpacks:upgrade_base'))
-    .key('E', item('enderutilities:enderbag')) // Ender Bag
+    .key('E', item('enderutilities:enderbag'))
     .key('M', item('enderutilities:msu'))
     .key('D', ore('plateDenseVanadiumSteel'))
     .output(item('retro_sophisticated_backpacks:inception_upgrade'))
@@ -132,50 +167,92 @@ crafting.shapedBuilder()
 
 // Pickup Upgrade
 crafting.removeByOutput(item('retro_sophisticated_backpacks:pickup_upgrade'))
-crafting.addShapeless(item('retro_sophisticated_backpacks:pickup_upgrade'), 
-    [item('retro_sophisticated_backpacks:upgrade_base'), item('minecraft:hopper')])
+crafting.shapelessBuilder()
+    .name(resource('gtlite:pickup_upgrade'))
+    .input([item('retro_sophisticated_backpacks:upgrade_base'), 
+            item('minecraft:hopper')])
+    .output(item('retro_sophisticated_backpacks:pickup_upgrade'))
+    .register()
 
 // Advanced Pickup Upgrade
 crafting.removeByOutput(item('retro_sophisticated_backpacks:advanced_pickup_upgrade'))
-crafting.addShapeless(item('retro_sophisticated_backpacks:advanced_pickup_upgrade'),
-    [item('retro_sophisticated_backpacks:pickup_upgrade'), item('enderutilities:pickupmanager')])
+crafting.shapelessBuilder()
+    .name(resource('gtlite:advanced_pickup_upgrade'))
+    .input([item('retro_sophisticated_backpacks:pickup_upgrade'), 
+            item('enderutilities:pickupmanager')])
+    .output(item('retro_sophisticated_backpacks:advanced_pickup_upgrade'))
+    .register()
 
 // Feeding Upgrade
 crafting.removeByOutput(item('retro_sophisticated_backpacks:feeding_upgrade'))
-crafting.addShapeless(item('retro_sophisticated_backpacks:feeding_upgrade'),
-    [item('retro_sophisticated_backpacks:upgrade_base'), item('minecraft:sugar')])
+crafting.shapelessBuilder()
+    .name(resource('gtlite:feeding_upgrade'))
+    .input([item('retro_sophisticated_backpacks:upgrade_base'),
+            item('minecraft:sugar')])
+    .output(item('retro_sophisticated_backpacks:feeding_upgrade'))
+    .register()
 
 // Advanced Feeding Upgrade
 crafting.removeByOutput(item('retro_sophisticated_backpacks:advanced_feeding_upgrade'))
-crafting.addShapeless(item('retro_sophisticated_backpacks:advanced_feeding_upgrade'),
-    [item('retro_sophisticated_backpacks:feeding_upgrade'), item('minecraft:cake')])
+crafting.shapelessBuilder()
+    .name(resource('gtlite:advanced_feeding_upgrade'))
+    .input([item('retro_sophisticated_backpacks:feeding_upgrade'), 
+            item('minecraft:cake')])
+    .output(item('retro_sophisticated_backpacks:advanced_feeding_upgrade'))
+    .register()
 
 // Deposit Upgrade 
 crafting.removeByOutput(item('retro_sophisticated_backpacks:deposit_upgrade'))
-crafting.addShapeless(item('retro_sophisticated_backpacks:deposit_upgrade'),
-    [item('retro_sophisticated_backpacks:upgrade_base'), item('minecraft:chest')])
+crafting.shapelessBuilder()
+    .name(resource('gtlite:deposit_upgrade'))
+    .input([item('retro_sophisticated_backpacks:upgrade_base'),
+            item('minecraft:chest')])
+    .output(item('retro_sophisticated_backpacks:deposit_upgrade'))
+    .register()
 
 // Advanced Deposit Upgrade
 crafting.removeByOutput(item('retro_sophisticated_backpacks:advanced_deposit_upgrade'))
-crafting.addShapeless(item('retro_sophisticated_backpacks:advanced_deposit_upgrade'),
-    [item('retro_sophisticated_backpacks:deposit_upgrade'), item('enderutilities:storage_0', 3)])
+crafting.shapelessBuilder()
+    .name(resource('gtlite:advanced_deposit_upgrade'))
+    .input([item('retro_sophisticated_backpacks:deposit_upgrade'), 
+            item('enderutilities:storage_0', 3)])
+    .output(item('retro_sophisticated_backpacks:advanced_deposit_upgrade'))
+    .register()
 
 // Restock Upgrade
 crafting.removeByOutput(item('retro_sophisticated_backpacks:restock_upgrade'))
-crafting.addShapeless(item('retro_sophisticated_backpacks:restock_upgrade'),
-    [item('retro_sophisticated_backpacks:upgrade_base'), ore('drawerBasic')])
+crafting.shapelessBuilder()
+    .name(resource('gtlite:restock_upgrade'))
+    .input([item('retro_sophisticated_backpacks:upgrade_base'), 
+            ore('drawerBasic')])
+    .output(item('retro_sophisticated_backpacks:restock_upgrade'))
+    .register()
 
 // Advanced Restock Upgrade
 crafting.removeByOutput(item('retro_sophisticated_backpacks:advanced_restock_upgrade'))
-crafting.addShapeless(item('retro_sophisticated_backpacks:advanced_restock_upgrade'),
-    [item('retro_sophisticated_backpacks:restock_upgrade'), item('storagedrawers:compdrawers')])
+crafting.shapelessBuilder()
+    .name(resource('gtlite:advanced_restock_upgrade'))
+    .input([item('retro_sophisticated_backpacks:restock_upgrade'),
+            item('storagedrawers:compdrawers')])
+    .output(item('retro_sophisticated_backpacks:advanced_restock_upgrade'))
+    .register()
 
 // Filter Upgrade
 crafting.removeByOutput(item('retro_sophisticated_backpacks:filter_upgrade'))
-crafting.addShapeless(item('retro_sophisticated_backpacks:filter_upgrade'),
-    [item('retro_sophisticated_backpacks:upgrade_base'), item('enderio:item_basic_item_filter')])
+crafting.shapelessBuilder()
+    .name(resource('gtlite:filter_upgrade'))
+    .input([item('retro_sophisticated_backpacks:upgrade_base'),
+            item('enderio:item_basic_item_filter')])
+    .output(item('retro_sophisticated_backpacks:filter_upgrade'))
+    .register()
 
 // Advanced Filter Upgrade
 crafting.removeByOutput(item('retro_sophisticated_backpacks:advanced_filter_upgrade'))
-crafting.addShapeless(item('retro_sophisticated_backpacks:advanced_filter_upgrade'),
-    [item('retro_sophisticated_backpacks:filter_upgrade'), item('enderio:item_advanced_item_filter')])
+crafting.shapelessBuilder()
+    .name(resource('gtlite:advanced_filter_upgrade'))
+    .input([item('retro_sophisticated_backpacks:filter_upgrade'),
+            item('enderio:item_advanced_item_filter')])
+    .output(item('retro_sophisticated_backpacks:advanced_filter_upgrade'))
+    .register()
+
+log.info("Complete load retro_sophisticated_backpacks recipes...")

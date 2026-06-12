@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    1305117417,
+    638210306
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "浓缩营养补充剂，但口感不太好...\n\n将§2灭菌营养膏乳液§r或其富营养版装罐即可得到罐装的§a营养膏§r。",
+      "frame:8": "SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2102,
+        "id:8": "gtlitecore:gtlite_meta_item_2"
+      },
+      "name:8": "§a§l营养膏",
+      "questlogic:8": "OR",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 1803371691,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2101,
+          "id:8": "gtlitecore:gtlite_meta_item_2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2102,
+          "id:8": "gtlitecore:gtlite_meta_item_2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

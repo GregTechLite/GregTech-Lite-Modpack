@@ -1,0 +1,67 @@
+{
+  "preRequisites:11": [
+    2129175123
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 206,
+        "id:8": "gtlitecore:gtlite_meta_item_2"
+      },
+      "name:8": "§a大豆与豆脂与生物柴油"
+    }
+  },
+  "questID:3": 941657817,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 206,
+          "id:8": "gtlitecore:gtlite_meta_item_2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "optional:1": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "crude_soybean_oil"
+        },
+        "1:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "soybean_oil"
+        },
+        "2:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "bean_phospholipid"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "2:10": {
+      "index:3": 2,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 23,
+          "id:8": "gtlitecore:gtlite_meta_oredict_item"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 24,
+          "id:8": "gtlitecore:gtlite_meta_oredict_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

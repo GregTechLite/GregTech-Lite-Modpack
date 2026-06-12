@@ -9,7 +9,8 @@
         "Damage:2": 5651,
         "id:8": "gregtech:mte"
       },
-      "name:8": "§c§l万物归一§r§f | §l终压"
+      "name:8": "§c§l万物归一§r§f | §l终压",
+      "visibility:8": "HIDDEN"
     }
   },
   "quests:9": {}

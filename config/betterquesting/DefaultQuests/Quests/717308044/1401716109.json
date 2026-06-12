@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    1120479252
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND_ON_SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:network_tool"
+      },
+      "name:8": "§b管理你的网络与存储"
+    }
+  },
+  "questID:3": 1401716109,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:cell_workbench"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:network_tool"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

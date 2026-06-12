@@ -1,0 +1,24 @@
+{
+  "preRequisiteTypes:7": [
+    2,
+    0
+  ],
+  "preRequisites:11": [
+    468342799,
+    900357978
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 340,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "§a样板与接口管理"
+    }
+  },
+  "questID:3": 365293235,
+  "tasks:9": {}
+}

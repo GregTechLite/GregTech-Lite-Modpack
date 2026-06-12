@@ -1534,6 +1534,11 @@ gregtech.material.mercury_barium_calcium_cuprate=汞钡钙铜氧
 gregtech.material.indium_tin_barium_titanium_cuprate=铟锡钡钛铜氧
 gregtech.material.inconel_718=镍铬基合金-718
 
+gregtech.material.meitnerium=鿏
+gregtech.material.copernicium=鿔
+gregtech.material.nihonium=鿭
+gregtech.material.tennessine=鿬
+
 # Tooltips
 gregtech.universal.tooltip.throughput=§b通量：§f%,d EU/t
 

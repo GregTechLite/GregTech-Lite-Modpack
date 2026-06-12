@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    1861030809
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "JAGGED",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 469,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "§a§l点对点传输"
+    }
+  },
+  "questID:3": 207922354,
+  "tasks:9": {}
+}

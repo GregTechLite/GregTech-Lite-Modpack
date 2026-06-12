@@ -1,13 +1,10 @@
 import static gregtech.api.GTValues.*
-
 import static util.GroovyUtil.*
 
-log.info("Starting to load GregTech Recipes...")
+log.info("Starting to load gregtech recipes...")
 
-/* -------------------------------------------------------------------------- */
 def assembler = recipemap('assembler')
 def lathe = recipemap('lathe')
-/* -------------------------------------------------------------------------- */
 
 // Obsidian Stick
 lathe.recipeBuilder()
@@ -18,8 +15,11 @@ lathe.recipeBuilder()
     .buildAndRegister()
 
 // Redstone Plate
-crafting.addShapeless(metaitem('plateRedstone'),
-    [ore('toolRollingPin'), ore('dustRedstone')])
+crafting.shapelessBuilder()
+    .name(resource('gtlite:redstone_plate'))
+    .input([ore('toolRollingPin'), ore('dustRedstone')])
+    .output(metaitem('plateRedstone'))
+    .register()
 
 // Diamond Gear
 assembler.recipeBuilder()
@@ -45,3 +45,5 @@ crafting.shapedBuilder()
     .key('T', ore('toolSaw'))
     .output(metaitem('workbench'))
     .register()
+
+log.info("Complete load gregtech recipes!")

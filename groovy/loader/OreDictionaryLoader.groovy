@@ -47,3 +47,9 @@ for (i in 0..13)
     ore_dict.add('casingProcessor', item('gtlitecore:processor_casing', i))
     ore_dict.add('casingComponentAssembly', item('gtlitecore:component_assembly_casing', i))
 }
+
+ore_dict.add('casingFusion', item('gregtech:fusion_casing', 2))
+ore_dict.add('casingFusion', item('gregtech:fusion_casing', 3))
+ore_dict.add('casingFusion', item('gregtech:fusion_casing', 4))
+ore_dict.add('casingFusion', item('gtlitecore:fusion_casing'))
+ore_dict.add('casingFusion', item('gtlitecore:fusion_casing', 1))

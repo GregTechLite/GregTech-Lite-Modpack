@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    833375932,
+    1903987527
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "在§2格雷科技§r中，你可以在§8下界§r挖到矿脉形状的§b赛特斯石英§r，这是AE2主要使用的材料之一。将其粉碎后与§7下界石英§r混合可以得到AE2的另一种关键材料：§d福鲁伊克斯水晶§r。\n\n§3如果你玩过标准的AE2流程，你或许会疑惑：为什么没有充能赛特斯石英，亦或者高纯石英了？答案是本整合包删除了这部分内容，现在的合成路线足够简单易懂。",
+      "frame:8": "DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 7,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "§5赛特斯与福鲁伊克斯"
+    }
+  },
+  "questID:3": 503745124,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 214,
+          "id:8": "gregtech:meta_gem"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:quartz"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "Damage:2": 7,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 214,
+          "id:8": "gregtech:meta_gem"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 7,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

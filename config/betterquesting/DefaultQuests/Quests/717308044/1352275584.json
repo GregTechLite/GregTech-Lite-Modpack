@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    503745124
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND_ON_CIRCLE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 22,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "§3AE2中的各种线缆"
+    }
+  },
+  "questID:3": 1352275584,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 16,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 140,
+          "id:8": "appliedenergistics2:part"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 36,
+          "id:8": "appliedenergistics2:part"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 56,
+          "id:8": "appliedenergistics2:part"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 516,
+          "id:8": "appliedenergistics2:part"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 76,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

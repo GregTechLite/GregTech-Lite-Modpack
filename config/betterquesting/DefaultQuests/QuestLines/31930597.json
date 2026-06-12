@@ -8,7 +8,8 @@
         "Count:3": 1,
         "id:8": "minecraft:book"
       },
-      "name:8": "§d§l宇宙法则§r§f | §e§l极剧差压"
+      "name:8": "§d§l宇宙法则§r§f | §e§l极剧差压",
+      "visibility:8": "HIDDEN"
     }
   },
   "quests:9": {}

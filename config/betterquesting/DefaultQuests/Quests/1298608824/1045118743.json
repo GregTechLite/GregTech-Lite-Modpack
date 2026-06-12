@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    1003509931,
+    564553776,
+    941657817
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "frame:8": "SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forge:bucketfilled",
+        "tag:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "nutrient_paste_water_phase_mixture"
+        }
+      },
+      "name:8": "§a营养膏水相混合物"
+    }
+  },
+  "questID:3": 1045118743,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "nutrient_paste_water_phase_mixture"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

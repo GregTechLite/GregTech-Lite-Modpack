@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    1861030809
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:crafting_storage_64k"
+      },
+      "name:8": "§b合成存储器"
+    }
+  },
+  "questID:3": 725420853,
+  "tasks:9": {}
+}

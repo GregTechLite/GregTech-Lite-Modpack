@@ -1,0 +1,55 @@
+{
+  "preRequisites:11": [
+    1120479252,
+    503745124
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "在AE2的处理器基础上进一步特化成型/破坏功能的电路。\n\n§a成型核心§r与§b破坏核心§r被广泛用于例如§eME接口§r，§7成型§r/§8破坏§r面板等AE2机器的合成中，因为这种特殊电路体积较小，因此相比处理器有更高的产出，使用§6组装机§r可以翻倍产出。\n\n§3对于成型/破坏核心，这个配方基本上就是原本的AE2中的配方，但是产出翻了几倍。",
+      "frame:8": "JAGGED",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 43,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "§6成型与破坏"
+    }
+  },
+  "questID:3": 885023259,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 43,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 44,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 43,
+          "id:8": "appliedenergistics2:material"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 44,
+          "id:8": "appliedenergistics2:material"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

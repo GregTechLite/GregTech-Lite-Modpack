@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    1266166650
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "CIRCLE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 47,
+        "id:8": "appliedenergistics2:material"
+      },
+      "name:8": "§9奇点"
+    }
+  },
+  "questID:3": 114232567,
+  "tasks:9": {}
+}
