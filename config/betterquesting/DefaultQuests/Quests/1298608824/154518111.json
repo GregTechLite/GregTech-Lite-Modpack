@@ -24,7 +24,7 @@
       "index:3": 0,
       "requiredFluids:9": {
         "0:10": {
-          "Amount:3": 1000,
+          "Amount:3": 2000,
           "FluidName:8": "rich_nutrient_paste_water_phase_mixture"
         }
       },

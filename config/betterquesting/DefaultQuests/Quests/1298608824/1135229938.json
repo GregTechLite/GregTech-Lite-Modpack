@@ -24,7 +24,7 @@
       "index:3": 0,
       "requiredFluids:9": {
         "0:10": {
-          "Amount:3": 4000,
+          "Amount:3": 3000,
           "FluidName:8": "nutrient_paste_crude_emulsion"
         }
       },
