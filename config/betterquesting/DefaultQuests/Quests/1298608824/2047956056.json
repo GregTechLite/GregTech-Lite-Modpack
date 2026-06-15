@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    693834674
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "gtlitecore:gtlite_meta_oredict_item"
+      },
+      "name:8": "§a生咖啡豆"
+    }
+  },
+  "questID:3": 2047956056,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 5,
+          "id:8": "gtlitecore:gtlite_meta_oredict_item"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 4,
+          "id:8": "gtlitecore:gtlite_meta_oredict_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
