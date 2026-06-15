@@ -2734,7 +2734,7 @@ hash = "95a1643620e2fab1f135a7a100d2cf336eaa2353a4ace7cc3a665897aa6b03c9"
 
 [[files]]
 file = "config/smoothfont/smoothfont.cfg"
-hash = "c2c5a6a28938fe17f3b320635b8f7eac94fff43015ff4d6cb11dbf1193dd48f1"
+hash = "91eb6e81590afa89799ac1108a13a7aa360cb1d02ffc9b17811ce1380c881fa2"
 
 [[files]]
 file = "config/stellar_core.cfg"
@@ -2761,12 +2761,12 @@ file = "fontfiles/Exo-Medium.otf"
 hash = "bd00b3dce2f70c2568a15f2a23de48f9c357c1b8bdf8b680c143ad52739e3c7d"
 
 [[files]]
-file = "fontfiles/GlowSansSC-Normal-Medium-License"
-hash = "59cdca38d7fe80ad89049dbfcc00d1c91ebf199f5a735c8a52894b8dff904b80"
+file = "fontfiles/Resource Han Rounded CN-Regular-License"
+hash = "3019cd0e799912dee7bc608276e79fd5dc189384ebc8f692e75eae52a2b5c108"
 
 [[files]]
-file = "fontfiles/GlowSansSC-Normal-Medium.otf"
-hash = "56481618894253fb71427a097706f9a440806b4957a7381946dc6464b98aa192"
+file = "fontfiles/Resource Han Rounded CN-Regular.ttf"
+hash = "1c5c623f008eabef10c45135a48b01b46311f9369c28857355872cfe05f48dc0"
 
 [[files]]
 file = "groovy/event/MaterialEventHandler.groovy"
