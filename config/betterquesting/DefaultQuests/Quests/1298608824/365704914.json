@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    1621923949
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 506,
+        "id:8": "gtlitecore:gtlite_meta_item_2"
+      },
+      "name:8": "§d§l咖啡"
+    }
+  },
+  "questID:3": 365704914,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "optional:1": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "coffee"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 506,
+          "id:8": "gtlitecore:gtlite_meta_item_2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
