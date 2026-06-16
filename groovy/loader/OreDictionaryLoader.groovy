@@ -22,6 +22,19 @@ ore_dict.add('capacitorUltimate', item('enderio:item_capacitor_stellar')) // Ste
 
 ore_dict.add('capacitorSuperconductor', item('enderio:item_capacitor_totemic')) // Totemic Capacitor
 
+// Functional Storage Legacy
+def woods = [ 'oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak' ]
+for (i in 0..5)
+{
+    ore_dict.add('drawerSingle', item('functionalstoragelegacy:' + woods[i] + '_1'))
+    ore_dict.add('drawerDouble', item('functionalstoragelegacy:' + woods[i] + '_2'))
+    ore_dict.add('drawerQuadruple', item('functionalstoragelegacy:' + woods[i] + '_4'))
+
+    ore_dict.add('drawerAny', item('functionalstoragelegacy:' + woods[i] + '_1'))
+    ore_dict.add('drawerAny', item('functionalstoragelegacy:' + woods[i] + '_2'))
+    ore_dict.add('drawerAny', item('functionalstoragelegacy:' + woods[i] + '_4'))
+}
+
 // GregTech
 for (i in 0..7)
 {

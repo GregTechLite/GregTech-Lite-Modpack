@@ -233,7 +233,7 @@ crafting.removeByOutput(item('retro_sophisticated_backpacks:advanced_restock_upg
 crafting.shapelessBuilder()
     .name(resource('gtlite:advanced_restock_upgrade'))
     .input([item('retro_sophisticated_backpacks:restock_upgrade'),
-            item('storagedrawers:compdrawers')])
+            item('functionalstoragelegacy:compacting_drawer')])
     .output(item('retro_sophisticated_backpacks:advanced_restock_upgrade'))
     .register()
 
