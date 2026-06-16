@@ -2385,8 +2385,8 @@ file = "config/fancymenu/menu_identifiers.db"
 hash = "003a1c89846741e0eb9475089d4ed653896fd08e0b994667fae452b4ad894a72"
 
 [[files]]
-file = "config/fluiddrawers.cfg"
-hash = "a9845be03a2b99a5fb389e01d60f71acec618451a73872dd0a6a107c594636d0"
+file = "config/functionalstoragelegacy.cfg"
+hash = "c49aba5e8cd9f0388a89bd1b4d21896765fa6ede9817cea4fcd7ae5e1504d063"
 
 [[files]]
 file = "config/gregtech/gregtech.cfg"
@@ -2821,10 +2821,6 @@ file = "groovy/loader/recipe/Entangled.groovy"
 hash = "c533768f773b989013eed563e6d4e74009f61029ab796504dedfb6f6b07adadf"
 
 [[files]]
-file = "groovy/loader/recipe/FluidDrawers.groovy"
-hash = "aaf757179d00247a25894f968f298eefff64f0572efc7d16541f89fb9fb76f22"
-
-[[files]]
 file = "groovy/loader/recipe/GregTech.groovy"
 hash = "e7603fb1f102accd27f02d47a422aa47eebec222089524082c5d397043d07a8a"
 
@@ -2967,11 +2963,6 @@ hash = "8543599cc981cc25fa739c9efad2ffd6ddcbcd10b681e47875bf5e7f87a9262f"
 metafile = true
 
 [[files]]
-file = "mods/chameleon.pw.toml"
-hash = "305815006195c0647af38ea5d8c03cd6c652c77bf975e3e967b754bc3b9ac569"
-metafile = true
-
-[[files]]
 file = "mods/chat-calculator.pw.toml"
 hash = "5a8ab47af3f0bfb08b5131e595d30e026eef10bca153476402643c37704365b6"
 metafile = true
@@ -3042,11 +3033,6 @@ hash = "a0b9178824a6998223027dbca140b3652300a9140c7ed908db5508c9f4af1902"
 metafile = true
 
 [[files]]
-file = "mods/fluid-drawers.pw.toml"
-hash = "6f59b412881512ae1339649a4c46cb8406a4ca3d6b7b24705819324b6fd039e4"
-metafile = true
-
-[[files]]
 file = "mods/forgelin-continuous.pw.toml"
 hash = "7f20adcb7c10f9966bea19a174df4196a9539155d764edb7e31edd8ed58e438e"
 metafile = true
@@ -3074,6 +3060,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-utilities-forge.pw.toml"
 hash = "b3bf53323fcae0f8647ce23c60fffc003abcd315ece3772822f3130d7d5cd52f"
+metafile = true
+
+[[files]]
+file = "mods/functionalstoragelegacy.pw.toml"
+hash = "5d513f4b8990c8d078ef8c14142b5c3f595322b14dcfea55a80b144ef7b44fab"
 metafile = true
 
 [[files]]
@@ -3162,11 +3153,6 @@ metafile = true
 [[files]]
 file = "mods/konkrete.pw.toml"
 hash = "35d4f2d6f3ee79b918349a01c16e8c7f5c4ffc7c057e1ee1ac2cd5095ee1a8c1"
-metafile = true
-
-[[files]]
-file = "mods/libnine.pw.toml"
-hash = "aeeca03fc512fffed87f449bc8b631d59f4b95857dc3818492d6af0afd4e00c6"
 metafile = true
 
 [[files]]
@@ -3301,11 +3287,6 @@ metafile = true
 [[files]]
 file = "mods/stellarcore.pw.toml"
 hash = "fa9df380bba4f7a73750b16021099e343e34cdd14cd983d570603718a1c4a501"
-metafile = true
-
-[[files]]
-file = "mods/storage-drawers.pw.toml"
-hash = "1976cfb3222e1f141aa56af5824be673771a9db93b49c7e48fa2cca3f58aef02"
 metafile = true
 
 [[files]]

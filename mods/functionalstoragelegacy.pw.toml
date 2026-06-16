@@ -1,0 +1,13 @@
+name = "Functional Storage Legacy"
+filename = "FunctionalStorageLegacy-1.0.3-beta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1916592c530f5780add753b76f6313c8bac3ad5c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8081067
+project-id = 1481727
