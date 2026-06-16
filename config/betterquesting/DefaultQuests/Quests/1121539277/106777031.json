@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "将§8硅§r与§7砷化镓§r烧结来制造出的§a单晶硅§r是晶圆的最佳材料人选。\n\n§3在下个阶段，也就是HV阶段中，你可以制作一条名为太阳能级单晶硅的线路来让烧结的过程加速。",
       "frame:8": "GATE",
       "icon:10": {
         "Count:3": 1,
@@ -43,7 +43,13 @@
     "1:10": {
       "index:3": 1,
       "rewardID:8": "bq_standard:item",
-      "rewards:9": {}
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 351,
+          "id:8": "gregtech:meta_dust_small"
+        }
+      }
     }
   },
   "tasks:9": {

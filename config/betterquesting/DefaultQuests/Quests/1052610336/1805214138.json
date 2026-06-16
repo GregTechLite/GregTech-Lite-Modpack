@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "利用电弧放电来进行特殊熔炼，每次运行都需要一些§b氧气§r以供电弧进行燃烧。\n\n§6电弧炉§r还可以用于回收你的机器与方块，被销毁的机器返还除了有机材料以外的所有原材料。\n\n§3在当前阶段它的物品输出槽位只有4个，EV级及以上的电弧炉才有9个。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -20,6 +20,25 @@
     }
   },
   "questID:3": 1805214138,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 78,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "oxygen"
+            }
+          }
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
