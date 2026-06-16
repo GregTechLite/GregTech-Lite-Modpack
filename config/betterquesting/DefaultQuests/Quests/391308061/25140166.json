@@ -22,39 +22,29 @@
   "questID:3": 25140166,
   "rewards:9": {
     "0:10": {
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
+      "choices:9": {
         "0:10": {
-          "Count:3": 1,
-          "id:8": "storagedrawers:basicdrawers",
-          "tag:10": {
-            "material:8": "oak",
-            "tile:10": {
-              "Cap:3": 32,
-              "Dir:1": 4,
-              "Drawers:9": {
-                "0:10": {
-                  "Count:3": 2048,
-                  "Item:10": {
-                    "Count:3": 1,
-                    "Damage:2": 0,
-                    "id:8": "minecraft:stone"
-                  }
-                }
-              },
-              "ForgeCaps:10": {},
-              "Mat:8": "oak",
-              "Tape:1": 1,
-              "Upgrades:9": {},
-              "id:8": "storagedrawers:basicdrawers.1",
-              "x:3": -772,
-              "y:3": 4,
-              "z:3": -329
-            }
-          }
+          "Count:3": 16,
+          "id:8": "minecraft:stone"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 1,
+          "id:8": "minecraft:stone"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 3,
+          "id:8": "minecraft:stone"
+        },
+        "3:10": {
+          "Count:3": 16,
+          "Damage:2": 5,
+          "id:8": "minecraft:stone"
         }
-      }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
     }
   },
   "tasks:9": {

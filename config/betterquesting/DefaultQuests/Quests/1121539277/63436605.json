@@ -53,5 +53,17 @@
       "rewards:9": {}
     }
   },
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10032,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

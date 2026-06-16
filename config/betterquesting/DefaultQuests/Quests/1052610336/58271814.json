@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "将天然§2树脂§r与§e胶水§r粘合后可以得到一种不错的§b电路基板§r，然后对其蚀刻便可以得到更优质的§a电路板§r。",
       "frame:8": "STAR4",
       "icon:10": {
         "Count:3": 1,
@@ -21,6 +21,17 @@
   "tasks:9": {
     "0:10": {
       "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 382,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 2,

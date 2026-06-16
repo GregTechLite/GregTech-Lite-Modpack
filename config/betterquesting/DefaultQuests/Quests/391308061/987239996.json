@@ -21,19 +21,31 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "storagedrawers:basicdrawers",
+          "id:8": "betterquesting:placeholder",
           "tag:10": {
-            "material:8": "oak"
+            "orig_id:8": "storagedrawers:basicdrawers",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "material:8": "oak"
+            }
           }
         },
         "1:10": {
           "Count:3": 4,
           "Damage:2": 4,
-          "id:8": "storagedrawers:upgrade_storage"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "storagedrawers:upgrade_storage",
+            "orig_meta:3": 4
+          }
         },
         "2:10": {
           "Count:3": 1,
-          "id:8": "storagedrawers:upgrade_void"
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "storagedrawers:upgrade_void",
+            "orig_meta:3": 0
+          }
         }
       }
     }

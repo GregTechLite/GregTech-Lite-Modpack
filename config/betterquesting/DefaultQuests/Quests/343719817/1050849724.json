@@ -37,5 +37,44 @@
       }
     }
   },
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 20,
+          "id:8": "gregtech:gt_armor",
+          "tag:10": {
+            "Charge:4": 6400000
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 21,
+          "id:8": "gregtech:gt_armor",
+          "tag:10": {
+            "Charge:4": 6400000
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 22,
+          "id:8": "gregtech:gt_armor",
+          "tag:10": {
+            "Charge:4": 6400000
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 23,
+          "id:8": "gregtech:gt_armor",
+          "tag:10": {
+            "Charge:4": 6400000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

@@ -28,6 +28,21 @@
     "0:10": {
       "index:3": 0,
       "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "optional:1": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 16000,
+          "FluidName:8": "sodium_persulfate"
+        },
+        "1:10": {
+          "Amount:3": 16000,
+          "FluidName:8": "iron_iii_chloride"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
     }
   }
 }

@@ -1212,7 +1212,7 @@ crafting.shapelessBuilder()
 crafting.shapelessBuilder()
     .name(resource('gtlite:mod_item_filter'))
     .input([item('enderio:item_basic_item_filter'), 
-            item('storagedrawers:upgrade_template')])
+            item('functionalstoragelegacy:copper_upgrade')])
     .output(item('enderio:item_mod_item_filter') * 2)
     .register()
 

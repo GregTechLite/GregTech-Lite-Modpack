@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "No Description\n\n§3或许你玩过格雷科技现代版，在未来的格雷科技中，工业熔炉可以运行合金炉配方，但现在需要制作大型电弧炉，请查看“批量生产”一章中的对应内容。",
       "frame:8": "STAR4_ON_SQUARE",
       "icon:10": {
         "Count:3": 1,
@@ -15,5 +15,29 @@
     }
   },
   "questID:3": 1220286723,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10006,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "OreDict:8": "casingWireCoil",
+          "id:8": "gregtech:wire_coil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }
