@@ -4,13 +4,10 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "最好的大宗物品存储手段之一，§6储物抽屉§r拥有大量存储1种，2种或4种物品的功能（取决于其的尺寸）。\n\n手持物品时§2鼠标右键§r点击抽屉以存入物品，空手时§2鼠标左键§r点击以取出，在潜行状态下点击可以一次性存入或取出一组物品。使用各类§b抽屉升级§r或使用§e钥匙§r点击可以为其附加功能，具体的效果可以查看其的工具提示。\n\n将抽屉合成为§a镶框抽屉§r可以自定义其的材质，抽屉的可自定义材质分为外部与内部两部分，其中的内部材质会决定其显示物品的一面的材质，使用§6成型台§r并放入镶框抽屉与两个方块（用于指定外部与外部的材质）即可自定义。",
+      "desc:8": "来自高版本的§b功能性存储§r模组现已可用！这种抽屉拥有大量存储1/2/4种物品或流体的功能，具体存储的种类取决于你制作的抽屉尺寸。\n\n手持物品时§2鼠标右键§r点击抽屉以存入物品，双击可以存储背包内的所有物品。空手时§2鼠标左键§r点击以取出，潜行点击可以一次性存入或取出一组物品。\n\n使用各类§a抽屉升级§r或使用§e钥匙§r点击可以为其附加功能，具体的效果可以查看其的§3工具提示§r。模型中正面的边框与侧面可以使用§2鼠标右击§r打开抽屉的界面，其上左下角为抽屉的§e存储升级槽§r，右下角为抽屉的§9功能升级槽§r。\n\n§3抽屉的存储升级在你制作完格雷科技的工具后解锁，流体抽屉则在获得钢后解锁。由于功能性存储的存储升级都是乘算，所以效果比储物抽屉的升级好。",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "storagedrawers:basicdrawers",
-        "tag:10": {
-          "material:8": "oak"
-        }
+        "id:8": "functionalstoragelegacy:oak_1"
       },
       "name:8": "§a抽屉"
     }
@@ -23,11 +20,11 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "storagedrawers:drawer_key"
+          "id:8": "functionalstoragelegacy:configuration_tool"
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "storagedrawers:quantify_key"
+          "id:8": "functionalstoragelegacy:linking_tool"
         }
       }
     }
@@ -39,11 +36,8 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "OreDict:8": "drawerBasic",
-          "id:8": "storagedrawers:basicdrawers",
-          "tag:10": {
-            "material:8": "oak"
-          }
+          "OreDict:8": "drawerSingle",
+          "id:8": "functionalstoragelegacy:oak_1"
         }
       },
       "taskID:8": "bq_standard:retrieval"
@@ -55,23 +49,13 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "id:8": "storagedrawers:framingtable"
+          "OreDict:8": "drawerDouble",
+          "id:8": "functionalstoragelegacy:oak_2"
         },
         "1:10": {
           "Count:3": 1,
-          "id:8": "storagedrawers:customdrawers"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "2:10": {
-      "ignoreNBT:1": 1,
-      "index:3": 2,
-      "optional:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "id:8": "storagedrawers:controller"
+          "OreDict:8": "drawerQuadruple",
+          "id:8": "functionalstoragelegacy:oak_4"
         }
       },
       "taskID:8": "bq_standard:retrieval"
