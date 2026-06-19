@@ -13,7 +13,7 @@ on:
       - '.github/ISSUE_TEMPLATE/**'
 
 env:
-  ARCHIVE_REPO: GregTechLite/website
+  ARCHIVE_REPO: GregTechLite/Website
   ARCHIVE_BRANCH: main
   ARCHIVE_BASE_URL: https://gregtechlite.morphismmc.com/archives
 
