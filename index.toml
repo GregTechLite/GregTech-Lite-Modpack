@@ -2937,11 +2937,6 @@ hash = "f381d20ee1ee3a10274702a6fcdfc217db0c81b161d10381c728738c378e477c"
 metafile = true
 
 [[files]]
-file = "mods/bettertabs.pw.toml"
-hash = "a6bdab0d70a44e857ad74cb8b451cfe36666310b77cd84416b10aa6065a14dad"
-metafile = true
-
-[[files]]
 file = "mods/blur.pw.toml"
 hash = "29309912a644f1bf1ad434ae7b51bb111a33c5d119a7fb8f73309154ae93b6ee"
 metafile = true
@@ -3392,14 +3387,6 @@ hash = "0213eea9646f613a2380319c4e8402f073848248fcb0257006bc1e820ee5f7ea"
 [[files]]
 file = "resources/betterquesting/textures/items/quest_book.png"
 hash = "0f9fc3b29b57387f3646121aa28ebeb4bcb63e6863b848ee59aa9abb80bc19d3"
-
-[[files]]
-file = "resources/bettertabs/lang/zh_cn.lang"
-hash = "64ef8338553d14fddbc01cb9154adcc0a9039025259398aa67ff843a3ac26387"
-
-[[files]]
-file = "resources/bettertabs/textures/icons/bqbook.png"
-hash = "868c59640b568c5de2132a0f0305355a8df68ad8a24a90feb49c5b249a3ef5ca"
 
 [[files]]
 file = "resources/catalogue/lang/zh_cn.lang"
