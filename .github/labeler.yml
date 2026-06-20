@@ -1,0 +1,29 @@
+"type: mod change":
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'mods/*.pw.toml'
+      - 'mods/*.jar'
+
+"type: questbook":
+  - changed-files:
+    - any-glob-to-any-file: 'config/betterquesting/**'
+
+"type: docs":
+  - changed-files:
+    - any-glob-to-any-file:
+      - 'docs/**'
+      - '*.md'
+      - 'LICENSE'
+      - 'NOTICE.md'
+      - 'CLAUDE.md'
+
+"type: translation":
+  - changed-files:
+    - any-glob-to-any-file: 'resources/**/lang/**'
+
+"type: chore":
+  - changed-files:
+    - any-glob-to-any-file:
+      - '.github/**'
+      - 'flake.nix'
+      - 'flake.lock'
