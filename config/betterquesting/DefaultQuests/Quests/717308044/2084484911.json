@@ -1,25 +1,72 @@
 {
-  "preRequisiteTypes:7": [
-    2,
-    2,
-    0
-  ],
   "preRequisites:11": [
-    1861030809,
-    365293235,
-    900357978
+    2144736605
   ],
   "properties:10": {
     "betterquesting:10": {
       "desc:8": "No Description",
-      "frame:8": "DIAMOND",
+      "frame:8": "EMPTY",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "appliedenergistics2:crafting_monitor"
+        "id:8": "extendedae:infinity_cell",
+        "tag:10": {
+          "r:10": {
+            "Cnt:4": 1,
+            "Count:3": 1,
+            "Craft:1": 0,
+            "Damage:2": 0,
+            "Req:4": 0,
+            "id:8": "minecraft:cobblestone"
+          },
+          "t:8": "i"
+        }
       },
-      "name:8": "§6合成监控器"
+      "name:8": "§6无限存储元件",
+      "tasklogic:8": "OR"
     }
   },
   "questID:3": 2084484911,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extendedae:infinity_cell",
+          "tag:10": {
+            "r:10": {
+              "Cnt:4": 1,
+              "Count:3": 1,
+              "Craft:1": 0,
+              "Damage:2": 0,
+              "Req:4": 0,
+              "id:8": "minecraft:cobblestone"
+            },
+            "t:8": "i"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extendedae:infinity_cell",
+          "tag:10": {
+            "r:10": {
+              "Cnt:4": 1,
+              "Count:1": 0,
+              "Craft:1": 0,
+              "FluidName:8": "water",
+              "Req:4": 0
+            },
+            "t:8": "f"
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

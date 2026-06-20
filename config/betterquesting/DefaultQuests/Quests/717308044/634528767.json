@@ -1,0 +1,33 @@
+{
+  "preRequisiteTypes:7": [
+    2,
+    2
+  ],
+  "preRequisites:11": [
+    93515505,
+    533323911
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "appliedenergistics2:spatial_io_port"
+      },
+      "name:8": "§3闪转腾挪"
+    }
+  },
+  "questID:3": 634528767,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "appliedenergistics2:spatial_io_port"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

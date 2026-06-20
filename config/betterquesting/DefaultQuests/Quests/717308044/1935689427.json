@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    234936908
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAGONAL_STAR4_ON_HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11527,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§a§l高阶应用格雷"
+    }
+  },
+  "questID:3": 1935689427,
+  "tasks:9": {}
+}
