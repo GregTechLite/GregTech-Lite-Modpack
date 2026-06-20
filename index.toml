@@ -2369,6 +2369,10 @@ file = "config/enderio/enderio.cfg"
 hash = "569b4a65449c2f3d364f06752ed3d1befac3d83cea385173eea06c521d49a0ed"
 
 [[files]]
+file = "config/extendedae.cfg"
+hash = "74fc17510ab2c9b66124ca3308583d883b674d364179fe8746438686d844c003"
+
+[[files]]
 file = "config/fancymenu/config.txt"
 hash = "dec62ee16ed6524524df3007d1397b9b5994342220a92f6139a4cb6bf834346e"
 
@@ -2821,6 +2825,10 @@ file = "groovy/loader/recipe/Entangled.groovy"
 hash = "c533768f773b989013eed563e6d4e74009f61029ab796504dedfb6f6b07adadf"
 
 [[files]]
+file = "groovy/loader/recipe/ExtendedAE.groovy"
+hash = "2e5f4f8ac41bc9ece08dd8a6f3efb2461a478c4d489a05e8925353474efa4129"
+
+[[files]]
 file = "groovy/loader/recipe/FunctionalStorage.groovy"
 hash = "4d17db38fb3b23ea6d7d2ff9dca197283be315d443bcce1b222d4eaa4a650bfd"
 
@@ -3024,6 +3032,11 @@ metafile = true
 [[files]]
 file = "mods/entangled.pw.toml"
 hash = "6843e8fbb7c7872902ce42daccc1287428caca3b56742b9e6e33048c9a0653f1"
+metafile = true
+
+[[files]]
+file = "mods/ex-pattern-provider.pw.toml"
+hash = "119e5a10ebcaacaf15afbac26431332437907cd3f3979d11bb2f19982ee8dc18"
 metafile = true
 
 [[files]]
@@ -3463,6 +3476,10 @@ hash = "ec9744db6e6e382b55919f17b0e52b1abd3af7c519bde8cede561df7f35bcb9d"
 [[files]]
 file = "resources/customloadingscreen/image/gtlite/bg9.png"
 hash = "221b7efc93262c0ac9d5315bdd096560bdf427c9eecd5ec8f413de91a8f147ba"
+
+[[files]]
+file = "resources/extendedae/lang/zh_cn.lang"
+hash = "b91094de8d411a8483351bf1458f0f1f4c429deb1cd90943d68d17fc65b8989a"
 
 [[files]]
 file = "resources/fancymenu/textures/mainmenu.button.0.png"
