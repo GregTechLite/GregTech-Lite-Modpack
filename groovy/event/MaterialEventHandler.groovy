@@ -1,5 +1,3 @@
-package event;
-
 import net.minecraftforge.fml.common.eventhandler.EventPriority
 import gregtech.api.unification.material.event.MaterialEvent
 
@@ -58,6 +56,7 @@ eventManager.listen(EventPriority.LOWEST) { MaterialEvent event ->
 
     // stick
     Obsidian.addFlags(GENERATE_ROD)
+    CertusQuartz.addFlags(GENERATE_ROD)
 
     // stickLong
     RedAlloy.addFlags(GENERATE_LONG_ROD)

@@ -749,6 +749,65 @@ assembler.recipeBuilder()
     .duration(5 * SECOND)
     .buildAndRegister()
 
+// ME Conduit
+crafting.shapedBuilder()
+    .name(resource('gtlite:me_conduit_1'))
+    .shape('GGG',
+           'BRB',
+           'GGG')
+    .key('G', item('minecraft:glass_pane'))
+    .key('B', conduit_binder)
+    .key('R', item('appliedenergistics2:part', 16)) // ME Glass Cable
+    .output(item('enderio:item_me_conduit') * 4)
+    .register()
+
+crafting.shapedBuilder()
+    .name(resource('gtlite:me_conduit_2'))
+    .shape('GGG',
+           'BRB',
+           'GGG')
+    .key('G', ore('plateGlass'))
+    .key('B', conduit_binder)
+    .key('R', item('appliedenergistics2:part', 16)) // ME Glass Cable
+    .output(item('enderio:item_me_conduit') * 4)
+    .register()
+
+assembler.recipeBuilder()
+    .circuitMeta(1)
+    .inputs(item('appliedenergistics2:part', 16)) // ME Glass Cable
+    .inputs(item('minecraft:glass_pane') * 6)
+    .inputs(conduit_binder * 2)
+    .outputs(item('enderio:item_me_conduit') * 4)
+    .EUt(VH[LV])
+    .duration(5 * SECOND)
+    .buildAndRegister()
+
+assembler.recipeBuilder()
+    .circuitMeta(1)
+    .inputs(item('appliedenergistics2:part', 16)) // ME Glass Cable
+    .inputs(ore('plateGlass') * 6)
+    .inputs(conduit_binder * 2)
+    .outputs(item('enderio:item_me_conduit') * 4)
+    .EUt(VH[LV])
+    .duration(5 * SECOND)
+    .buildAndRegister()
+
+// ME Dense Conduit
+crafting.shapelessBuilder()
+    .name(resource('gtlite:me_dense_conduit'))
+    .input([item('enderio:item_me_conduit'), ore('stickCertusQuartz')])
+    .output(item('enderio:item_me_conduit', 1) * 2)
+    .register()
+
+assembler.recipeBuilder()
+    .circuitMeta(1)
+    .inputs(item('enderio:item_me_conduit'))
+    .inputs(ore('stickCertusQuartz'))
+    .outputs(item('enderio:item_me_conduit', 1) * 2)
+    .EUt(VH[LV])
+    .duration(5 * SECOND)
+    .buildAndRegister()
+
 // Glider Wings
 assembler.recipeBuilder()
     .inputs(ore('platePlastic') * 2)

@@ -102,7 +102,7 @@ hash = "709c09ad84242ac54fbb59ee692ba4c6a687e5e6381d98538b8a2a45aabec4c8"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/717308044.json"
-hash = "3b83800893603e8c70b67863344d5c20d2c35d681c629487e7004e86afb9e8a1"
+hash = "7e76e2db94f60112bf144123bde419b5cd78f9d0ae75e36f7352bbeb1987ac84"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestSettings.json"
@@ -2129,6 +2129,10 @@ file = "config/betterquesting/DefaultQuests/Quests/717308044/1034306394.json"
 hash = "1f64059935e37293f813b0faaf7dfb4bb154a77ebdf8098abc369cb5d61afbcc"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/Quests/717308044/108430281.json"
+hash = "89e8f3d63a6fe6bb54ce036f535876a5a61f0cc944b5f9d34ecb3543917da4b1"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/717308044/1120479252.json"
 hash = "194d52abc66b5c60b2faa56b9327aa4c6eb56d32f7b97929fa979260054cd307"
 
@@ -2185,6 +2189,10 @@ file = "config/betterquesting/DefaultQuests/Quests/717308044/1861030809.json"
 hash = "1ada9518f781e271c2e55cb9e74a7c950997abe48d96911c94cb6b4790dab1f1"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/Quests/717308044/1935689427.json"
+hash = "d6eabdf539013ef7433d45301e39dbbd7d2690a2b5e5f081244ad368eaf481ca"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/717308044/2044505934.json"
 hash = "887f07e0cead7cab829db12fd8b3f422eb2e8cff7ad815bbe4499022552d95e8"
 
@@ -2194,7 +2202,7 @@ hash = "636aaa77b17507e42f087051cde91562cf080272e09ae1a32e59cb20dfc2407e"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/717308044/2084484911.json"
-hash = "6f341aa11e5d5221680550ea75be932781af2fbeb392543460e6ce1f2ec1aa6f"
+hash = "b44b6e3cd31107efec892c07b466b9088bd934435ba7d84f641cea4357273883"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/717308044/2129085776.json"
@@ -2202,7 +2210,7 @@ hash = "71e7bc9ce1814347d6fbb2bf49bacca9569b80e9d1e73283c7ce7c28cf922857"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/717308044/2144736605.json"
-hash = "473838eb42d8cfcf7d68f62f4594ee24a1f350d237c74aff181b7d7d90ed2598"
+hash = "3f2ea6437055c9752fadc1d63d646ffc344d346760dcff59cbeccca4f789fcde"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/717308044/234936908.json"
@@ -2245,12 +2253,24 @@ file = "config/betterquesting/DefaultQuests/Quests/717308044/503745124.json"
 hash = "fcb5b1260d6f8bd938dfc07389ee4cfa21de7306e7b01d0f4a2865d7f52ed0d6"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/Quests/717308044/533323911.json"
+hash = "3432c4e2fc04f4412fa198beb00eb8ce95f443abbbbacddc4650d0ee2dfcd530"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/717308044/60858605.json"
 hash = "cd963f9c3ee1f3d3b53c1c30b6ecf1c0bf3f2a1f46aa97d09094e6ded34c26c7"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/717308044/626519854.json"
 hash = "8a49200c3755457db368b57515e7b037d56da80cd8fc3edf62314a637dec69d8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/717308044/634528767.json"
+hash = "312c64dc48a570f720ced2cee8107a573dae162dce326168f6783d30f6cc12f1"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/717308044/685425731.json"
+hash = "c168a1568efe378b68911f06f7c5e5d5e930d9e7020c11c7a8ec4edac5586a6b"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/717308044/725420853.json"
@@ -2367,6 +2387,10 @@ hash = "a347a1090de0ccc6373ba2e476938cabb0574edd70f585605da04c74fb74818e"
 [[files]]
 file = "config/enderio/enderio.cfg"
 hash = "569b4a65449c2f3d364f06752ed3d1befac3d83cea385173eea06c521d49a0ed"
+
+[[files]]
+file = "config/extendedae.cfg"
+hash = "74fc17510ab2c9b66124ca3308583d883b674d364179fe8746438686d844c003"
 
 [[files]]
 file = "config/fancymenu/config.txt"
@@ -2770,7 +2794,7 @@ hash = "1c5c623f008eabef10c45135a48b01b46311f9369c28857355872cfe05f48dc0"
 
 [[files]]
 file = "groovy/event/MaterialEventHandler.groovy"
-hash = "80476d3d3169ff17dc7f772e62cd9debfb6e2426558aabab7cf892c1d8e051ff"
+hash = "376d016c7866b70423cee93df5b5912804adda27f08b22a97da951b858743819"
 
 [[files]]
 file = "groovy/event/TooltipEventHandler.groovy"
@@ -2810,7 +2834,7 @@ hash = "e97b45c56d6a72bc36cd4a802d63eac1f7207f202e323a255e173bc252869d0a"
 
 [[files]]
 file = "groovy/loader/recipe/EnderIO.groovy"
-hash = "2808554b286fd0fdcaea3467c5c896377f4418397d541a61ff66a225fb564f6f"
+hash = "28f0f8edae5fa126144d8bbba37babe08034d351c94a4f4a59ee67034ce16f4f"
 
 [[files]]
 file = "groovy/loader/recipe/EnderUtilities.groovy"
@@ -2819,6 +2843,10 @@ hash = "4e62fd709bdf9c3042b164289acbadb40fe2fa6e1291c092536a8583c9ef9736"
 [[files]]
 file = "groovy/loader/recipe/Entangled.groovy"
 hash = "c533768f773b989013eed563e6d4e74009f61029ab796504dedfb6f6b07adadf"
+
+[[files]]
+file = "groovy/loader/recipe/ExtendedAE.groovy"
+hash = "2e5f4f8ac41bc9ece08dd8a6f3efb2461a478c4d489a05e8925353474efa4129"
 
 [[files]]
 file = "groovy/loader/recipe/FunctionalStorage.groovy"
@@ -3027,6 +3055,11 @@ hash = "6843e8fbb7c7872902ce42daccc1287428caca3b56742b9e6e33048c9a0653f1"
 metafile = true
 
 [[files]]
+file = "mods/ex-pattern-provider.pw.toml"
+hash = "119e5a10ebcaacaf15afbac26431332437907cd3f3979d11bb2f19982ee8dc18"
+metafile = true
+
+[[files]]
 file = "mods/fancymenu.pw.toml"
 hash = "a0b9178824a6998223027dbca140b3652300a9140c7ed908db5508c9f4af1902"
 metafile = true
@@ -3082,7 +3115,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtlitecore-1.0.0.jar"
-hash = "5ae2fe086f29aa16cbc99be8ef81b98cde4af8fde6dd98a65d83bb9ae506bc33"
+hash = "29c897dc192822ced33b183d6da1acd0b7a6a2fff1fbd55b8a6b1ac714c79510"
 
 [[files]]
 file = "mods/had-enough-characters.pw.toml"
@@ -3463,6 +3496,10 @@ hash = "ec9744db6e6e382b55919f17b0e52b1abd3af7c519bde8cede561df7f35bcb9d"
 [[files]]
 file = "resources/customloadingscreen/image/gtlite/bg9.png"
 hash = "221b7efc93262c0ac9d5315bdd096560bdf427c9eecd5ec8f413de91a8f147ba"
+
+[[files]]
+file = "resources/extendedae/lang/zh_cn.lang"
+hash = "b91094de8d411a8483351bf1458f0f1f4c429deb1cd90943d68d17fc65b8989a"
 
 [[files]]
 file = "resources/fancymenu/textures/mainmenu.button.0.png"

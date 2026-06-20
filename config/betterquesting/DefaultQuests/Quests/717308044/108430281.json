@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    1352275584
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "因为§5ME玻璃线缆§r有些渲染负担，所以给你的基地铺满线缆的最佳选择是§e包层线缆§r。制造足够铺满你的生产线与基地的包层线缆很麻烦，而且你可能已经在各种整合包内体验过这个流程了。\n\n这个任务允许你提交1组包层线缆来获得§a无限包层线缆元件§r，你再也不需要顾虑线缆会用完了。除了这个任务以外，这种无限元件还可以通过§bMV§r级别的§6组装机§r合成，只需要多消耗1个§8存储外壳§r（还有你付出的能量！）。\n\n§3或许你更喜欢多种颜色的包层线缆，请用兑换的无限元件与对应种类的染料合成，即可得到对应颜色的包层线缆的无限元件。",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 76,
+        "id:8": "appliedenergistics2:part"
+      },
+      "name:8": "§d我受够了合成线缆！"
+    }
+  },
+  "questID:3": 108430281,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "extendedae:infinity_cell",
+          "tag:10": {
+            "r:10": {
+              "Cnt:4": 1,
+              "Count:3": 1,
+              "Craft:1": 0,
+              "Damage:2": 36,
+              "Req:4": 0,
+              "id:8": "appliedenergistics2:part"
+            },
+            "t:8": "i"
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "consume:1": 1,
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 36,
+          "id:8": "appliedenergistics2:part"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
