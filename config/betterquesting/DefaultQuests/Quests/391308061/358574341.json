@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "普通的蒸汽合金炉可以升级为高压版本或者多方块§6大型蒸汽合金炉§r，后者的效率比起高压蒸汽合金炉而言要高，但也需要更大的占地面积。",
+      "desc:8": "普通的蒸汽合金炉可以升级为§8高压版本§r或者多方块§6大型蒸汽合金炉§r，后者的效率比起§8高压蒸汽合金炉§r而言要高，但也需要更大的§a占地面积§r。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -20,6 +20,24 @@
     }
   },
   "questID:3": 358574341,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 260,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 328,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
