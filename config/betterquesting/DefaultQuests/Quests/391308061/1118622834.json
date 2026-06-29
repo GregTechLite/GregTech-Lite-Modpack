@@ -15,6 +15,26 @@
     }
   },
   "questID:3": 1118622834,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:clay"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:sand"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:gravel"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
