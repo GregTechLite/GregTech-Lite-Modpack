@@ -2402,7 +2402,7 @@ hash = "6dfe1a1fa3c8bea225b68ea388db57cbce7f373766479e195b8b89104432c6d7"
 
 [[files]]
 file = "config/fancymenu/customization/default-gtlite.txt"
-hash = "2fe59ce9c58c21a202cee29dda1d1f39a5284539f9e07d617fca9b835d701891"
+hash = "178eec73e673efb995fb8d4c5728d35a00f7066fc20bff8ca67c2b8632591a68"
 
 [[files]]
 file = "config/fancymenu/menu_identifiers.db"
@@ -3564,6 +3564,10 @@ hash = "360e09bbb959e6fd7804cf9eb62f719eee9b2284ae44fa78ec018d70eb357859"
 [[files]]
 file = "resources/fancymenu/textures/button.singleplayer.1.png"
 hash = "d4c8feb3bb1e94f6924264ccffedaee1b106d1bd923d54ffba75a182c5bd58f9"
+
+[[files]]
+file = "resources/fancymenu/textures/logo_icon.png"
+hash = "5089865fcf1e622ea35fe808bc3f0508f8b8791f4bbc98f064d6ab6071c73a38"
 
 [[files]]
 file = "resources/fancymenu/textures/title.png"

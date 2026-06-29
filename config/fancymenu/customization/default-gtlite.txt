@@ -295,7 +295,7 @@ customization {
 }
 
 customization {
-  path = resources/fancymenu/textures/logo.png
+  path = resources/fancymenu/textures/logo_icon.png
   orientation = top-left
   x = 27
   width = 64
