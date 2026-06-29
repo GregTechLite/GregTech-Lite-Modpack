@@ -2402,7 +2402,7 @@ hash = "6dfe1a1fa3c8bea225b68ea388db57cbce7f373766479e195b8b89104432c6d7"
 
 [[files]]
 file = "config/fancymenu/customization/default-gtlite.txt"
-hash = "b040b5844632bf4c389c4e83279172262603213360c5e9104104f7ab4c3f0594"
+hash = "2fe59ce9c58c21a202cee29dda1d1f39a5284539f9e07d617fca9b835d701891"
 
 [[files]]
 file = "config/fancymenu/menu_identifiers.db"
@@ -3502,40 +3502,72 @@ file = "resources/extendedae/lang/zh_cn.lang"
 hash = "b91094de8d411a8483351bf1458f0f1f4c429deb1cd90943d68d17fc65b8989a"
 
 [[files]]
-file = "resources/fancymenu/textures/mainmenu.button.0.png"
-hash = "0153ea8d4102e88d56e1f15ffbaaaafaf54a9cd56d33d143418f4a000833e9db"
+file = "resources/fancymenu/textures/background.png"
+hash = "055434bcb172951c7e558fbc3e38040ad1f918c4ea5ae61d025ef516b17a01ca"
 
 [[files]]
-file = "resources/fancymenu/textures/mainmenu.button.1.png"
-hash = "ef59e5f08686a9deb9787a166f94450bfbf40984bb6a13661bc4651b70cda1fa"
+file = "resources/fancymenu/textures/background.popup.png"
+hash = "b8192ca7a4b93a0458e416e63a90a0b0e92a66ddf83e9ec6e5283f6eefbe78ca"
 
 [[files]]
-file = "resources/fancymenu/textures/mainmenu.button.exit.0.png"
-hash = "6e1399b94ce50039129a5ed8d749b3b7ab6bd4a0f164320a3d9b65edce4fa4d8"
+file = "resources/fancymenu/textures/button.exit.0.png"
+hash = "a6f87f50cb31c00d09c7781c7571d92942c5aa06a45885fb18a434ea15a5dfac"
 
 [[files]]
-file = "resources/fancymenu/textures/mainmenu.button.exit.1.png"
-hash = "03c35ae1f1944e768da0bd3373e7c1d1b0a72ce3674761fd482b633f0ce0af96"
+file = "resources/fancymenu/textures/button.exit.1.png"
+hash = "f6e367c1815901865123fde6b23ab632c687024f65a2d0bf930f307900db7614"
 
 [[files]]
-file = "resources/fancymenu/textures/mainmenu.button.i18n.0.png"
-hash = "0236486945385ef2380ac2d78cbaa937e341af80bd8997baac9faef4e87abd80"
+file = "resources/fancymenu/textures/button.i18n.0.png"
+hash = "e6d86f3a8a7d6254e0455d36c63cbe369df0e58fc7210a6ffdb5f3d966818c14"
 
 [[files]]
-file = "resources/fancymenu/textures/mainmenu.button.i18n.1.png"
-hash = "b5ae2969792e4eb4dab71662deb38ba7f7e81d5c8abbb5dc1471be6c1fc4b5c6"
+file = "resources/fancymenu/textures/button.i18n.1.png"
+hash = "594fc957c61c55041487088f1deb953d711701fdb48dc61b09a84c9ca424c4bf"
 
 [[files]]
-file = "resources/fancymenu/textures/mainmenu.button.link.0.png"
-hash = "0a3f37926b5930dcb0c506e13a2de7c44b8b799d237eecdb75277d65c7c8ec49"
+file = "resources/fancymenu/textures/button.mod.0.png"
+hash = "2437c0b5fcfde3327a8719c41f8706bdbc78d03fd16f566a04fdab8dc8e69cf0"
 
 [[files]]
-file = "resources/fancymenu/textures/mainmenu.button.link.1.png"
-hash = "cd3a8ff871bf06b93cf6355f0c2d7caac5f2703141110893218605bdb1cd0b2b"
+file = "resources/fancymenu/textures/button.mod.1.png"
+hash = "f1816ff3e24874b3b07fa26c685c89de9b597707612dc3e594983cd1738d9721"
 
 [[files]]
-file = "resources/fancymenu/textures/mainmenu.logo.png"
-hash = "5089865fcf1e622ea35fe808bc3f0508f8b8791f4bbc98f064d6ab6071c73a38"
+file = "resources/fancymenu/textures/button.multiplayer.0.png"
+hash = "6caed7f0b656af24abb08068b0a933566feca2aecf08d6e9af13063816566b47"
+
+[[files]]
+file = "resources/fancymenu/textures/button.multiplayer.1.png"
+hash = "d09ea7127ca72258a3e79537a788393c88f919973ff6fb3c44f35d08c241e214"
+
+[[files]]
+file = "resources/fancymenu/textures/button.report.0.png"
+hash = "713e33f9f288de3ad8fcd0999579160eed6a2c84b1adb9d9307e5e150ae7d76e"
+
+[[files]]
+file = "resources/fancymenu/textures/button.report.1.png"
+hash = "e4b841af5362dbf940894be551173d1c26366a81b7c98cab24b3367c5442f02c"
+
+[[files]]
+file = "resources/fancymenu/textures/button.settings.0.png"
+hash = "1a0277bfd3858a274957de64a2cf7ea266a8e0a89eb8aab9f22d8bfacdcae7f1"
+
+[[files]]
+file = "resources/fancymenu/textures/button.settings.1.png"
+hash = "5da183102b0d7dbd821e2fe20f7625a81af5f3e37ba1d691874429f0ead59ec4"
+
+[[files]]
+file = "resources/fancymenu/textures/button.singleplayer.0.png"
+hash = "360e09bbb959e6fd7804cf9eb62f719eee9b2284ae44fa78ec018d70eb357859"
+
+[[files]]
+file = "resources/fancymenu/textures/button.singleplayer.1.png"
+hash = "d4c8feb3bb1e94f6924264ccffedaee1b106d1bd923d54ffba75a182c5bd58f9"
+
+[[files]]
+file = "resources/fancymenu/textures/title.png"
+hash = "612851dd8e533ccdd0a41c976e661ada8f7f3c38cd8f1217159163aec23d7f38"
 
 [[files]]
 file = "resources/forge/lang/zh_cn.lang"

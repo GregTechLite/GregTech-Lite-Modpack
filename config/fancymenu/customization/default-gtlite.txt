@@ -9,6 +9,11 @@ customization-meta {
 }
 
 customization {
+  path = resources/fancymenu/textures/background.png
+  action = texturizebackground
+}
+
+customization {
   keepaspectratio = false
   action = backgroundoptions
 }
@@ -16,16 +21,16 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-left
-  x = 180
+  x = 30
   action = movebutton
-  y = -47
+  y = 8
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  width = 90
+  width = 120
   action = resizebutton
-  height = 90
+  height = 33
 }
 
 customization {
@@ -33,23 +38,23 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/fancymenu/textures/mainmenu.button.1.png
-  backgroundnormal = resources/fancymenu/textures/mainmenu.button.0.png
+  backgroundhovered = resources/fancymenu/textures/button.multiplayer.1.png
+  backgroundnormal = resources/fancymenu/textures/button.multiplayer.0.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-left
-  x = 420
+  x = 30
   action = movebutton
-  y = -47
+  y = 108
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 90
+  width = 120
   action = resizebutton
-  height = 90
+  height = 33
 }
 
 customization {
@@ -57,23 +62,29 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/fancymenu/textures/mainmenu.button.1.png
-  backgroundnormal = resources/fancymenu/textures/mainmenu.button.0.png
+  backgroundhovered = resources/fancymenu/textures/button.settings.1.png
+  backgroundnormal = resources/fancymenu/textures/button.settings.0.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-left
-  x = 540
+  x = 580
   action = movebutton
-  y = -2
+  y = 108
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  width = 45
+  width = 28
   action = resizebutton
-  height = 45
+  height = 33
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
 }
 
 customization {
@@ -81,23 +92,23 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/fancymenu/textures/mainmenu.button.exit.1.png
-  backgroundnormal = resources/fancymenu/textures/mainmenu.button.exit.0.png
+  backgroundhovered = resources/fancymenu/textures/button.exit.1.png
+  backgroundnormal = resources/fancymenu/textures/button.exit.0.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = mid-left
-  x = 540
+  x = 580
   action = movebutton
-  y = -47
+  y = 58
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  width = 45
+  width = 28
   action = resizebutton
-  height = 45
+  height = 33
 }
 
 customization {
@@ -105,23 +116,23 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/fancymenu/textures/mainmenu.button.i18n.1.png
-  backgroundnormal = resources/fancymenu/textures/mainmenu.button.i18n.0.png
+  backgroundhovered = resources/fancymenu/textures/button.i18n.1.png
+  backgroundnormal = resources/fancymenu/textures/button.i18n.0.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-left
-  x = 60
+  x = 30
   action = movebutton
-  y = -47
+  y = -42
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  width = 90
+  width = 120
   action = resizebutton
-  height = 90
+  height = 33
 }
 
 customization {
@@ -129,23 +140,23 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/fancymenu/textures/mainmenu.button.1.png
-  backgroundnormal = resources/fancymenu/textures/mainmenu.button.0.png
+  backgroundhovered = resources/fancymenu/textures/button.singleplayer.1.png
+  backgroundnormal = resources/fancymenu/textures/button.singleplayer.0.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-left
-  x = 300
+  x = 30
   action = movebutton
-  y = -47
+  y = 58
 }
 
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  width = 90
+  width = 120
   action = resizebutton
-  height = 90
+  height = 33
 }
 
 customization {
@@ -153,8 +164,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources/fancymenu/textures/mainmenu.button.1.png
-  backgroundnormal = resources/fancymenu/textures/mainmenu.button.0.png
+  backgroundhovered = resources/fancymenu/textures/button.mod.1.png
+  backgroundnormal = resources/fancymenu/textures/button.mod.0.png
 }
 
 customization {
@@ -226,33 +237,14 @@ customization {
 }
 
 customization {
-  path = resources/fancymenu/textures/mainmenu.logo.png
+  path = resources/fancymenu/textures/background.popup.png
   orientation = top-left
-  x = 72
-  width = 64
-  actionid = c441f430-510f-4203-b8a8-0ce61f03eac61780930071199
+  x = 238
+  width = 200
+  actionid = 40da788c-508e-4777-a446-cb8403ed12ea1782714847945
   action = addtexture
-  y = 36
-  height = 64
-}
-
-customization {
-  orientation = top-left
-  enable_scrolling = true
-  shadow = true
-  scale = 5.0
-  source =     GregTech Lite
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = 176
-  width = 321
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 8f354ffc-305b-4624-ad1b-0c525308405a1780930238361
-  y = 35
-  alignment = left
-  height = 66
+  y = 205
+  height = 100
 }
 
 customization {
@@ -265,11 +257,11 @@ customization {
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 300
+  x = 252
   width = 234
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 5ec45cfe-c341-4195-998b-710df0a3f4881780930601955
-  y = 240
+  y = 234
   alignment = left
   height = 44
 }
@@ -278,16 +270,38 @@ customization {
   orientation = top-left
   restartbackgroundanimations = true
   buttonaction = openlink;https://github.com/GregTechLite/GregTech-Lite-Modpack%btnaction_splitter_fm%
-  backgroundhovered = resources/fancymenu/textures/mainmenu.button.link.1.png
+  backgroundhovered = resources/fancymenu/textures/button.report.1.png
   description = GitHub
   label = 
   loopbackgroundanimations = true
-  x = 180
-  width = 45
+  x = 580
+  width = 28
   action = addbutton
   actionid = 7ac4c153-1c6b-4a58-86d8-5ee6c8fe22aa1780930762154
-  y = 240
-  backgroundnormal = resources/fancymenu/textures/mainmenu.button.link.0.png
+  y = 175
+  backgroundnormal = resources/fancymenu/textures/button.report.0.png
+  height = 33
+}
+
+customization {
+  path = resources/fancymenu/textures/title.png
+  orientation = top-left
+  x = 110
+  width = 360
+  actionid = a16a53db-3d82-4493-ba36-57c22d6be07c1782708761129
+  action = addtexture
+  y = 40
   height = 45
+}
+
+customization {
+  path = resources/fancymenu/textures/logo.png
+  orientation = top-left
+  x = 27
+  width = 64
+  actionid = 1514ac35-fae4-4ed9-bbfb-4860811878dd1782708830980
+  action = addtexture
+  y = 30
+  height = 64
 }
 
