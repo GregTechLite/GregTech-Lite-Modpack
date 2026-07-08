@@ -18,6 +18,24 @@
     }
   },
   "questID:3": 58271814,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 100,
+          "id:8": "gregtech:wire_single"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 100,
+          "id:8": "gregtech:meta_foil"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

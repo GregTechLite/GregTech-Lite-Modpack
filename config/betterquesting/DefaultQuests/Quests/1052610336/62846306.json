@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "如果你的§6电力高炉§r的设置没问题，那你应该可以成功烧制一些§b铝锭§r，这是下个阶段的必备材料。\n\n另外，§9冰晶石§r与§a三氧化二铝§r也是可选的处理线路，你可以查看对应的处理线路来决定使用其中的哪一种。\n\n§3你可以选择加入保护气，也可以直接烧制，这是可选的。如果缺少铝粉，请查看本页中的“电解粘土”任务。",
       "frame:8": "GEAR",
       "icon:10": {
         "Count:3": 1,
@@ -15,6 +15,36 @@
     }
   },
   "questID:3": 62846306,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 78,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "nitrogen"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 78,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "hydrogen"
+            }
+          }
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
