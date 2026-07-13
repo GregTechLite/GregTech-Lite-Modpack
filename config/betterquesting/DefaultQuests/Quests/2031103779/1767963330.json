@@ -4,16 +4,41 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "为",
+      "desc:8": "普通的机械臂的操作精度已不满足现有的高级电路板组装了，有太多纳米尺度的微小元件需要被精确地放置。为了提高工作效率与质量，引入§9纳米蜂群§r是一个好主意，这些小家伙会取代机械臂与蚀刻束乃至于印刷喷头。\n\n为§6PCB工厂§r附加§d纳米光刻集群§r将会使其可以放入不消耗的§7银纳米蜂群§r来完成更有效率的高级配方，并根据其中的蜂群数量来增加§a最大并行数§r。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 2,
-        "id:8": "gtlitecore:metal_casing_03"
+        "Damage:2": 10026,
+        "id:8": "gtlitecore:mte"
       },
-      "name:8": "§a§l2阶PCB工厂"
+      "name:8": "§e§l纳米光刻集群"
     }
   },
   "questID:3": 1767963330,
-  "tasks:9": {}
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 344,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10026,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

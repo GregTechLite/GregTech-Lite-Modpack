@@ -4,16 +4,41 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "尽管将机械臂替换为纳米蜂群有助于防止过热，但这是治标不治本的，两者同样会制造大量的热量。\n\n为§6PCB工厂§r附加§b水冷塔§r将会使其可以进行§a常规超频§r，当在附属结构的§9输入仓§r中放入蒸馏水时还会缓慢消耗蒸馏水来提供§e400%§r的加速。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 1,
-        "id:8": "gregtech:multiblock_casing"
+        "Damage:2": 10032,
+        "id:8": "gtlitecore:mte"
       },
-      "name:8": "§9§lPCB工厂升级：水冷塔"
+      "name:8": "§9§l水冷塔"
     }
   },
   "questID:3": 2004151966,
-  "tasks:9": {}
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11505,
+          "id:8": "gregtech:mte"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10032,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

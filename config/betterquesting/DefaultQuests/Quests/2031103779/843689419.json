@@ -1,19 +1,44 @@
 {
   "preRequisites:11": [
-    1767963330
+    1546880750
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "使用更高级的§d纳米蜂群§r来进一步提高效率，同时换用更有效的探测与检测装置来保证平均质量的进一步提高，这将使得出产的电路板平均品质达到原本的1600%，但也需要换用更昂贵的材料来更换探测装置。\n\n为§6PCB工厂§r附加§d微尺度电路元件检测器§r将会使其可以放入不消耗的§e金纳米蜂群§r来完成更有效率的高级配方，并根据其中的蜂群数量来增加§a最大并行数§r。\n\n§3你需要准备足够多的硅岩合金与中子，但这是值得的！",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 3,
-        "id:8": "gtlitecore:metal_casing_03"
+        "Damage:2": 10027,
+        "id:8": "gtlitecore:mte"
       },
-      "name:8": "§5§l3阶PCB工厂"
+      "name:8": "§5§l微尺度电路元件检测器"
     }
   },
   "questID:3": 843689419,
-  "tasks:9": {}
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 2042,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10027,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

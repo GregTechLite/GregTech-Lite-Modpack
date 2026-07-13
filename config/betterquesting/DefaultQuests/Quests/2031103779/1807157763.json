@@ -4,16 +4,46 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "基于一个疯狂的构想，吸收时空中的含水物质来替代冷却并直接作用于所有需要冷却的部分。\n\n为§6PCB工厂§r附加§9空冻塔§r将会使其可以进行§d无损超频§r。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 5,
-        "id:8": "gtlitecore:multiblock_casing_01"
+        "Damage:2": 10033,
+        "id:8": "gtlitecore:mte"
       },
-      "name:8": "§d§lPCB工厂升级：空冻塔"
+      "name:8": "§d§l空冻塔"
     }
   },
   "questID:3": 1807157763,
-  "tasks:9": {}
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 8,
+          "id:8": "gtlitecore:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 13,
+          "id:8": "gtlitecore:meta_ingot"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10033,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

@@ -1,0 +1,23 @@
+{
+  "preRequisites:11": [
+    2130252233
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "你可能在§7LV§r阶段发现了一些机器的§a对应大型机器没有出现在本页任务中§r，这是因为它们一般位于§e各自归属的任务页面§r中。\n\n另外，视你的§9整合包版本§r而定，在一些版本中可能有部分大型机器未实装。\n\n§3一个例子是大型屠宰机与大型捕鱼机，它们位于“田园牧歌”这一章中。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "betterquesting:placeholder"
+      },
+      "name:8": "§2关于一些其他的多方块机器"
+    }
+  },
+  "questID:3": 1552873236,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
