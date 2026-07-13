@@ -1,0 +1,72 @@
+{
+  "preRequisites:11": [
+    1027518245
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "来自GT6的瓶筐，但可以盛放任何带有流体存储功能的物品！\n\n§d这是一件贡献者物品，在界面中对物品按住Shift键可以查看它的贡献者！",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gtlitecore:bottlecrate"
+      },
+      "name:8": "§a瓶筐"
+    }
+  },
+  "questID:3": 1927163163,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:potion",
+          "tag:10": {
+            "Potion:8": "minecraft:strong_strength"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:potion",
+          "tag:10": {
+            "Potion:8": "minecraft:strong_regeneration"
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:potion",
+          "tag:10": {
+            "Potion:8": "minecraft:strong_healing"
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:potion",
+          "tag:10": {
+            "Potion:8": "minecraft:long_night_vision"
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:potion",
+          "tag:10": {
+            "Potion:8": "minecraft:long_fire_resistance"
+          }
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gtlitecore:bottlecrate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
