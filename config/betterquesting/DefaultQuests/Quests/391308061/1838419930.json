@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "在§2格雷科技§r中，柯伐合金主要用来生产二极管。",
+      "desc:8": "一种优秀的气密封接金属，技术性上说，它主要用于接下来的§6真空管§r的合成以及后续的§a机器外壳§r中。\n\n§3它有两种手工合成方式，可以使用铁粉与镍粉或者直接使用殷钢粉进行合成。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -16,6 +16,24 @@
     }
   },
   "questID:3": 1838419930,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 51,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 69,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

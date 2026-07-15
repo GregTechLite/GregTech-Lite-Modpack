@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "更好的锅炉。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -15,14 +15,37 @@
     }
   },
   "questID:3": 218125129,
-  "tasks:9": {
+  "rewards:9": {
     "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11001,
+          "id:8": "gregtech:mte"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 11031,
+          "id:8": "gregtech:mte"
+        }
+      },
       "index:3": 0,
-      "optional:1": 1,
-      "requiredItems:9": {},
-      "taskID:8": "bq_standard:retrieval"
+      "rewardID:8": "bq_standard:choice"
     },
     "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11046,
+          "id:8": "gregtech:mte"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
       "index:3": 1,
       "requiredItems:9": {
         "0:10": {

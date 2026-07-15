@@ -6,7 +6,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§r在§2格雷科技§r中,粗青铜合金管道是前期很好用的东西。",
+      "desc:8": "一种优秀的管道材料，同时也作为组件参与一些机器的控制器的合成中。\n\n§3如果想做大型蒸汽研磨机或压缩机，那么至少需要制作一些粗青铜合金齿轮作为控制器材料。无论使用与否粗青铜合金管道作为流体传输手段，这种材料都还算是必要的。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -17,6 +17,29 @@
     }
   },
   "questID:3": 1434706839,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 36,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 18,
+          "Damage:2": 112,
+          "id:8": "gregtech:meta_dust"
+        },
+        "2:10": {
+          "Count:3": 9,
+          "Damage:2": 55,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

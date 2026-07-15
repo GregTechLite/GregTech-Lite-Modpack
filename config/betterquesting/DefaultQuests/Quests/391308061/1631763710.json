@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§7手搓真空？！§r\n这个机器在你生产§d真空管§r的过程中很重要。",
+      "desc:8": "利用一些蒸汽带来的高压力来创造真空环境，这是组装§6真空管§r的前提。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -18,6 +18,19 @@
     }
   },
   "questID:3": 1631763710,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 69,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

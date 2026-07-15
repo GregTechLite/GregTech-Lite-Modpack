@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "如果你觉得普通的§c蒸汽树液提取机§r速度太慢，不妨试试§c高压版本的蒸汽树液提取机。",
+      "desc:8": "既然橡胶的生产只需要消耗一些§e硫§r，那么让它拥有更高的效率也更有助于我们发展后续的科技。§6树液收集器§r的§8高压蒸汽§r版本并不贵，但可以使效率更高。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -15,6 +15,25 @@
     }
   },
   "questID:3": 1058055261,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5612,
+          "id:8": "gregtech:mte",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 64000,
+              "FluidName:8": "latex"
+            }
+          }
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

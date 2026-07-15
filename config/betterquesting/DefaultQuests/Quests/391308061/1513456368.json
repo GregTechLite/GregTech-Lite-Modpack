@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "在§2格雷科技§r中,白铜主要用来制作线圈方块。",
+      "desc:8": "作为马达线圈或加热线圈的主要使用线材之一，在本阶段它只用于§6真空管组件§r的合成。它与殷钢的合成有些相似，但两种材料是1:1的。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -18,6 +18,24 @@
     }
   },
   "questID:3": 1513456368,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_ingot"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 69,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

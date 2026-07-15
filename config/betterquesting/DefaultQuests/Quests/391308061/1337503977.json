@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "§c焙烧炉§r，主要用来§6处理一些基础矿物§r。\n",
+      "desc:8": "用于一些基础的矿物处理。功利性地看，这个机器可以通过§2处理一些前期矿物来提前获取一些硫化物与硫酸§r，例如§4雄黄§r或§e黄铁矿§r。除此以外，你还可以使用它来制作§c红锌矿§r，这是§6硫化机§r的催化剂之一。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -18,6 +18,26 @@
     }
   },
   "questID:3": 1337503977,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_pyrite_0"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_realgar_0"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "id:8": "gregtech:ore_sphalerite_0"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

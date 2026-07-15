@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "如果你觉得普通的§c蒸汽焙烧炉§r速度太慢，不妨试试§c高压版本的蒸汽焙烧炉。",
+      "desc:8": "也许你需要更高效的矿物处理？\n\n§3实际上它真的能用来烹饪食物...",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -15,6 +15,19 @@
     }
   },
   "questID:3": 1427562057,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 506,
+          "id:8": "gtlitecore:gtlite_meta_item_2"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
