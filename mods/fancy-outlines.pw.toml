@@ -1,0 +1,13 @@
+name = "Fancy Outlines"
+filename = "fancyoutlines-1.12.2-1.0.3.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "34994f626213fa21141e3159ddf38cf073fb1f90"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7754853
+project-id = 1464990

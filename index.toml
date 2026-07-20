@@ -3060,6 +3060,11 @@ hash = "119e5a10ebcaacaf15afbac26431332437907cd3f3979d11bb2f19982ee8dc18"
 metafile = true
 
 [[files]]
+file = "mods/fancy-outlines.pw.toml"
+hash = "703e6b05604667175afb3edb74bb2111a6c4432a4805f6a07a56216fdc7cd122"
+metafile = true
+
+[[files]]
 file = "mods/fancymenu.pw.toml"
 hash = "8f8f9598722d0a96bde84b887d3fd7f843ac88d4f79f55b2b4b386bf175b6a20"
 metafile = true
