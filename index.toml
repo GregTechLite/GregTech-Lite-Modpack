@@ -2409,6 +2409,10 @@ file = "config/fancymenu/menu_identifiers.db"
 hash = "003a1c89846741e0eb9475089d4ed653896fd08e0b994667fae452b4ad894a72"
 
 [[files]]
+file = "config/fancyoutlines.cfg"
+hash = "22d7288d1b2fe87309ef254c296a74eeb91b72d44601c22c3835d46e22a2d6c4"
+
+[[files]]
 file = "config/functionalstoragelegacy.cfg"
 hash = "c49aba5e8cd9f0388a89bd1b4d21896765fa6ede9817cea4fcd7ae5e1504d063"
 
