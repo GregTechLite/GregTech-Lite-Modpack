@@ -443,4 +443,14 @@ mods.jei.ingredient.removeAndHide(item('projectred-core:resource_item', 600)) //
 
 mods.jei.ingredient.removeAndHide(item('projectred-core:drawplate'))          // Drawplate
 
+// Functional Storage Legacy
+mods.jei.ingredient.removeAndHide(item('functionalstoragelegacy:stone_generation_upgrade_t1'))
+mods.jei.ingredient.removeAndHide(item('functionalstoragelegacy:stone_generation_upgrade_t2'))
+mods.jei.ingredient.removeAndHide(item('functionalstoragelegacy:stone_generation_upgrade_t3'))
+mods.jei.ingredient.removeAndHide(item('functionalstoragelegacy:stone_generation_upgrade_t4'))
+mods.jei.ingredient.removeAndHide(item('functionalstoragelegacy:water_generation_upgrade_t1'))
+mods.jei.ingredient.removeAndHide(item('functionalstoragelegacy:water_generation_upgrade_t2'))
+mods.jei.ingredient.removeAndHide(item('functionalstoragelegacy:water_generation_upgrade_t3'))
+mods.jei.ingredient.removeAndHide(item('functionalstoragelegacy:water_generation_upgrade_t4'))
+
 log.info("Complete load jei recipes!")

@@ -2002,7 +2002,7 @@ hash = "a2f42cde182d2500c4490941a90fde7c7885181cc8d7e6cb10b70ca8f749ef97"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/585069616/1640887446.json"
-hash = "95df7b60f04366ec0aa5ca3857a7c5bc21ea2b38099eb28c3d05fe43fb655086"
+hash = "c80c6725482228be417dae0fd0b8b2ca252430638797c9bc4528861f30787dfd"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/585069616/165029070.json"
@@ -2866,7 +2866,7 @@ hash = "b2e8df6b5568b8986f2d68eb2f564d82177b8b3ac9db5e4b4a3cbaeb746ce274"
 
 [[files]]
 file = "groovy/loader/recipe/JustEnoughItems.groovy"
-hash = "deeea6ad0977edde057f960cf4436384b6c5c75986973aef84f34cd323d12306"
+hash = "57316d7c1813b806f35c1c52ea2bebe0c8ffce8fc88adf0959bfd9a789c5cb54"
 
 [[files]]
 file = "groovy/loader/recipe/MoreFurnaces.groovy"
