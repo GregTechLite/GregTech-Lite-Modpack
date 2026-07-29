@@ -1,11 +1,13 @@
 {
   "preRequisiteTypes:7": [
     2,
+    2,
     2
   ],
   "preRequisites:11": [
     466032222,
-    62685679
+    62685679,
+    910916973
   ],
   "properties:10": {
     "betterquesting:10": {
@@ -20,5 +22,41 @@
     }
   },
   "questID:3": 1368139219,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 425,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 425,
+          "id:8": "gregtech:meta_ingot_hot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 425,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

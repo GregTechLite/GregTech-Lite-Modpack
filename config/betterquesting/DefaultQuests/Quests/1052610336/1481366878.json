@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "用于在附近的空间中生成稳定的力场。\n\n§3除了GT相关的内容，力场发生器还解锁了黑曜石背包与精英堆叠升级。",
       "frame:8": "SQUARE",
       "icon:10": {
         "Count:3": 1,
@@ -15,6 +15,18 @@
     }
   },
   "questID:3": 1481366878,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:ender_pearl"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

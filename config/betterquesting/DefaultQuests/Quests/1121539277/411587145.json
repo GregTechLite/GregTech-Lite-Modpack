@@ -2,12 +2,14 @@
   "preRequisiteTypes:7": [
     2,
     0,
-    0
+    0,
+    2
   ],
   "preRequisites:11": [
     466032222,
     2052161102,
-    1114136535
+    1114136535,
+    280732381
   ],
   "properties:10": {
     "betterquesting:10": {
@@ -15,15 +17,41 @@
       "frame:8": "DIAMOND",
       "icon:10": {
         "Count:3": 1,
-        "id:8": "forge:bucketfilled",
-        "tag:10": {
+        "Damage:2": 22,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "§4获取铬",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 411587145,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 7,
+          "Damage:2": 2055,
+          "id:8": "gtlitecore:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "optional:1": 1,
+      "requiredFluids:9": {
+        "0:10": {
           "Amount:3": 1000,
           "FluidName:8": "ruby_juice"
         }
       },
-      "name:8": "§4获取铬的好帮手"
+      "taskID:8": "bq_standard:fluid"
     }
-  },
-  "questID:3": 411587145,
-  "tasks:9": {}
+  }
 }

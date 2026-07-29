@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "你可能已经在世界上看到过实体的§8油泉§r，你可以使用§6泵§r来自动化抽取机器下方的流体，每抽取一次便会输出一定量的对应流体。\n\n不幸的是，如果你的基地附近没有油泉，那么可能需要考虑使用§a长距离流体管道§r来进行物流，通过对应的接口可以进行快速地§e跨区块远程物流§r。\n\n§3除此以外，泵还可以抽取诸如水一类的流体，它也是清理地块的好帮手。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -18,6 +18,23 @@
     }
   },
   "questID:3": 1408641165,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5575,
+          "id:8": "gregtech:mte"
+        },
+        "1:10": {
+          "Count:3": 256,
+          "id:8": "gregtech:ld_fluid_pipe"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
