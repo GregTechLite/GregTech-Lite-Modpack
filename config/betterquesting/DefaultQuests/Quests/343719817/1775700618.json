@@ -1,27 +1,36 @@
 {
   "preRequisiteTypes:7": [
-    0,
+    2,
     2
   ],
   "preRequisites:11": [
-    187561121,
-    1153240589
+    549250048,
+    1817558900
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "或许你已经在前几个阶段试过§e喷气背包§r，显而易见的是，它能飞行，但需要填充燃料。现在有了更好的选择！这本§5魔法书§r允许你获得史无前例的能力，将此物品放进背包，饰品栏或主副手可以获得§a创造模式飞行§r能力，还会获得§b创造模式无敌§r效果。\n\n§d这是一件贡献者物品，在界面中对物品按住Shift键可以查看它的贡献者！",
       "frame:8": "EMPTY",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 4,
-        "id:8": "gregtech:gt_armor",
-        "tag:10": {
-          "Charge:4": 6400000
-        }
+        "Damage:2": 624,
+        "id:8": "gtlitecore:gtlite_meta_item_1"
       },
-      "name:8": "§b更好的喷气背包"
+      "name:8": "§6创造飞行！"
     }
   },
   "questID:3": 1775700618,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 624,
+          "id:8": "gtlitecore:gtlite_meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }
