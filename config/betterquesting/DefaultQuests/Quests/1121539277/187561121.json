@@ -1,54 +1,87 @@
 {
   "preRequisiteTypes:7": [
+    2,
+    2,
     2
   ],
   "preRequisites:11": [
-    1917552849
+    1060124818,
+    308877360,
+    946868211
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
-      "frame:8": "EMPTY",
+      "desc:8": "带耐久的工具在一些合成与自动化场合很麻烦，但一些配方的机器版本可能尚未解锁，此时§a一次性工具§r就是一种选择。一部分材料可以使用§6工具铸造机§r来锻造出对应的一次性工具，§2耐久越高的材料输出的一次性工具就越多§r。\n\n§3尽管这台机器有LV版本，但其实际上无法运行任何配方（除非你自己添加了某些配方，在那种情况下，请忽略这行描述）。",
+      "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 3,
-        "id:8": "gregtech:gt_armor",
-        "tag:10": {
-          "Charge:4": 1000000
-        }
+        "Damage:2": 34,
+        "id:8": "gtlitecore:mte"
       },
-      "name:8": "§b喷气背包"
+      "name:8": "§b一次性工具"
     }
   },
   "questID:3": 187561121,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 53,
+          "id:8": "gtlitecore:gtlite_meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 55,
+          "id:8": "gtlitecore:gtlite_meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 56,
+          "id:8": "gtlitecore:gtlite_meta_item_1"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 52,
+          "id:8": "gtlitecore:gtlite_meta_item_1"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 60,
+          "id:8": "gtlitecore:gtlite_meta_item_1"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 58,
+          "id:8": "gtlitecore:gtlite_meta_item_1"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 2,
-          "id:8": "gregtech:gt_armor",
-          "tag:10": {
-            "Fluid:10": {
-              "Amount:3": 0,
-              "FluidName:8": "diesel"
-            }
-          }
+          "Damage:2": 34,
+          "id:8": "gtlitecore:mte"
         }
       },
       "taskID:8": "bq_standard:retrieval"
     },
     "1:10": {
       "index:3": 1,
-      "optional:1": 1,
-      "requiredFluids:9": {
+      "requiredItems:9": {
         "0:10": {
-          "Amount:3": 16000,
-          "FluidName:8": "diesel"
+          "Count:3": 1,
+          "Damage:2": 51,
+          "id:8": "gtlitecore:gtlite_meta_item_1"
         }
       },
-      "taskID:8": "bq_standard:fluid"
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }
