@@ -1,6 +1,6 @@
 {
   "_comment": "Setting this to true will recreate this entire file on next start",
-  "reload": true,
+  "reload": false,
   "orePrefixes": [
     "ingot",
     "ingotHot",
