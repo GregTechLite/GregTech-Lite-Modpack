@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "从带有磁性的矿石中分拣出有效成分，在本阶段中，§6电磁选矿机§r可以处理§7磁铁矿§r，§8钒磁铁矿§r，§2花岗岩矿砂§r与§a玄武岩矿砂§r这四种含铁矿石来提取§e金粉§r。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -18,6 +18,34 @@
     }
   },
   "questID:3": 682581782,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 292,
+          "id:8": "gregtech:meta_dust_pure"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 2022,
+          "id:8": "gregtech:meta_dust_pure"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 2513,
+          "id:8": "gregtech:meta_dust_pure"
+        },
+        "3:10": {
+          "Count:3": 16,
+          "Damage:2": 2518,
+          "id:8": "gregtech:meta_dust_pure"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

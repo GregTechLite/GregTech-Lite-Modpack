@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "给你的矿石洗个无水的热水澡。§6热力离心机§r可以把§2粉碎矿或纯净粉碎矿§r离心来提取副产物。尽管这台机器有点慢，但一些有价值的副产物的产出是可以接受的，例如§7闪锌矿§r出产的§b镓粉§r。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -18,6 +18,19 @@
     }
   },
   "questID:3": 33679465,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 322,
+          "id:8": "gregtech:meta_crushed_purified"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

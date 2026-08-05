@@ -15,6 +15,24 @@
     }
   },
   "questID:3": 499622618,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 10024,
+          "id:8": "gregtech:mte"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 3,
+          "id:8": "morefurnaces:furnaceblock"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
