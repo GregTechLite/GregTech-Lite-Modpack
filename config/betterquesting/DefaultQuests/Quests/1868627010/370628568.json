@@ -20,6 +20,31 @@
     }
   },
   "questID:3": 370628568,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 122,
+            "TrophyColorGreen:3": 139,
+            "TrophyColorRed:3": 139,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 10012,
+              "id:8": "gtlitecore:mte"
+            },
+            "TrophyName:8": "化学气相沉积",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

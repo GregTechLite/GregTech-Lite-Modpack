@@ -18,6 +18,42 @@
     }
   },
   "questID:3": 691724733,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 8,
+            "TrophyColorGreen:3": 101,
+            "TrophyColorRed:3": 139,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 281,
+              "id:8": "gregtech:meta_item_1"
+            },
+            "TrophyName:8": "获得氡",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 131,
+          "id:8": "gregtech:meta_dust"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

@@ -20,6 +20,31 @@
     }
   },
   "questID:3": 2121406110,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "simple_trophies:trophy",
+          "tag:10": {
+            "TrophyColorBlue:3": 250,
+            "TrophyColorGreen:3": 206,
+            "TrophyColorRed:3": 135,
+            "TrophyItem:10": {
+              "Count:1": 1,
+              "Damage:2": 10007,
+              "id:8": "gtlitecore:mte"
+            },
+            "TrophyName:8": "压裂机",
+            "TrophyShowsTooltip:1": 1,
+            "TrophyVariant:8": "classic"
+          }
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
