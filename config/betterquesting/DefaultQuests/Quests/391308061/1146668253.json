@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "",
+      "desc:8": "在电力时代之前，你的§b剪线钳§r大概只是合成工具。\n\n剪线钳可以用来§2连接/断开导线与线缆§r，也可以快速拆除它们。\n\n§3有关九宫格的操作模式，请参考“电力时代”章节中的“机器的基本信息与交互”任务，它们现在没什么用，毕竟剪线钳现在只是合成工具。",
       "frame:8": "GEAR",
       "icon:10": {
         "Count:3": 1,
@@ -31,6 +31,19 @@
     }
   },
   "questID:3": 1146668253,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "ignoreNBT:1": 1,
