@@ -2370,7 +2370,7 @@ hash = "60e5180974d72362146013640d6790b9fbbec06ce84973f9bf571ad2b6f5eb32"
 
 [[files]]
 file = "config/bogosorter/orePrefix.json"
-hash = "bb49c7b079dfe5948ae022bddc60d7812ecbb88cc0b065c64e6a3ac921e7e86b"
+hash = "8d9d8afd255b6da7c078e206697304f34b0b30bf4c9669f043b352182466c8d0"
 
 [[files]]
 file = "config/chisel.cfg"
