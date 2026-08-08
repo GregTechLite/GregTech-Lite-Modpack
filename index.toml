@@ -2818,7 +2818,7 @@ hash = "830bd25835d7de559257f7a312081fcfab880fdf0f3dffcc1d2b6b60feb5c725"
 
 [[files]]
 file = "groovy/loader/recipe/AppliedEnergistics2.groovy"
-hash = "fb54ce8f0a85411c3bef415f7e2363d69a763eb6a65ba77aca68ec3964a9dc90"
+hash = "d440d948f2b883917b4bbd1c7fd87318b1b15450519591c59cf03049da28f7f8"
 
 [[files]]
 file = "groovy/loader/recipe/BetterBuildersWands.groovy"
