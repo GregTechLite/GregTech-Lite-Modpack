@@ -18,5 +18,65 @@
     }
   },
   "questID:3": 703566290,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 2137,
+          "id:8": "gtlitecore:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 2138,
+          "id:8": "gtlitecore:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 2139,
+          "id:8": "gtlitecore:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 2136,
+          "id:8": "gtlitecore:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "4:10": {
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 40,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

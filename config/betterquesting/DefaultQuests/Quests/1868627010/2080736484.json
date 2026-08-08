@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "铂族金属处理是一条复杂的产线，但在§5EV§r阶段，你只需要生产其中的§3钌§r来满足线圈金属的要求即可，其余部分将在§1IV§r阶段被提及。你需要准备一些§6王水§r与§9硫酸氢钠§r来完成初步的处理。\n\n该产线出产的材料包括§e铂§r，§7钯§r，§3钌§r，§c铑§r，§b铱§r，§9锇§r几种金属，还会额外出产一些工业酸与无关紧要的副产物，但需要投入大量的各种化工材料。§2所有铜矿石均可以被加工为铂系矿泥§r，将其辅以§6王水§r浸洗可以初步分离，而后我们将着眼于其中的§c惰性金属混合物§r与§4稀有金属混合物§r的处理，而§e铂族金属浓缩液§r的处理是可选的，毕竟你可以直接挖到§e铂§r与§7钯§r的矿石，但处理它们有助于循环§d氨§r与§7盐酸§r相关的产物。总之，在§5EV§r阶段，主要做的就是对§c惰性金属混合物§r进行进一步处理来提取§3钌§r，其他的线路都可以暂时不做，也有限定§1IV§r阶段的线路。\n\n§3它没那么复杂，但随着游戏进程的发展，铂族金属的需求量也与日俱增，强烈建议制造可以持续运行的自动化生产线而不是进行下单即时自动合成。",
       "frame:8": "DIAMOND",
       "icon:10": {
         "Count:3": 1,
@@ -18,5 +18,66 @@
     }
   },
   "questID:3": 2080736484,
-  "tasks:9": {}
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:stone"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 364,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2115,
+          "id:8": "gtlitecore:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 433,
+          "id:8": "gregtech:meta_dust"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2059,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "optional:1": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "platinum_group_concentrate"
+        },
+        "1:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "purified_platinum_group_concentrate"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
 }

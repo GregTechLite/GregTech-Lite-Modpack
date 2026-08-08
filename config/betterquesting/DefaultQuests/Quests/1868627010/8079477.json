@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "",
       "frame:8": "DIAMOND",
       "icon:10": {
         "Count:3": 1,
@@ -15,5 +15,58 @@
     }
   },
   "questID:3": 8079477,
-  "tasks:9": {}
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 6,
+          "Damage:2": 315,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 7,
+          "Damage:2": 330,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 7,
+          "Damage:2": 343,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 2064,
+          "id:8": "gtlitecore:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 115,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }
