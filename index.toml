@@ -3124,7 +3124,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtlitecore-1.0.0.jar"
-hash = "2031f1b393e0a2e81aac74802e66482d5647dd1cea692f7b3fccc092e6827d66"
+hash = "a48f5643c1f01be456ed800a2d5308760762a35a10b44b20f87d94849c5b25a9"
 
 [[files]]
 file = "mods/had-enough-characters.pw.toml"
@@ -3258,6 +3258,11 @@ metafile = true
 [[files]]
 file = "mods/neonium.pw.toml"
 hash = "3ec598f42db8381f9df050de4ffc6d9214355ff80c95fa32ea970591e9d8671f"
+metafile = true
+
+[[files]]
+file = "mods/obscure-tooltips.pw.toml"
+hash = "267e956fd1d5ae02371ab50aec2569a33db942edbc06273eab14704d6c5f894a"
 metafile = true
 
 [[files]]
