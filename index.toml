@@ -2753,6 +2753,10 @@ file = "config/morfonica.cfg"
 hash = "820acaaf843b6720ded49a0da244f57bc4c68ee758a05fa521e7e940a3917160"
 
 [[files]]
+file = "config/obscuria/obscure_tooltips-client.cfg"
+hash = "1d4e586b29c81a4e23f9bc842333b5a4648510c31062da1ef91f27e0e242aad3"
+
+[[files]]
 file = "config/pickupnotifier.cfg"
 hash = "513bda857945ca222782a6a76e1ceda47c7a45da49f4aaaaaffa7754617708e4"
 
