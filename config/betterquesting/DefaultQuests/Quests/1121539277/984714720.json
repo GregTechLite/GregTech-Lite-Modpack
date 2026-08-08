@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "将传统电子电路的技术改进，将其集成化后得到的最新电路。\n\n§3你现在已经有多种电路系列可选了，在自动化中可能遇到需要来回更换样板中的电路的问题，此时不妨试试使用通用电路。",
       "frame:8": "STAR4_ON_CROSS",
       "icon:10": {
         "Count:3": 1,
@@ -16,6 +16,24 @@
     }
   },
   "questID:3": 984714720,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 521,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 519,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

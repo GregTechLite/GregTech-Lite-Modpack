@@ -46,9 +46,33 @@
       "rewardID:8": "bq_standard:item",
       "rewards:9": {
         "0:10": {
-          "Count:3": 64,
-          "Damage:2": 2,
-          "id:8": "gregtech:meta_ingot"
+          "Count:3": 1,
+          "id:8": "gregtech:drill_iv",
+          "tag:10": {
+            "Charge:4": 25600000,
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {
+              "AoEColumn:3": 4,
+              "AoELayer:3": 8,
+              "AoERow:3": 4,
+              "MaxAoEColumn:3": 4,
+              "MaxAoELayer:3": 8,
+              "MaxAoERow:3": 4,
+              "RelocateMinedBlocks:1": 1,
+              "TorchPlacing:1": 1
+            },
+            "GT.Tool:10": {
+              "AttackDamage:5": 96.0,
+              "AttackSpeed:5": -3.0,
+              "Durability:3": 0,
+              "HarvestLevel:3": 7,
+              "Material:8": "gtlitecore:metastable_oganesson",
+              "MaxDurability:3": 774143,
+              "ToolSpeed:5": 59.0
+            },
+            "HideFlags:3": 2,
+            "MaxCharge:4": 25600000
+          }
         }
       }
     }
