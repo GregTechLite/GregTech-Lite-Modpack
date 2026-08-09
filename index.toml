@@ -3441,7 +3441,7 @@ hash = "875db4b09eea6c5e84151e0b0cc0684191effdb200f3111b8504a1ec582037b1"
 
 [[files]]
 file = "resources/betterquesting/textures/gui/editor_icons.png"
-hash = "96a56dd72a33f33fa58a19ec368f284aa61116a158a89cee4bff473c2ab8ff09"
+hash = "89d5f26d17cfea1cd091b22154df89f7edb30d4d01643374e8ae944e5b16b276"
 
 [[files]]
 file = "resources/betterquesting/textures/gui/ex_frames.png"
@@ -3453,7 +3453,7 @@ hash = "0f9fc3b29b57387f3646121aa28ebeb4bcb63e6863b848ee59aa9abb80bc19d3"
 
 [[files]]
 file = "resources/bq_standard/textures/gui/gui_themes.png"
-hash = "742bfab82bfd3f25351cd388f50db5d93b9715a017c37874eefad1d044de7277"
+hash = "ea10533ab6a75c212303cf8045a48d858cc4d285b520b1d840a8d43f3533e0b9"
 
 [[files]]
 file = "resources/catalogue/lang/zh_cn.lang"
