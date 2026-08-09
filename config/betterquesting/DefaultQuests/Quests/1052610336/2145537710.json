@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "使用一些化学液体来进一步提取矿石中的副产物，可选的流体目前有§7汞§r与§2过硫酸钠§r，前者可以通过离心§c红石§r来大量获取。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -20,6 +20,25 @@
     }
   },
   "questID:3": 2145537710,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2016,
+          "id:8": "gtlitecore:mte",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 64000,
+              "FluidName:8": "mercury"
+            }
+          }
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

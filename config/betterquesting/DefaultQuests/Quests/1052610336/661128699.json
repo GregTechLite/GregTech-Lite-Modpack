@@ -18,6 +18,25 @@
     }
   },
   "questID:3": 661128699,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2016,
+          "id:8": "gtlitecore:mte",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 64000,
+              "FluidName:8": "rubber"
+            }
+          }
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

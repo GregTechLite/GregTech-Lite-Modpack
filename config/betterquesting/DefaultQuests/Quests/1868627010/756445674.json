@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "加入§6硫酸§r与§4四氯化碳§溶液并投入§e惰性金属混合物§r，会产出§d硫酸铑溶液§r并析出§7三氯化钌粉§r。由于目前阶段我们聚焦于§b钌处理§r，因此可以暂不处理硫酸铑溶液。\n\n§3虽然作为产出的盐酸与甲烷可以在化学反应釜中合成四氯化碳，但可能有隐藏的效率问题，在制作产线时需要合理安排这两者。",
       "frame:8": "DIAMOND",
       "icon:10": {
         "Count:3": 1,
@@ -15,6 +15,25 @@
     }
   },
   "questID:3": 756445674,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5615,
+          "id:8": "gregtech:mte",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 512000,
+              "FluidName:8": "sulfuric_acid"
+            }
+          }
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

@@ -15,6 +15,24 @@
     }
   },
   "questID:3": 1917552849,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 274,
+          "id:8": "gregtech:wire_double"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 25,
+          "id:8": "gregtech:cable_single"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

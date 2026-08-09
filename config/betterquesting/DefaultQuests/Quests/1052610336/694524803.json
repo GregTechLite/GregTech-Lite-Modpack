@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "用于为你的工具充电，但很遗憾的是，大部分赠送的高电压等级的工具§c无法§r在低等级的§6充电箱§r中进行充能。普通的电池在开启§a释能模式§r后也可以为§2物品栏与装备栏§r中的物品进行充能。",
       "frame:8": "DIAMOND_ON_CROSS",
       "icon:10": {
         "Count:3": 1,

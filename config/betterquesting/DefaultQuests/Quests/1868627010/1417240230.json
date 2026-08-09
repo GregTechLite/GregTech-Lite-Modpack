@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "用§b氧§r或§9臭氧§r可以氧化§2钠粉§r来得到§e过氧化钠粉§r，再投入§6三氯化钌§r与§a氯气§r即可得到§5四氧化钌§r，并产出一定的§7盐§r，即氯化钠。",
       "frame:8": "DIAMOND",
       "icon:10": {
         "Count:3": 1,
@@ -15,6 +15,25 @@
     }
   },
   "questID:3": 1417240230,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 5615,
+          "id:8": "gregtech:mte",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 512000,
+              "FluidName:8": "chlorine"
+            }
+          }
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
