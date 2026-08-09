@@ -1,0 +1,20 @@
+{
+  "preRequisites:11": [
+    293527416,
+    370628568
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "STAR4",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2085,
+        "id:8": "gtlitecore:meta_dust"
+      },
+      "name:8": "§4硒化镉"
+    }
+  },
+  "questID:3": 367901566,
+  "tasks:9": {}
+}

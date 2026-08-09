@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    321943117
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "STAR4_ON_DIAGONAL_STAR4",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 124,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "§7硅岩"
+    }
+  },
+  "questID:3": 1009488477,
+  "tasks:9": {}
+}

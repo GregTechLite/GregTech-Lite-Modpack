@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    1035993235
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "GEAR",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 75,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "§9§l锇"
+    }
+  },
+  "questID:3": 1762974023,
+  "tasks:9": {}
+}

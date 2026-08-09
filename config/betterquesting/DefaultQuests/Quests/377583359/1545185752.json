@@ -1,0 +1,22 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    1504754752
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "EMPTY",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10030,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§9处理阵列"
+    }
+  },
+  "questID:3": 1545185752,
+  "tasks:9": {}
+}

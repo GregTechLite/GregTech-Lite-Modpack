@@ -1,0 +1,34 @@
+{
+  "preRequisites:11": [
+    1021237872,
+    1881267576,
+    1009954197
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "CIRCLE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 580,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§2高功率集成电路"
+    }
+  },
+  "questID:3": 2091158031,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 580,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

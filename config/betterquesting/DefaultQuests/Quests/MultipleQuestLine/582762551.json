@@ -1,0 +1,28 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    0,
+    2,
+    2
+  ],
+  "preRequisites:11": [
+    1472212989,
+    322205277,
+    1322946212,
+    1724992728
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND_ON_SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 991,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§d§l剧差压"
+    }
+  },
+  "questID:3": 582762551,
+  "tasks:9": {}
+}

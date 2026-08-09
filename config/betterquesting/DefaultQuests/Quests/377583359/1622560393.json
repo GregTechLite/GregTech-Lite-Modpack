@@ -1,0 +1,18 @@
+{
+  "preRequisites:11": [
+    1021689795
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1598,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "§e稀土处理"
+    }
+  },
+  "questID:3": 1622560393,
+  "tasks:9": {}
+}

@@ -1,0 +1,19 @@
+{
+  "preRequisites:11": [
+    1724992728
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 428,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "§4钐铁砷氧合金（IV超导体）"
+    }
+  },
+  "questID:3": 459912806,
+  "tasks:9": {}
+}

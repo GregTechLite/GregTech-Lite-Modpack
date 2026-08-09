@@ -1,27 +1,23 @@
 {
   "preRequisiteTypes:7": [
-    2,
-    2,
     2
   ],
   "preRequisites:11": [
-    1856935055,
-    194896510,
-    740430162
+    1526527030
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description\n\n§3这台机器还解锁了微型处理器的SoC配方，就像简易SoC那样，需要从刻蚀对应的晶圆并切割成晶片开始。",
+      "desc:8": "No Description",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 638,
+        "Damage:2": 474,
         "id:8": "gregtech:mte"
       },
-      "name:8": "§9极小尺度电路组装"
+      "name:8": "§b旋风搅拌塔"
     }
   },
-  "questID:3": 1203902884,
+  "questID:3": 1318371312,
   "tasks:9": {
     "0:10": {
       "index:3": 0,
@@ -33,7 +29,7 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 638,
+          "Damage:2": 474,
           "id:8": "gregtech:mte"
         }
       },

@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    2065421195
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAGONAL_STAR4_ON_HEXAGON",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 639,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "§9量子比特的洪流"
+    }
+  },
+  "questID:3": 540217358,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 639,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

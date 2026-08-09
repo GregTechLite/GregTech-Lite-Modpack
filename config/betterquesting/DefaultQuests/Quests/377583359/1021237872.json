@@ -1,0 +1,22 @@
+{
+  "preRequisiteTypes:7": [
+    2
+  ],
+  "preRequisites:11": [
+    1870555758
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "DIAMOND",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 48,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "§d铟处理"
+    }
+  },
+  "questID:3": 1021237872,
+  "tasks:9": {}
+}
