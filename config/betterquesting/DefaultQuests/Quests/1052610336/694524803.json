@@ -15,6 +15,22 @@
     }
   },
   "questID:3": 694524803,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 752,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Charge:4": 2000000000000
+          }
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

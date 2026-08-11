@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "制作电池首先要用§a电池合金§r来制造外壳，当前阶段可选的电池有§l3§r种，它们的容量各自不同。电池合金所需的§7锑§r可以通过矿物处理来获得，例如§4赤铜矿§r，§8辉锑矿§r与§c黝铜矿§r等。",
       "frame:8": "DIAMOND",
       "icon:10": {
         "Count:3": 1,
@@ -20,6 +20,24 @@
     }
   },
   "questID:3": 2048785376,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 4,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 55,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

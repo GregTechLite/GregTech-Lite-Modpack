@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "你目前能获得的高炉保护气，能让电力高炉更迅速地烧制物品。",
+      "desc:8": "你目前能获得的§a高炉保护气§r，能让§6电力高炉§r更迅速地烧制物品。",
       "frame:8": "DIAMOND",
       "icon:10": {
         "Count:3": 1,

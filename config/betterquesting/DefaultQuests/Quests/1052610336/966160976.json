@@ -11,7 +11,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description\n\n§3在IV之前，一台LV级的扫描仪足够你扫描之后需要的所有生物数据。",
+      "desc:8": "一般用于处理数据与将其转存，目前阶段主要用于为§6生物模拟室§r提供对应的§b意识存储卡§r，除此以外暂时没有额外功能可以使用。\n\n§3在IV之前，一台LV级的扫描仪足够你扫描之后需要的所有生物数据。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -22,6 +22,19 @@
     }
   },
   "questID:3": 966160976,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 621,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
