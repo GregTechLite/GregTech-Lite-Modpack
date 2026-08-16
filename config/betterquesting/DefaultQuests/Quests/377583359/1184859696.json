@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "现在最新的§6扫描仪§r可以满足所有配方要求的电压等级，直到它被一个巨大的多方块机器§b研究站§r所替代。\n\n§3这个机器在目前阶段是可选的，使用IV级扫描仪的研究数据有ZPM级零部件与物品支架，研究站控制器等，目前与下个阶段的大部分研究数据使用HV级扫描仪即可完成。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -20,6 +20,19 @@
     }
   },
   "questID:3": 1184859696,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 261,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

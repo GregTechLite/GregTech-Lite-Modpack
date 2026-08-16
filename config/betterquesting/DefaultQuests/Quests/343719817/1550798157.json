@@ -11,7 +11,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "就像§a红宝石汁§r那样，铝土矿也允许进行类似地处理，不同的是，只允许使用其的§b粉碎§r或§b纯净§r矿石形态，将其与§7纯碱§r，§2氯化钙§r与§9水§r混合可以制成§8铝土浆液§r。将其裂化后投入§e硫酸§r进行酸化可以提取出大量的铝粉与相应的泥渣与矿渣。\n\n§2铝土泥渣§r可以通过蒸馏脱钙，而后便可以离心出若干§5金红石§r与§7镓§r，§b铝土矿渣§r可以电磁离析出一些§8钕§r与§d铬§r。其他不重要的副产物包括§8方解石§r，§7二氧化硅§r等。总体而言，这条线完全是可选的，跳过它也不会有什么影响。\n\n§3你甚至可以直接通过矿物处理提取完金红石之后把铝土矿全部丢进垃圾桶！",
       "frame:8": "STAR4",
       "icon:10": {
         "Count:3": 1,
@@ -22,5 +22,95 @@
     }
   },
   "questID:3": 1550798157,
-  "tasks:9": {}
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 2,
+          "id:8": "gregtech:ore_bauxite_0"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "optional:1": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 4000,
+          "FluidName:8": "bauxite_slurry"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "1:10": {
+      "index:3": 1,
+      "optional:1": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 16000,
+          "FluidName:8": "cracked_bauxite_slurry"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "2:10": {
+      "index:3": 2,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1655,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "optional:1": 1,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 2500,
+          "FluidName:8": "bauxite_sludge"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    },
+    "4:10": {
+      "index:3": 4,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 285,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 2,
+          "id:8": "gregtech:meta_dust"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 66,
+          "id:8": "gregtech:meta_dust"
+        },
+        "3:10": {
+          "Count:3": 16,
+          "Damage:2": 22,
+          "id:8": "gregtech:meta_dust"
+        },
+        "4:10": {
+          "Count:3": 16,
+          "Damage:2": 39,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
 }

@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "使用§a氢氟酸§r浸洗§2烧绿石§r或§2钽铁矿§r可以从中提取以§b铌§r与§b钽§r为主的一些较为稀有的金属材料。",
+      "desc:8": "使用§a氢氟酸§r浸洗§2烧绿石§r或§2钽铁矿§r可以从中提取以§b铌§r与§b钽§r为主的一些较为稀有的金属材料。\n\n§3钛铁矿渣中也能提取出这两种资源，你可以自由选择。",
       "frame:8": "DIAMOND",
       "icon:10": {
         "Count:3": 1,
@@ -16,6 +16,29 @@
     }
   },
   "questID:3": 1037761246,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 2,
+          "id:8": "gregtech:ore_pyrochlore_0"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 2,
+          "id:8": "gregtech:ore_tantalite_0"
+        },
+        "2:10": {
+          "Count:3": 64,
+          "Damage:2": 2,
+          "id:8": "gregtech:ore_ilmenite_0"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

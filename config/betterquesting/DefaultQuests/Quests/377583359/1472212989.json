@@ -17,7 +17,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "是时候来了解更高级的组装手段了，§6装配线§r是一种类似§a序列装配§r的机器，几乎所有§dLuV§r级及以上的零部件都需要使用它来制造，还有许多机器也都需要。\n\n装配线的结构可以被拉长到至多§l16§r片，因为每片中仅能使用单个§8ULV§r级§2输入总线§r来提供输入，且所有输入物品必须§d有序输入§r才可进行合成，因此可以根据下个阶段的§2输入物品数量来确定要制作的长度§r。\n\n大部分配方都需要先进行研究并为装配线提供§9研究数据§r才可以使其正常运行，使用§6扫描仪§r将所需的材料刻录进§a闪存§r后放入装配线结构中的§b数据访问仓§r即可提供数据。在后续阶段可以获取更多的数据访问相关的机器。\n\n§3装配线的自动化部分请参考本任务上侧的“关于装配线的自动化”任务来获取详细信息。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -28,6 +28,29 @@
     }
   },
   "questID:3": 1472212989,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:stone"
+        }
+      }
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 191,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
@@ -35,6 +58,17 @@
         "0:10": {
           "Count:3": 1,
           "Damage:2": 10019,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11498,
           "id:8": "gregtech:mte"
         }
       },

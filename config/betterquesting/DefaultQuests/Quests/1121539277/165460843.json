@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "一些矿物可以经过§bMV§r级的§6焙烧炉§r进行再处理，例如§8辉锑矿§r，§4黝铜矿§r，§e镍黄铁矿§r，§6黄铜矿§r等。\n\n§3这部分配方在较老版本中的格雷科技中由电力高炉承担，后续在一次更新中被移除，考虑到其的一部分实用价值，我们将其重新统合并编入了MV级的焙烧炉配方中。",
       "frame:8": "DIAGONAL_CROSS_ON_DIAMOND",
       "icon:10": {
         "Count:3": 1,

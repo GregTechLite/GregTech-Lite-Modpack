@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "混合§4红石粉§r与§c红宝石粉§r可以得到一种特殊的水晶粉末，将其在§6高压釜§r中结晶可以得到§a能量水晶§r。这种水晶天然可以存储§2巨量的能源§r，相较于当前阶段的电池而言，能量水晶能储存的能量要多得多。\n\n§3来自工业时代2时期的遗物...你或许在更老版本的格雷科技中见过它，那时它仅有1M容量，而现在它拥有6.4M容量。",
       "frame:8": "STAR4_ON_DIAGONAL_STAR4",
       "icon:10": {
         "Count:3": 1,
@@ -18,6 +18,23 @@
     }
   },
   "questID:3": 715387305,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:redstone"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 311,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

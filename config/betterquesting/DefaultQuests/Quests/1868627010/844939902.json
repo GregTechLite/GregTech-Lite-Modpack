@@ -44,43 +44,6 @@
   },
   "tasks:9": {
     "0:10": {
-      "index:3": 0,
-      "optional:1": 1,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 404,
-          "id:8": "gregtech:meta_item_1"
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 594,
-          "id:8": "gregtech:meta_item_1"
-        },
-        "2:10": {
-          "Count:3": 8,
-          "Damage:2": 524,
-          "id:8": "gregtech:meta_item_1"
-        },
-        "3:10": {
-          "Count:3": 8,
-          "Damage:2": 525,
-          "id:8": "gregtech:meta_item_1"
-        },
-        "4:10": {
-          "Count:3": 8,
-          "Damage:2": 523,
-          "id:8": "gregtech:meta_item_1"
-        },
-        "5:10": {
-          "Count:3": 8,
-          "Damage:2": 277,
-          "id:8": "gregtech:meta_wire_fine"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
-    },
-    "1:10": {
       "index:3": 1,
       "requiredItems:9": {
         "0:10": {
