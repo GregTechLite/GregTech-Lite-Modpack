@@ -3234,6 +3234,10 @@ hash = "8543599cc981cc25fa739c9efad2ffd6ddcbcd10b681e47875bf5e7f87a9262f"
 metafile = true
 
 [[files]]
+file = "mods/celeritas-forge-mc12.2-2.4.0-dev.jar"
+hash = "217fe627b51763953553f49bc4aef2573e6f44afb1563413959b52d2e2caacf3"
+
+[[files]]
 file = "mods/chat-calculator.pw.toml"
 hash = "5a8ab47af3f0bfb08b5131e595d30e026eef10bca153476402643c37704365b6"
 metafile = true
@@ -3349,11 +3353,6 @@ hash = "39882fdedd5454c1fa8e812f321687973ef86fb11a51cc06e8e774539daf0b60"
 metafile = true
 
 [[files]]
-file = "mods/gnetum.pw.toml"
-hash = "8b975d442a979a8a07b2438314ca98047e987c13bc4852f9bee119b545467aa8"
-metafile = true
-
-[[files]]
 file = "mods/gregtech-1.12.2-master-#2901.jar"
 hash = "b9fea8ac4599f04348c12611e515d43dc15819a9b11df9bfbc1495e7e123b317"
 
@@ -3438,7 +3437,7 @@ metafile = true
 
 [[files]]
 file = "mods/lolasm.pw.toml"
-hash = "c1eb5d7ffad071d644c92f8100d60a5d8bc09313c345a7b3df40a803f9538d95"
+hash = "f2657659df8f4e8df6bd7a695e22d7c132338de54b27c6634949438a8c607c03"
 metafile = true
 
 [[files]]
@@ -3493,11 +3492,6 @@ metafile = true
 [[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "59c691bccb11a19c67a0272aae379c20d157d5240e7001b2d92d80bf555b88d0"
-metafile = true
-
-[[files]]
-file = "mods/neonium.pw.toml"
-hash = "3ec598f42db8381f9df050de4ffc6d9214355ff80c95fa32ea970591e9d8671f"
 metafile = true
 
 [[files]]
@@ -3694,6 +3688,10 @@ hash = "ea10533ab6a75c212303cf8045a48d858cc4d285b520b1d840a8d43f3533e0b9"
 [[files]]
 file = "resources/catalogue/lang/zh_cn.lang"
 hash = "53c30dd4a26b29f6f81c6bfa5038ad5cc6a4193362ec5e56fff0cd2800ce3b0d"
+
+[[files]]
+file = "resources/celeritas/lang/zh_cn.lang"
+hash = "76705e9790b31b3c24640e2795f618c071319acd29507797a4b69c1e9185bb78"
 
 [[files]]
 file = "resources/craftingstation/lang/zh_cn.lang"
@@ -4114,10 +4112,6 @@ hash = "af163da8d4a435997ab19f4191c47e7e231824f485af2e23ebbd6f5f11a4999c"
 [[files]]
 file = "resources/minecraft/textures/items/potion_overlay.png"
 hash = "5c2a5f90dde0c61db190a50bc1821d7ec4b6387b8cce7e2f5cde8ccd727ad366"
-
-[[files]]
-file = "resources/neonium/lang/zh_cn.lang"
-hash = "f7560f7f72b4d12fef4b93317ef9f6dbdc04edad4da588d0818bf993970027b5"
 
 [[files]]
 file = "resources/retro_sophisticated_backpacks/lang/zh_cn.lang"
