@@ -224,7 +224,7 @@ crafting.removeByOutput(item('retro_sophisticated_backpacks:restock_upgrade'))
 crafting.shapelessBuilder()
     .name(resource('gtlite:restock_upgrade'))
     .input([item('retro_sophisticated_backpacks:upgrade_base'), 
-            ore('drawerBasic')])
+            ore('drawerAny')])
     .output(item('retro_sophisticated_backpacks:restock_upgrade'))
     .register()
 

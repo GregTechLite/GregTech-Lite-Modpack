@@ -1446,7 +1446,7 @@ hash = "6421fb58ab4e0efd9695ed4abad333d4792ed6c239ca88b179020a2cfec5d186"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/2031103779/736723837.json"
-hash = "1b8ca0727ed53e775718eb0e08a64bcc18631a00136919a8307a5aa83729879c"
+hash = "de4ef2e8da3c62c157fc841ccc24ef4d178b5c77895dfd59a9e6e544d86c1417"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/2031103779/768919097.json"
@@ -2978,7 +2978,7 @@ hash = "99fcf0755cf5341ba7d5e82c1b7c5b3bc707b3df508b8b4260eb91ff03879f85"
 
 [[files]]
 file = "config/loliasm.cfg"
-hash = "b116b2ed6e6221c5381d56da74c52824e20cc58c44a11af02e44053ba9b999be"
+hash = "02f5ab9637f6e169466073824fff64be9291c24dc583162425da67f44c7a0d95"
 
 [[files]]
 file = "config/morefurnaces.cfg"
@@ -3082,7 +3082,7 @@ hash = "28f0f8edae5fa126144d8bbba37babe08034d351c94a4f4a59ee67034ce16f4f"
 
 [[files]]
 file = "groovy/loader/recipe/EnderUtilities.groovy"
-hash = "4e62fd709bdf9c3042b164289acbadb40fe2fa6e1291c092536a8583c9ef9736"
+hash = "05e5bc24e786dd5ce35fa57ff3dfea119d58d89a85fa82fb206c061ccf241072"
 
 [[files]]
 file = "groovy/loader/recipe/Entangled.groovy"
@@ -3122,7 +3122,7 @@ hash = "67f94257f18826514d035e2a81eea4f92aed7a64b011f4c40449e3613e2d3a87"
 
 [[files]]
 file = "groovy/loader/recipe/SophisticatedBackpacks.groovy"
-hash = "e719f11a92e05d095712a16fffcb085345eeb5d92be99a69abff340e7b438232"
+hash = "2ec9317e8380fe69de6def7b9970f364118e98ebf4d081a9ffde3a40109cb75c"
 
 [[files]]
 file = "groovy/loader/recipe/Translocators.groovy"

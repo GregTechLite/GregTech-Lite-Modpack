@@ -377,8 +377,8 @@ crafting.addShapeless(item('enderutilities:enderpart', 53) * 4,
 // Memory Card (12b)
 crafting.removeByOutput(item('enderutilities:enderpart', 54))
 crafting.addShapeless(item('enderutilities:enderpart', 54),
-    [item('enderutilities:enderpart', 54), item('enderutilities:enderpart', 54),
-     item('enderutilities:enderpart', 54), item('enderutilities:enderpart', 54)])
+    [item('enderutilities:enderpart', 53), item('enderutilities:enderpart', 53),
+     item('enderutilities:enderpart', 53), item('enderutilities:enderpart', 53)])
 
 // Handy Chest (Small)
 crafting.removeByOutput(item('enderutilities:storage_0', 3))
