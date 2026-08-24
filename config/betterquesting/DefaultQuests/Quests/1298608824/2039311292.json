@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    794441911
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "SQUARE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 14,
+        "id:8": "gtlitecore:gtlite_meta_oredict_item"
+      },
+      "name:8": "§2全麦饼干胚"
+    }
+  },
+  "questID:3": 2039311292,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 14,
+          "id:8": "gtlitecore:gtlite_meta_oredict_item"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

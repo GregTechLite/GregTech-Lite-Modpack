@@ -30,7 +30,7 @@ hash = "ff411842d4e69283a69608824be21c700f5eada5d75828bd0b9295a80093320d"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/1298608824.json"
-hash = "3f659f23ea49bfc17118e365eee113d39c6e6458104be8899b33fe35e519cc81"
+hash = "a18cf9dd230f8bbdb6e62b8f58bd69d4e02874264318087baace23733fd2bfb6"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/1349696291.json"
@@ -709,12 +709,20 @@ file = "config/betterquesting/DefaultQuests/Quests/1298608824/1135229938.json"
 hash = "9d5d1d8ebe025328659db26e3138f146822d92a2006acdc75bb0c3634a8870c4"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1298608824/1151238142.json"
+hash = "e856f319862f0547983a10c2839a7e67389dbe1c2135f3ca1f21b2cf0df658c4"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/1298608824/1234064540.json"
 hash = "5711a2a37afe0760dbbe3997e59179072ea0ca9d813d0235fed8de27d4aa979c"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/1298608824/1305117417.json"
 hash = "394d3395b0090cd05261600155aea0d4717450c567d8f739ccca644be853cfe1"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1298608824/1314689816.json"
+hash = "ef9a92d510173e8405d1cbe29ad5a2d69e37e4076296261ce49abefbce6376ca"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/1298608824/1330557946.json"
@@ -769,6 +777,10 @@ file = "config/betterquesting/DefaultQuests/Quests/1298608824/1927163163.json"
 hash = "0db00b170145c2c16075b45d077c5cf2fd67ef8f4a82f8ede100f493f11584f8"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1298608824/2039311292.json"
+hash = "52a99a57b1c5529c8653d00828b197b379ce4019af91cc491a2a85de894aa3d1"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/1298608824/2047956056.json"
 hash = "f46a6669cf9c77f2c1830226815fea21a6039c3eafd0d19990e4cc5df91c8527"
 
@@ -785,6 +797,14 @@ file = "config/betterquesting/DefaultQuests/Quests/1298608824/365704914.json"
 hash = "c0a9960cc2b4fa6c3fe83820b930f850c645697d0af8b15768123dbab26125e9"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1298608824/372283348.json"
+hash = "4297eb1267c18d5520dc0fbcbb278ef1fc4b7e2d618696b134540cf98f803e1c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1298608824/438936845.json"
+hash = "103898b55b12057319240e0679f07478cf10a89afe336324d6e582afba943049"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/1298608824/527503703.json"
 hash = "f563c2a43668ef3e741e840dc2f7e7645d5fd268ea579a99247d665e41990472"
 
@@ -797,12 +817,28 @@ file = "config/betterquesting/DefaultQuests/Quests/1298608824/638210306.json"
 hash = "3ade8dda10fc307e255b72abf7fcb2b26f318d606f8fb6488d3b9fb732aab81d"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1298608824/64019199.json"
+hash = "5841a4e05a72c846626d3d572d91eae143fba7120ef26e0e874ce274b0b0f83f"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/1298608824/693834674.json"
 hash = "d683d632340baba7606815ed6983ebfdb19455c6aecd53aa84114d65a39bece7"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1298608824/730934024.json"
+hash = "c87096eec4d6d91470bbb464e81cab476a15cb194ee5109ff149f8d7f9a142af"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1298608824/794441911.json"
+hash = "3761c92ee2ca192309a5b25635eecdd4512c1e277c92fb42c0ae84e3eb1a55f9"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/1298608824/804519284.json"
 hash = "9d9428c1edcc904693a5ecf064515792199e8cbf375f7ebe2e66925dc520b607"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/1298608824/827646540.json"
+hash = "8a93565904703d4b3f3e6f9d959f9ec46e167043f00183fb9fa224dfad7c6cbf"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/1298608824/831768940.json"
@@ -3363,7 +3399,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtlitecore-1.0.0.jar"
-hash = "25c4a43c8baac05119895ab1ab922438825d34149492bb2197414f98b936bc41"
+hash = "d9b5379e4879467c5c7a31fb451a2088a3757bdadeed05827ce59a04fdcd4d4a"
 
 [[files]]
 file = "mods/had-enough-characters.pw.toml"
