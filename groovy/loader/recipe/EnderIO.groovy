@@ -1539,6 +1539,113 @@ addUpgradeRecipe('anvil'           , item('minecraft:anvil')                    
 addUpgradeRecipe('anvil_1'         , item('enderio:block_dark_paper_anvil')               , 'anvil1'        )
 addUpgradeRecipe('anvil_2'         , item('enderio:block_dark_steel_anvil')               , 'anvil2'        )
 
+// Dark Steel Shield
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_shield'))
+    .shape('P P',
+           'PPP',
+           ' P ')
+    .key('P', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .output(item('enderio:item_dark_steel_shield'))
+    .register()
+
+// Dark Steel Sword
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_sword'))
+    .shape('  P',
+           ' P ',
+           'SB ')
+    .key('P', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_dark_steel_sword'))
+    .register()
+
+// Dark Steel Pickaxe
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_pickaxe'))
+    .shape('PPP',
+           ' B ',
+           ' S ')
+    .key('P', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_dark_steel_pickaxe'))
+    .register()
+
+// Dark Steel Axe
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_axe'))
+    .shape('PP ',
+           'PB ',
+           ' S ')
+    .key('P', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_dark_steel_axe'))
+    .register()
+
+// Dark Steel Bow
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_bow'))
+    .shape(' PS',
+           'PBS',
+           ' PS')
+    .key('P', ore('stickSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .key('S', item('enderutilities:enderpart', 21))
+    .output(item('enderio:item_dark_steel_bow'))
+    .register()
+
+// Dark Steel Shear
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_shear'))
+    .shape('P P',
+           ' P ',
+           'SBS')
+    .key('P', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_dark_steel_shears'))
+    .register()
+
+// Dark Steel Treetap
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_treetap'))
+    .shape('SPP',
+           'SB ',
+           '   ')
+    .key('P', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_dark_steel_treetap'))
+    .register()
+
+// Dark Steel Crook
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_crook'))
+    .shape('PPS',
+           ' SB',
+           'S  ')
+    .key('P', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_dark_steel_crook'))
+    .register()
+
+// Dark Steel Hand
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_hand'))
+    .shape('PPS',
+           'PPB',
+           '  S')
+    .key('P', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_dark_steel_hand'))
+    .register()
+
 def addUpgradeRecipe(String prefixName, ItemStack stack, String upgradeNBT) {
     addUpgradeRecipe(prefixName, stack, "enderio", upgradeNBT)
 }
