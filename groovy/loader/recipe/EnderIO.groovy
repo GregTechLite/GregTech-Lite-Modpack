@@ -1646,6 +1646,62 @@ crafting.shapedBuilder()
     .output(item('enderio:item_dark_steel_hand'))
     .register()
 
+// Simple Inventory Charger
+crafting.shapedBuilder()
+    .name(resource('gtlite:simple_inventory_charger'))
+    .shape('PXP',
+           'QBQ',
+           'PCP')
+    .key('B', ore('batteryLv'))
+    .key('C', ore('capacitorBasic'))
+    .key('P', ore('plateIron'))
+    .key('Q', ore('plateLead'))
+    .key('X', ore('wireGtQuadrupleTin'))
+    .output(item('enderio:item_inventory_charger_simple'))
+    .register()
+
+// Basic Inventory Charger
+crafting.shapedBuilder()
+    .name(resource('gtlite:basic_inventory_charger'))
+    .shape('PXP',
+           'QUQ',
+           'PBP')
+    .key('B', ore('batteryMv'))
+    .key('U', item('enderio:item_inventory_charger_simple'))
+    .key('P', ore('plateTinAlloy'))
+    .key('Q', ore('plateBatteryAlloy'))
+    .key('X', ore('wireGtQuadrupleCopper'))
+    .output(item('enderio:item_inventory_charger_basic'))
+    .register()
+
+// Inventory Charger
+crafting.shapedBuilder()
+    .name(resource('gtlite:inventory_charger'))
+    .shape('PXP',
+           'QUQ',
+           'PBP')
+    .key('B', ore('batteryHv'))
+    .key('U', item('enderio:item_inventory_charger_basic'))
+    .key('P', ore('plateAluminium'))
+    .key('Q', ore('platePotin'))
+    .key('X', ore('wireGtQuadrupleAnnealedCopper'))
+    .output(item('enderio:item_inventory_charger'))
+    .register()
+
+// Vibrant Inventory Charger
+crafting.shapedBuilder()
+    .name(resource('gtlite:vibrant_inventory_charger'))
+    .shape('PXP',
+           'QUQ',
+           'PBP')
+    .key('B', ore('batteryEv'))
+    .key('U', item('enderio:item_inventory_charger'))
+    .key('P', ore('plateStainlessSteel'))
+    .key('Q', ore('plateBabbitAlloy'))
+    .key('X', ore('wireGtQuadrupleAluminium'))
+    .output(item('enderio:item_inventory_charger_vibrant'))
+    .register()
+
 def addUpgradeRecipe(String prefixName, ItemStack stack, String upgradeNBT) {
     addUpgradeRecipe(prefixName, stack, "enderio", upgradeNBT)
 }
