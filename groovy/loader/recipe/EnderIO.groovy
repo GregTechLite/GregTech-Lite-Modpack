@@ -1443,3 +1443,138 @@ crafting.shapelessBuilder()
             ore('roundTinAlloy')])
     .output(item('enderio:item_cold_fire_igniter'))
     .register()
+
+// Dark Steel Helmet
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_helmet'))
+    .shape('   ',
+           'III',
+           'IBI')
+    .key('I', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .output(item('enderio:item_dark_steel_helmet'))
+    .register()
+
+// Dark Steel Chestplate
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_chestplate'))
+    .shape('I I',
+           'IBI',
+           'III')
+    .key('I', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .output(item('enderio:item_dark_steel_chestplate'))
+    .register()
+
+// Dark Steel Leggings
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_leggings'))
+    .shape('IBI',
+           'I I',
+           'I I')
+    .key('I', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .output(item('enderio:item_dark_steel_leggings'))
+    .register()
+
+// Dark Steel Boots
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_boots'))
+    .shape('   ',
+           'IBI',
+           'I I')
+    .key('I', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))   
+    .output(item('enderio:item_dark_steel_boots'))
+    .register()
+
+// Empty Dark Steel Upgrade
+forming_press.recipeBuilder()
+    .inputs(ore('plateSteel'))
+    .inputs(item('minecraft:paper') * 2)
+    .inputs(ore('circuitUlv'))
+    .outputs(item('enderio:item_dark_steel_upgrade') * 2)
+    .EUt(V[LV])
+    .duration(5 * SECOND)
+    .buildAndRegister()
+
+addUpgradeRecipe('jumpboost'       , "springGold"                                         , 'jumpboost1'    )
+addUpgradeRecipe('jumpboost_2'     , "springRoseGold"                                     , 'jumpboost2'    )
+addUpgradeRecipe('jumpboost_3'     , "springTumbaga"                                      , 'jumpboost3'    )
+addUpgradeRecipe('speedboost'      , "gearGold"                                           , 'speedboost1'   )
+addUpgradeRecipe('speedboost_2'    , "gearRoseGold"                                       , 'speedboost2'   )
+addUpgradeRecipe('speedboost_3'    , "gearTumbaga"                                        , 'speedboost3'   )
+addUpgradeRecipe('step_assist'     , "boltRoseGold"                                       , 'step_assist'   )
+addUpgradeRecipe('swim'            , "boltSterlingSilver"                                 , 'swim'          )
+addUpgradeRecipe('elytra'          , item('minecraft:elytra')                             , 'elytra'        )
+addUpgradeRecipe('glide'           , item('enderio:item_material', 7)                     , 'glide'         )
+addUpgradeRecipe('solar'           , "plateGlass"                      , "enderiomachines", 'solar'         )
+addUpgradeRecipe('solar_1'         , "plateBorosilicateGlass"          , "enderiomachines", 'solar1'        )
+addUpgradeRecipe('solar_2'         , "plateGstGlass"                   , "enderiomachines", 'solar2'        )
+addUpgradeRecipe('solar_3'         , metaitem('cover.solar.panel')     , "enderiomachines", 'solar3'        )
+addUpgradeRecipe('inventory'       , metaitem('crate.wood')                               , 'inv'           )
+addUpgradeRecipe('inventory_2'     , metaitem('crate.steel')                              , 'inv1'          )
+addUpgradeRecipe('inventory_3'     , metaitem('crate.aluminium')                          , 'inv2'          )
+addUpgradeRecipe('travel'          , item('enderio:item_travel_staff')                    , 'travel'        )
+addUpgradeRecipe('night_vision'    , metaitem('nightvision_goggles')                      , 'nightvision'   )
+addUpgradeRecipe('padding'         , item('minecraft:noteblock')                          , 'padding'       )
+addUpgradeRecipe('sound_detector'  , item('minecraft:jukebox')                            , 'sounddetector' )
+addUpgradeRecipe('explosion'       , item('minecraft:tnt')                                , 'tnt'           )
+addUpgradeRecipe('explosion_1'     , item('gregtech:powderbarrel')                        , 'tnt1'          )
+addUpgradeRecipe('explosion_2'     , item('gregtech:itnt')                                , 'tnt2'          )
+addUpgradeRecipe('explosion_3'     , item('enderio:block_concussion_charge')              , 'tnt3'          )
+addUpgradeRecipe('explosion_4'     , item('enderio:block_ender_charge')                   , 'tnt4'          )
+addUpgradeRecipe('depth'           , metaitem('dynamite')                                 , 'depth'         )
+addUpgradeRecipe('carpet'          , item('enderio:block_confusion_charge')               , 'carpet'        )
+addUpgradeRecipe('direct'          , metaitem('item_magnet.lv')                           , 'direct'        )
+addUpgradeRecipe('hoe'             , item('minecraft:golden_hoe')                         , 'hoe'           )
+addUpgradeRecipe('spoon'           , item('minecraft:golden_shovel')                      , 'spoon'         )
+addUpgradeRecipe('energy_upgrade'  , "batteryLv"                                          , 'energyupgrade' )
+addUpgradeRecipe('energy_upgrade_1', "batteryMv"                                          , 'energyupgrade1')
+addUpgradeRecipe('energy_upgrade_2', "batteryHv"                                          , 'energyupgrade2')
+addUpgradeRecipe('energy_upgrade_3', "batteryEv"                                          , 'energyupgrade3')
+addUpgradeRecipe('energy_upgrade_4', "batteryIv"                                          , 'energyupgrade4')
+addUpgradeRecipe('top'             , item('theoneprobe:probe')                            , 'top'           )
+addUpgradeRecipe('anvil'           , item('minecraft:anvil')                              , 'anvil'         )
+addUpgradeRecipe('anvil_1'         , item('enderio:block_dark_paper_anvil')               , 'anvil1'        )
+addUpgradeRecipe('anvil_2'         , item('enderio:block_dark_steel_anvil')               , 'anvil2'        )
+
+def addUpgradeRecipe(String prefixName, ItemStack stack, String upgradeNBT) {
+    addUpgradeRecipe(prefixName, stack, "enderio", upgradeNBT)
+}
+
+def addUpgradeRecipe(String prefixName, String oreDict, String upgradeNBT) {
+    addUpgradeRecipe(prefixName, oreDict, "enderio", upgradeNBT)
+}
+
+def addUpgradeRecipe(String prefixName, ItemStack stack, String upgradeDomain, String upgradeNBT) {
+    crafting.shapelessBuilder()
+        .name(resource("gtlite:dark_steel_upgrade_" + prefixName))
+        .input([item('enderio:item_dark_steel_upgrade'), stack])
+        .output(item('enderio:item_dark_steel_upgrade', 1).withNbt(['enderio:dsu': upgradeDomain + ":" + upgradeNBT]))
+        .register()
+
+    recipemap('canner').recipeBuilder() 
+        .inputs(item('enderio:item_dark_steel_upgrade'))
+        .inputs(stack)
+        .outputs(item('enderio:item_dark_steel_upgrade', 1).withNbt(['enderio:dsu': upgradeDomain + ":" + upgradeNBT]))
+        .EUt(VA[ULV])
+        .duration(10 * TICK)
+        .buildAndRegister()
+}
+
+def addUpgradeRecipe(String prefixName, String oreDict, String upgradeDomain, String upgradeNBT) {
+    crafting.shapelessBuilder()
+        .name(resource("gtlite:dark_steel_upgrade_" + prefixName))
+        .input([item('enderio:item_dark_steel_upgrade'), ore(oreDict)])
+        .output(item('enderio:item_dark_steel_upgrade', 1).withNbt(['enderio:dsu': upgradeDomain + ":" + upgradeNBT]))
+        .register()
+
+    recipemap('canner').recipeBuilder() 
+        .inputs(item('enderio:item_dark_steel_upgrade'))
+        .inputs(ore(oreDict))
+        .outputs(item('enderio:item_dark_steel_upgrade', 1).withNbt(['enderio:dsu': upgradeDomain + ":" + upgradeNBT]))
+        .EUt(VA[ULV])
+        .duration(10 * TICK)
+        .buildAndRegister()
+}

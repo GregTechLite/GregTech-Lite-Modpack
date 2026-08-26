@@ -3098,7 +3098,7 @@ hash = "1c5c623f008eabef10c45135a48b01b46311f9369c28857355872cfe05f48dc0"
 
 [[files]]
 file = "groovy/event/MaterialEventHandler.groovy"
-hash = "376d016c7866b70423cee93df5b5912804adda27f08b22a97da951b858743819"
+hash = "98574fe369b0bb219cbf0b196341b2907eb62ec83dcf8f028e5bfe5cc71b2c53"
 
 [[files]]
 file = "groovy/event/TooltipEventHandler.groovy"
@@ -3138,7 +3138,7 @@ hash = "e97b45c56d6a72bc36cd4a802d63eac1f7207f202e323a255e173bc252869d0a"
 
 [[files]]
 file = "groovy/loader/recipe/EnderIO.groovy"
-hash = "28f0f8edae5fa126144d8bbba37babe08034d351c94a4f4a59ee67034ce16f4f"
+hash = "6503171bce6a7772ccc61b34d7823b9cd5bbc35828b78ee27b7c9d5d9b225515"
 
 [[files]]
 file = "groovy/loader/recipe/EnderUtilities.groovy"
