@@ -52,6 +52,7 @@ eventManager.listen(EventPriority.LOWEST) { MaterialEvent event ->
     // ring
     Brass.addFlags(GENERATE_RING)
     Copper.addFlags(GENERATE_RING)
+    RedSteel.addFlags(GENERATE_RING)
 
     // round
     Iron.addFlags(GENERATE_ROUND)

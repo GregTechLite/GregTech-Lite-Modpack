@@ -1816,6 +1816,93 @@ crafting.shapedBuilder()
     .output(item('enderio:item_staff_of_levity'))
     .register()
 
+// Stellar Alloy Helmet
+crafting.shapedBuilder()
+    .name(resource('gtlite:stellar_alloy_helmet'))
+    .shape('   ',
+           'III',
+           'IBI')
+    .key('I', ore('plateIridium'))
+    .key('B', metaitem('energy.lapotronic_orb'))
+    .output(item('enderio:item_stellar_alloy_helmet'))
+    .register()
+
+// Stellar Alloy Chestplate
+crafting.shapedBuilder()
+    .name(resource('gtlite:stellar_alloy_chestplate'))
+    .shape('I I',
+           'IBI',
+           'III')
+    .key('I', ore('plateIridium'))
+    .key('B', metaitem('energy.lapotronic_orb'))
+    .output(item('enderio:item_stellar_alloy_chestplate'))
+    .register()
+
+// Stellar Alloy Leggings
+crafting.shapedBuilder()
+    .name(resource('gtlite:stellar_alloy_leggings'))
+    .shape('IBI',
+           'I I',
+           'I I')
+    .key('I', ore('plateIridium'))
+    .key('B', metaitem('energy.lapotronic_orb'))
+    .output(item('enderio:item_stellar_alloy_leggings'))
+    .register()
+
+// Stellar Alloy Boots
+crafting.shapedBuilder()
+    .name(resource('gtlite:stellar_alloy_boots'))
+    .shape('   ',
+           'IBI',
+           'I I')
+    .key('I', ore('plateIridium'))
+    .key('B', metaitem('energy.lapotronic_orb'))
+    .output(item('enderio:item_stellar_alloy_boots'))
+    .register()
+
+// Stellar Alloy Sword
+crafting.shapedBuilder()
+    .name(resource('gtlite:stellar_alloy_sword'))
+    .shape('  P',
+           ' P ',
+           'SB ')
+    .key('P', ore('plateIridium'))
+    .key('B', metaitem('energy.lapotronic_orb'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_stellar_alloy_sword'))
+    .register()
+
+// Stellar Alloy Pickaxe
+crafting.shapedBuilder()
+    .name(resource('gtlite:stellar_alloy_pickaxe'))
+    .shape('PPP',
+           ' B ',
+           ' S ')
+    .key('P', ore('plateIridium'))
+    .key('B', metaitem('energy.lapotronic_orb'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_stellar_alloy_pickaxe'))
+    .register()
+
+// Stellar Alloy Axe
+crafting.shapedBuilder()
+    .name(resource('gtlite:stellar_alloy_axe'))
+    .shape('PP ',
+           'PB ',
+           ' S ')
+    .key('P', ore('plateIridium'))
+    .key('B', metaitem('energy.lapotronic_orb'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_stellar_alloy_axe'))
+    .register()
+
+// Teleport Staff
+crafting.shapelessBuilder()
+    .name(resource('gtlite:teleport_staff'))
+    .input([item('enderio:item_travel_staff'), ore("ringRedSteel")])
+    .output(item('enderioadditions:item_teleport_staff'))
+    .register()
+
 def addUpgradeRecipe(String prefixName, ItemStack stack, String upgradeNBT) {
     addUpgradeRecipe(prefixName, stack, "enderio", upgradeNBT)
 }
