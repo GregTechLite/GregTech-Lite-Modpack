@@ -1443,3 +1443,502 @@ crafting.shapelessBuilder()
             ore('roundTinAlloy')])
     .output(item('enderio:item_cold_fire_igniter'))
     .register()
+
+// Dark Steel Helmet
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_helmet'))
+    .shape('   ',
+           'III',
+           'IBI')
+    .key('I', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .output(item('enderio:item_dark_steel_helmet'))
+    .register()
+
+// Dark Steel Chestplate
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_chestplate'))
+    .shape('I I',
+           'IBI',
+           'III')
+    .key('I', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .output(item('enderio:item_dark_steel_chestplate'))
+    .register()
+
+// Dark Steel Leggings
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_leggings'))
+    .shape('IBI',
+           'I I',
+           'I I')
+    .key('I', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .output(item('enderio:item_dark_steel_leggings'))
+    .register()
+
+// Dark Steel Boots
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_boots'))
+    .shape('   ',
+           'IBI',
+           'I I')
+    .key('I', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))   
+    .output(item('enderio:item_dark_steel_boots'))
+    .register()
+
+// Empty Dark Steel Upgrade
+forming_press.recipeBuilder()
+    .inputs(ore('plateSteel'))
+    .inputs(item('minecraft:paper') * 2)
+    .inputs(ore('circuitUlv'))
+    .outputs(item('enderio:item_dark_steel_upgrade') * 2)
+    .EUt(V[LV])
+    .duration(5 * SECOND)
+    .buildAndRegister()
+
+addUpgradeRecipe('jumpboost'       , "springGold"                                         , 'jumpboost1'    )
+addUpgradeRecipe('jumpboost_2'     , "springRoseGold"                                     , 'jumpboost2'    )
+addUpgradeRecipe('jumpboost_3'     , "springTumbaga"                                      , 'jumpboost3'    )
+addUpgradeRecipe('speedboost'      , "gearGold"                                           , 'speedboost1'   )
+addUpgradeRecipe('speedboost_2'    , "gearRoseGold"                                       , 'speedboost2'   )
+addUpgradeRecipe('speedboost_3'    , "gearTumbaga"                                        , 'speedboost3'   )
+addUpgradeRecipe('step_assist'     , "boltRoseGold"                                       , 'step_assist'   )
+addUpgradeRecipe('swim'            , "boltSterlingSilver"                                 , 'swim'          )
+addUpgradeRecipe('elytra'          , item('minecraft:elytra')                             , 'elytra'        )
+addUpgradeRecipe('glide'           , item('enderio:item_material', 7)                     , 'glide'         )
+addUpgradeRecipe('solar'           , "plateGlass"                      , "enderiomachines", 'solar'         )
+addUpgradeRecipe('solar_1'         , "plateBorosilicateGlass"          , "enderiomachines", 'solar1'        )
+addUpgradeRecipe('solar_2'         , "plateGstGlass"                   , "enderiomachines", 'solar2'        )
+addUpgradeRecipe('solar_3'         , metaitem('cover.solar.panel')     , "enderiomachines", 'solar3'        )
+addUpgradeRecipe('inventory'       , metaitem('crate.wood')                               , 'inv'           )
+addUpgradeRecipe('inventory_2'     , metaitem('crate.steel')                              , 'inv1'          )
+addUpgradeRecipe('inventory_3'     , metaitem('crate.aluminium')                          , 'inv2'          )
+addUpgradeRecipe('travel'          , item('enderio:item_travel_staff')                    , 'travel'        )
+addUpgradeRecipe('night_vision'    , metaitem('nightvision_goggles')                      , 'nightvision'   )
+addUpgradeRecipe('padding'         , item('minecraft:noteblock')                          , 'padding'       )
+addUpgradeRecipe('sound_detector'  , item('minecraft:jukebox')                            , 'sounddetector' )
+addUpgradeRecipe('explosion'       , item('minecraft:tnt')                                , 'tnt'           )
+addUpgradeRecipe('explosion_1'     , item('gregtech:powderbarrel')                        , 'tnt1'          )
+addUpgradeRecipe('explosion_2'     , item('gregtech:itnt')                                , 'tnt2'          )
+addUpgradeRecipe('explosion_3'     , item('enderio:block_concussion_charge')              , 'tnt3'          )
+addUpgradeRecipe('explosion_4'     , item('enderio:block_ender_charge')                   , 'tnt4'          )
+addUpgradeRecipe('depth'           , metaitem('dynamite')                                 , 'depth'         )
+addUpgradeRecipe('carpet'          , item('enderio:block_confusion_charge')               , 'carpet'        )
+addUpgradeRecipe('direct'          , metaitem('item_magnet.lv')                           , 'direct'        )
+addUpgradeRecipe('hoe'             , item('minecraft:golden_hoe')                         , 'hoe'           )
+addUpgradeRecipe('spoon'           , item('minecraft:golden_shovel')                      , 'spoon'         )
+addUpgradeRecipe('energy_upgrade'  , "batteryLv"                                          , 'energyupgrade' )
+addUpgradeRecipe('energy_upgrade_1', "batteryMv"                                          , 'energyupgrade1')
+addUpgradeRecipe('energy_upgrade_2', "batteryHv"                                          , 'energyupgrade2')
+addUpgradeRecipe('energy_upgrade_3', "batteryEv"                                          , 'energyupgrade3')
+addUpgradeRecipe('energy_upgrade_4', "batteryIv"                                          , 'energyupgrade4')
+addUpgradeRecipe('top'             , item('theoneprobe:probe')                            , 'top'           )
+addUpgradeRecipe('anvil'           , item('minecraft:anvil')                              , 'anvil'         )
+addUpgradeRecipe('anvil_1'         , item('enderio:block_dark_paper_anvil')               , 'anvil1'        )
+addUpgradeRecipe('anvil_2'         , item('enderio:block_dark_steel_anvil')               , 'anvil2'        )
+
+// Dark Steel Shield
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_shield'))
+    .shape('PBP',
+           'PPP',
+           ' P ')
+    .key('P', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .output(item('enderio:item_dark_steel_shield'))
+    .register()
+
+// Dark Steel Sword
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_sword'))
+    .shape('  P',
+           ' P ',
+           'SB ')
+    .key('P', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_dark_steel_sword'))
+    .register()
+
+// Dark Steel Pickaxe
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_pickaxe'))
+    .shape('PPP',
+           ' B ',
+           ' S ')
+    .key('P', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_dark_steel_pickaxe'))
+    .register()
+
+// Dark Steel Axe
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_axe'))
+    .shape('PP ',
+           'PB ',
+           ' S ')
+    .key('P', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_dark_steel_axe'))
+    .register()
+
+// Dark Steel Bow
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_bow'))
+    .shape(' PS',
+           'PBS',
+           ' PS')
+    .key('P', ore('stickSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .key('S', item('enderutilities:enderpart', 21))
+    .output(item('enderio:item_dark_steel_bow'))
+    .register()
+
+// Dark Steel Shear
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_shear'))
+    .shape('P P',
+           ' P ',
+           'SBS')
+    .key('P', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_dark_steel_shears'))
+    .register()
+
+// Dark Steel Treetap
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_treetap'))
+    .shape('SPP',
+           'SB ',
+           '   ')
+    .key('P', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_dark_steel_treetap'))
+    .register()
+
+// Dark Steel Crook
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_crook'))
+    .shape('PPS',
+           ' SB',
+           'S  ')
+    .key('P', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_dark_steel_crook'))
+    .register()
+
+// Dark Steel Hand
+crafting.shapedBuilder()
+    .name(resource('gtlite:dark_steel_hand'))
+    .shape('PPS',
+           'PPB',
+           '  S')
+    .key('P', ore('plateSteel'))
+    .key('B', metaitem('energy_crystal'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_dark_steel_hand'))
+    .register()
+
+// Simple Inventory Charger
+crafting.shapedBuilder()
+    .name(resource('gtlite:simple_inventory_charger'))
+    .shape('PXP',
+           'QBQ',
+           'PCP')
+    .key('B', ore('batteryLv'))
+    .key('C', ore('capacitorBasic'))
+    .key('P', ore('plateIron'))
+    .key('Q', ore('plateLead'))
+    .key('X', ore('wireGtQuadrupleTin'))
+    .output(item('enderio:item_inventory_charger_simple'))
+    .register()
+
+// Basic Inventory Charger
+crafting.shapedBuilder()
+    .name(resource('gtlite:basic_inventory_charger'))
+    .shape('PXP',
+           'QUQ',
+           'PBP')
+    .key('B', ore('batteryMv'))
+    .key('U', item('enderio:item_inventory_charger_simple'))
+    .key('P', ore('plateTinAlloy'))
+    .key('Q', ore('plateBatteryAlloy'))
+    .key('X', ore('wireGtQuadrupleCopper'))
+    .output(item('enderio:item_inventory_charger_basic'))
+    .register()
+
+// Inventory Charger
+crafting.shapedBuilder()
+    .name(resource('gtlite:inventory_charger'))
+    .shape('PXP',
+           'QUQ',
+           'PBP')
+    .key('B', ore('batteryHv'))
+    .key('U', item('enderio:item_inventory_charger_basic'))
+    .key('P', ore('plateAluminium'))
+    .key('Q', ore('platePotin'))
+    .key('X', ore('wireGtQuadrupleAnnealedCopper'))
+    .output(item('enderio:item_inventory_charger'))
+    .register()
+
+// Vibrant Inventory Charger
+crafting.shapedBuilder()
+    .name(resource('gtlite:vibrant_inventory_charger'))
+    .shape('PXP',
+           'QUQ',
+           'PBP')
+    .key('B', ore('batteryEv'))
+    .key('U', item('enderio:item_inventory_charger'))
+    .key('P', ore('plateStainlessSteel'))
+    .key('Q', ore('plateBabbitAlloy'))
+    .key('X', ore('wireGtQuadrupleAluminium'))
+    .output(item('enderio:item_inventory_charger_vibrant'))
+    .register()
+
+// End Steel Helmet
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_helmet'))
+    .shape('   ',
+           'III',
+           'IBI')
+    .key('I', ore('plateStainlessSteel'))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_helmet'))
+    .register()
+
+// End Steel Chestplate
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_chestplate'))
+    .shape('I I',
+           'IBI',
+           'III')
+    .key('I', ore('plateStainlessSteel'))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_chestplate'))
+    .register()
+
+// End Steel Leggings
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_leggings'))
+    .shape('IBI',
+           'I I',
+           'I I')
+    .key('I', ore('plateStainlessSteel'))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_leggings'))
+    .register()
+
+// End Steel Boots
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_boots'))
+    .shape('   ',
+           'IBI',
+           'I I')
+    .key('I', ore('plateStainlessSteel'))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_boots'))
+    .register()
+
+// End Steel Sword
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_sword'))
+    .shape('  P',
+           ' P ',
+           'SB ')
+    .key('P', ore('plateStainlessSteel'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_sword'))
+    .register()
+
+// End Steel Pickaxe
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_pickaxe'))
+    .shape('PPP',
+           ' B ',
+           ' S ')
+    .key('P', ore('plateStainlessSteel'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_pickaxe'))
+    .register()
+
+// End Steel Axe
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_axe'))
+    .shape('PP ',
+           'PB ',
+           ' S ')
+    .key('P', ore('plateStainlessSteel'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_axe'))
+    .register()
+
+// End Steel Bow
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_bow'))
+    .shape(' PS',
+           'PBS',
+           ' PS')
+    .key('P', ore('stickStainlessSteel'))
+    .key('S', item('enderutilities:enderpart', 21))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_bow'))
+    .register()
+
+// End Steel Shield
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_shield'))
+    .shape('PBP',
+           'PPP',
+           ' P ')
+    .key('P', ore('plateStainlessSteel'))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_shield'))
+    .register()
+
+// Levity Staff
+crafting.shapedBuilder()
+    .name(resource('gtlite:levity_staff'))
+    .shape('  C',
+           ' S ',
+           'S  ')
+    .key('C', item('enderutilities:enderpart', 16))
+    .key('S', ore('stickSteel'))
+    .output(item('enderio:item_staff_of_levity'))
+    .register()
+
+// Stellar Alloy Helmet
+crafting.shapedBuilder()
+    .name(resource('gtlite:stellar_alloy_helmet'))
+    .shape('   ',
+           'III',
+           'IBI')
+    .key('I', ore('plateIridium'))
+    .key('B', metaitem('energy.lapotronic_orb'))
+    .output(item('enderio:item_stellar_alloy_helmet'))
+    .register()
+
+// Stellar Alloy Chestplate
+crafting.shapedBuilder()
+    .name(resource('gtlite:stellar_alloy_chestplate'))
+    .shape('I I',
+           'IBI',
+           'III')
+    .key('I', ore('plateIridium'))
+    .key('B', metaitem('energy.lapotronic_orb'))
+    .output(item('enderio:item_stellar_alloy_chestplate'))
+    .register()
+
+// Stellar Alloy Leggings
+crafting.shapedBuilder()
+    .name(resource('gtlite:stellar_alloy_leggings'))
+    .shape('IBI',
+           'I I',
+           'I I')
+    .key('I', ore('plateIridium'))
+    .key('B', metaitem('energy.lapotronic_orb'))
+    .output(item('enderio:item_stellar_alloy_leggings'))
+    .register()
+
+// Stellar Alloy Boots
+crafting.shapedBuilder()
+    .name(resource('gtlite:stellar_alloy_boots'))
+    .shape('   ',
+           'IBI',
+           'I I')
+    .key('I', ore('plateIridium'))
+    .key('B', metaitem('energy.lapotronic_orb'))
+    .output(item('enderio:item_stellar_alloy_boots'))
+    .register()
+
+// Stellar Alloy Sword
+crafting.shapedBuilder()
+    .name(resource('gtlite:stellar_alloy_sword'))
+    .shape('  P',
+           ' P ',
+           'SB ')
+    .key('P', ore('plateIridium'))
+    .key('B', metaitem('energy.lapotronic_orb'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_stellar_alloy_sword'))
+    .register()
+
+// Stellar Alloy Pickaxe
+crafting.shapedBuilder()
+    .name(resource('gtlite:stellar_alloy_pickaxe'))
+    .shape('PPP',
+           ' B ',
+           ' S ')
+    .key('P', ore('plateIridium'))
+    .key('B', metaitem('energy.lapotronic_orb'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_stellar_alloy_pickaxe'))
+    .register()
+
+// Stellar Alloy Axe
+crafting.shapedBuilder()
+    .name(resource('gtlite:stellar_alloy_axe'))
+    .shape('PP ',
+           'PB ',
+           ' S ')
+    .key('P', ore('plateIridium'))
+    .key('B', metaitem('energy.lapotronic_orb'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .output(item('enderio:item_stellar_alloy_axe'))
+    .register()
+
+// Teleport Staff
+crafting.shapelessBuilder()
+    .name(resource('gtlite:teleport_staff'))
+    .input([item('enderio:item_travel_staff'), ore("ringRedSteel")])
+    .output(item('enderioadditions:item_teleport_staff'))
+    .register()
+
+def addUpgradeRecipe(String prefixName, ItemStack stack, String upgradeNBT) {
+    addUpgradeRecipe(prefixName, stack, "enderio", upgradeNBT)
+}
+
+def addUpgradeRecipe(String prefixName, String oreDict, String upgradeNBT) {
+    addUpgradeRecipe(prefixName, oreDict, "enderio", upgradeNBT)
+}
+
+def addUpgradeRecipe(String prefixName, ItemStack stack, String upgradeDomain, String upgradeNBT) {
+    crafting.shapelessBuilder()
+        .name(resource("gtlite:dark_steel_upgrade_" + prefixName))
+        .input([item('enderio:item_dark_steel_upgrade'), stack])
+        .output(item('enderio:item_dark_steel_upgrade', 1).withNbt(['enderio:dsu': upgradeDomain + ":" + upgradeNBT]))
+        .register()
+
+    recipemap('canner').recipeBuilder() 
+        .inputs(item('enderio:item_dark_steel_upgrade'))
+        .inputs(stack)
+        .outputs(item('enderio:item_dark_steel_upgrade', 1).withNbt(['enderio:dsu': upgradeDomain + ":" + upgradeNBT]))
+        .EUt(VA[ULV])
+        .duration(10 * TICK)
+        .buildAndRegister()
+}
+
+def addUpgradeRecipe(String prefixName, String oreDict, String upgradeDomain, String upgradeNBT) {
+    crafting.shapelessBuilder()
+        .name(resource("gtlite:dark_steel_upgrade_" + prefixName))
+        .input([item('enderio:item_dark_steel_upgrade'), ore(oreDict)])
+        .output(item('enderio:item_dark_steel_upgrade', 1).withNbt(['enderio:dsu': upgradeDomain + ":" + upgradeNBT]))
+        .register()
+
+    recipemap('canner').recipeBuilder() 
+        .inputs(item('enderio:item_dark_steel_upgrade'))
+        .inputs(ore(oreDict))
+        .outputs(item('enderio:item_dark_steel_upgrade', 1).withNbt(['enderio:dsu': upgradeDomain + ":" + upgradeNBT]))
+        .EUt(VA[ULV])
+        .duration(10 * TICK)
+        .buildAndRegister()
+}

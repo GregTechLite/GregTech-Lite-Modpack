@@ -2,6 +2,7 @@ import net.minecraftforge.fml.common.eventhandler.EventPriority
 import gregtech.api.unification.material.event.MaterialEvent
 
 import static gregtech.api.unification.material.Materials.*
+import static gregtechlite.gtlitecore.api.unification.GTLiteMaterials.*
 import static gregtech.api.unification.material.info.MaterialFlags.*
 
 eventManager.listen(EventPriority.LOWEST) { MaterialEvent event ->
@@ -26,6 +27,8 @@ eventManager.listen(EventPriority.LOWEST) { MaterialEvent event ->
 
     // gear
     Nickel.addFlags(GENERATE_GEAR)
+    Gold.addFlags(GENERATE_GEAR)
+    Tumbaga.addFlags(GENERATE_GEAR)
 
     // gearSmall
     RedAlloy.addFlags(GENERATE_SMALL_GEAR)
@@ -49,6 +52,7 @@ eventManager.listen(EventPriority.LOWEST) { MaterialEvent event ->
     // ring
     Brass.addFlags(GENERATE_RING)
     Copper.addFlags(GENERATE_RING)
+    RedSteel.addFlags(GENERATE_RING)
 
     // round
     Iron.addFlags(GENERATE_ROUND)
@@ -60,12 +64,15 @@ eventManager.listen(EventPriority.LOWEST) { MaterialEvent event ->
 
     // stickLong
     RedAlloy.addFlags(GENERATE_LONG_ROD)
+    Tumbaga.addFlags(GENERATE_LONG_ROD)
     
     // spring
     WroughtIron.addFlags(GENERATE_SPRING)
     StainlessSteel.addFlags(GENERATE_SPRING)
     RedAlloy.addFlags(GENERATE_SPRING)
     SterlingSilver.addFlags(GENERATE_SPRING)
+    RoseGold.addFlags(GENERATE_SPRING)
+    Tumbaga.addFlags(GENERATE_SPRING)
 
     // springSmall
     RedAlloy.addFlags(GENERATE_SPRING_SMALL)

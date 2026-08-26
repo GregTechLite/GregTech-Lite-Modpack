@@ -1,27 +1,27 @@
 {
   "preRequisites:11": [
-    264657195
+    533505211
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "面对巨大的电力消耗，堆叠小型蒸汽涡轮的效率太低了！§6工业蒸汽引擎§r是一个多方块发电机，这意味着它可以使用§b多安动力仓§r一次性输出更多的电流。",
+      "desc:8": "",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 10004,
+        "Damage:2": 10054,
         "id:8": "gtlitecore:mte"
       },
-      "name:8": "§e工业蒸汽引擎"
+      "name:8": "§7§l特大蒸汽涡轮"
     }
   },
-  "questID:3": 557081992,
+  "questID:3": 130817250,
   "tasks:9": {
     "0:10": {
       "index:3": 0,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 10004,
+          "Damage:2": 10054,
           "id:8": "gtlitecore:mte"
         }
       },
