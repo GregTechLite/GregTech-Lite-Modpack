@@ -1542,7 +1542,7 @@ addUpgradeRecipe('anvil_2'         , item('enderio:block_dark_steel_anvil')     
 // Dark Steel Shield
 crafting.shapedBuilder()
     .name(resource('gtlite:dark_steel_shield'))
-    .shape('P P',
+    .shape('PBP',
            'PPP',
            ' P ')
     .key('P', ore('plateSteel'))
@@ -1700,6 +1700,120 @@ crafting.shapedBuilder()
     .key('Q', ore('plateBabbitAlloy'))
     .key('X', ore('wireGtQuadrupleAluminium'))
     .output(item('enderio:item_inventory_charger_vibrant'))
+    .register()
+
+// End Steel Helmet
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_helmet'))
+    .shape('   ',
+           'III',
+           'IBI')
+    .key('I', ore('plateStainlessSteel'))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_helmet'))
+    .register()
+
+// End Steel Chestplate
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_chestplate'))
+    .shape('I I',
+           'IBI',
+           'III')
+    .key('I', ore('plateStainlessSteel'))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_chestplate'))
+    .register()
+
+// End Steel Leggings
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_leggings'))
+    .shape('IBI',
+           'I I',
+           'I I')
+    .key('I', ore('plateStainlessSteel'))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_leggings'))
+    .register()
+
+// End Steel Boots
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_boots'))
+    .shape('   ',
+           'IBI',
+           'I I')
+    .key('I', ore('plateStainlessSteel'))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_boots'))
+    .register()
+
+// End Steel Sword
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_sword'))
+    .shape('  P',
+           ' P ',
+           'SB ')
+    .key('P', ore('plateStainlessSteel'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_sword'))
+    .register()
+
+// End Steel Pickaxe
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_pickaxe'))
+    .shape('PPP',
+           ' B ',
+           ' S ')
+    .key('P', ore('plateStainlessSteel'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_pickaxe'))
+    .register()
+
+// End Steel Axe
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_axe'))
+    .shape('PP ',
+           'PB ',
+           ' S ')
+    .key('P', ore('plateStainlessSteel'))
+    .key('S', item('enderutilities:enderpart', 20))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_axe'))
+    .register()
+
+// End Steel Bow
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_bow'))
+    .shape(' PS',
+           'PBS',
+           ' PS')
+    .key('P', ore('stickStainlessSteel'))
+    .key('S', item('enderutilities:enderpart', 21))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_bow'))
+    .register()
+
+// End Steel Shield
+crafting.shapedBuilder()
+    .name(resource('gtlite:end_steel_shield'))
+    .shape('PBP',
+           'PPP',
+           ' P ')
+    .key('P', ore('plateStainlessSteel'))
+    .key('B', metaitem('lapotron_crystal'))
+    .output(item('enderio:item_end_steel_shield'))
+    .register()
+
+// Levity Staff
+crafting.shapedBuilder()
+    .name(resource('gtlite:levity_staff'))
+    .shape('  C',
+           ' S ',
+           'S  ')
+    .key('C', item('enderutilities:enderpart', 16))
+    .key('S', ore('stickSteel'))
+    .output(item('enderio:item_staff_of_levity'))
     .register()
 
 def addUpgradeRecipe(String prefixName, ItemStack stack, String upgradeNBT) {

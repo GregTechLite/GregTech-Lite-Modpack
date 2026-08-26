@@ -3138,7 +3138,7 @@ hash = "e97b45c56d6a72bc36cd4a802d63eac1f7207f202e323a255e173bc252869d0a"
 
 [[files]]
 file = "groovy/loader/recipe/EnderIO.groovy"
-hash = "92e5d762678f805e726a1f7c379d288597d786f12c50483110ccf13db2b9ffab"
+hash = "2b15f3f4e2d82bad3fe3bf095f13be0aacb931253b31bdf8de36e666900c716f"
 
 [[files]]
 file = "groovy/loader/recipe/EnderUtilities.groovy"
