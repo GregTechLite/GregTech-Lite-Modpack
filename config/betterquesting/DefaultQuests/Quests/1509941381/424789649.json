@@ -1,0 +1,72 @@
+{
+  "preRequisites:11": [
+    99919100
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "太阳能的终点。\n\n通过发射§9戴森球光伏板§r来进行发电，需要注意的是§2不会进行完全的满仓检测§r，所以缓存能量已满的情况下会继续运行。每一轮运行的时间恒定为§a3600秒§r，每次运行都会消耗一定量的§b极寒之凛冰§r，同时每轮运行结束后会§c按照概率使得若干个光伏板坠毁§r。\n\n§3需要太空组装模块与事件视界引力收束成形装置来制作光伏板。",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10051,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§a§l戴森球地面单元"
+    }
+  },
+  "questID:3": 424789649,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 5026,
+          "id:8": "gtlitecore:gtlite_meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10051,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "casingSensor",
+          "id:8": "gtlitecore:sensor_casing"
+        },
+        "1:10": {
+          "Count:3": 9,
+          "OreDict:8": "casingWireCoil",
+          "id:8": "gregtech:wire_coil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 5026,
+          "id:8": "gtlitecore:gtlite_meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
