@@ -1,0 +1,31 @@
+{
+  "preRequisites:11": [
+    185182734
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "当你拥有无穷无尽的§b反物质§r时，这台发电机可以帮你消耗一些！",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 10040,
+        "id:8": "gtlitecore:mte"
+      },
+      "name:8": "§d§l屏蔽化拉格朗日湮灭矩阵"
+    }
+  },
+  "questID:3": 530054493,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10040,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

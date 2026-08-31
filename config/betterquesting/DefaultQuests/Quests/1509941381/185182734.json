@@ -1,0 +1,24 @@
+{
+  "preRequisites:11": [
+    99919100
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "frame:8": "HEXAGON90",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 995,
+        "id:8": "gregtech:mte"
+      },
+      "name:8": "§a§lUEV阶段的发电机"
+    }
+  },
+  "questID:3": 185182734,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}
