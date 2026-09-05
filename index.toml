@@ -3375,7 +3375,7 @@ metafile = true
 
 [[files]]
 file = "mods/entangled.pw.toml"
-hash = "6843e8fbb7c7872902ce42daccc1287428caca3b56742b9e6e33048c9a0653f1"
+hash = "7fcbc16aa619d1a0b466d667698b52c69ca8bfa70fbc329dcbe3aec3cfa45679"
 metafile = true
 
 [[files]]
