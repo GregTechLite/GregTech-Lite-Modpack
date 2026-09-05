@@ -3281,7 +3281,7 @@ metafile = true
 
 [[files]]
 file = "mods/betterer-p2p.pw.toml"
-hash = "f381d20ee1ee3a10274702a6fcdfc217db0c81b161d10381c728738c378e477c"
+hash = "3e633d69fcb034c789ab4b165bd77d5b4fdf03cc4003332249df2241a345d069"
 metafile = true
 
 [[files]]
