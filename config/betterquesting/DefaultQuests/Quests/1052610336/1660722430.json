@@ -9,7 +9,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "蚀刻酸用于将§2电路基板§r刻蚀出可用的电路回路，方便后续的金属材料镶嵌。目前可以制作的蚀刻酸有两种，§8三氯化铁§r与§3过硫酸钠§r，前者的制作更简单，后者较为复杂，但也用于§6化学浸洗机§r中进行矿物处理。两种蚀刻酸都可以正常制作电路板，所以可以任选其一进行制作。\n\n§3只需要制作其中一种即可完成任务，不需要同时制作两种。",
       "frame:8": "DIAMOND",
       "icon:10": {
         "Count:3": 1,
@@ -20,26 +20,58 @@
         }
       },
       "name:8": "§a基本蚀刻剂",
-      "questlogic:8": "OR"
+      "questlogic:8": "OR",
+      "tasklogic:8": "OR"
     }
   },
   "questID:3": 1660722430,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2016,
+          "id:8": "gtlitecore:mte",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 64000,
+              "FluidName:8": "iron_iii_chloride"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2016,
+          "id:8": "gtlitecore:mte",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 64000,
+              "FluidName:8": "sodium_persulfate"
+            }
+          }
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "iron_iii_chloride"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
     },
     "1:10": {
       "index:3": 1,
-      "optional:1": 1,
       "requiredFluids:9": {
         "0:10": {
-          "Amount:3": 16000,
+          "Amount:3": 1000,
           "FluidName:8": "sodium_persulfate"
-        },
-        "1:10": {
-          "Amount:3": 16000,
-          "FluidName:8": "iron_iii_chloride"
         }
       },
       "taskID:8": "bq_standard:fluid"

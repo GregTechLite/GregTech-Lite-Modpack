@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "一种常见的粘合剂，可以从§e粘性树脂§r中离心得到。现阶段主要用于粘合一些§a输入/输出仓室§r或§2电路板§r。除此以外，宝石材料的§2齿轮部件§r也可以使用胶水在§6组装机§r中粘合对应的板与杆材料。",
       "frame:8": "DIAMOND",
       "icon:10": {
         "Count:3": 1,
@@ -18,6 +18,23 @@
     }
   },
   "questID:3": 46953909,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "gregtech:rubber_sapling"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 438,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

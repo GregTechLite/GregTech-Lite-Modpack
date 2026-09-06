@@ -13,7 +13,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description\n\n§3作为例子，不妨试着通过石油化工生产一些乙烯并合成聚乙烯吧！这是你前期经常使用的塑料之一。除此以外，去看看”如何发电“一章中的任务吧，其中应该有你所需要的利用石油燃料发电的相关信息。",
+      "desc:8": "将各类石油蒸馏可以获得不同比例的§e含硫石油产物§r，将其在§6化学反应釜§r中加入§9氢§r可以脱硫，§2脱硫后的石油产物§r拥有更多的作用，例如加入§7蒸汽§r或者§9氢§r进行裂解，在发电机中也会有更高的热值。\n\n§3作为例子，不妨试着通过石油化工生产一些乙烯并合成聚乙烯吧！这是你前期经常使用的塑料之一。除此以外，去看看”如何发电“一章中的任务吧，其中应该有你所需要的利用石油燃料发电的相关信息。",
       "frame:8": "DIAMOND_ON_SQUARE",
       "icon:10": {
         "Count:3": 1,
@@ -27,6 +27,58 @@
     }
   },
   "questID:3": 1338192913,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2016,
+          "id:8": "gtlitecore:mte",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 64000,
+              "FluidName:8": "heavy_fuel"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2016,
+          "id:8": "gtlitecore:mte",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 64000,
+              "FluidName:8": "light_fuel"
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 2016,
+          "id:8": "gtlitecore:mte",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 64000,
+              "FluidName:8": "naphtha"
+            }
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 2016,
+          "id:8": "gtlitecore:mte",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 64000,
+              "FluidName:8": "refinery_gas"
+            }
+          }
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
