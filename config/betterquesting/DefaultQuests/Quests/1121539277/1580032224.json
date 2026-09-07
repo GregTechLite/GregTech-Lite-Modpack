@@ -11,7 +11,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "你的下一种线圈方块所需的导线材料。\n\n坎塔尔合金在烧制后的温度太高了，以至于其产出的是§e热锭§r而非普通的锭，这需要使用§6水浴冷凝槽§r来加入冷却液辅助冷却。可选的的冷却液有§9水§r，§3蒸馏水§r，§7冰§r，§b液氧§r，§d液氦§r，越高级的冷却液消耗的越少，但配方耗时不变。\n\n§3如果你没有足够的铬，请查看本章节中的“获取铬”任务。",
       "frame:8": "STAR4",
       "icon:10": {
         "Count:3": 1,
@@ -22,6 +22,29 @@
     }
   },
   "questID:3": 1580032224,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 48,
+          "Damage:2": 51,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 2,
+          "id:8": "gregtech:meta_dust"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 22,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

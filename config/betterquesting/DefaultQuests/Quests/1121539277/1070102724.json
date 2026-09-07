@@ -13,7 +13,8 @@
         "Damage:2": 577,
         "id:8": "gregtech:meta_item_1"
       },
-      "name:8": "§6超低功率集成电路组件"
+      "name:8": "§6超低功率集成电路组件",
+      "questlogic:8": "OR"
     }
   },
   "questID:3": 1070102724,
