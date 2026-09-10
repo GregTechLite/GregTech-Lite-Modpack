@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "石油处理中的两种典型的固体副产物。\n\n§2石蜡粉§r可以解锁§3导管粘合胚料§r的高级配方，同时也是不错的熔炉燃料。§8沥青粉§r可以替代§6杂酚油§r来制作§e防腐木板§r，也可以制作成对应的装饰用的沥青方块。",
       "frame:8": "CIRCLE",
       "icon:10": {
         "Count:3": 1,
@@ -15,6 +15,18 @@
     }
   },
   "questID:3": 1282026756,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 2,
+          "id:8": "functionalstoragelegacy:void_upgrade"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

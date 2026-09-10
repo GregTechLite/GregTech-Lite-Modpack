@@ -9,32 +9,52 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "无论是使用一大堆工具对§6维护仓§r做维护还是给它贴胶带都很繁琐，但现在有简化它的机会了。\n\n§b自动维护仓§r是最省心的一种，它会自动维护机器，无需任何后续操作。§可配置维护仓§r则是一种特化型的维护仓，需要§e更频繁的维护§r（放置时不需要维护），但可以减少机器的§a运行耗时§r。\n\n§3只需要制作其中一种即可完成任务，不需要同时制作两种。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 11482,
         "id:8": "gregtech:mte"
       },
-      "name:8": "§a更好的维护仓"
+      "name:8": "§a更好的维护仓",
+      "tasklogic:8": "OR"
     }
   },
   "questID:3": 1766271280,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 11482,
+          "id:8": "gregtech:mte"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 11481,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
-    },
-    "1:10": {
-      "index:3": 1,
-      "optional:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 11482,
           "id:8": "gregtech:mte"
-        },
-        "1:10": {
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
           "Count:3": 1,
           "Damage:2": 11481,
           "id:8": "gregtech:mte"

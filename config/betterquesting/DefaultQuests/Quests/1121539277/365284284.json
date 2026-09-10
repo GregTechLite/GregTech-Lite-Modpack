@@ -7,7 +7,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "不幸的是，§7LV§r级的§6精密激光蚀刻机§r只能刻录简单的宝石晶片，想要在更高级的§8硅晶圆§r上进行刻录，需要使用§bMV§r级的机器。\n\n§3如果你没有对应种类的宝石透镜，请查看“抛光机”任务。LV级的的精密激光蚀刻机任务“电子束蚀刻”和本任务均会赠送宝石透镜三选一。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
@@ -18,6 +18,29 @@
     }
   },
   "questID:3": 365284284,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 278,
+          "id:8": "gregtech:meta_lens"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 311,
+          "id:8": "gregtech:meta_lens"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 314,
+          "id:8": "gregtech:meta_lens"
+        }
+      }
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

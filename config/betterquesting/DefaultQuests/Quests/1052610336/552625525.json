@@ -5,7 +5,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "当前阶段可以通过电解各类§7盐§r来获得§2氯§r，进而合成§7盐酸§r。",
       "frame:8": "DIAMOND",
       "icon:10": {
         "Count:3": 1,
@@ -19,6 +19,24 @@
     }
   },
   "questID:3": 552625525,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 312,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 309,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

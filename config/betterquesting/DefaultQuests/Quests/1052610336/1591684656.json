@@ -4,31 +4,51 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "如果你不喜欢抽屉，可以试试§2格雷科技§r自己的大宗物品与流体存储容器。\n\n§3只需要制作其中一种即可完成任务，不需要同时制作两种。",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 5560,
         "id:8": "gregtech:mte"
       },
-      "name:8": "§e虚空存储"
+      "name:8": "§e虚空存储",
+      "tasklogic:8": "OR"
     }
   },
   "questID:3": 1591684656,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 5560,
+          "id:8": "gregtech:mte"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "Damage:2": 5575,
+          "id:8": "gregtech:mte"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
-    },
-    "1:10": {
-      "index:3": 1,
-      "optional:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 5560,
           "id:8": "gregtech:mte"
-        },
-        "1:10": {
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
           "Count:3": 1,
           "Damage:2": 5575,
           "id:8": "gregtech:mte"
