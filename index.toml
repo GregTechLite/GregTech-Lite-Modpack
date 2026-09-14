@@ -1846,7 +1846,7 @@ hash = "a28926753bbf6353d913dd2bb4fd1cd5cc7143de8208a5ebdedb46cc9e9adc2b"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/377583359/145071325.json"
-hash = "71e4be3b62ec6dea960224edb15385af4049deb30abd9886cac5d091df8606ac"
+hash = "1ec0daf10744b7fde65a20104e71575e6f4f221b412a0c065b7c7f22cda0ecf9"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/377583359/1472212989.json"
@@ -3439,7 +3439,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtlitecore-1.0.0.jar"
-hash = "e52517d37ef5cd30067990a96275607846495838e03d190079d176a69617067c"
+hash = "6e891dc819faa0911560500929091c5c7cea84e79df44bd8d52a170b58a83c1b"
 
 [[files]]
 file = "mods/had-enough-characters.pw.toml"
