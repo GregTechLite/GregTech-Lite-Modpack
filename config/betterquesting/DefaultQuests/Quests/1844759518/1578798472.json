@@ -4,7 +4,7 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "与§2钍§r的情况相同，§a铀§r也拥有大量的矿物来源，同时可以通过研磨§c红花岗岩§r来获得，因此也不失为一种好的裂变起始点选择。\n\n铀燃料棒的离心产物是§9镎§r与§b锕§r。",
       "frame:8": "JAGGED",
       "icon:10": {
         "Count:3": 1,
@@ -15,6 +15,24 @@
     }
   },
   "questID:3": 1578798472,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 701,
+          "id:8": "gtlitecore:gtlite_meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 116,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,

@@ -11,30 +11,56 @@
         "Damage:2": 2341,
         "id:8": "gtlitecore:meta_fuel_rod"
       },
-      "name:8": "§3MOX燃料棒"
+      "name:8": "§3MOX燃料棒",
+      "tasklogic:8": "OR"
     }
   },
   "questID:3": 1262227851,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 701,
+          "id:8": "gtlitecore:gtlite_meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 2341,
+          "id:8": "gtlitecore:meta_dust"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
-    },
-    "1:10": {
-      "index:3": 1,
-      "optional:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 2341,
           "id:8": "gtlitecore:meta_fuel_rod"
-        },
-        "1:10": {
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
           "Count:3": 1,
           "Damage:2": 2341,
           "id:8": "gtlitecore:meta_fuel_rod_enriched"
-        },
-        "2:10": {
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
           "Count:3": 1,
           "Damage:2": 2341,
           "id:8": "gtlitecore:meta_fuel_rod_high_density"
