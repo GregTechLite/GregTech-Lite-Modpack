@@ -4,37 +4,63 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "No Description",
+      "desc:8": "一种经济的裂变起始元素，可以从§c红花岗岩§r里提取出大量的§2钍§r来合成，各类§e放射性矿石§r的产物或副产物中也常见其的身影。\n\n钍燃料棒的离心产物是§6镤§r与§a铀-238§r。\n\n§3如果只是想获得镤，那么使用钍燃料棒仅为可选项，晶质铀矿处理中可以直接获得镤，但相对复杂一些。",
       "frame:8": "JAGGED",
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 109,
         "id:8": "gregtech:meta_fuel_rod"
       },
-      "name:8": "§2裂变起始点：钍"
+      "name:8": "§2裂变起始点：钍",
+      "tasklogic:8": "OR"
     }
   },
   "questID:3": 1720750929,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 701,
+          "id:8": "gtlitecore:gtlite_meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 64,
+          "Damage:2": 109,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
   "tasks:9": {
     "0:10": {
       "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
-    },
-    "1:10": {
-      "index:3": 1,
-      "optional:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
           "Damage:2": 109,
           "id:8": "gregtech:meta_fuel_rod"
-        },
-        "1:10": {
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
           "Count:3": 1,
           "Damage:2": 109,
           "id:8": "gregtech:meta_fuel_rod_enriched"
-        },
-        "2:10": {
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
           "Count:3": 1,
           "Damage:2": 109,
           "id:8": "gregtech:meta_fuel_rod_high_density"
