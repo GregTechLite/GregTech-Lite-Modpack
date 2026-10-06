@@ -3301,7 +3301,7 @@ metafile = true
 
 [[files]]
 file = "mods/catalogue-vintage.pw.toml"
-hash = "6a8d21cbfa0562382494a495c5c1dfab4b2c3ae7c8ea57e50e719916b840018c"
+hash = "09b0b798523e12aed29ef3873d68d862dc807e4ce44632cea944160dda9f5507"
 metafile = true
 
 [[files]]
