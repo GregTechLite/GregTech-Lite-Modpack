@@ -1,4 +1,6 @@
 import com.cleanroommc.groovyscript.helper.ingredient.OreDictIngredient
+import gregtech.api.recipes.ingredients.nbtmatch.NBTCondition
+import gregtech.api.recipes.ingredients.nbtmatch.NBTMatcher
 
 import loader.hooks.P2PConvertor
 
@@ -1535,7 +1537,7 @@ assembler.recipeBuilder()
 // Creative Energy Cell
 assembly_line.recipeBuilder()
     .inputs(item('appliedenergistics2:controller') * 16)
-    .inputs(item('appliedenergistics2:dense_energy_cell') * 16)
+    .inputNBT(item('appliedenergistics2:dense_energy_cell') * 16, NBTMatcher.ANY, NBTCondition.ANY)
     .inputs(item('appliedenergistics2:energy_acceptor') * 16)
     .inputs(ore('plateDenseHssg') * 6)
     .inputs(ore('plateDenseRuridit') * 6)
