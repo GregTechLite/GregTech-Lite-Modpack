@@ -1,13 +1,13 @@
 name = "VintageDisplay"
-filename = "DuraDisplay-1.5.jar"
+filename = "DuraDisplay-1.7.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "b31f8224094e1f2b5fb6126c4fea63df1ee1af1f"
+hash = "d5d87f66cbf702f5219f42f704febb12b8679b1a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7269656
+file-id = 7933246
 project-id = 1255064

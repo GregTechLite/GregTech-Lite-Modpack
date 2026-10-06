@@ -3130,7 +3130,7 @@ hash = "830bd25835d7de559257f7a312081fcfab880fdf0f3dffcc1d2b6b60feb5c725"
 
 [[files]]
 file = "groovy/loader/recipe/AppliedEnergistics2.groovy"
-hash = "d440d948f2b883917b4bbd1c7fd87318b1b15450519591c59cf03049da28f7f8"
+hash = "654fcb018990d8af1ea78fa65dea8597168d7736c5cc1300e9e483f9f2665658"
 
 [[files]]
 file = "groovy/loader/recipe/BetterBuildersWands.groovy"
@@ -3301,7 +3301,7 @@ metafile = true
 
 [[files]]
 file = "mods/catalogue-vintage.pw.toml"
-hash = "6a8d21cbfa0562382494a495c5c1dfab4b2c3ae7c8ea57e50e719916b840018c"
+hash = "6ffcdbb340849e1e95b8eb5511dc9adf67331db6de80a18cbbcf55ae3bafb1dc"
 metafile = true
 
 [[files]]
@@ -3425,7 +3425,7 @@ metafile = true
 
 [[files]]
 file = "mods/functionalstoragelegacy.pw.toml"
-hash = "2f82d14886b308d3b1d792441e266f6269c4ab45d28cf37500ce4caf3b65ed5d"
+hash = "64dd6898e7e37e4083d615fe29ed8165881fa5f20906c67b688180736d916599"
 metafile = true
 
 [[files]]
@@ -3434,12 +3434,12 @@ hash = "b9fea8ac4599f04348c12611e515d43dc15819a9b11df9bfbc1495e7e123b317"
 
 [[files]]
 file = "mods/groovyscript.pw.toml"
-hash = "97ea4af6d073d41cc4e1ee54fd99cf36a2a9631cb6db7c4b8588d18863719d26"
+hash = "5a3d4a239e64e44bba1fed8ceaa5c592a81cf8d533db75110afa37a8a7a7dd82"
 metafile = true
 
 [[files]]
 file = "mods/gtlitecore-1.0.0.jar"
-hash = "1d0aa72c4632c13f0b15fc5aafd0c6b1e5f325dc1fd30b0331537f8ceebeaac4"
+hash = "6100efedfe458cec9bd042bb9016abbef55281a0a6b8ca79caee7780cf6d9bd3"
 
 [[files]]
 file = "mods/had-enough-characters.pw.toml"
@@ -3682,7 +3682,7 @@ metafile = true
 
 [[files]]
 file = "mods/vintagedisplay.pw.toml"
-hash = "80058938ea66e6e06c7c46263a7d052cd2972e2b948f440a422c664b0b8f2e33"
+hash = "651983986534550b1527934ee10900b4604eae5372518df46a6399f6ddd91e46"
 metafile = true
 
 [[files]]
