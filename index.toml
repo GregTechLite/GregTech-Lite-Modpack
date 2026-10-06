@@ -3301,7 +3301,7 @@ metafile = true
 
 [[files]]
 file = "mods/catalogue-vintage.pw.toml"
-hash = "09b0b798523e12aed29ef3873d68d862dc807e4ce44632cea944160dda9f5507"
+hash = "6ffcdbb340849e1e95b8eb5511dc9adf67331db6de80a18cbbcf55ae3bafb1dc"
 metafile = true
 
 [[files]]
@@ -3439,7 +3439,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtlitecore-1.0.0.jar"
-hash = "1d0aa72c4632c13f0b15fc5aafd0c6b1e5f325dc1fd30b0331537f8ceebeaac4"
+hash = "6100efedfe458cec9bd042bb9016abbef55281a0a6b8ca79caee7780cf6d9bd3"
 
 [[files]]
 file = "mods/had-enough-characters.pw.toml"
@@ -3682,7 +3682,7 @@ metafile = true
 
 [[files]]
 file = "mods/vintagedisplay.pw.toml"
-hash = "676fae592398fc1ff738c51380827ba0f37930f3e751bb79bcdc1f9c02e984cc"
+hash = "651983986534550b1527934ee10900b4604eae5372518df46a6399f6ddd91e46"
 metafile = true
 
 [[files]]
