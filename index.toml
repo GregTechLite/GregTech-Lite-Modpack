@@ -3425,7 +3425,7 @@ metafile = true
 
 [[files]]
 file = "mods/functionalstoragelegacy.pw.toml"
-hash = "2f82d14886b308d3b1d792441e266f6269c4ab45d28cf37500ce4caf3b65ed5d"
+hash = "64dd6898e7e37e4083d615fe29ed8165881fa5f20906c67b688180736d916599"
 metafile = true
 
 [[files]]
