@@ -1462,7 +1462,7 @@ hash = "cd7d6b82b33d9f5c2d1d54c8e5f66aa39b4547534363afa31efa691d49c4186d"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/2031103779/407379208.json"
-hash = "613187f1f1b3ab5471ceb5d55f77e2bc7a0c5aadebf5992ce0c26d40c262d19e"
+hash = "9083a0ae280efaacb27aa112f42086cc6907d90f4f418d587c20dd0124e1beac"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/2031103779/412783035.json"
@@ -3439,7 +3439,7 @@ metafile = true
 
 [[files]]
 file = "mods/gtlitecore-1.0.0.jar"
-hash = "6100efedfe458cec9bd042bb9016abbef55281a0a6b8ca79caee7780cf6d9bd3"
+hash = "5d543661dee7c421e18a9ca9eb1f9264db7242b626538f26afeb169ae46abbad"
 
 [[files]]
 file = "mods/had-enough-characters.pw.toml"
@@ -3448,7 +3448,7 @@ metafile = true
 
 [[files]]
 file = "mods/had-enough-items.pw.toml"
-hash = "3e809ef558b0bda17403200bdddbf841321869122de181a8fee1952826deae97"
+hash = "bc300f399e5ab40cc384f6c1247421cd01fd6aff35adebb05e86cb062a6808fb"
 metafile = true
 
 [[files]]
@@ -3469,11 +3469,6 @@ metafile = true
 [[files]]
 file = "mods/itemzoom.pw.toml"
 hash = "55fe557779bafe6d40b3e251d301a9c1cfe7a61059c16f3b07f9e6710609d432"
-metafile = true
-
-[[files]]
-file = "mods/jei-utilities.pw.toml"
-hash = "98baaeeafa6f68b413f84acd23a9dfcf2935847ddb1826b55e1cc79a4c519c2f"
 metafile = true
 
 [[files]]

@@ -4,12 +4,12 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "desc:8": "未完成",
+      "desc:8": "更好的装配线。\n\n拥有§b常规模式§r与§a流水线模式§r两种运作逻辑，无论使用哪种模式，都拥有基础的性能加成效果，同时也都可以正常使用§9激光仓室§r，也都需要§e有序输入§r物品。在§b常规模式§r下，运作逻辑与普通的§6装配线§r没什么区别，因此在此不再赘述。\n\n§a流水线模式§r下，进阶装配线拥有类似§2并行§r的机制，该模式会预先匹配配方，尽管可以使用§1IV§r级以上的§d量子输入总线§r，但进阶装配线始终只读取第一格输入。其会根据一种类似机械动力的§2序列装配§r的模式按照次序进行工作，首先会§e按照机器结构长度§r决定§b片数§r，运行会被均分给所有片上；当开始运行时，首先会在第一片工作时§c消耗所有输入流体§r，然后消耗第一片中的§2输入总线§r中的物品，而后重复过程并进行检测直到最后一片。所有输入必须严格匹配配方，否则会使机器§4停机§r，除此以外，当最后片也完成工作时，如果§2输出总线§r中没有足够的空间也会直接§4停机§r。在输入的材料数量足够多的情况下，每片都可以持续工作。\n\n作为代价的是，这台机器的工作往往需要§e更多的能量输入§r。\n\n§3在UV获得中子后解锁，除此以外需要制作一些必要的合金，因此也许需要三钛合金线圈或足够高功率。",
       "frame:8": "HEXAGON90",
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 10019,
-        "id:8": "gregtech:mte"
+        "Damage:2": 10145,
+        "id:8": "gtlitecore:mte"
       },
       "name:8": "§3进阶装配线"
     }
@@ -18,7 +18,36 @@
   "tasks:9": {
     "0:10": {
       "index:3": 0,
-      "taskID:8": "bq_standard:checkbox"
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 10145,
+          "id:8": "gtlitecore:mte"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "optional:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "OreDict:8": "casingConveyor",
+          "id:8": "gtlitecore:conveyor_casing"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "OreDict:8": "casingRobotArm",
+          "id:8": "gtlitecore:robot_arm_casing"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "OreDict:8": "casingProcessor",
+          "id:8": "gtlitecore:processor_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
     }
   }
 }
