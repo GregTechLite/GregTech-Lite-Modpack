@@ -3448,7 +3448,7 @@ metafile = true
 
 [[files]]
 file = "mods/had-enough-items.pw.toml"
-hash = "3e809ef558b0bda17403200bdddbf841321869122de181a8fee1952826deae97"
+hash = "bc300f399e5ab40cc384f6c1247421cd01fd6aff35adebb05e86cb062a6808fb"
 metafile = true
 
 [[files]]
@@ -3469,11 +3469,6 @@ metafile = true
 [[files]]
 file = "mods/itemzoom.pw.toml"
 hash = "55fe557779bafe6d40b3e251d301a9c1cfe7a61059c16f3b07f9e6710609d432"
-metafile = true
-
-[[files]]
-file = "mods/jei-utilities.pw.toml"
-hash = "98baaeeafa6f68b413f84acd23a9dfcf2935847ddb1826b55e1cc79a4c519c2f"
 metafile = true
 
 [[files]]
