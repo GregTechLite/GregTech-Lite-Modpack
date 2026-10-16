@@ -9,10 +9,6 @@ file = "config/ProjectRed.cfg"
 hash = "e820b1564ef8515271b1b62fc72ff0b6a5ea61b7344060c76ac401a1de0aa41d"
 
 [[files]]
-file = "config/ScalingGUIs/ScalingGUIs.cfg"
-hash = "89f6e4acf75fa3ae814610bf34f268d990c6096a2dc49592a07fed861061f3c8"
-
-[[files]]
 file = "config/Universal Tweaks - Tweaks.cfg"
 hash = "9c3ce512d2fdad8d50b291f3b83ef2362df728491d43a3bb62db74bed1ab2337"
 
@@ -3608,11 +3604,6 @@ metafile = true
 [[files]]
 file = "mods/retro-sophisticated-backpacks.pw.toml"
 hash = "d5a89f0adba825457e8043657da9ceb06f7f3cb7182da810312f7d05fdcfee43"
-metafile = true
-
-[[files]]
-file = "mods/scalingguis.pw.toml"
-hash = "5f855e5ef3ee4ee596a781763416a2859a20e360a680d24c79dddbd9300a32e7"
 metafile = true
 
 [[files]]
