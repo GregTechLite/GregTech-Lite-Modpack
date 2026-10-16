@@ -4176,13 +4176,13 @@ file = "resources/retro_sophisticated_backpacks/lang/zh_cn.lang"
 hash = "f1b89db99a4d517888d0e27a2205d3fd9fe90a51e6a5d3c9294470bb5b1b5988"
 
 [[files]]
-file = "resources/scalingguis/lang/zh_cn.lang"
-hash = "e7fa2af0fb72ae0279db06d4ff1b2bb6d80d59208a318787f399bf486dbea907"
-
-[[files]]
 file = "resources/snad/lang/zh_cn.lang"
 hash = "feada5aa77e2f34e917bfe679b0170a930d7621290434d3b828a0c8df3755d2f"
 
 [[files]]
 file = "resources/translocators/lang/zh_cn.lang"
 hash = "ac4a4136a3776b55a4952132735d1d89902bb78ef91731ac2556be5ba266770e"
+
+[[files]]
+file = "resources/universaltweaks/lang/zh_cn.lang"
+hash = "ad8e6166a5c7497014843e8970165b9bc8338768960a6b3267f549c72ebe4691"
